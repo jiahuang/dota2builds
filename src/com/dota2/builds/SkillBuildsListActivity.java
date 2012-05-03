@@ -51,7 +51,6 @@ public class SkillBuildsListActivity extends Activity{
 	 			skillImages[1] = cursor.getString(cursor.getColumnIndex("skillTwoImage"));
 	 			skillImages[2] = cursor.getString(cursor.getColumnIndex("skillThreeImage"));
 	 			skillImages[3] = cursor.getString(cursor.getColumnIndex("skillFourImage"));
-	 			System.out.println(skillImages);
 	 		}
 	 		cursor.close();
 	 		
