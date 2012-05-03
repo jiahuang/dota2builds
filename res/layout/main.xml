@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+       
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#7A0000"
+        android:text=" Dota2Builds"
+        android:textSize="22sp"
+        android:textStyle="bold" >
+
+	</TextView>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/name"
+			android:id="@+id/typeLayout"  
+		    >
+			<Button android:text="Str"
+				android:id="@+id/strButton" 
+				android:layout_width="wrap_content" 
+				android:layout_height="40dp"
+				android:onClick="strClick"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_weight="1"
+				android:textColor="@drawable/jabbr_buttontext"
+				android:background="@drawable/jabbr_button"
+				>
+			</Button>
+			<Button android:text="Int"
+			    android:id="@+id/intButton"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_width="wrap_content" 
+				android:layout_height="40dp"
+				android:onClick="intClick"
+				android:textColor="@drawable/jabbr_buttontext"
+				android:background="@drawable/jabbr_button"
+				android:layout_weight="1">
+			</Button>
+			<Button android:text="Agi"
+				android:id="@+id/agiButton" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_width="wrap_content" 
+				android:layout_height="40dp"
+				android:onClick="agiClick"
+				android:textColor="@drawable/jabbr_buttontext"
+				android:background="@drawable/jabbr_button"
+				android:layout_weight="1">
+			</Button>
+		</LinearLayout>
+		<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+		    android:id="@+id/heroGrid"
+			android:layout_below="@+id/typeLayout"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:numColumns="2"
+		    android:verticalSpacing="0dp"
+		    android:horizontalSpacing="0dp"
+		    android:stretchMode="columnWidth"
+		    android:gravity="center"
+		/>	
+				 
+				 
+</RelativeLayout>
