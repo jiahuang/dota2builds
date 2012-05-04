@@ -16,10 +16,18 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class HeroSkillsActivity extends Activity{
+	TextView tv_skillName;
+	TextView tv_skillDescription;
+	String[] skillImages = new String[4];
+    String[] skillDescription = new String[4];
+    String[] skillName = new String[4];
+    
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,12 +37,12 @@ public class HeroSkillsActivity extends Activity{
         ImageButton bv_2 = (ImageButton) findViewById(R.id.skill2);
         ImageButton bv_3 = (ImageButton) findViewById(R.id.skill3);
         ImageButton bv_4 = (ImageButton) findViewById(R.id.skill4);
+        tv_skillName = (TextView) findViewById(R.id.skillName);
+        tv_skillDescription = (TextView) findViewById(R.id.skillDescription);
         
         Bundle extras = getIntent().getExtras();
         final String heroName = (String) extras.get("name");
-        String[] skillImages = new String[4];
-        String[] skillDescription = new String[4];
-        String[] skillName = new String[4];
+        
         // grab hero images from db
         BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);
         try {
@@ -76,6 +84,28 @@ public class HeroSkillsActivity extends Activity{
         catch(IOException e){
         	e.printStackTrace();
         }
+    }
+    
+    public void skill1Click(View view){
+    	System.out.println("skill 1 clicked");
+    	System.out.println(skillName[0]);
+    	tv_skillName.setText(skillName[0]);
+    	tv_skillDescription.setText(skillDescription[0]);
+    }
+    
+    public void skill2Click(View view){
+    	tv_skillName.setText(skillName[1]);
+    	tv_skillDescription.setText(skillDescription[1]);
+    }
+    
+    public void skill3Click(View view){
+    	tv_skillName.setText(skillName[2]);
+    	tv_skillDescription.setText(skillDescription[2]);
+    }
+    
+    public void skill4Click(View view){
+    	tv_skillName.setText(skillName[3]);
+    	tv_skillDescription.setText(skillDescription[3]);
     }
     
     private Bitmap getBitmapFromAsset(String strName) throws IOException

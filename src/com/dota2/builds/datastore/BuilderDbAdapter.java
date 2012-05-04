@@ -191,7 +191,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
 	}
 	
 	public Cursor findItemBuild(String buildName, String itemPhase){
-		String sql = "SELECT * FROM tbl_itemBuilds WHERE build = '"+buildName+"' AND gameType='"+itemPhase+"';";
+		String sql = "SELECT gameType, name, img, description, shop, price from tbl_itemBuilds, tbl_items WHERE tbl_itemBuilds.item = tbl_items.name AND tbl_itemBuilds.build = '"+buildName+"' AND tbl_itemBuilds.gameType = '"+itemPhase+"';";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}

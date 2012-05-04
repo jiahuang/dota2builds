@@ -28,14 +28,16 @@ VALUES (5, 1, "Blocking Earthshaker");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp, build)
 VALUES (6, 4, "Blocking Earthshaker");
 
-INSERT INTO tbl_items (name, img, description, shop)
-VALUES ("Iron Branch", "/items/IronBranch.jpg", "All attributes +1", "Main shop");
-INSERT INTO tbl_items (name, img, description, shop)
-VALUES ("Observer Ward", "/items/ObserverWard.jpg", "Places an Observer Ward to gain sight of the surrounding area. Observer wards last 6 min.", "Main shop");
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Iron Branch", "items/IronBranch.jpg", "All attributes +1", "Main shop", 50);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Observer Ward", "items/ObserverWard.jpg", "Places an Observer Ward to gain sight of the surrounding area. Observer wards last 6 min.", "Main shop", 200);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Circlet", "items/Circlet.jpg", "All attributes +2", "Main shop", 185);
 
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", 1, "Iron Branch");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", 1, "Observer Ward");
-
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", "Blocking Earthshaker", "Iron Branch");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", "Blocking Earthshaker", "Observer Ward");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", "Noob build", "Circlet");
 
 INSERT INTO tbl_heroes (type, name, range, team, role, img,
 skillOneName, skillOneDescrip, skillOneImage,

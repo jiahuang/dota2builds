@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 import com.dota2.builds.datastore.BuilderDbAdapter;
+import com.dota2.builds.lists.Hero;
 
 import android.app.Activity;
 import android.content.Context;
@@ -105,7 +106,7 @@ public class Dota2buildsActivity extends Activity {
 	 	 		throw sqle;
 	 	 }
         myDbHelper.close();
-        gridView.setAdapter(new GridAdapter(this, heroes, halfScreenWidth));
+        gridView.setAdapter(new GridAdapter(this, heroes));
         setHeroClickListener(gridView, heroes);
     }
     
@@ -124,35 +125,17 @@ public class Dota2buildsActivity extends Activity {
     	setHeroList("Agility");
     }
     
-    public class Hero{
-    	public String img;
-    	public String name;
-    	public String team;
-    	public String heroType;
-    	public String role;
-    	public String range;
-    	
-    	public Hero(String img, String name,String team,String heroType,String role, String range){
-    		this.img = img;
-    		this.name = name;
-    		this.team = team;
-    		this.heroType = heroType;
-    		this.role = role;
-    		this.range = range;
-    	}
-    }
-    
     public class GridAdapter extends BaseAdapter {
         private Context mContext;
         private LayoutInflater layoutInflater;
         private ArrayList<Hero> mHeroes; 
-        private int mHalfScreenWidth;
+        //private int mHalfScreenWidth;
 
-        public GridAdapter(Context c, ArrayList<Hero> heroes, int halfScreenWidth) {
+        public GridAdapter(Context c, ArrayList<Hero> heroes) {
             mContext = c;
             layoutInflater = LayoutInflater.from(c);
             mHeroes = heroes;
-            mHalfScreenWidth= halfScreenWidth;
+            //mHalfScreenWidth= halfScreenWidth;
         }
 
         public int getCount() {
@@ -196,16 +179,6 @@ public class Dota2buildsActivity extends Activity {
         }
 
     }
-    /*
-    private ArrayList<Bitmap> getBitmapsFromAsset(String strName) throws IOException{
-    	AssetManager assetManager = getAssets();
-    	String[] items = assetManager.list(strName);
-    	ArrayList<Bitmap> bitmaps = new ArrayList<Bitmap>();
-    	for (String item : items){
-    		bitmaps.add(getBitmapFromAsset(item));
-    	}
-    	return bitmaps;
-    }*/
     
     private Bitmap getBitmapFromAsset(String strName) throws IOException
     {
