@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@android:color/white">
-       
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@android:color/white"
+			android:id="@+id/heroInfoLayout"  
+		    >
+
     <TextView
         android:id="@+id/name"
         android:layout_width="fill_parent"
@@ -12,52 +15,28 @@
         android:text=" Dota2Builds"
         android:textSize="22sp"
         android:textStyle="bold" >
-
 	</TextView>
-	<LinearLayout
-			android:orientation="horizontal"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_below="@+id/name"
-			android:id="@+id/heroLayout"  
-		    >
-		    <ImageView
-			  android:id="@+id/image"
-			  android:layout_width="wrap_content"
-			  android:layout_height="wrap_content"/>
-			 
-			<LinearLayout
-			android:orientation="vertical"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/heroInfoLayout"  
-		    >
-			<TextView
-			  android:id="@+id/heroName"
-			  android:gravity="center"
-			  android:layout_width="fill_parent"
-			  android:layout_height="wrap_content"/>
-			<TextView
-			  android:id="@+id/buildName"
-			  android:gravity="center"
-			  android:layout_width="fill_parent"
-			  android:layout_height="wrap_content"/>
-			<TextView
-			  android:id="@+id/by"
-			  android:gravity="center"
-			  android:layout_width="fill_parent"
-			  android:layout_height="wrap_content"/>
-			<TextView
-			  android:id="@+id/from"
-			  android:gravity="center"
-			  android:layout_width="fill_parent"
-			  android:layout_height="wrap_content"/>
-			</LinearLayout>
-	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/buildName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/jgrey1"
+	    android:gravity="center"
+	    android:textColor="@color/jred2"
+	    android:textSize="15sp"
+	    android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/by"
+		android:background="@color/jgrey1"
+		android:textColor="@color/jred2"
+		android:gravity="center"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
 	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@android:id/tabhost" android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_below="@+id/heroLayout">
+		android:layout_height="fill_parent">
 		<LinearLayout android:orientation="vertical"
 			android:layout_width="fill_parent" android:layout_height="fill_parent">
 			<TabWidget android:id="@android:id/tabs"
@@ -67,4 +46,4 @@
 			</FrameLayout>
 		</LinearLayout>
 	</TabHost>
-</RelativeLayout>
+</LinearLayout>

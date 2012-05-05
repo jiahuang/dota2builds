@@ -16,7 +16,7 @@ import java.io.OutputStream;
 
 public class BuilderDbAdapter extends SQLiteOpenHelper{
 	 
-    //The Android's default system path of your application database.
+    //The Android\"s default system path of your application database.
     private static String DB_PATH = "/data/data/com.dota2.builds/databases/";
  
     private static String DB_NAME = "dota2builds";
@@ -68,7 +68,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
  
     /**
      * Check if the database already exist to avoid re-copying the file each time you open the application.
-     * @return true if it exists, false if it doesn't
+     * @return true if it exists, false if it doesn\"t
      */
     private boolean checkDataBase(){
     	System.out.println("checking db");
@@ -80,7 +80,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
     		System.out.println("opening db");
     	}catch(SQLiteException e){
     		System.out.println("db doesnt exist");
-    		//database does't exist yet.
+    		//database does\"t exist yet.
  
     	}
  
@@ -152,52 +152,62 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
 	}
  
     // Add your public helper methods to access and get content from the database.
-    // You could return cursors by doing "return myDataBase.query(....)" so it'd be easy
+    // You could return cursors by doing "return myDataBase.query(....)" so it\"d be easy
     // to you to create adapters for your views.
 	public Cursor findHeroes(String heroType){
-		String sql = "SELECT * FROM tbl_heroes WHERE type='"+heroType+"' ORDER BY team DESC;";
+		String sql = "SELECT * FROM tbl_heroes WHERE type=\""+heroType+"\" ORDER BY team DESC;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findHero(String heroName){
-		String sql = "SELECT * FROM tbl_heroes WHERE name='"+heroName+"' LIMIT 1;";
+		String sql = "SELECT * FROM tbl_heroes WHERE name=\""+heroName+"\" LIMIT 1;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findHeroBuilds(String heroName){
-		String sql = "SELECT * FROM tbl_builds WHERE hero='"+heroName+"' ORDER BY rating DESC;";
+		String sql = "SELECT * FROM tbl_builds WHERE hero=\""+heroName+"\" ORDER BY rating DESC;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findBuild(String buildName){
-		String sql = "SELECT * FROM tbl_builds WHERE name='"+buildName+"' LIMIT 1;";
+		String sql = "SELECT * FROM tbl_builds WHERE name=\""+buildName+"\" LIMIT 1;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findSkills(String heroName){
-		String sql = "SELECT * FROM tbl_heroes WHERE hero='"+heroName+"';";
+		String sql = "SELECT * FROM tbl_heroes WHERE hero=\""+heroName+"\";";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findSkillBuild(String buildName){
-		String sql = "SELECT * FROM tbl_skillBuilds WHERE build='"+buildName+"' ORDER BY heroLevel ASC;";
+		String sql = "SELECT * FROM tbl_skillBuilds WHERE build=\""+buildName+"\" ORDER BY heroLevel ASC;";
+		Cursor cursor = myDataBase.rawQuery(sql, null);
+		return cursor;
+	}
+	
+	public Cursor findRecipe(String item, Boolean findComponents){
+		String sql;
+		if (findComponents) // find the recipes that this item needs
+			sql = "SELECT * FROM tbl_items, tbl_recipes WHERE tbl_recipes.item = \""+item+"\" AND tbl_recipes.componentItem = tbl_items.name;";
+		else // find the things that this item builds into
+			sql = "SELECT * FROM tbl_items, tbl_recipes WHERE tbl_recipes.componentItem = \""+item+"\" AND tbl_recipes.item = tbl_items.name;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findItemBuild(String buildName, String itemPhase){
-		String sql = "SELECT gameType, name, img, description, shop, price from tbl_itemBuilds, tbl_items WHERE tbl_itemBuilds.item = tbl_items.name AND tbl_itemBuilds.build = '"+buildName+"' AND tbl_itemBuilds.gameType = '"+itemPhase+"';";
+		String sql = "SELECT gameType, name, img, description, shop, price from tbl_itemBuilds, tbl_items WHERE tbl_itemBuilds.item = tbl_items.name AND tbl_itemBuilds.build = \""+buildName+"\" AND tbl_itemBuilds.gameType = \""+itemPhase+"\";";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findItem(String itemName){
-		String sql = "SELECT * FROM tbl_items WHERE name= '"+itemName+"';";
+		String sql = "SELECT * FROM tbl_items WHERE name= \""+itemName+"\";";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}

@@ -5,11 +5,16 @@ android:layout_height="fill_parent"
 android:orientation="vertical"
 xmlns:android="http://schemas.android.com/apk/res/android"
 >
-
 	<TextView
 	android:id="@+id/name"
-	android:layout_width="wrap_content"
+	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="@color/jred2"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
 	>
 	</TextView>
 </LinearLayout>

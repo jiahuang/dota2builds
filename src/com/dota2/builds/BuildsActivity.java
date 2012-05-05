@@ -16,6 +16,8 @@ import android.database.SQLException;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -38,19 +40,13 @@ public class BuildsActivity extends TabActivity {
         // set up the page
         String buildName = (String) extras.get("buildName");
         String heroName = (String) extras.get("heroName");
+        String whereFrom = (String) extras.get("whereFrom");
+        String whereUrl = (String) extras.get("whereUrl");
+        String author = (String) extras.get("author");
         ((TextView)findViewById(R.id.buildName)).setText(buildName);
-        ((TextView)findViewById(R.id.heroName)).setText(heroName);
-        ((TextView)findViewById(R.id.from)).setText((String) extras.get("whereFrom"));
-        ((TextView)findViewById(R.id.by)).setText((String) extras.get("author"));
-        
-        String img = (String) extras.get("img");
-        ImageView iv_heroImg = (ImageView) findViewById(R.id.image);
-        try {
-			iv_heroImg.setImageBitmap(getBitmapFromAsset(img));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        TextView tv_by = (TextView)findViewById(R.id.by);
+        tv_by.setMovementMethod(LinkMovementMethod.getInstance());
+        tv_by.setText(Html.fromHtml("by "+author+" from <a href='"+whereUrl+"'>"+whereFrom+"</a>"));
         
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
@@ -58,7 +54,6 @@ public class BuildsActivity extends TabActivity {
         // fill in appropriate values
         TabHost.TabSpec spec;  // Resusable TabSpec for each tab
         Intent intent;  // Reusable Intent for each tab
-
         
         // Create an Intent to launch an Activity for the tab (to be reused)
         intent = new Intent().setClass(this, SkillBuildsListActivity.class);

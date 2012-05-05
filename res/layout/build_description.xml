@@ -15,12 +15,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Overview"
+	  android:textColor="@color/jred2"
+	  android:textSize="15sp"
+	  android:textStyle="bold"
+	android:background="@color/jgrey1"
 	  />
 	<TextView
 	  android:id="@+id/overview"
-	  android:gravity="center"
+	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:padding="5dp"
 	  />
 	<TextView
 	  android:id="@+id/s"
@@ -28,12 +33,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Early Game"
+	android:background="@color/jgrey1"
+	  android:textColor="@color/jred2"
+	  android:textSize="15sp"
+	  android:textStyle="bold"
 	  />
 	<TextView
 	  android:id="@+id/early"
-	  android:gravity="center"
+	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:padding="5dp"
 	  />
 	<TextView
 	  android:id="@+id/m"
@@ -41,12 +51,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Mid Game"
+	  android:textColor="@color/jred2"
+	android:background="@color/jgrey1"
+	  android:textSize="15sp"
+	  android:textStyle="bold"
 	  />
 	<TextView
 	  android:id="@+id/mid"
-	  android:gravity="center"
+	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:padding="5dp"
 	  />
 	<TextView
 	  android:id="@+id/l"
@@ -54,12 +69,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Late Game"
+	android:background="@color/jgrey1"
+	  android:textColor="@color/jred2"
+	  android:textSize="15sp"
+	  android:textStyle="bold"
 	  />
 	<TextView
 	  android:id="@+id/late"
-	  android:gravity="center"
+	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:padding="5dp"
 	  />
 	</LinearLayout>
 </ScrollView>

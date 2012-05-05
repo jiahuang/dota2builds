@@ -14,4 +14,6 @@ CREATE TABLE tbl_skillBuilds (_id INTEGER PRIMARY KEY AUTOINCREMENT, heroLevel I
 CREATE TABLE tbl_items (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, img TEXT, 
 description TEXT, shop TEXT, price INT);
 
+CREATE TABLE tbl_recipes(_id INTEGER PRIMARY KEY AUTOINCREMENT, item TEXT, componentItem TEXT);
+
 CREATE TABLE tbl_itemBuilds (_id INTEGER PRIMARY KEY AUTOINCREMENT, gameType TEXT, build TEXT, item TEXT);

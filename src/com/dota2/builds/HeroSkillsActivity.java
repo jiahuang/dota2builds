@@ -84,11 +84,12 @@ public class HeroSkillsActivity extends Activity{
         catch(IOException e){
         	e.printStackTrace();
         }
+        
+        tv_skillName.setText(skillName[0]);
+    	tv_skillDescription.setText(skillDescription[0]);
     }
     
     public void skill1Click(View view){
-    	System.out.println("skill 1 clicked");
-    	System.out.println(skillName[0]);
     	tv_skillName.setText(skillName[0]);
     	tv_skillDescription.setText(skillDescription[0]);
     }

@@ -14,59 +14,18 @@
         android:textStyle="bold" >
 
 	</TextView>
-	<LinearLayout
-			android:orientation="horizontal"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_below="@+id/name"
-			android:id="@+id/typeLayout"  
-		    >
-			<Button android:text="Str"
-				android:id="@+id/strButton" 
-				android:layout_width="wrap_content" 
-				android:layout_height="40dp"
-				android:onClick="strClick"
-				android:textSize="16sp"
-				android:textStyle="bold"
-				android:layout_weight="1"
-				android:textColor="@drawable/jabbr_buttontext"
-				android:background="@drawable/jabbr_button"
-				>
-			</Button>
-			<Button android:text="Int"
-			    android:id="@+id/intButton"
-				android:textSize="16sp"
-				android:textStyle="bold"
-				android:layout_width="wrap_content" 
-				android:layout_height="40dp"
-				android:onClick="intClick"
-				android:textColor="@drawable/jabbr_buttontext"
-				android:background="@drawable/jabbr_button"
-				android:layout_weight="1">
-			</Button>
-			<Button android:text="Agi"
-				android:id="@+id/agiButton" 
-				android:textSize="16sp"
-				android:textStyle="bold"
-				android:layout_width="wrap_content" 
-				android:layout_height="40dp"
-				android:onClick="agiClick"
-				android:textColor="@drawable/jabbr_buttontext"
-				android:background="@drawable/jabbr_button"
-				android:layout_weight="1">
-			</Button>
+	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@android:id/tabhost" android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/name">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TabWidget android:id="@android:id/tabs"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+			</FrameLayout>
 		</LinearLayout>
-		<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
-		    android:id="@+id/heroGrid"
-			android:layout_below="@+id/typeLayout"
-		    android:layout_width="fill_parent" 
-		    android:layout_height="fill_parent"
-		    android:numColumns="2"
-		    android:verticalSpacing="0dp"
-		    android:horizontalSpacing="0dp"
-		    android:stretchMode="columnWidth"
-		    android:gravity="center"
-		/>	
-				 
+	</TabHost>
 				 
 </RelativeLayout>

@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".HeroActivity" android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".HeroGridActivity" android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name=".HeroSkillsActivity" android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name=".ItemBuildActivity" android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name=".SkillBuildActivity" android:theme="@android:style/Theme.NoTitleBar" />

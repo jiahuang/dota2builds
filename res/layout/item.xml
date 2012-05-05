@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@android:color/white">
+     android:background="@android:color/white"
+>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
        
     <TextView
         android:id="@+id/name"
@@ -53,5 +59,44 @@
 	    android:layout_below="@+id/itemLayout"
 		android:id="@+id/description"
 		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"/>    
+		android:layout_height="wrap_content"/>  
+		
+	<TextView
+	    android:id="@+id/fromText"
+	    android:layout_below="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+ 	 >
+	</TextView>
+	<com.dota2.builds.custom.ScrollableGridView 
+		    android:id="@+id/buildsFrom"
+			android:layout_below="@+id/fromText"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:verticalSpacing="5dp"
+		    android:horizontalSpacing="5dp"
+		    android:stretchMode="columnWidth"
+		    android:numColumns="3"
+		    android:gravity="center"
+		/>
+	
+	<TextView
+	    android:id="@+id/intoText"
+	    android:layout_below="@+id/buildsFrom"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+ 	 >
+	</TextView>
+	<com.dota2.builds.custom.ScrollableGridView 
+		    android:id="@+id/buildsInto"
+			android:layout_below="@+id/intoText"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:verticalSpacing="5dp"
+		    android:horizontalSpacing="5dp"
+		    android:stretchMode="columnWidth"
+		    android:numColumns="3"
+		    android:gravity="center"
+		/>
 </RelativeLayout>
+</ScrollView>

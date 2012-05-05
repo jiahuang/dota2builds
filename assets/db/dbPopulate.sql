@@ -34,9 +34,29 @@ INSERT INTO tbl_items (name, img, description, shop, price)
 VALUES ("Observer Ward", "items/ObserverWard.jpg", "Places an Observer Ward to gain sight of the surrounding area. Observer wards last 6 min.", "Main shop", 200);
 INSERT INTO tbl_items (name, img, description, shop, price)
 VALUES ("Circlet", "items/Circlet.jpg", "All attributes +2", "Main shop", 185);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Aghanim's Scepter", "items/AghanimsScepter.jpg", "+10 All Attributes, +200 HP, +150 mana, Ultimate Upgrade (passive)", "Main shop", 4200);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Point Booster", "items/PointBooster.jpg", "+200 HP, +150 Mana", "Secret shop", 1200);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Ogre Club", "items/OgreClub.jpg", "+10 Strength", "Main shop", 1000);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Blade of Alacrity", "items/BladeofAlacrity.jpg", "+10 Agility", "Main shop", 1000);
+INSERT INTO tbl_items (name, img, description, shop, price)
+VALUES ("Staff of Wizardry", "items/StaffofWizardry.jpg", "+10 Intelligence", "Main shop", 1000);
+
+INSERT INTO tbl_recipes (item, componentItem)
+VALUES ("Aghanim's Scepter", "Point Booster");
+INSERT INTO tbl_recipes (item, componentItem)
+VALUES ("Aghanim's Scepter", "Ogre Club");
+INSERT INTO tbl_recipes (item, componentItem)
+VALUES ("Aghanim's Scepter", "Blade of Alacrity");
+INSERT INTO tbl_recipes (item, componentItem)
+VALUES ("Aghanim's Scepter", "Staff of Wizardry");
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", "Blocking Earthshaker", "Iron Branch");
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", "Blocking Earthshaker", "Observer Ward");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Core", "Blocking Earthshaker", "Aghanim's Scepter");
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES ("Starting", "Noob build", "Circlet");
 
 INSERT INTO tbl_heroes (type, name, range, team, role, img,

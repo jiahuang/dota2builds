@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
+import com.dota2.builds.custom.TextViewOutline;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.lists.SkillBuild;
 
@@ -115,12 +116,12 @@ public class SkillBuildsListActivity extends Activity{
 	        {
 	            rowLayout = (LinearLayout)LayoutInflater.from(this.c).inflate
 	                      (R.layout.skill_builds_row, parent, false);
-	           TextView tv_level = (TextView)rowLayout.findViewById(R.id.level);
-	           TextView tv_skill1 = (TextView)rowLayout.findViewById(R.id.skill1);
-	           TextView tv_skill2 = (TextView)rowLayout.findViewById(R.id.skill2);
-	           TextView tv_skill3 = (TextView)rowLayout.findViewById(R.id.skill3);
-	           TextView tv_skill4 = (TextView)rowLayout.findViewById(R.id.skill4);
-	           TextView tv_stats = (TextView)rowLayout.findViewById(R.id.stats);
+	            TextView tv_level = (TextView)rowLayout.findViewById(R.id.level);
+	            TextView tv_skill1 = (TextView)rowLayout.findViewById(R.id.skill1);
+	            TextView tv_skill2 = (TextView)rowLayout.findViewById(R.id.skill2);
+	            TextView tv_skill3 = (TextView)rowLayout.findViewById(R.id.skill3);
+	            TextView tv_skill4 = (TextView)rowLayout.findViewById(R.id.skill4);
+	            TextView tv_stats = (TextView)rowLayout.findViewById(R.id.stats);
 	           tv_level.setText(((Integer)build.level).toString());
 	           tv_skill1.setText(((Integer)build.skillLevels[0]).toString());
 	           tv_skill2.setText(((Integer)build.skillLevels[1]).toString());

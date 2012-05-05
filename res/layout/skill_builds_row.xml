@@ -1,51 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 android:layout_width="fill_parent"
-android:layout_height="fill_parent"
+android:layout_height="wrap_content"
 android:orientation="horizontal"
 xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#000000"
 >
 
 	<TextView
 	android:id="@+id/level"
 	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
+	android:layout_height="fill_parent"
 	android:layout_weight="1"
-	>
-	</TextView>
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#E0C600"
+	android:shadowColor="#000000"
+	android:shadowDx="0.0"
+	android:shadowDy="0.0"
+	android:shadowRadius="8"
+	android:gravity="center"
+	/>
 	<TextView
 	android:id="@+id/skill1"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:layout_weight="1"
-	>
-	</TextView>
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#E0C600"
+	android:shadowColor="#000000"
+	android:shadowDx="1"
+	android:shadowDy="1"
+	android:shadowRadius="8"
+	android:gravity="center"
+	/>
 	<TextView
 	android:id="@+id/skill2"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:layout_weight="1"
-	>
-	</TextView>
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#E0C600"
+	android:shadowColor="#000000"
+	android:shadowDx="1"
+	android:shadowDy="1"
+	android:shadowRadius="8"
+	android:gravity="center"
+	/>
 	<TextView
 	android:id="@+id/skill3"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:layout_weight="1"
-	>
-	</TextView>
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#E0C600"
+	android:shadowColor="#000000"
+	android:shadowDx="1"
+	android:shadowDy="1"
+	android:shadowRadius="8"
+	android:gravity="center"
+	/>
 	<TextView
 	android:id="@+id/skill4"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:layout_weight="1"
-	>
-	</TextView>
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#E0C600"
+	android:shadowColor="#000000"
+	android:shadowDx="1"
+	android:shadowDy="1"
+	android:shadowRadius="8"
+	android:gravity="center"
+	/>
 	<TextView
 	android:id="@+id/stats"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:layout_weight="1"
-	>
-	</TextView>
+	android:shadowDx="1"
+	android:shadowDy="1"
+	android:shadowRadius="8"
+	android:gravity="center"
+	/>
 </LinearLayout>
