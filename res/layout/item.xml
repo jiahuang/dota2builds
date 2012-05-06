@@ -16,8 +16,10 @@
 		    >
 		    <ImageView
 			  android:id="@+id/image"
-			  android:layout_width="wrap_content"
-			  android:layout_height="wrap_content"/>
+			  android:layout_width="100dp"
+			  android:layout_height="80dp"
+			  android:scaleType="centerCrop"
+			  />
 			 
 			<LinearLayout
 			android:orientation="vertical"
@@ -28,16 +30,25 @@
 			<TextView
 			  android:id="@+id/itemName"
 			  android:gravity="center"
+			  android:textSize="20sp"
+			  android:textStyle="bold"
+			  android:textColor="@color/lgray"
 			  android:layout_width="fill_parent"
 			  android:layout_height="wrap_content"/>
 			<TextView
 			  android:id="@+id/shop"
 			  android:gravity="center"
+			  android:textSize="15sp"
+			  android:textStyle="bold"
+			  android:textColor="@color/lgray"
 			  android:layout_width="fill_parent"
 			  android:layout_height="wrap_content"/>
 			<TextView
 			  android:id="@+id/price"
 			  android:gravity="center"
+			  android:textSize="15sp"
+			  android:textStyle="bold"
+			  android:textColor="@color/yellow"
 			  android:layout_width="fill_parent"
 			  android:layout_height="wrap_content"/>
 			</LinearLayout>
@@ -46,13 +57,21 @@
 	    android:layout_below="@+id/itemLayout"
 		android:id="@+id/description"
 		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"/>  
+		android:layout_height="wrap_content"
+		android:textSize="15sp"
+		android:padding="5dp"
+        android:paddingTop="15dp"/>  
 		
 	<TextView
 	    android:id="@+id/fromText"
 	    android:layout_below="@+id/description"
         android:layout_width="fill_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/lgray"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:paddingTop="15dp"
  	 >
 	</TextView>
 	<com.dota2.builds.custom.ScrollableGridView 
@@ -60,6 +79,7 @@
 			android:layout_below="@+id/fromText"
 		    android:layout_width="fill_parent" 
 		    android:layout_height="wrap_content"
+		    android:textColor="@color/lgray"
 		    android:verticalSpacing="5dp"
 		    android:horizontalSpacing="5dp"
 		    android:stretchMode="columnWidth"
@@ -70,8 +90,13 @@
 	<TextView
 	    android:id="@+id/intoText"
 	    android:layout_below="@+id/buildsFrom"
+	    android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:layout_height="30dp"
+        android:textColor="@color/lgray"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:paddingTop="15dp"
  	 >
 	</TextView>
 	<com.dota2.builds.custom.ScrollableGridView 

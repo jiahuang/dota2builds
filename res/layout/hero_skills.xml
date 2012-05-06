@@ -103,7 +103,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:padding="5dp"
-	android:textSize="15dp"
+	android:textColor="@color/lgray"
+	android:textSize="20sp"
 	android:textStyle="bold"
 	>
 	</TextView>
@@ -111,6 +112,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/skillDescription"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
+	android:textSize="15sp"
 	android:padding="5dp"
 	>
 	</TextView>

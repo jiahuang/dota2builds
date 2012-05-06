@@ -15,15 +15,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Overview"
-	  android:textColor="@color/jred2"
+	  android:textColor="@color/lgray"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
+	  android:layout_marginTop="5dp"
 	  />
 	<TextView
 	  android:id="@+id/overview"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:textSize="15sp"
 	  android:padding="5dp"
 	  />
 	<TextView
@@ -32,15 +34,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Early Game"
-	  android:textColor="@color/jred2"
+	  android:textColor="@color/lgray"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
+	  android:layout_marginTop="5dp"
 	  />
 	<TextView
 	  android:id="@+id/early"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:textSize="15sp"
 	  android:padding="5dp"
 	  />
 	<TextView
@@ -49,15 +53,18 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Mid Game"
-	  android:textColor="@color/jred2"
+	  android:textColor="@color/lgray"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
+	  android:layout_marginTop="5dp"
+	  
 	  />
 	<TextView
 	  android:id="@+id/mid"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:textSize="15sp"
 	  android:padding="5dp"
 	  />
 	<TextView
@@ -66,15 +73,17 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Late Game"
-	  android:textColor="@color/jred2"
+	  android:textColor="@color/lgray"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
+	  android:layout_marginTop="5dp"
 	  />
 	<TextView
 	  android:id="@+id/late"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
+	  android:textSize="15sp"
 	  android:padding="5dp"
 	  />
 	</LinearLayout>

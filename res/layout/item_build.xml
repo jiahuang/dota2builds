@@ -10,7 +10,11 @@
 	<TextView
 	    android:id="@+id/sText"
         android:layout_width="fill_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/lgray"
+        android:textStyle="bold"
+        android:padding="5dp"
         android:text="Starting items">
 	</TextView>
 	<com.dota2.builds.custom.ScrollableGridView 
@@ -27,7 +31,12 @@
 	<TextView
 	    android:id="@+id/cText"
         android:layout_width="fill_parent"
-        android:layout_height="30dp"
+        android:textColor="@color/lgray"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="5dp"
+		android:layout_marginTop="15dp"
         android:layout_below="@+id/starting"
         android:text="Core items"
  	 >
@@ -46,8 +55,13 @@
 	<TextView
 	    android:id="@+id/sitText"
 	    android:layout_below="@+id/core"
+	    android:textColor="@color/lgray"
         android:layout_width="fill_parent"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
         android:text="Situational"
  	 >
 	</TextView>
