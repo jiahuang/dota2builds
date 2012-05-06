@@ -4,87 +4,101 @@ android:layout_width="fill_parent"
 android:layout_height="wrap_content"
 android:orientation="horizontal"
 xmlns:android="http://schemas.android.com/apk/res/android"
-android:background="#000000"
 >
-
+<LinearLayout 
+	    android:id="@+id/layoutText"
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    >
 	<TextView
 	android:id="@+id/level"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
-	android:layout_weight="1"
 	android:textSize="20sp"
 	android:textStyle="bold"
-	android:textColor="#E0C600"
+	android:textColor="@color/yellow"
 	android:shadowColor="#000000"
 	android:shadowDx="0.0"
 	android:shadowDy="0.0"
 	android:shadowRadius="8"
 	android:gravity="center"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
 	/>
-	<TextView
-	android:id="@+id/skill1"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	android:textSize="20sp"
-	android:textStyle="bold"
-	android:textColor="#E0C600"
-	android:shadowColor="#000000"
-	android:shadowDx="1"
-	android:shadowDy="1"
-	android:shadowRadius="8"
-	android:gravity="center"
-	/>
-	<TextView
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/layout1"
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    >
+		<com.dota2.builds.custom.TextViewOutline
+		android:id="@+id/skill1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/layout2"
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    >
+	<com.dota2.builds.custom.TextViewOutline
 	android:id="@+id/skill2"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	android:textSize="20sp"
-	android:textStyle="bold"
-	android:textColor="#E0C600"
-	android:shadowColor="#000000"
-	android:shadowDx="1"
-	android:shadowDy="1"
-	android:shadowRadius="8"
-	android:gravity="center"
+			android:layout_gravity="center"
 	/>
-	<TextView
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/layout3"
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    >
+	<com.dota2.builds.custom.TextViewOutline
 	android:id="@+id/skill3"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	android:textSize="20sp"
-	android:textStyle="bold"
-	android:textColor="#E0C600"
-	android:shadowColor="#000000"
-	android:shadowDx="1"
-	android:shadowDy="1"
-	android:shadowRadius="8"
-	android:gravity="center"
+			android:layout_gravity="center"
+	
 	/>
-	<TextView
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/layout4"
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    >
+	<com.dota2.builds.custom.TextViewOutline
 	android:id="@+id/skill4"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	android:textSize="20sp"
-	android:textStyle="bold"
-	android:textColor="#E0C600"
-	android:shadowColor="#000000"
-	android:shadowDx="1"
-	android:shadowDy="1"
-	android:shadowRadius="8"
-	android:gravity="center"
+			android:layout_gravity="center"
+	
 	/>
-	<TextView
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/layout5"
+	    android:layout_height="fill_parent"
+	    android:layout_width="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+	    >
+	<com.dota2.builds.custom.TextViewOutline
 	android:id="@+id/stats"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
-	android:layout_weight="1"
-	android:shadowDx="1"
-	android:shadowDy="1"
-	android:shadowRadius="8"
-	android:gravity="center"
+			android:layout_gravity="center"
+	
 	/>
+	</LinearLayout>
 </LinearLayout>

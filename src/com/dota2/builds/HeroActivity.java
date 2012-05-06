@@ -2,28 +2,16 @@ package com.dota2.builds;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-
-import com.dota2.builds.datastore.BuilderDbAdapter;
-
-import android.app.Activity;
 import android.app.TabActivity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
-import android.database.Cursor;
-import android.database.SQLException;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.Button;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TabHost;
-import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
-import android.widget.TabHost.TabContentFactory;
 import com.dota2.builds.utils.Utils;
 
 public class HeroActivity extends TabActivity {
@@ -32,8 +20,11 @@ public class HeroActivity extends TabActivity {
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hero);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
+        
         Bundle extras = getIntent().getExtras();
         String name = (String) extras.get("name");
         String img = (String) extras.get("img");
@@ -42,6 +33,12 @@ public class HeroActivity extends TabActivity {
         String team = (String) extras.get("team");
         String range = (String) extras.get("range");
         TextView tv_heroName = (TextView)findViewById(R.id.heroName);
+        if (team.equals("Radiant")){
+        	tv_heroName.setTextColor(getResources().getColor(R.color.dgreen));
+       	}
+       	else{
+       		tv_heroName.setTextColor(getResources().getColor(R.color.hred));
+       	}
         tv_heroName.setText(name);
         TextView tv_heroTypeAndRange = (TextView)findViewById(R.id.heroTypeAndRange);
         tv_heroTypeAndRange.setText(heroType+"/"+range);

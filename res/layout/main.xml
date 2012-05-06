@@ -2,22 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@android:color/white">
+    android:background="@color/bg">
        
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:background="#7A0000"
-        android:text=" Dota2Builds"
-        android:textSize="22sp"
-        android:textStyle="bold" >
-
-	</TextView>
+    
 	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@android:id/tabhost" android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_below="@+id/name">
+		android:layout_height="fill_parent">
 		<LinearLayout android:orientation="vertical"
 			android:layout_width="fill_parent" android:layout_height="fill_parent">
 			<TabWidget android:id="@android:id/tabs"

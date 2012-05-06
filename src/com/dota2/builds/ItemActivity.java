@@ -4,11 +4,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import com.dota2.builds.ItemBuildActivity.ItemGridAdapter;
 import com.dota2.builds.custom.ScrollableGridView;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.lists.Item;
-import com.dota2.builds.utils.Utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,6 +20,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
@@ -35,8 +34,11 @@ public class ItemActivity  extends Activity{
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
+        
         Bundle extras = getIntent().getExtras();
         String item = (String) extras.get("name");
         ((TextView)findViewById(R.id.itemName)).setText(item);

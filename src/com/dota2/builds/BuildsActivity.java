@@ -1,31 +1,13 @@
 package com.dota2.builds;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Build;
-
-import android.app.Activity;
 import android.app.TabActivity;
 import android.content.Intent;
-import android.content.res.AssetManager;
-import android.database.Cursor;
-import android.database.SQLException;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
+import android.view.Window;
 import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
 import com.dota2.builds.utils.Utils;
 
 //in depth view of skill build, item build, and description
@@ -34,8 +16,11 @@ public class BuildsActivity extends TabActivity {
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.build);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
+        
         Bundle extras = getIntent().getExtras();
         // set up the page
         String buildName = (String) extras.get("buildName");
@@ -44,9 +29,13 @@ public class BuildsActivity extends TabActivity {
         String whereUrl = (String) extras.get("whereUrl");
         String author = (String) extras.get("author");
         ((TextView)findViewById(R.id.buildName)).setText(buildName);
-        TextView tv_by = (TextView)findViewById(R.id.by);
-        tv_by.setMovementMethod(LinkMovementMethod.getInstance());
-        tv_by.setText(Html.fromHtml("by "+author+" from <a href='"+whereUrl+"'>"+whereFrom+"</a>"));
+        if (whereUrl != null && whereUrl.length()>0){
+        	TextView tv_by = (TextView)findViewById(R.id.by);
+        	tv_by.setText(Html.fromHtml("(<a href='"+whereUrl+"'>"+whereFrom+"</a>)"));
+        }
+        //
+        //tv_by.setMovementMethod(LinkMovementMethod.getInstance());
+        //
         
         mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
@@ -81,14 +70,5 @@ public class BuildsActivity extends TabActivity {
                       .setContent(intent);
         mTabHost.addTab(spec);
         
-    }
-    
-    private Bitmap getBitmapFromAsset(String strName) throws IOException
-    {
-        AssetManager assetManager = getAssets();
-        InputStream istr = assetManager.open(strName);
-        Bitmap bitmap = BitmapFactory.decodeStream(istr);
-
-        return bitmap;
     }
 }

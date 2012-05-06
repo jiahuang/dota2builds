@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 import com.dota2.builds.custom.ScrollableGridView;
 import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Hero;
 import com.dota2.builds.lists.Item;
 import com.dota2.builds.utils.Utils;
 

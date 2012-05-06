@@ -3,37 +3,32 @@
 			android:orientation="vertical"
 			android:layout_width="fill_parent"
 			android:layout_height="fill_parent"
-			android:background="@android:color/white"
+			android:background="@color/bg"
 			android:id="@+id/heroInfoLayout"  
 		    >
-
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:background="#7A0000"
-        android:text=" Dota2Builds"
-        android:textSize="22sp"
-        android:textStyle="bold" >
-	</TextView>
-
-	<TextView
-	    android:id="@+id/buildName"
+	<LinearLayout 
+	    android:orientation="horizontal"
 	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+	    >
+	    <TextView
+	    android:id="@+id/buildName"
+	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:background="@color/jgrey1"
 	    android:gravity="center"
-	    android:textColor="@color/jred2"
 	    android:textSize="15sp"
-	    android:textStyle="bold" />
+	    android:textStyle="bold"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp" />
 
 	<TextView
 		android:id="@+id/by"
-		android:background="@color/jgrey1"
-		android:textColor="@color/jred2"
 		android:gravity="center"
-		android:layout_width="fill_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
 	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@android:id/tabhost" android:layout_width="fill_parent"
 		android:layout_height="fill_parent">

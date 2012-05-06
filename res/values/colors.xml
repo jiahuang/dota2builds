@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="jyellow1">#FFD000</color>
-	<color name="jyellow2">#D1AB00</color>
-    <color name="jgrey1">#CCCCCC</color>
-    <color name="jgrey2">#7A7A7A</color>
+	<color name="yellow">#E0C600</color>
+	<color name="lblue">#413D75</color>
+	<color name="cblue">#393566</color>
+	
+    <color name="dblue">#29264A</color>
     <color name="jred1">#A30000</color>
     <color name="jred2">#700000</color>
+    <color name="bg">#212121</color>
+    <color name="red">#940D00</color>
+    <color name="dgray">#595959</color>
+    <color name="lgray">#D4D4D4</color>
+    <color name="lred">#FFADAD</color>
+    <color name="lgreen">#ADFFB8</color>
+    <color name="dgreen">#227A28</color>
+    <color name="hred">#DB2727</color>
+	<color name="black">#000000</color>
 </resources>	

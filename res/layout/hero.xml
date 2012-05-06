@@ -2,23 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@android:color/white">
-       
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:background="#7A0000"
-        android:text=" Dota2Builds"
-        android:textSize="22sp"
-        android:textStyle="bold" >
-
-	</TextView>
+    android:background="@color/bg">
+    
 	<LinearLayout
 			android:orientation="horizontal"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:layout_below="@+id/name"
 			android:id="@+id/heroLayout"  
 		    >
 		    <ImageView
@@ -36,15 +25,20 @@
 			  android:id="@+id/heroName"
 			  android:gravity="center"
 			  android:layout_width="fill_parent"
-			  android:layout_height="wrap_content"/>
+			  android:layout_height="wrap_content"
+			  android:textSize="20dp"
+			  android:textStyle="bold"
+			  />
 			<TextView
 			  android:id="@+id/heroTypeAndRange"
 			  android:gravity="center"
+			  android:textStyle="bold"
 			  android:layout_width="fill_parent"
 			  android:layout_height="wrap_content"/>
 			<TextView
 			  android:id="@+id/heroRole"
 			  android:gravity="center"
+			  android:textStyle="bold"
 			  android:layout_width="fill_parent"
 			  android:layout_height="wrap_content"/>
 			</LinearLayout>

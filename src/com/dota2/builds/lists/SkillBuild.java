@@ -4,9 +4,9 @@ public class SkillBuild {
 
 	public int level;
 	public int[] skillLevels;
-	public int skillLevelUp; // indicates which skill got leveled up
+	public boolean[] skillLevelUp; // position of True indicates which skill level got leveled up
 	
-	public SkillBuild(int level, int[] skillLevels, int skillLevelUp)
+	public SkillBuild(int level, int[] skillLevels, boolean[] skillLevelUp)
 	{
 		this.level = level;
 		this.skillLevels = skillLevels;

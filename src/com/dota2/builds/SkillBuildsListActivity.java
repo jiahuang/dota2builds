@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import com.dota2.builds.custom.TextViewOutline;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.lists.SkillBuild;
+import com.dota2.builds.utils.Utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -70,8 +71,10 @@ public class SkillBuildsListActivity extends Activity{
 	 		   do{
 	 			  int levelUp = new Integer(cursor.getString(cursor.getColumnIndex("levelUp"))) - 1; // -1 since we start at index 0
 	 			  skillLevels[levelUp] = skillLevels[levelUp] + 1; 
+	 			  boolean[] levelUpList = new boolean[5];
+	 			  levelUpList[levelUp] = true;
 	 			  skillBuilds.add(new SkillBuild(new Integer(cursor.getString(cursor.getColumnIndex("heroLevel"))), 
-	 					 skillLevels.clone(), levelUp));
+	 					 skillLevels.clone(), levelUpList));
 	 		   }while(cursor.moveToNext());
 	 		}
 	 		cursor.close();
@@ -97,7 +100,11 @@ public class SkillBuildsListActivity extends Activity{
 			this.skillImages = skillImages;
 		}
 
-
+    	public boolean isEnabled(int position) 
+        { 
+    		return false; 
+        } 
+    	
         public Object getItem(int position) {
             return builds.get(position);
         }
@@ -117,30 +124,40 @@ public class SkillBuildsListActivity extends Activity{
 	            rowLayout = (LinearLayout)LayoutInflater.from(this.c).inflate
 	                      (R.layout.skill_builds_row, parent, false);
 	            TextView tv_level = (TextView)rowLayout.findViewById(R.id.level);
-	            TextView tv_skill1 = (TextView)rowLayout.findViewById(R.id.skill1);
-	            TextView tv_skill2 = (TextView)rowLayout.findViewById(R.id.skill2);
-	            TextView tv_skill3 = (TextView)rowLayout.findViewById(R.id.skill3);
-	            TextView tv_skill4 = (TextView)rowLayout.findViewById(R.id.skill4);
-	            TextView tv_stats = (TextView)rowLayout.findViewById(R.id.stats);
+	            TextViewOutline[] textViews = {(TextViewOutline)rowLayout.findViewById(R.id.skill1),
+	            		(TextViewOutline)rowLayout.findViewById(R.id.skill2), 
+	            		(TextViewOutline)rowLayout.findViewById(R.id.skill3), 
+	            		(TextViewOutline)rowLayout.findViewById(R.id.skill4), 
+	            		(TextViewOutline)rowLayout.findViewById(R.id.stats)};
+	            LinearLayout[] layouts = {(LinearLayout) rowLayout.findViewById(R.id.layout1),
+	            		(LinearLayout) rowLayout.findViewById(R.id.layout2),
+	            		(LinearLayout) rowLayout.findViewById(R.id.layout3),
+	            		(LinearLayout) rowLayout.findViewById(R.id.layout4),
+	            		(LinearLayout) rowLayout.findViewById(R.id.layout5)};
+	           for (int i =0; i<5; i++){
+	        	   if (build.skillLevelUp[i]){
+	        		   int px = Utils.dpToPixels(getBaseContext(), 3);
+	        		   layouts[i].setPadding(px, px, px, px);
+	        		   layouts[i].setBackgroundResource(R.color.lgray);
+	        	   }
+	        	   else{
+	        		   layouts[i].setPadding(0, 0, 0, 0);
+	        		   layouts[i].setBackgroundResource(0);
+	        	   }
+	           }
 	           tv_level.setText(((Integer)build.level).toString());
-	           tv_skill1.setText(((Integer)build.skillLevels[0]).toString());
-	           tv_skill2.setText(((Integer)build.skillLevels[1]).toString());
-	           tv_skill3.setText(((Integer)build.skillLevels[2]).toString());
-	           tv_skill4.setText(((Integer)build.skillLevels[3]).toString());
-	           tv_stats.setText(((Integer)build.skillLevels[4]).toString());
-
+	          
 	           // set bg images
 	           try{
-	        	   Drawable d = new BitmapDrawable(getBitmapFromAsset(skillImages[0]));
-	        	   tv_skill1.setBackgroundDrawable(d);
-	        	   d = new BitmapDrawable(getBitmapFromAsset(skillImages[1]));
-	        	   tv_skill2.setBackgroundDrawable(d);
-	        	   d = new BitmapDrawable(getBitmapFromAsset(skillImages[2]));
-	        	   tv_skill3.setBackgroundDrawable(d);
-	        	   d = new BitmapDrawable(getBitmapFromAsset(skillImages[3]));
-	        	   tv_skill4.setBackgroundDrawable(d);
-	        	   d = new BitmapDrawable(getBitmapFromAsset(skillImages[4]));
-	        	   tv_stats.setBackgroundDrawable(d);
+	        	   for (int i =0; i<5;i++){
+	        		   textViews[i].setText(((Integer)build.skillLevels[i]).toString(), build.skillLevelUp[i]);
+	        		   Drawable d = new BitmapDrawable(getBitmapFromAsset(skillImages[i]));
+	        		   if (build.skillLevelUp[i] == false){
+	        			   // set alpha to 50%
+	        			   d.setAlpha(127);
+	        		   }
+	        		   textViews[i].setBackgroundDrawable(d);
+	        		}
 	           }
 	           catch(IOException e){
 	        	   e.printStackTrace();

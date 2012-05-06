@@ -101,7 +101,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
     private void copyDataBase() throws IOException{
  
     	//Open your local db as the input stream
-    	InputStream myInput = myContext.getAssets().open(DB_NAME);
+    	InputStream myInput = myContext.getAssets().open("db/"+DB_NAME);
  
     	// Path to the just created empty db
     	String outFileName = DB_PATH + DB_NAME;

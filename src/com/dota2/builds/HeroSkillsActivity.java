@@ -2,10 +2,9 @@ package com.dota2.builds;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 
 import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.SkillBuild;
+import com.dota2.builds.utils.Utils;
 
 import android.app.Activity;
 import android.content.res.AssetManager;
@@ -17,9 +16,9 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ListView;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.LinearLayout;
 
 public class HeroSkillsActivity extends Activity{
 	TextView tv_skillName;
@@ -27,16 +26,22 @@ public class HeroSkillsActivity extends Activity{
 	String[] skillImages = new String[4];
     String[] skillDescription = new String[4];
     String[] skillName = new String[4];
+    ImageButton[] buttons = new ImageButton[4];
+    LinearLayout[] layouts = new LinearLayout[4]; 
+    
     
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hero_skills);
-        ImageButton bv_1 = (ImageButton) findViewById(R.id.skill1);
-        ImageButton bv_2 = (ImageButton) findViewById(R.id.skill2);
-        ImageButton bv_3 = (ImageButton) findViewById(R.id.skill3);
-        ImageButton bv_4 = (ImageButton) findViewById(R.id.skill4);
+        buttons[0] = (ImageButton) findViewById(R.id.skill1);
+        buttons[1] = (ImageButton) findViewById(R.id.skill2);
+        buttons[2] = (ImageButton) findViewById(R.id.skill3);
+        buttons[3] = (ImageButton) findViewById(R.id.skill4);
+        for (int i = 0; i<4; i++){
+        	layouts[i] = (LinearLayout) buttons[i].getParent();
+        }
         tv_skillName = (TextView) findViewById(R.id.skillName);
         tv_skillDescription = (TextView) findViewById(R.id.skillDescription);
         
@@ -72,15 +77,10 @@ public class HeroSkillsActivity extends Activity{
         myDbHelper.close();
         try{
 	        // set up button images
-	        Drawable d = new BitmapDrawable(getBitmapFromAsset(skillImages[0]));
-	        bv_1.setBackgroundDrawable(d);
-	        d = new BitmapDrawable(getBitmapFromAsset(skillImages[1]));
-	        bv_2.setBackgroundDrawable(d);
-	        d = new BitmapDrawable(getBitmapFromAsset(skillImages[2]));
-	        bv_3.setBackgroundDrawable(d);
-	        d = new BitmapDrawable(getBitmapFromAsset(skillImages[3]));
-	        bv_4.setBackgroundDrawable(d);
-	    }
+        	for (int i = 0; i<4;i++){
+        		buttons[i].setImageBitmap(getBitmapFromAsset(skillImages[i]));
+        	}
+        }
         catch(IOException e){
         	e.printStackTrace();
         }
@@ -89,24 +89,20 @@ public class HeroSkillsActivity extends Activity{
     	tv_skillDescription.setText(skillDescription[0]);
     }
     
-    public void skill1Click(View view){
-    	tv_skillName.setText(skillName[0]);
-    	tv_skillDescription.setText(skillDescription[0]);
-    }
-    
-    public void skill2Click(View view){
-    	tv_skillName.setText(skillName[1]);
-    	tv_skillDescription.setText(skillDescription[1]);
-    }
-    
-    public void skill3Click(View view){
-    	tv_skillName.setText(skillName[2]);
-    	tv_skillDescription.setText(skillDescription[2]);
-    }
-    
-    public void skill4Click(View view){
-    	tv_skillName.setText(skillName[3]);
-    	tv_skillDescription.setText(skillDescription[3]);
+    public void skillClick(View view){
+    	int tag = (Integer.parseInt((String) view.getTag())) - 1;// since we started tags at 1
+    	// set all layouts to zero padding
+    	for (LinearLayout l: layouts){
+    		l.setPadding(0, 0, 0, 0);
+    	}
+    	// set the parent to 3 padding
+    	// 3 dp
+    	int px = Utils.dpToPixels(getBaseContext(), 3);
+    	LinearLayout l =  (LinearLayout) view.getParent();
+    	l.setPadding(px, px, px, px);
+    	
+    	tv_skillName.setText(skillName[tag]);
+    	tv_skillDescription.setText(skillDescription[tag]);
     }
     
     private Bitmap getBitmapFromAsset(String strName) throws IOException

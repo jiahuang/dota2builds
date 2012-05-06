@@ -17,4 +17,15 @@ public class Utils {
     	return view;
     }
 	
+	public static float spToPixels(Context context, Float sp) {
+	    float scaledDensity = context.getResources().getDisplayMetrics().scaledDensity;
+	    return sp*scaledDensity;
+	}
+	
+	public static int dpToPixels(Context context, int dp){
+		float scale = context.getResources().getDisplayMetrics().density;
+    	int px = (int) (dp * scale + 0.5f);
+    	return px;
+	}
+	
 }

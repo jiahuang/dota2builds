@@ -113,7 +113,7 @@ public class HeroGridActivity extends Activity{
 
        // create a new ImageView for each item referenced by the Adapter
        public View getView(int position, View convertView, ViewGroup parent) {
-          
+        Hero hero = mHeroes.get(position);
        	View grid;
        	if(convertView==null){
        		grid = new View(mContext);
@@ -129,12 +129,19 @@ public class HeroGridActivity extends Activity{
            //imageView.setMaxHeight(160);
            //imageView.setMaxWidth(180);
            try {
-				imageView.setImageBitmap(getBitmapFromAsset(mHeroes.get(position).img));
+				imageView.setImageBitmap(getBitmapFromAsset(hero.img));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
        	TextView textView = (TextView)grid.findViewById(R.id.text);
+       	System.out.println("Team:"+hero.team);
+       	if (hero.team.equals("Radiant")){
+       		textView.setTextColor(getResources().getColor(R.color.dgreen));
+       	}
+       	else{
+       		textView.setTextColor(getResources().getColor(R.color.hred));
+       	}
        	textView.setText(mHeroes.get(position).name);
        	return grid;
        }

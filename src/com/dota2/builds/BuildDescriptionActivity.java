@@ -1,10 +1,6 @@
 package com.dota2.builds;
 
-import java.io.IOException;
-
 import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Hero;
-
 import android.app.Activity;
 import android.database.Cursor;
 import android.database.SQLException;

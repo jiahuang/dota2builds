@@ -18,7 +18,6 @@
 	  android:textColor="@color/jred2"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
-	android:background="@color/jgrey1"
 	  />
 	<TextView
 	  android:id="@+id/overview"
@@ -33,7 +32,6 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Early Game"
-	android:background="@color/jgrey1"
 	  android:textColor="@color/jred2"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
@@ -52,7 +50,6 @@
 	  android:layout_height="wrap_content"
 	  android:text="Mid Game"
 	  android:textColor="@color/jred2"
-	android:background="@color/jgrey1"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
 	  />
@@ -69,7 +66,6 @@
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Late Game"
-	android:background="@color/jgrey1"
 	  android:textColor="@color/jred2"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
