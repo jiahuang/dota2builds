@@ -103,18 +103,17 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:padding="5dp"
-	android:textColor="@color/lgray"
+	android:textColor="@color/hred"
 	android:textSize="20sp"
 	android:textStyle="bold"
 	>
 	</TextView>
-	<TextView
+	<com.dota2.builds.custom.TextViewHighlight
 	android:id="@+id/skillDescription"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:textSize="15sp"
 	android:padding="5dp"
-	>
-	</TextView>
+	/>
 </LinearLayout>
 </ScrollView>

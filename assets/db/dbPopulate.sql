@@ -3,7 +3,7 @@ skillOneName, skillOneDescrip, skillOneImage,
 skillTwoName, skillTwoDescrip, skillTwoImage,
 skillThreeName, skillThreeDescrip, skillThreeImage,
 skillFourName, skillFourDescrip, skillFourImage)
-VALUES ("Strength", "Melee", "Earthshaker", "Radiant", "Initiator, Ganker","heroes/str/Earthshaker.jpg",
+VALUES ("Strength", "Melee", "Earthshaker", "Radiant", "Initiator, Ganker","heroes/Earthshaker.jpg",
 "Fissure","Slams the ground with a mighty totem, fissuring the earth while stunning and damaging enemy units in a line. Creates an impassable ridge of stone.","skills/Fissure.jpg",
 "Enchant Totem", "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.", "skills/EnchantTotem.jpg",
 "Aftershock", "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities", "skills/Aftershock.jpg",

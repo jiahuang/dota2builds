@@ -129,7 +129,7 @@ public class ItemBuildActivity extends Activity{
         	View grid;
         	if(convertView==null){
         		grid = new View(mContext);
-        		grid = layoutInflater.inflate(R.layout.gridlayout, null); 
+        		grid = layoutInflater.inflate(R.layout.itemgridlayout, null); 
 		    }else{
 		    	grid = (View)convertView; 
 		    }

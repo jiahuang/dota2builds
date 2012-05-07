@@ -3,6 +3,7 @@ package com.dota2.builds;
 import java.io.IOException;
 import java.io.InputStream;
 
+import com.dota2.builds.custom.TextViewHighlight;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.utils.Utils;
 
@@ -15,6 +16,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -22,7 +24,7 @@ import android.widget.LinearLayout;
 
 public class HeroSkillsActivity extends Activity{
 	TextView tv_skillName;
-	TextView tv_skillDescription;
+	TextViewHighlight tv_skillDescription;
 	String[] skillImages = new String[4];
     String[] skillDescription = new String[4];
     String[] skillName = new String[4];
@@ -43,7 +45,7 @@ public class HeroSkillsActivity extends Activity{
         	layouts[i] = (LinearLayout) buttons[i].getParent();
         }
         tv_skillName = (TextView) findViewById(R.id.skillName);
-        tv_skillDescription = (TextView) findViewById(R.id.skillDescription);
+        tv_skillDescription = (TextViewHighlight) findViewById(R.id.skillDescription);
         
         Bundle extras = getIntent().getExtras();
         final String heroName = (String) extras.get("name");
@@ -86,7 +88,7 @@ public class HeroSkillsActivity extends Activity{
         }
         
         tv_skillName.setText(skillName[0]);
-    	tv_skillDescription.setText(skillDescription[0]);
+    	tv_skillDescription.setTextHighlight(skillDescription[0]);
     }
     
     public void skillClick(View view){
@@ -102,7 +104,7 @@ public class HeroSkillsActivity extends Activity{
     	l.setPadding(px, px, px, px);
     	
     	tv_skillName.setText(skillName[tag]);
-    	tv_skillDescription.setText(skillDescription[tag]);
+    	tv_skillDescription.setTextHighlight(skillDescription[tag]);
     }
     
     private Bitmap getBitmapFromAsset(String strName) throws IOException

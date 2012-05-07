@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -113,7 +114,12 @@ public class BuildsListActivity extends Activity {
 	                      (R.layout.builds_row, parent, false);
 	           tv = (TextView)rowLayout.findViewById(R.id.name);
 	           tv.setText(build.name);
-
+	           
+	           if (build.whereUrl!= null && build.whereUrl.length()>0 
+	        		   && build.whereFrom != null && build.whereFrom.length() > 0){
+	           	TextView tv_by = (TextView)rowLayout.findViewById(R.id.by);
+	           	tv_by.setText(Html.fromHtml("(<a href='"+build.whereUrl+"'>"+build.whereFrom+"</a>)"));
+	           }
 
 	        } else {
 	            rowLayout = (LinearLayout)convertView;

@@ -5,6 +5,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 import com.dota2.builds.custom.ScrollableGridView;
+import com.dota2.builds.custom.TextViewHighlight;
+import com.dota2.builds.custom.TextViewOutline;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.lists.Item;
 
@@ -43,7 +45,9 @@ public class ItemActivity  extends Activity{
         String item = (String) extras.get("name");
         ((TextView)findViewById(R.id.itemName)).setText(item);
         ((TextView)findViewById(R.id.shop)).setText((String) extras.get("shop"));
-        ((TextView)findViewById(R.id.description)).setText((String) extras.get("description"));
+        String description = (String) extras.get("description");
+        TextViewHighlight tvo_descrip = (TextViewHighlight)findViewById(R.id.description);
+        tvo_descrip.setTextHighlight(description);
         ((TextView)findViewById(R.id.price)).setText((String) extras.get("price"));
         TextView tv_buildsInto = (TextView) findViewById(R.id.intoText);
         TextView tv_buildsFrom = (TextView) findViewById(R.id.fromText);
@@ -148,7 +152,7 @@ public class ItemActivity  extends Activity{
         	View grid;
         	if(convertView==null){
         		grid = new View(mContext);
-        		grid = layoutInflater.inflate(R.layout.gridlayout, null); 
+        		grid = layoutInflater.inflate(R.layout.itemgridlayout, null); 
 		    }else{
 		    	grid = (View)convertView; 
 		    }

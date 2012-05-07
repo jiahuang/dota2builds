@@ -9,18 +9,43 @@
 	android:layout_height="wrap_content"
 	android:id="@+id/buildLayout"  
     >
+    <LinearLayout 
+        android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+		>
+    	<TextView
+	    android:id="@+id/buildName"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textSize="20sp"
+    	android:textStyle="bold"
+    	android:textColor="@color/hred"/>
+        <TextView
+		android:id="@+id/by"
+		android:gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+    </LinearLayout>
+    
 	<TextView
 	  android:id="@+id/o"
-	  android:gravity="center"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Overview"
-	  android:textColor="@color/lgray"
+	  android:textColor="@color/hred"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
+	  android:padding="5dp"
 	  android:layout_marginTop="5dp"
 	  />
-	<TextView
+	<com.dota2.builds.custom.TextViewHighlight
 	  android:id="@+id/overview"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
@@ -30,16 +55,16 @@
 	  />
 	<TextView
 	  android:id="@+id/s"
-	  android:gravity="center"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Early Game"
-	  android:textColor="@color/lgray"
+	  android:textColor="@color/hred"
 	  android:textSize="15sp"
+	  android:padding="5dp"
 	  android:textStyle="bold"
-	  android:layout_marginTop="5dp"
+	  android:layout_marginTop="10dp"
 	  />
-	<TextView
+	<com.dota2.builds.custom.TextViewHighlight
 	  android:id="@+id/early"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
@@ -49,17 +74,17 @@
 	  />
 	<TextView
 	  android:id="@+id/m"
-	  android:gravity="center"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Mid Game"
-	  android:textColor="@color/lgray"
+	  android:textColor="@color/hred"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
-	  android:layout_marginTop="5dp"
+	  android:padding="5dp"
+	  android:layout_marginTop="10dp"
 	  
 	  />
-	<TextView
+	<com.dota2.builds.custom.TextViewHighlight
 	  android:id="@+id/mid"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
@@ -69,16 +94,16 @@
 	  />
 	<TextView
 	  android:id="@+id/l"
-	  android:gravity="center"
 	  android:layout_width="fill_parent"
 	  android:layout_height="wrap_content"
 	  android:text="Late Game"
-	  android:textColor="@color/lgray"
+	  android:padding="5dp"
+	  android:textColor="@color/hred"
 	  android:textSize="15sp"
 	  android:textStyle="bold"
-	  android:layout_marginTop="5dp"
+	  android:layout_marginTop="10dp"
 	  />
-	<TextView
+	<com.dota2.builds.custom.TextViewHighlight
 	  android:id="@+id/late"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
