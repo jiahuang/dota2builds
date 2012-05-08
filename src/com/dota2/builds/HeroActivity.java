@@ -37,7 +37,7 @@ public class HeroActivity extends TabActivity {
         	tv_heroName.setTextColor(getResources().getColor(R.color.dgreen));
        	}
        	else{
-       		tv_heroName.setTextColor(getResources().getColor(R.color.hred));
+       		tv_heroName.setTextColor(getResources().getColor(R.color.hred2));
        	}
         tv_heroName.setText(name);
         TextView tv_heroTypeAndRange = (TextView)findViewById(R.id.heroTypeAndRange);

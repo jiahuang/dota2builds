@@ -140,7 +140,7 @@ public class HeroGridActivity extends Activity{
        		textView.setTextColor(getResources().getColor(R.color.dgreen));
        	}
        	else{
-       		textView.setTextColor(getResources().getColor(R.color.hred));
+       		textView.setTextColor(getResources().getColor(R.color.hred2));
        	}
        	textView.setText(mHeroes.get(position).name);
        	return grid;

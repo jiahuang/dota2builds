@@ -272,7 +272,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Plasma Field","Releases a wave of energetic plasma that grows in power as it expands, but also zaps on contraction, dealing damage to enemy units caught in its path. Damage increases with distance from Razor.<br/><br/>mana:125<br/>cooldown:14<br/>Damage:80/120/160/200 minimum damage, 140/210/280/350 maximum damage<br/>Radius:795","skills/PlasmaField.jpg",
 "Static Link","Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor. Lasts up to 8 seconds.<br/><br/>mana:20/30/40/50<br/>cooldown:25<br/>Damage Drain Duration:8<br/>Buff Duration:1826<br/>Range:600<br/>Damage Stolen Per Second:7/14/21/28","skills/StaticLink.jpg",
 "Unstable Current","As Razor moves with increased speed, any abilites targeted on him are countered with an instant jolt of damaging and slowing electricity.<br/><br/>Movement Speed Bonus:3%/6%/9%/12%<br/>Damage:40/70/100/130<br/>Slow Duration:0.3/0.6/0.9/1.2","skills/UnstableCurrent.jpg",
-"Eye of the Storm","A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor.&lt;br />SCEPTER UPGRADABLE: Causes faster strikes that can damage structures as well. When striking buildings, it will only target towers, barracks, and the Ancient.<br/><br/>mana:100/150/200<br/>cooldown:80/70/60<br/>Duration:20/25/30<br/>Damage Per Strike:37.5/50/62.5<br/>Radius:500/380 for units/buildings**<br/>Armor Reduced Per Strike:1<br/>Strike Cooldown:0.85 (0.7*)/0.75 (0.6*)/0.6 (0.5*)","skills/EyeoftheStorm.jpg");
+"Eye of the Storm","A powerful lightning storm strikes out at enemy units with the lowest health, dealing damage and reducing their armor. <br/>SCEPTER UPGRADABLE: Causes faster strikes that can damage structures as well. When striking buildings, it will only target towers, barracks, and the Ancient.<br/><br/>mana:100/150/200<br/>cooldown:80/70/60<br/>Duration:20/25/30<br/>Damage Per Strike:37.5/50/62.5<br/>Radius:500/380 for units/buildings**<br/>Armor Reduced Per Strike:1<br/>Strike Cooldown:0.85 (0.7*)/0.75 (0.6*)/0.6 (0.5*)","skills/EyeoftheStorm.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -294,7 +294,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Venomous Gale","Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement. Venomous Gale deals damage every 3 seconds over its duration.<br/><br/>mana:90/105/120/135<br/>cooldown:22<br/>Radius:125<br/>Duration:15.1<br/>Range:800<br/>Periodic Damage Interval:3<br/>Strike Damage:50/70/70/100<br/>Periodic Damage:10/20/40/50","skills/VenomousGale.jpg",
 "Poison Sting","Adds poison damage to Venomancers normal attacks, slowing movement speed.<br/><br/>Damage Per Second:5/10/15/20<br/>Movement Speed Slow:11%/12%/13%/14%<br/>Duration:7","skills/PoisonSting.jpg",
 "Plague Ward","Summons a plague ward to attack enemy unit and structures. The ward is immune to magic.<br/><br/>mana:20<br/>cooldown:5<br/>Ward Duration:40<br/>Ward Health:75/200/325/450<br/>Cast Range:850<br/>Ward Damage:11/21/32/42","skills/PlagueWard.jpg",
-"Poison Nova","A spreading ring of poison that does damage over time to enemy units around Venomancer. Poison Novas effect cannot bring units below 1 HP.&lt;br />SCEPTER UPGRADABLE: Increases damage and duration, and decreases cooldown.<br/><br/>mana:200/300/400<br/>cooldown:140/120/100 (60*)<br/>Duration:12/14/15 (14/15/16*)<br/>Damage Per Second:36/58/81 (58/81/108*)<br/>Radius:830","skills/PoisonNova.jpg");
+"Poison Nova","A spreading ring of poison that does damage over time to enemy units around Venomancer. Poison Novas effect cannot bring units below 1 HP.<br/>SCEPTER UPGRADABLE: Increases damage and duration, and decreases cooldown.<br/><br/>mana:200/300/400<br/>cooldown:140/120/100 (60*)<br/>Duration:12/14/15 (14/15/16*)<br/>Damage Per Second:36/58/81 (58/81/108*)<br/>Radius:830","skills/PoisonNova.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -316,7 +316,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Time Walk","Rushes to a target location while slowing the movement and attack speed of all enemies along its path for 3 seconds.<br/><br/>mana:120<br/>cooldown:19/17/15/13<br/>Radius:300<br/>Duration:3<br/>Range:700/900/1100/1300<br/>Attack and Movement Speed Slow:25%/30%/35%/40%","skills/TimeWalk.jpg",
 "Backtrack","Faceless Void dodges damage by jumping backward in time, eluding both physical and magical attacks.<br/><br/>Dodge Chance:10%/15%/20%/25%","skills/Backtrack.jpg",
 "Time Lock","Adds the chance for an attack to lock an enemy unit in time, stunning it and dealing bonus damage. The duration is twice as long against creeps.<br/><br/>Damage Bonus:40/50/60/70<br/>Chance:10%/15%/20%/25%<br/>Stun Duration:1 (2 on creeps)","skills/TimeLock.jpg",
-"Chronosphere","Creates a blister in spacetime, trapping all units caught in its sphere of influence.  Only Faceless Void and any units he controls are unaffected. Invisible units in the sphere will be revealed.&lt;br />SCEPTER UPGRADABLE: Increases duration and decreases cooldown.<br/><br/>mana:150/175/200<br/>cooldown:120/110/100 (60*)<br/>Radius:400<br/>Duration:4/4.5/5 (4/5/6*)<br/>Range:600","skills/Chronosphere.jpg");
+"Chronosphere","Creates a blister in spacetime, trapping all units caught in its sphere of influence.  Only Faceless Void and any units he controls are unaffected. Invisible units in the sphere will be revealed.<br/>SCEPTER UPGRADABLE: Increases duration and decreases cooldown.<br/><br/>mana:150/175/200<br/>cooldown:120/110/100 (60*)<br/>Radius:400<br/>Duration:4/4.5/5 (4/5/6*)<br/>Range:600","skills/Chronosphere.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -360,7 +360,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Poison Attack","Intensifies Vipers venom, adding an effect to his normal attack that slows attack and movement speed while dealing damage over time.&lt;br>Poison Attack is a [[Unique Attack Modifier]], and does not stack with other Unique Attack Modifiers.<br/><br/>mana:20<br/>cooldown:4/3/0/0<br/>Duration:2<br/>Attack and Movement Speed Slow:10%/20%/30%/40%<br/>Range:600<br/>Damage Per Second:10/16/22/28","skills/PoisonAttack.jpg",
 "Nethertoxin","Nethertoxin causes Vipers normal attack to deal bonus damage to units based on how much health they are missing. The bonus damage doubles for each 20% of health missing from the target.   Nethertoxin deals half damage to creeps and buildings.<br/><br/>Maximum Bonus Damage:32/64/96/128","skills/Nethertoxin.jpg",
 "Corrosive Skin","Viper exudes an infectious toxin that damages and slows any enemy that attacks it. The acid exudate also increases Vipers resistance to spells.<br/><br/>Attack and Movement Speed Slow:10%/15%/20%/25%<br/>Damage Per Second:10/15/20/25<br/>Duration:3<br/>Magic Resistance:10%/15%/20%/25%","skills/CorrosiveSkin.jpg",
-"Viper Strike","Viper slows the targeted enemy units movement and attack speed while also dealing poison damage over time.  The slowing effect reduces over the duration of the poison.&lt;br />SCEPTER UPGRADABLE: Decreases mana cost and cooldown, and increases cast range.<br/><br/>mana:125/175/250 (125*)<br/>cooldown:80/50/30 (12*)<br/>Duration:5.1<br/>Attack and Movement Speed Slow:40%/60%/80%<br/>Range:500 (800*)<br/>Damage Per Second:60/100/145","skills/ViperStrike.jpg");
+"Viper Strike","Viper slows the targeted enemy units movement and attack speed while also dealing poison damage over time.  The slowing effect reduces over the duration of the poison.<br/>SCEPTER UPGRADABLE: Decreases mana cost and cooldown, and increases cast range.<br/><br/>mana:125/175/250 (125*)<br/>cooldown:80/50/30 (12*)<br/>Duration:5.1<br/>Attack and Movement Speed Slow:40%/60%/80%<br/>Range:500 (800*)<br/>Damage Per Second:60/100/145","skills/ViperStrike.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -547,7 +547,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Death Pulse","Necrolyte releases a wave of death around him, dealing damage to enemy units and healing allied units.<br/><br/>mana:125/145/165/185<br/>cooldown:8/7/6/5<br/>Damage:75/125/200/275<br/>Heal:50/75/100/130<br/>Radius:475","skills/DeathPulse.jpg",
 "Heartstopper Aura","Necrolyte stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time.<br/><br/>Max Health Lost Per Second:0.6%/0.8%/1.0%/1.2%<br/>Radius:1000","skills/HeartstopperAura.jpg",
 "Sadist","Necrolyte regains mana for every unit he kills. At level 4, Necrolyte gains 600 mana for killing an enemy hero.<br/><br/>Mana Regained for a Hero:12/24/36/600<br/>Mana Regained for a Creep:12/24/36/60","skills/Sadist.jpg",
-"Reaper's Scythe","Stuns the target enemy hero, then deals damage based on how much life it is missing.&lt;br />SCEPTER UPGRADABLE: Increases damage per HP missing, decreases mana cost for Level 1, and decreases cooldown for levels 1 and 2.<br/><br/>mana:175 (150*)/340/500<br/>cooldown:100 (70*)/85 (70*)/70<br/>Stun Duration:1<br/>Damage Dealt Per Missing Hit Point:0.4 (0.6*)/0.6 (0.9*)/0.9 (1.2*)<br/>Range:600","skills/ReapersScythe.jpg");
+"Reaper's Scythe","Stuns the target enemy hero, then deals damage based on how much life it is missing.<br/>SCEPTER UPGRADABLE: Increases damage per HP missing, decreases mana cost for Level 1, and decreases cooldown for levels 1 and 2.<br/><br/>mana:175 (150*)/340/500<br/>cooldown:100 (70*)/85 (70*)/70<br/>Stun Duration:1<br/>Damage Dealt Per Missing Hit Point:0.4 (0.6*)/0.6 (0.9*)/0.9 (1.2*)<br/>Range:600","skills/ReapersScythe.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -558,7 +558,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Ether Shock","Creates a cone of ethereal energy that strikes multiple enemy units.<br/><br/>mana:95/105/135/160<br/>cooldown:8<br/>Starting Area Of Cone:200<br/>Distance Of Cone:500<br/>Range:600<br/>Damage:140/200/260/320<br/>Final Area Of Cone:300<br/>Number of Targets:1/3/5/7","skills/EtherShock.jpg",
 "Hex","Transforms an enemy unit into a harmless creature, disabling their attacks and abilities.<br/><br/>mana:110/140/170/200<br/>cooldown:13<br/>Duration:1.25/2/2.75/3.5<br/>Range:500","skills/Hex.jpg",
 "Shackles","CHANNELED  Magically binds an enemy unit so that it cannot move or attack, while dealing damage over time.<br/><br/>mana:110/130/155/185<br/>cooldown:16<br/>Channeling Duration:2.5/3.25/4/4.75<br/>Damage Per Second:40<br/>Range:400","skills/Shackles.jpg",
-"Mass Serpent Ward","Summons 8 serpent wards to attack enemy units and structures. The wards are immune to magic, and have a small area of splash damage that increases per level.&lt;br />SCEPTER UPGRADABLE: Increases ward damage.<br/><br/>mana:200/350/600<br/>cooldown:110<br/>Serpent Wards Duration:45<br/>Serpent Wards Damage:3943 (5359*)/5458 (7479*)/6973 (94100*)<br/>Range:550","skills/MassSerpentWard.jpg");
+"Mass Serpent Ward","Summons 8 serpent wards to attack enemy units and structures. The wards are immune to magic, and have a small area of splash damage that increases per level.<br/>SCEPTER UPGRADABLE: Increases ward damage.<br/><br/>mana:200/350/600<br/>cooldown:110<br/>Serpent Wards Duration:45<br/>Serpent Wards Damage:3943 (5359*)/5458 (7479*)/6973 (94100*)<br/>Range:550","skills/MassSerpentWard.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -569,7 +569,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Fatal Bonds","Binds several enemy units together, causing 20% of the damage dealt to one of them to be felt by the others.<br/><br/>mana:120<br/>cooldown:25<br/>Radius:575<br/>Duration:25<br/>Cast Range:800<br/>Max Bonded Units:3/4/5/6<br/>Percent Damage Shared:20%","skills/FatalBonds.jpg",
 "Shadow Word","Demnok whispers an incantation, healing a friendly unit or damaging an enemy unit over time.<br/><br/>mana:90/110/130/150<br/>cooldown:20<br/>Duration:9<br/>Damage Caused/ Healed Per Second:10/20/30/40<br/>Cast Range:500","skills/ShadowWord.jpg",
 "Upheaval","A powerful slowing current that grows stronger as its channelled. Lasts up to 10 seconds, slowing enemies up to 84%. Enemies are slowed for 3 seconds after leaving the area or the spell ends.<br/><br/>mana:100/110/120/130<br/>cooldown:50<br/>Radius:700<br/>Duration:10<br/>Cast Range:700<br/>Slow per Second:7%/14%/21%/28% (max 84%)","skills/Upheaval.jpg",
-"Chaotic Offering","Summons a Golem from the depths, dealing 100 damage and stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.&lt;br />SCEPTER UPGRADABLE: Calls 2 Golems, HP and damage are decreased by 25%, and bounty by 50% per golem.<br/><br/>mana:200/250/300<br/>cooldown:165<br/>Radius:600<br/>Summon Duration:60<br/>Cast Range:1200<br/>Stun Duration:1<br/>Level 1: Summons 1 (2*) Golem(s) with average attack &lt;br /> Level 2: Summons 1 (2*) Golem(s) with powerful attack&lt;br /> Level 3: Summons 1 (2*) Golem(s) with deadly attack.:","skills/ChaoticOffering.jpg");
+"Chaotic Offering","Summons a Golem from the depths, dealing 100 damage and stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.<br/>SCEPTER UPGRADABLE: Calls 2 Golems, HP and damage are decreased by 25%, and bounty by 50% per golem.<br/><br/>mana:200/250/300<br/>cooldown:165<br/>Radius:600<br/>Summon Duration:60<br/>Cast Range:1200<br/>Stun Duration:1<br/>Level 1: Summons 1 (2*) Golem(s) with average attack <br/> Level 2: Summons 1 (2*) Golem(s) with powerful attack<br/> Level 3: Summons 1 (2*) Golem(s) with deadly attack.:","skills/ChaoticOffering.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -580,7 +580,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Untouchable","Enchantress beguiles her enemies, slowing their attacks when she is attacked. Lasts 3 seconds.<br/><br/>Attack Speed Slow:20/40/60/80<br/>Duration:3","skills/Untouchable.jpg",
 "Enchant","Enchantress charms an enemy, bringing it under her control (if a creep) or slowing it (if a hero).<br/><br/>mana:65<br/>cooldown:30/25/20/15<br/>Duration:5.5<br/>Movement Speed Slow:20%/30%/40%/50%<br/>Range:700","skills/Enchant.jpg",
 "Nature's Attendants","A cloud of wisps heals Enchantress and any friendly units nearby. Lasts 10 seconds.<br/><br/>mana:125/140/155/170<br/>cooldown:45<br/>Duration:10<br/>Number Of Wisps:3/5/7/9<br/>Radius:275","skills/NaturesAttendants.jpg",
-"Impetus","Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is.  The farther the target, the greater the damage dealt.&lt;br />Impetus is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.&lt;br />SCEPTER UPGRADABLE: Attack range increased by 165.<br/><br/>mana:55/60/65<br/>Distance Traveled Dealt In Damage:15%/20%/25%<br/>Damage Cap:375/500/625<br/>Range:550 (715*)","skills/Impetus.jpg");
+"Impetus","Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is.  The farther the target, the greater the damage dealt.<br/>Impetus is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.<br/>SCEPTER UPGRADABLE: Attack range increased by 165.<br/><br/>mana:55/60/65<br/>Distance Traveled Dealt In Damage:15%/20%/25%<br/>Damage Cap:375/500/625<br/>Range:550 (715*)","skills/Impetus.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -591,7 +591,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Shadow Strike","Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds. An instance of damage is dealt every 3 seconds.<br/><br/>mana:80/100/120/140<br/>cooldown:20/16/12/8<br/>Duration:15.1 Seconds<br/>Movement Slow:20%/30%/40%/50%<br/>Range:400<br/>Damage over Time:30/40/50/60<br/>Damage:50/75/100/125","skills/ShadowStrike.jpg",
 "Blink","Short distance teleportation that allows Queen of Pain to move in and out of combat.<br/><br/>mana:60<br/>cooldown:12/10/8/6<br/>Range:700/850/1000/1150","skills/Blink.jpg",
 "Scream of Pain","The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.<br/><br/>mana:110/120/130/140<br/>cooldown:7<br/>Damage:85/165/225/300<br/>Radius:475","skills/ScreamofPain.jpg",
-"Sonic Wave","Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake&lt;br />SCEPTER UPGRADABLE: Reduces cooldown and increases damage.<br/><br/>mana:250/360/500<br/>cooldown:135 (100/70/40*)<br/>Radius:100 (Starting Radius) / 800 (Distance) / 300 (Final Radius)<br/>Damage:350/475/600 (350/530/725*)<br/>Range:700","skills/SonicWave.jpg");
+"Sonic Wave","Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake<br/>SCEPTER UPGRADABLE: Reduces cooldown and increases damage.<br/><br/>mana:250/360/500<br/>cooldown:135 (100/70/40*)<br/>Radius:100 (Starting Radius) / 800 (Distance) / 300 (Final Radius)<br/>Damage:350/475/600 (350/530/725*)<br/>Range:700","skills/SonicWave.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -635,7 +635,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Nether Blast","An exploding pulse deals damage to enemies and structures in the area. Deals 33% damage to structures.<br/><br/>mana:85/105/125/145<br/>cooldown:5.5<br/>Radius:400<br/>Damage:100/175/250/325 to units and 40/60/80/100 to structures<br/>Range:400<br/>Blast Delay:0.9","skills/NetherBlast.jpg",
 "Decrepify","A powerful banishing spell that slows a unit and renders it unable to attack or be attacked. Afflicted units take extra magic damage.<br/><br/>mana:100<br/>cooldown:13/11/9/7<br/>Duration:2/2.5/3/3.5<br/>Spell Damage Increase:40%<br/>Range:700<br/>Movement Speed Slow:50%","skills/Decrepify.jpg",
 "Nether Ward","Pugna places a nether ward that fires mana flares at enemy heroes who dare to cast spells, while also preventing them from regenerating mana.  Nether Ward deals damage equal to the damage multiplier times the mana spent by the enemy hero. Lasts 25 seconds.<br/><br/>mana:80<br/>cooldown:35<br/>Duration:25<br/>Ward Health:75/150/225/300<br/>Radius:700/1000/1300/1600<br/>Damage Per Mana Used:0.75/1/1.25/1.5<br/>Mana Regeneration:1.5/3.0/4.5/6","skills/NetherWard.jpg",
-"Life Drain","CHANNELED  While channelling Life Drain, Pugna siphons HP of the target enemy unit. Lasts 10 seconds.&lt;br />SCEPTER UPGRADABLE: Increases drain per second and sets cooldown time to zero.<br/><br/>mana:125/175/225<br/>cooldown:22 (0*)<br/>Duration:10<br/>Health Drained Per Second:120/160/200 (180/240/300*)<br/>Range:850","skills/LifeDrain.jpg");
+"Life Drain","CHANNELED  While channelling Life Drain, Pugna siphons HP of the target enemy unit. Lasts 10 seconds.<br/>SCEPTER UPGRADABLE: Increases drain per second and sets cooldown time to zero.<br/><br/>mana:125/175/225<br/>cooldown:22 (0*)<br/>Duration:10<br/>Health Drained Per Second:120/160/200 (180/240/300*)<br/>Range:850","skills/LifeDrain.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -646,7 +646,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Dual Breath","An icy blast followed by a wave of fire launches out in a path in front of Jakiro. The ice slows enemies, while the fire delivers damage over time.<br/><br/>mana:135/140/155/170<br/>cooldown:10<br/>Radius:200 (Starting radius) / 500 (Distance) / 250 (Final radius)<br/>Duration:4<br/>Range:500<br/>Movement speed slow:30%<br/>Damage:35/70/105/140<br/>Burn damage:5/10/15/20","skills/DualBreath.jpg",
 "Ice Path","Creates a path of ice that bursts in front of Jakiro, freezing and stunning nearby enemy units.<br/><br/>mana:75<br/>cooldown:12/11/10/9<br/>Radius:150<br/>Duration:1/1.33/1.66/2<br/>Range:1100","skills/IcePath.jpg",
 "Liquid Fire","Jakiro burns his enemies in an area of effect with fire added to his attack, while slowing their attacks.<br/><br/>cooldown:20/15/10/5<br/>Radius:175<br/>Damage per second:10/15/20/25<br/>Duration:5<br/>Attack speed reduction:20%/30%/40%/50%","skills/LiquidFire.jpg",
-"Macropyre","Jakiro lays down a line of six Flame Strikes in front of him, each dealing damage per second to enemy units in a wide area of effect.&lt;br />SCEPTER UPGRADABLE: Increases cast range, distance, and number of Flame Strikes.<br/><br/>mana:220/330/440<br/>cooldown:60<br/>Radius:225<br/>Duration:7<br/>Range:850 (1150*)<br/>Effect range:900 (1350*)<br/>Damage per second:100/140/180 (125/175/225*)<br/>Flame strikes:6 (9*)","skills/Macropyre.jpg");
+"Macropyre","Jakiro lays down a line of six Flame Strikes in front of him, each dealing damage per second to enemy units in a wide area of effect.<br/>SCEPTER UPGRADABLE: Increases cast range, distance, and number of Flame Strikes.<br/><br/>mana:220/330/440<br/>cooldown:60<br/>Radius:225<br/>Duration:7<br/>Range:850 (1150*)<br/>Effect range:900 (1350*)<br/>Damage per second:100/140/180 (125/175/225*)<br/>Flame strikes:6 (9*)","skills/Macropyre.jpg");
 
 INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillOneName, skillOneDescrip, skillOneImage,
@@ -654,7 +654,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillThreeName, skillThreeDescrip, skillThreeImage,
           skillFourName, skillFourDescrip, skillFourImage)
           VALUES ("Intelligence","Ranged","Dazzle","Dire","","heroes/Dazzle.jpg",
-"Poison Touch","Casts a poisonous spell on an enemy unit, causing damage and slowness over time, and eventual paralysis.&lt;br />At level 2, the slow becomes twice as powerful after 1 second, and at levels 3 and 4, the target is stunned for 1 second after the slow.<br/><br/>mana:100/115/130/145<br/>cooldown:15/13/11/9<br/>Duration:7<br/>Time to set in:1/2/3/3<br/>Range:600<br/>Damage Per Second:8/16/24/32","skills/PoisonTouch.jpg",
+"Poison Touch","Casts a poisonous spell on an enemy unit, causing damage and slowness over time, and eventual paralysis.<br/>At level 2, the slow becomes twice as powerful after 1 second, and at levels 3 and 4, the target is stunned for 1 second after the slow.<br/><br/>mana:100/115/130/145<br/>cooldown:15/13/11/9<br/>Duration:7<br/>Time to set in:1/2/3/3<br/>Range:600<br/>Damage Per Second:8/16/24/32","skills/PoisonTouch.jpg",
 "Shallow Grave","An ally blessed with Shallow Grave, no matter how close to death, cannot die while under its protection.<br/><br/>mana:140/130/120/110<br/>cooldown:60/45/30/15<br/>Duration:5<br/>Range:400/600/800/1000","skills/ShallowGrave.jpg",
 "Shadow Wave","Shadow Wave heals several allies, which in turn cause damage equal to their healing in a small area around them. Dazzle is always healed by Shadow Wave, and it does not count toward the number of targets.<br/><br/>mana:80/90/100/110<br/>cooldown:12/10/8/6<br/>Radius:475* / 170**<br/>Damage/Heal:80/100/120/140 ***<br/>Range:900<br/>Number of Targets:3/3/4/5","skills/ShadowWave.jpg",
 "Weave","Applies a buff that increases allied hero armor or decreases enemy hero armor in the target area, changing armor by 1 every second.<br/><br/>mana:120/160/200<br/>cooldown:40<br/>Radius:575 (775*)<br/>Duration:12/18/24 (18/24/30*)<br/>Range:2000","skills/Weave.jpg");
@@ -688,7 +688,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillFourName, skillFourDescrip, skillFourImage)
           VALUES ("Intelligence","Ranged","Silencer","Radiant","","heroes/Silencer.jpg",
 "Curse of the Silent","Curses the target area, causing enemy units to take damage and lose mana until they cast a spell.<br/><br/>mana:75/95/115/135<br/>cooldown:20/18/16/14<br/>Mana Loss:10/15/20/25<br/>Duration:5/6/7/8<br/>Damage:20/30/40/50<br/>Radius:350<br/>Range:800","skills/CurseoftheSilent.jpg",
-"Glaives of Wisdom","Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence.&lt;br />Glaives of Wisdom is a [[Unique Attack Modifier]], and does not stack with other Unique Attack Modifiers.<br/><br/>mana:15<br/>cooldown:0<br/>Percent Intelligence to Damage:30%/45%/60%/75%","skills/GlaivesofWisdom.jpg",
+"Glaives of Wisdom","Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence.<br/>Glaives of Wisdom is a [[Unique Attack Modifier]], and does not stack with other Unique Attack Modifiers.<br/><br/>mana:15<br/>cooldown:0<br/>Percent Intelligence to Damage:30%/45%/60%/75%","skills/GlaivesofWisdom.jpg",
 "Last Word","Enemy heroes nearby will be silenced whenever they cast a spell. If an enemy hero dies while in range of Last Word, Silencer will permanently steal 1 Intelligence from that hero.  If Silencer is the killer, he will steal 2 Intelligence.<br/><br/>Duration:0.75/1.5/2.25/3<br/>Radius:750","skills/LastWord.jpg",
 "Global Silence","Silencer stops all sound, preventing enemy heroes and units on the map from casting spells.<br/><br/>mana:250/350/450<br/>cooldown:160<br/>Duration:3/4/5","skills/GlobalSilence.jpg");
 
@@ -731,7 +731,7 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
           skillThreeName, skillThreeDescrip, skillThreeImage,
           skillFourName, skillFourDescrip, skillFourImage)
           VALUES ("Intelligence","Ranged","Outworld Destroyer","Dire","","heroes/OutworldDestroyer.jpg",
-"Arcane Orb","Adds extra pure damage to Harbingers attacks, based on his remaining mana pool. Arcane Orb also does bonus damage to summoned units and illusions.&lt;br /><br/><br/>mana:100<br/>Percent Mana Pool to Damage:6%/7%/8%/9%<br/>Bonus Damage to Illusions and Summons:100/200/300/400<br/>Range:450","skills/ArcaneOrb.jpg",
+"Arcane Orb","Adds extra pure damage to Harbingers attacks, based on his remaining mana pool. Arcane Orb also does bonus damage to summoned units and illusions.<br/><br/><br/>mana:100<br/>Percent Mana Pool to Damage:6%/7%/8%/9%<br/>Bonus Damage to Illusions and Summons:100/200/300/400<br/>Range:450","skills/ArcaneOrb.jpg",
 "Astral Imprisonment","Places a target allied or enemy hero into an astral prison. The hidden hero is invulnerable and disabled. When cast on an enemy Hero, Harbinger temporarily steals intelligence from that hero.<br/><br/>mana:120/140/160/180<br/>cooldown:18/16/14/12<br/>Intelligence Stolen:2/4/6/8<br/>Duration of Steal:60<br/>Range:550<br/>Duration of Imprisonment:1/2/3/4","skills/AstralImprisonment.jpg",
 "Essence Aura","Whenever nearby allied Heroes or Harbinger itself casts a spell, it gains a chance to restore 25% of its mana pool. Harbinger also passively gains a bonus to its base mana pool. Several skills with no cooldown and toggled spells cannot trigger Essence Aura.<br/><br/>Chance to Restore:10%/20%/30%/40%<br/>Base Mana:75/150/225/300<br/>Radius:1000","skills/EssenceAura.jpg",
 "Sanity's Eclipse","Deals damage to enemy Heroes in an area of effect based on the difference between Harbinger and the affected Heros intelligence. If the intelligence difference is under a threshold, the affected Hero loses 75% of its current mana. Sanitys Eclipse can hit units trapped in Astral Imprisonment.<br/><br/>mana:175/250/325<br/>cooldown:160<br/>Radius:375/475/575<br/>Intelligence Difference Damage Multiplier:8/9/10 (9/10/11*)<br/>Range:600/650/700 (700/750/800*)<br/>Intelligence Difference Threshold:10/30/50","skills/SanitysEclipse.jpg");
@@ -746,3 +746,80 @@ INSERT INTO tbl_heroes (type, range, name, team, role, img,
 "Soul Catcher","Curses a random enemy in an area to take increased damage. The bonus damage is dealt as a separate instance of damage. Units under the effect of Disruption can still be affected by Soul Catcher.<br/><br/>mana:50<br/>cooldown:13<br/>Radius:450<br/>Bonus Damage:20%/30%/40%/50%<br/>Duration:12","skills/SoulCatcher.jpg",
 "Shadow Poison","Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8 times the stack damage based on the number of stacks on the target, up to 4 stacks. Additional stacks cause 50 damage each. This deferred damage is dealt when Shadow Poisons duration is expired, or the Release subability is used.<br/><br/>mana:50<br/>cooldown:3<br/>Radius:150<br/>Duration:10<br/>Range:1500<br/>Stack Damage:20/35/50/65","skills/ShadowPoison.jpg",
 "Shadow Poison Release","Releases the poison to do damage on all affected enemies. Units under the effect of Disruption can still be affected by Shadow Poison.<br/>","skills/ShadowPoisonRelease.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Strength","Melee","Axe","Dire","Initiator/Tank/Disabler","heroes/Axe.jpg",
+"Berserker's Call", "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration. <br/><br/>mana:80/90/100/110<br/>cooldown:10<br/>Radius:275<br/>Bonus Armor:30<br/>Duration:1.5/2/2.5/3", "skills/BerserkersCall.jpg",
+"Battle Hunger", "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger.<br/><br/>mana:75/85/95/105<br/>cooldown:20/15/10/5<br/>Duration:10/13/16/19<br/>Movement Slow:10%<br/>Bonus Movement Speed:4%<br/>Damage Per Second:15/21/27/33", "skills/BattleHunger.jpg",
+"Counter Helix", "When attacked, Axe performs a helix counter attack, dealing damage to all nearby enemies.<br/><br/>cooldown:0.65/0.6/0.55/0.5<br/>Radius:275<br/>Chance to Helix:17%<br/>Damage:100/130/160/190", "skills/CounterHelix.jpg",
+"Culling Blade", "Axe spots weakness and strikes, dealing moderate damage but instantly killing an enemy unit with low health. When an enemy unit is killed in this way, Axe and nearby allied units gain bonus movement speed.<br/>SCEPTER UPGRADEABLE: Decreases cooldown<br/><br/>mana:120/160/200<br/>cooldown:75/65/55 (6*)<br/>Kill Threshold:300/450/625<br/>Damage:150/250/300<br/>Range:150<br/>Bonus Movement Speed:25%<br/>Movement Speed Radius:600<br/>Movement Speed Duration:6<br/>", "skills/CullingBlade.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Strength","Melee","Skeleton King","Dire","Carry/Tank/Disabler","heroes/SkeletonKing.jpg",
+"Hellfire Blast", "Skeleton King fires a sphere of hellfire at an enemy unit, dealing damage and stunning, then dealing damage over time and slowing the target.<br/><br/>mana:140<br/>cooldown:8<br/>Slow:15%<br/>Slow Duration:4 Seconds<br/>Stun Duration:2 Seconds<br/>Damage over Time:15/30/40/50<br/>Damage:50/100/150/200<br/>Range:525", "skills/HellfireBlast.jpg",
+"Vampiric Aura", "Nearby friendly melee units gain HP based on their damage dealt when attacking enemy units.<br/><br/>Lifesteal:15%/20%/25%/30%", "skills/VampiricAura.jpg",
+"Critical Strike", "Skeleton King gains a chance to deal bonus damage on an attack.<br/><br/>Critical Chance:15%<br/>Critical Damage:1.25×/1.75×/2.25×/2.75×", "skills/CriticalStrike.jpg",
+"Reincarnation", "Skeleton King's bones reform after death, causing him to resurrect when killed in battle. Upon reincarnation, enemy units in the area will be slowed by 30%<br/><br/>mana:140<br/>cooldown:260/160/60<br/>Reincarnation Time:3 Seconds", "skills/Reincarnation.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Strength","Melee","Lycanthrope","Dire","Carry/Jungler/Pusher","heroes/Lycanthrope.jpg",
+"Summon Wolves", "Summons two wolves to fight for Banehallow. Level 2-4 wolves have Critical Strike, and level 4 wolves have permanent invisibility.<br/><br/>mana:125<br/>cooldown:30<br/>Duration:55", "skills/SummonWolves.jpg",
+"Howl", "Grants bonus damage to Banehallow, all allied heroes, and all units under their control.<br/><br/>mana:15/20/25/30<br/>cooldown:50/45/40/35<br/>Hero Bonus Damage:20/30/40/50<br/>Unit Bonus Damage:4/8/12/16<br/>Area of Effect:Global<br/>Duration:12", "skills/Howl.jpg",
+"Feral Impulse", "Increases the damage and attack speed of Banehallow and all units under his control.<br/><br/>Bonus Damage:15%/20%/25%/30%<br/>Bonus Attack Speed:15%/20%/25%/30%<br/>Radius:900", "skills/FeralImpulse.jpg",
+"Shapeshift", "Banehallow assumes his true form, increasing his combat capabilities. During Shapeshift, Banehallow and all units under his control move at maximum speed and cannot be slowed.<br/><br/>mana:100<br/>cooldown:100/70/40<br/>Bonus Health:100/200/300<br/>Bonus Armor:2<br/>Base Attack Time:1.5<br/>Critical Strike Chance:30%<br/>Critical Strike Damage:1.7×<br/>Day/Night Sight Range:1800/1800<br/>Duration:18", "skills/Shapeshift.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Agility","Melee","Riki","Dire","Carry","heroes/Riki.jpg",
+"Smoke Screen", "Throws down a smoke bomb, silencing and slowing enemy units in an area while causing them to miss on most attacks. Lasts 6 seconds.<br/><br/>mana:75/80/85/90<br/>cooldown:13<br/>Range:425<br/>Radius:250/275/300/325<br/>Duration:6<br/>Miss Chance:40%/50%/60%/70%<br/>Attack and Movement Speed Slow:25%", "skills/SmokeScreen.jpg",
+"Blink Strike", "Teleports behind the target unit, striking for bonus damage if it is an enemy.<br/><br/>mana:50<br/>cooldown:20/15/10/5<br/>Range:750<br/>Bonus Damage:30/60/90/120", "skills/BlinkStrike.jpg",
+"Backstab", "If Riki attacks from behind, bonus damage is applied based on his current agility.<br/><br/>Damage Bonus:0.5/0.75/1.0/1.25 × Agility", "skills/Backstab.jpg",
+"Permanent Invisibility", "Riki fades into the shadows, staying permanently invisible except while attacking or using abilities. While silenced, Riki will be visible.<br/><br/>Fade Time:3/2.25/1.5", "skills/PermanentInvisibility.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Agility","Melee","Bounty Hunter","Radiant","Carry/Roamer","heroes/BountyHunter.jpg",
+"Shuriken Toss", "Hurls a deadly shuriken at an enemy unit, dealing damage and ministunning the target.<br/><br/>mana:90/115/135/155<br/>cooldown:10<br/>Cast Range:650<br/>Damage:100/200/250/325", "skills/ShurikenToss.jpg",
+"Jinada", "Bounty Hunter plans his next hit, passively adding a critical strike and maim to his next attack.<br/><br/>cooldown:12/10/8/6<br/>Duration:3<br/>Movement Speed Slow:25%<br/>Attack Speed Slow:25%<br/>Critical Damage:1.5×/1.75×/2×/2.25×", "skills/Jinada.jpg",
+"Shadow Walk", "Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability. If he breaks the invisibility with an attack, that attack will deal bonus damage.<br/><br/>mana:50<br/>cooldown:15<br/>Duration:15/20/25/30<br/>Bonus Damage:30/60/90/120<br/>Fade Time:1/0.75/0.5/0.25 Seconds", "skills/ShadowWalk.jpg",
+"Track", "Tracks an enemy hero and grants a gain in movement speed to allies near the hunted. If the target dies, Bounty Hunter and nearby heroes collect a bounty in gold.<br/><br/>mana:70/60/50<br/>cooldown:10/7/5<br/>Radius:900/1050/1200<br/>Duration:30<br/>Bonus Gold for Self:150/200/250<br/>Bonus Gold for Allies:50/100/150<br/>Armor Reduction:1/3/5", "skills/Track.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Intelligence","Ranged","Enigma","Dire","Initator/Pusher/Disabler","heroes/Enigma.jpg",
+"Malefice", "Focuses Enigma's hatred on a target, causing it to take damage and become repeatedly stunned for multiple instances. An instance strikes every 2 seconds.<br/><br/>mana:110/130/150/160<br/>cooldown<br/>Range:600<br/>Duration:2/4/4/6<br/>Stun and Damage Interval:2<br/>Damage:30/45/60/80<br/>Stun Duration:1", "skills/Malefice.jpg",
+"Demonic Conversion", "Splits a creep into three malevolent aspects of itself, all under Enigma's control. Repeated successful attacks cause them to multiply again; when this happens, the eidolons have their health restored.<br/><br/>mana:170<br/>cooldown:35<br/>Range:700<br/>Duration:35<br/>Units Summoned:3 Lesser Eidolons/3 Eidolons/3 Greater Eidolons/3 Dire Eidolons", "skills/DemonicConversion.jpg",
+"Midnight Pulse", "Steeps an area in black magic, damaging enemy units based on their max HP.<br/><br/>mana:95/110/125/140<br/>cooldown:25<br/>Range:500<br/>Radius:400<br/>Duration:8<br/>Max Life Lost Per Second:3%/4%/5%/6%", "skills/MidnightPulse.jpg"
+"Black Hole", "CHANNELED - Summons a vortex that sucks in nearby enemy units. Enemies affected by Black Hole cannot move, attack, or cast spells. The closer units get to the center, the more damage is dealt.<br/><br/>mana:200/300/400<br/>cooldown:200/190/180<br/>Range:250<br/>Radius:375(pull and silence)/500(far)/150(close)<br/>Duration:4<br/>Close Damage Per Second:60/100/140<br/>Far Damage Per Second:30/50/70", "skills/BlackHole.jpg");
+
+INSERT INTO tbl_heroes (type, range, name, team, role, img,
+          skillOneName, skillOneDescrip, skillOneImage,
+          skillTwoName, skillTwoDescrip, skillTwoImage,
+          skillThreeName, skillThreeDescrip, skillThreeImage,
+          skillFourName, skillFourDescrip, skillFourImage)
+          VALUES ("Intelligence","Ranged","Invoker","Dire","Carry/Pusher/Initiator","heroes/Invoker.jpg",
+"Quas", "Allows manipulation of ice elements and grants a permanent strength bonus. Each Quas instance provides increased health regeneration.<br/><br/>Active: Instances of Quas added:1 (up to 3 maximum)<br/>Passive:HP Regeneration Per Instance of Quas: 1/2/3/4/5/6/7<br/>Passive:Strength Bonus: 2/4/6/8/10/12/14", "skills/Quas.jpg",
+"Wex", "Allows manipulation of storm elements and grants a permanent agility bonus. Each Wex instance provides increased attack speed and movement speed.<br/><br/>Active: Instances of Wex added: 1 (up to 3 maximum)<br/>Passive:Attack Speed Bonus Per Instance of Wex: 2%/4%/6%/8%/10%/12%/14%<br/>Passive:Bonus movement speed Per Instance of Wex: 1%/2%/3%/4%/5%/6%/7%<br/>Passive:Agility Bonus: 2/4/6/8/10/12/14", "skills/Wex.jpg",
+"Exort", "Allows manipulation of fire elements and grants a permanent intelligence bonus. Each Exort instance provides increased attack damage.<br/><br/>Active: Instances of Exort added:1 (up to 3 maximum)<br/>Passive:Bonus Damage Per Instance of Exort: 3/6/9/12/15/18/21<br/>Passive:Intelligence Bonus: 2/4/6/8/10/12/14", "skills/Exort.jpg",
+"Invoke", "Combines the properties of the elements currently being manipulated, creating a new spell at the Invoker's disposal. The invoked spell is determined by the combination of Quas, Wex and Exort.<br/>SCEPTER UPGRADEABLE:Decreases cooldown and removes mana cost.<br/><br/>mana:20/40/60/80 (0/0/0/0*)<br/>cooldown:22/17/12/5 (16/8/4/2*)<br/>Number of Invoked Spells Allowed:1/2/2/2", "skills/Invoke.jpg");
