@@ -1,61 +1,81 @@
 import sys
 from BeautifulSoup import BeautifulSoup
 import urllib2
-import re
+from heroGrabber import textToDicts
 
-def nameClean(name):
-  name = name.title()
-  name = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', name)
-  return name
-
-def textToDicts(input):
-  input = "\n "+input
-  res = {}
-  # get all the semi dictionary things
-  arrays = []
-  arrayItem = ""
-  i = 0
-  newItem = False
-  while i < len(input):
-    if i < (len(input) - 1):
-      if input[i] == "{" and input[i+1] == "{":
-        i = i + 2
-        newItem = True
-        arrayItem = ""
-
-    if newItem:
-      if input[i] == "}" and input[i+1] == "}":
-        arrays.append(arrayItem)
-        i = i + 2
-        newItem = False
-      else:
-        arrayItem = arrayItem + input[i]
-    i = i + 1
-
-  for item in arrays:
-    resDict = {}
-    attributes = item.split('|')
-    for i in attributes:
-      values = i.split("=")
-      
-      if len(values) == 2:
-        print nameClean(values[0])
-        resDict[nameClean(values[0])] = values[1].strip() # used to remove newlines
-    res[nameClean(attributes[0])] = resDict
-  return res
-
-# creates a dict of items along with their prices
-def pricesDict(url ="http://www.dota2wiki.com/index.php?title=Template:Item_cost&action=edit"):
-  request = urllib2.Request(url)
+def grabItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
+  print "Grabbing items"
+  items = []
+  request = urllib2.Request(itemsPage)
   raw = urllib2.urlopen(request)
   soup = BeautifulSoup(raw)
-  text = soup.find("textarea", {'id':'wpTextbox1'}).find(text=True)
-  text = re.sub("\s+", " ", text)
-  # ehhh, hacky. removes the weird fuckup that comes in the title
-  text = text[0:2]+"Prices"+text[26:-300]+"}}"
-  text = text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&quot;', '"').replace('&#39;', "'")
-  return textToDicts(text)
+  allTables = soup.findAll('table', {'width':'100%'})
+  for table in allTables:
+    allItems = table.findAll('td')
+    for item in allItems:
+      items.append(item.findAll('a'))
 
+  itemLinks = []
+  for item in items:
+    url = "http://www.dota2wiki.com/index.php?title="+ item[0]['href'].split('/wiki/')[1]+"&action=edit" 
+    # get the price
+    price = item[0]['title'].split(' (')[1].rstrip(')')
+    itemName = item[1]['title'];
+    #itemName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', itemName)
+    itemLinks.append({'url':url, 'name':itemName, 'price':price})
 
-print pricesDict()["Prices"]
+  # scrape item from edit page
+  for item in itemLinks:
+    pageUrl = item['url']
+    request = urllib2.Request(pageUrl);
+    raw = urllib2.urlopen(request);
+    soup = BeautifulSoup(raw);
+    text = soup.find("textarea", {'id':'wpTextbox1'}).find(text=True)
+    itemDict = textToDicts(text)
+    if "Item infobox" in itemDict:
+      itemDict = itemDict['Item infobox']
+    else:
+      continue
+    
+    print pageUrl, itemDict
+    finalItem = {'name':item['name'], 'price':item['price'], 'description':itemDict['bonus'] if 'bonus' in itemDict else "", 'shop':itemDict['shop']}
+
+    # its made up of multiple components, generate the list
+    recipeList = []
+    i = 1
+    while i < 8:
+      
+      if 'recipe'+str(i) in itemDict:
+        print "appending ", itemDict['recipe'+str(i)]
+        recipeList.append(itemDict['recipe'+str(i)])
+      i = i + 1
+    if len(recipeList) > 0:
+      finalItem['recipes'] = recipeList
+    itemToSql(finalItem)
+
+def quoteWrapper(string):
+  return "\""+string+"\""
+  
+def itemToSql(item):
+  itemsSql = open("dbPopulateItems.sql", "a")
+  recipesSql = open("dbPopulateRecipes.sql", "a")
+  
+  def fn(name):
+    return filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ' and a !="{" and a != "}", name)
+
+  # generate items db
+  sql = """INSERT INTO tbl_items (name, img, description, shop, price) 
+  VALUES("""+quoteWrapper(item['name'])+","+ quoteWrapper(fn("items/"+item['name']+'.jpg'))+","+quoteWrapper(item['description'])+"," +quoteWrapper(item['shop'])+","+ quoteWrapper(item['price'])+");\n\n"
+  itemsSql.write(sql)
+  # generate recipe list
+  if 'recipes' in item:
+    for recipe in item['recipes']:
+      sql = """INSERT INTO tbl_recipes (item, componentItem) 
+      VALUES ("""+quoteWrapper(item['name'])+", "+quoteWrapper(recipe)+");\n\n"""
+      recipesSql.write(sql)
+  
+  itemsSql.close()
+  recipesSql.close()
+
+grabItems()
 

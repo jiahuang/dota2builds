@@ -4,12 +4,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import com.dota2.builds.custom.ScrollableGridView;
-import com.dota2.builds.custom.TextViewHighlight;
-import com.dota2.builds.custom.TextViewOutline;
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Item;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -22,94 +16,56 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class ItemActivity  extends Activity{
-	ScrollableGridView grid_buildsInto;
-	ScrollableGridView grid_buildsFrom;
-	
+import com.dota2.builds.datastore.BuilderDbAdapter;
+import com.dota2.builds.lists.Item;
+
+public class AllItemsActivity extends Activity{
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    	requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.item);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
-        ScrollView sv = (ScrollView) findViewById(R.id.scrollView);
+    	super.onCreate(savedInstanceState);
+    	setContentView(R.layout.item_grid);
         
+    	GridView gridView = (GridView) findViewById(R.id.itemGrid);
+    	ArrayList<Item> items = new ArrayList<Item>();
         
-        Bundle extras = getIntent().getExtras();
-        String item = (String) extras.get("name");
-        ((TextView)findViewById(R.id.itemName)).setText(item);
-        ((TextView)findViewById(R.id.shop)).setText((String) extras.get("shop"));
-        String description = (String) extras.get("description");
-        TextViewHighlight tvo_descrip = (TextViewHighlight)findViewById(R.id.description);
-        tvo_descrip.setTextHighlight(description);
-        ((TextView)findViewById(R.id.price)).setText((String) extras.get("price"));
-        TextView tv_buildsInto = (TextView) findViewById(R.id.intoText);
-        TextView tv_buildsFrom = (TextView) findViewById(R.id.fromText);
-        grid_buildsInto = (ScrollableGridView) findViewById(R.id.buildsInto);
-        grid_buildsFrom = (ScrollableGridView) findViewById(R.id.buildsFrom);
-        
-        final String img = (String) extras.get("img");
-        ImageView iv_itemImg = (ImageView) findViewById(R.id.image);
-        try {
-			iv_itemImg.setImageBitmap(getBitmapFromAsset(img));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        
-        ArrayList<Item> components = new ArrayList<Item>();
-        ArrayList<Item> buildsInto = new ArrayList<Item>();
-        Boolean[] boolComponents = {true, false};// find components first, then items that it builds into
-        
-        // find stuff it builds into and stuff that builds from it
         BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);
         try {
-	 		myDbHelper.openDataBase();
-	 		for (Boolean comp: boolComponents){
-	 			Cursor cursor = myDbHelper.findRecipe(item, comp);
-	 			if (cursor.moveToFirst()){
-		 			do{
-		 				Item i = new Item(cursor.getString(cursor.getColumnIndex("img")), 
+        	myDbHelper.createDataBase();
+	 	 	} catch (IOException ioe) {
+	 	 		throw new Error("Unable to create database");
+	 	 	}
+	 	 	try {
+	 	 		myDbHelper.openDataBase();
+	 	 		// get all the heroes
+	 	 		Cursor cursor = myDbHelper.findAllItems();
+	 	 		
+	 	 		if (cursor.moveToFirst()){
+	 	 		   do{
+	 	 			 Item i = new Item(cursor.getString(cursor.getColumnIndex("img")), 
 				 				cursor.getString(cursor.getColumnIndex("name")),
 				 				cursor.getString(cursor.getColumnIndex("description")),
 				 				cursor.getString(cursor.getColumnIndex("shop")),
 				 				new Integer(cursor.getString(cursor.getColumnIndex("price"))));
-			 			if (comp)
-			 				components.add(i);
-			 			else
-			 				buildsInto.add(i);
-		 	 		}while(cursor.moveToNext());
-		 		}
-		 		 
-		 		cursor.close();
- 			}
-	 	}catch(SQLException sqle){
-	 		throw sqle;
-	 	}
-        myDbHelper.close();
-        
-        if (components.size() > 0){
-        	grid_buildsFrom.setAdapter(new ItemGridAdapter(this, components));
-        	setItemClickListener(grid_buildsFrom, components);
-        	tv_buildsFrom.setText("Requires these items");
-        }
-        if (buildsInto.size() > 0){
-        	grid_buildsInto.setAdapter(new ItemGridAdapter(this, buildsInto));
-        	setItemClickListener(grid_buildsInto, buildsInto);
-        	tv_buildsInto.setText("Can be built into");
-        }
-        sv.fullScroll(ScrollView.FOCUS_UP);
+	 	 		      items.add(i);
+	 	 		   }while(cursor.moveToNext());
+	 	 		}
+	 	 		cursor.close();
+	 	 		
+	 	 	}catch(SQLException sqle){
+	 	 		throw sqle;
+	 	 }
+       myDbHelper.close();
+       gridView.setAdapter(new ItemGridAdapter(this, items));
+       setItemClickListener(gridView, items);
     }
-    
+	
     public void setItemClickListener(GridView gridView, final ArrayList<Item> fItems){
 	    gridView.setOnItemClickListener(new GridView.OnItemClickListener() {
 	    	@Override

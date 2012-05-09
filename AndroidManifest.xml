@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".HeroActivity" android:theme="@style/CustomTheme" />
         <activity android:name=".HeroGridActivity" android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".AllItemsActivity" android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name=".HeroSkillsActivity" android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name=".ItemBuildActivity" android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name=".SkillBuildActivity" android:theme="@android:style/Theme.NoTitleBar" />

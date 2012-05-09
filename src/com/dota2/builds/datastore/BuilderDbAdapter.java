@@ -195,7 +195,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
 		if (findComponents) // find the recipes that this item needs
 			sql = "SELECT * FROM tbl_items, tbl_recipes WHERE tbl_recipes.item = \""+item+"\" AND tbl_recipes.componentItem = tbl_items.name;";
 		else // find the things that this item builds into
-			sql = "SELECT * FROM tbl_items, tbl_recipes WHERE tbl_recipes.componentItem = \""+item+"\" AND tbl_recipes.item = tbl_items.name;";
+			sql = "SELECT DISTINCT name, img, description, shop, price FROM tbl_items, tbl_recipes WHERE tbl_recipes.componentItem = \""+item+"\" AND tbl_recipes.item = tbl_items.name;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
@@ -208,6 +208,12 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
 	
 	public Cursor findItem(String itemName){
 		String sql = "SELECT * FROM tbl_items WHERE name= \""+itemName+"\";";
+		Cursor cursor = myDataBase.rawQuery(sql, null);
+		return cursor;
+	}
+	
+	public Cursor findAllItems(){
+		String sql = "SELECT * FROM tbl_items ORDER BY name;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}

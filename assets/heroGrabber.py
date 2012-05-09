@@ -54,13 +54,16 @@ def textToDicts(input):
         arrayItem = arrayItem + input[i]
     i = i + 1
 
+  def filterText(name):
+    return filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ' and a !="{" and a != "}", name)
+      
   for item in arrays:
     resDict = {}
     attributes = item.split('|')
     for i in attributes:
       values = i.split("=")
       if len(values) == 2:
-        resDict[values[0].strip()] = values[1].strip() # used to remove newlines
+        resDict[filterText(values[0].strip())] = values[1].strip() # used to remove newlines
     if attributes[0].strip() in res:
       i = 2
       while attributes[0].strip()+str(i) in res:
@@ -136,4 +139,4 @@ def dictToSQL(heroDict, heroName):
   f.close()
   
         
-getHeroes()
+#getHeroes()

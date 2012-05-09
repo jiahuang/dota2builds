@@ -29,18 +29,23 @@ public class Dota2buildsActivity extends TabActivity {
         spec = mTabHost.newTabSpec("Str").setIndicator(Utils.createTabView(mTabHost.getContext(), "Str"))
                       .setContent(intent);
         mTabHost.addTab(spec);
+        
         intent = new Intent().setClass(this, HeroGridActivity.class);
         intent.putExtra("type", "Intelligence");
         spec = mTabHost.newTabSpec("Int").setIndicator(Utils.createTabView(mTabHost.getContext(), "Int"))
                       .setContent(intent);
         mTabHost.addTab(spec);
+        
         intent = new Intent().setClass(this, HeroGridActivity.class);
         intent.putExtra("type", "Agility");
         spec = mTabHost.newTabSpec("Agi").setIndicator(Utils.createTabView(mTabHost.getContext(), "Agi"))
                 .setContent(intent);
         mTabHost.addTab(spec);
   
-        
+        intent = new Intent().setClass(this, AllItemsActivity.class);
+        spec = mTabHost.newTabSpec("Items").setIndicator(Utils.createTabView(mTabHost.getContext(), "Items"))
+                .setContent(intent);
+        mTabHost.addTab(spec);
     }
     
 }

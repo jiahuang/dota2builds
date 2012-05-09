@@ -70,6 +70,7 @@ public class SkillBuildsListActivity extends Activity{
 	 		if (cursor.moveToFirst()){
 	 		   do{
 	 			  int levelUp = new Integer(cursor.getString(cursor.getColumnIndex("levelUp"))) - 1; // -1 since we start at index 0
+	 			  System.out.println(levelUp);
 	 			  skillLevels[levelUp] = skillLevels[levelUp] + 1; 
 	 			  boolean[] levelUpList = new boolean[5];
 	 			  levelUpList[levelUp] = true;
@@ -94,7 +95,7 @@ public class SkillBuildsListActivity extends Activity{
     	private Context c;
     	private String[] skillImages;
     	
-    	public BuildsAdapter(Context context, ArrayList<SkillBuild> builds, String[] skillImages) {
+    	public BuildsAdapter(Context context, final ArrayList<SkillBuild> builds, String[] skillImages) {
 			this.builds = builds;
 			this.c = context;
 			this.skillImages = skillImages;
@@ -113,59 +114,60 @@ public class SkillBuildsListActivity extends Activity{
             return id;
         }
 
-
 		public View getView(int position, View convertView, ViewGroup parent)
 	    {
 	        LinearLayout rowLayout;
 	        SkillBuild build = builds.get(position);
+	        System.out.println("Pos: "+position+" "+build.level);
 	        
 	        if (convertView == null)
 	        {
 	            rowLayout = (LinearLayout)LayoutInflater.from(this.c).inflate
 	                      (R.layout.skill_builds_row, parent, false);
-	            TextView tv_level = (TextView)rowLayout.findViewById(R.id.level);
-	            TextViewOutline[] textViews = {(TextViewOutline)rowLayout.findViewById(R.id.skill1),
-	            		(TextViewOutline)rowLayout.findViewById(R.id.skill2), 
-	            		(TextViewOutline)rowLayout.findViewById(R.id.skill3), 
-	            		(TextViewOutline)rowLayout.findViewById(R.id.skill4), 
-	            		(TextViewOutline)rowLayout.findViewById(R.id.stats)};
-	            LinearLayout[] layouts = {(LinearLayout) rowLayout.findViewById(R.id.layout1),
-	            		(LinearLayout) rowLayout.findViewById(R.id.layout2),
-	            		(LinearLayout) rowLayout.findViewById(R.id.layout3),
-	            		(LinearLayout) rowLayout.findViewById(R.id.layout4),
-	            		(LinearLayout) rowLayout.findViewById(R.id.layout5)};
-	           for (int i =0; i<5; i++){
-	        	   if (build.skillLevelUp[i]){
-	        		   int px = Utils.dpToPixels(getBaseContext(), 3);
-	        		   layouts[i].setPadding(px, px, px, px);
-	        		   layouts[i].setBackgroundResource(R.color.lgray);
-	        	   }
-	        	   else{
-	        		   layouts[i].setPadding(0, 0, 0, 0);
-	        		   layouts[i].setBackgroundResource(0);
-	        	   }
-	           }
-	           tv_level.setText(((Integer)build.level).toString());
-	          
-	           // set bg images
-	           try{
-	        	   for (int i =0; i<5;i++){
-	        		   textViews[i].setText(((Integer)build.skillLevels[i]).toString(), build.skillLevelUp[i]);
-	        		   Drawable d = new BitmapDrawable(getBitmapFromAsset(skillImages[i]));
-	        		   if (build.skillLevelUp[i] == false){
-	        			   // set alpha to 50%
-	        			   d.setAlpha(127);
-	        		   }
-	        		   textViews[i].setBackgroundDrawable(d);
-	        		}
-	           }
-	           catch(IOException e){
-	        	   e.printStackTrace();
-	           }
-	           
 	        } else {
 	            rowLayout = (LinearLayout)convertView;
 	        }
+	        
+	        TextView tv_level = (TextView)rowLayout.findViewById(R.id.level);
+            TextViewOutline[] textViews = {(TextViewOutline)rowLayout.findViewById(R.id.skill1),
+            		(TextViewOutline)rowLayout.findViewById(R.id.skill2), 
+            		(TextViewOutline)rowLayout.findViewById(R.id.skill3), 
+            		(TextViewOutline)rowLayout.findViewById(R.id.skill4), 
+            		(TextViewOutline)rowLayout.findViewById(R.id.stats)};
+            LinearLayout[] layouts = {(LinearLayout) rowLayout.findViewById(R.id.layout1),
+            		(LinearLayout) rowLayout.findViewById(R.id.layout2),
+            		(LinearLayout) rowLayout.findViewById(R.id.layout3),
+            		(LinearLayout) rowLayout.findViewById(R.id.layout4),
+            		(LinearLayout) rowLayout.findViewById(R.id.layout5)};
+           for (int i =0; i<5; i++){
+        	   if (build.skillLevelUp[i]){
+        		   int px = Utils.dpToPixels(getBaseContext(), 3);
+        		   layouts[i].setPadding(px, px, px, px);
+        		   layouts[i].setBackgroundResource(R.color.lgray);
+        	   }
+        	   else{
+        		   layouts[i].setPadding(0, 0, 0, 0);
+        		   layouts[i].setBackgroundResource(0);
+        	   }
+           }
+           tv_level.setText(((Integer)build.level).toString());
+          
+           // set bg images
+           try{
+        	   for (int i =0; i<5;i++){
+        		   textViews[i].setText(((Integer)build.skillLevels[i]).toString(), build.skillLevelUp[i]);
+        		   Drawable d = new BitmapDrawable(getBitmapFromAsset(skillImages[i]));
+        		   if (build.skillLevelUp[i] == false){
+        			   // set alpha to 50%
+        			   d.setAlpha(127);
+        		   }
+        		   textViews[i].setBackgroundDrawable(d);
+        		}
+           }
+           catch(IOException e){
+        	   e.printStackTrace();
+           }
+           
 	        return rowLayout;
 	    }
 
