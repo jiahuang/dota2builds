@@ -10,13 +10,17 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
 import com.dota2.builds.utils.Utils;
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 
 public class HeroActivity extends TabActivity {
 	TabHost mTabHost;
-	
+	AdView adView;
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -74,9 +78,28 @@ public class HeroActivity extends TabActivity {
         spec = mTabHost.newTabSpec("Skills").setIndicator(Utils.createTabView(mTabHost.getContext(), "Skills"))
                       .setContent(intent);
         mTabHost.addTab(spec);
-
+        
+        // Create the adView
+        if (Utils.ads){
+	        adView = new AdView(this, AdSize.BANNER, Utils.pubId);
+	        RelativeLayout layout = (RelativeLayout)findViewById(R.id.adLayout);
+	        layout.addView(adView);
+	        AdRequest adRequest = new AdRequest();
+	        if (Utils.testAds){
+	        	adRequest.addTestDevice("1357AC02D9337E1D4A8C52376C1E769A");   
+	        }
+	        adView.loadAd(adRequest);
+        }
+           
     }
 
+    @Override
+    public void onDestroy() {
+      if (adView != null) {
+        adView.destroy();
+      }
+      super.onDestroy();
+    }
     
     
     private Bitmap getBitmapFromAsset(String strName) throws IOException

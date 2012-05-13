@@ -9,6 +9,10 @@ import com.dota2.builds.custom.TextViewHighlight;
 import com.dota2.builds.custom.TextViewOutline;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.lists.Item;
+import com.dota2.builds.utils.Utils;
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,12 +31,14 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class ItemActivity  extends Activity{
 	ScrollableGridView grid_buildsInto;
 	ScrollableGridView grid_buildsFrom;
+	AdView adView;
 	
 	/** Called when the activity is first created. */
     @Override
@@ -107,7 +113,26 @@ public class ItemActivity  extends Activity{
         	setItemClickListener(grid_buildsInto, buildsInto);
         	tv_buildsInto.setText("Can be built into");
         }
-        sv.fullScroll(ScrollView.FOCUS_UP);
+        //sv.fullScroll(ScrollView.FOCUS_UP);
+        
+        if (Utils.ads){
+	        adView = new AdView(this, AdSize.BANNER, Utils.pubId);
+	        RelativeLayout layout = (RelativeLayout)findViewById(R.id.adLayout);
+	        layout.addView(adView);
+	        AdRequest adRequest = new AdRequest();
+	        if (Utils.testAds){
+	        	adRequest.addTestDevice("1357AC02D9337E1D4A8C52376C1E769A");   
+	        }
+	        adView.loadAd(adRequest);
+        }
+    }
+    
+    @Override
+    public void onDestroy() {
+      if (adView != null) {
+        adView.destroy();
+      }
+      super.onDestroy();
     }
     
     public void setItemClickListener(GridView gridView, final ArrayList<Item> fItems){

@@ -9,11 +9,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
+   
 	<LinearLayout
 			android:orientation="horizontal"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/itemLayout"  
+			android:id="@+id/itemLayout" 
 		    >
 		    <ImageView
 			  android:id="@+id/image"
@@ -54,8 +55,16 @@
 			  android:layout_height="wrap_content"/>
 			</LinearLayout>
 	</LinearLayout>
+	<RelativeLayout
+		        android:orientation="vertical"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content"
+		        android:id="@+id/adLayout"
+		        android:layout_below="@+id/itemLayout"
+		        >
+	</RelativeLayout>
 	<com.dota2.builds.custom.TextViewHighlight
-	    android:layout_below="@+id/itemLayout"
+	    android:layout_below="@+id/adLayout"
 		android:id="@+id/description"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"

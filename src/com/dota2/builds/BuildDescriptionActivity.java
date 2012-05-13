@@ -3,15 +3,21 @@ package com.dota2.builds;
 import com.dota2.builds.custom.TextViewHighlight;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.TextView;
 
 public class BuildDescriptionActivity extends Activity{
 	/** Called when the activity is first created. */
+	String whereUrl;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,15 +25,13 @@ public class BuildDescriptionActivity extends Activity{
         Bundle extras = getIntent().getExtras();
         String buildName = (String) extras.get("buildName");
         String whereFrom = (String) extras.get("whereFrom");
-        String whereUrl = (String) extras.get("whereUrl");
+        whereUrl = (String) extras.get("whereUrl");
         
         ((TextView)findViewById(R.id.buildName)).setText(buildName);
         if (whereUrl != null && whereUrl.length()>0
         		&& whereFrom != null && whereFrom.length() > 0){
-        	TextView tv_by = (TextView)findViewById(R.id.by);
-        	tv_by.setLinksClickable(true);
-        	tv_by.setMovementMethod(LinkMovementMethod.getInstance());
-        	tv_by.setText(Html.fromHtml("(<a href='"+whereUrl+"'>"+whereFrom+"</a>)"));
+        	((TextView)findViewById(R.id.summary)).setText("Summarized from ");
+        	((TextView)findViewById(R.id.by)).setText(Html.fromHtml("<u>"+whereFrom+"</u>"));
         }
         
         BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);
@@ -51,4 +55,11 @@ public class BuildDescriptionActivity extends Activity{
        myDbHelper.close();
        
     }
+    
+    public void urlClick(View view){
+    	Intent intent = new Intent().setClass(this, WebViewActivity.class);
+        intent.putExtra("url", whereUrl);
+        startActivity(intent);
+    }
+    
 }

@@ -110,20 +110,22 @@ public class BuildsListActivity extends Activity {
 
 	        if (convertView == null)
 	        {
-	            rowLayout = (LinearLayout)LayoutInflater.from(this.c).inflate
+	           rowLayout = (LinearLayout)LayoutInflater.from(this.c).inflate
 	                      (R.layout.builds_row, parent, false);
-	           tv = (TextView)rowLayout.findViewById(R.id.name);
-	           tv.setText(build.name);
-	           
-	           if (build.whereUrl!= null && build.whereUrl.length()>0 
-	        		   && build.whereFrom != null && build.whereFrom.length() > 0){
-	           	TextView tv_by = (TextView)rowLayout.findViewById(R.id.by);
-	           	tv_by.setText(Html.fromHtml("(<a href='"+build.whereUrl+"'>"+build.whereFrom+"</a>)"));
-	           }
-
 	        } else {
 	            rowLayout = (LinearLayout)convertView;
 	        }
+	        tv = (TextView)rowLayout.findViewById(R.id.name);
+           tv.setText(build.name);
+           
+           TextView tv_by = (TextView)rowLayout.findViewById(R.id.by);
+           if (build.whereUrl!= null && build.whereUrl.length()>0 
+        		   && build.whereFrom != null && build.whereFrom.length() > 0){
+           	tv_by.setText(Html.fromHtml("(<a href='"+build.whereUrl+"'>"+build.whereFrom+"</a>)"));
+           }
+           else{
+        	   tv_by.setText("");
+           }
 	        return rowLayout;
 	    }
 

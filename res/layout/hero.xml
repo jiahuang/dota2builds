@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/bg">
-    
+    android:background="@color/bg"
+    android:id="@+id/layout">    
 	<LinearLayout
 			android:orientation="horizontal"
 			android:layout_width="fill_parent"
@@ -45,6 +45,7 @@
 			  android:layout_height="wrap_content"/>
 			</LinearLayout>
 	</LinearLayout>
+	
 	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
 		android:id="@android:id/tabhost" android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
@@ -53,6 +54,12 @@
 			android:layout_width="fill_parent" android:layout_height="fill_parent">
 			<TabWidget android:id="@android:id/tabs"
 				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<RelativeLayout
+		        android:orientation="vertical"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content"
+		        android:id="@+id/adLayout">
+			 </RelativeLayout>
 			<FrameLayout android:id="@android:id/tabcontent"
 				android:layout_width="fill_parent" android:layout_height="fill_parent">
 			</FrameLayout>

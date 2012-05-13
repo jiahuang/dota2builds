@@ -1,14 +1,19 @@
 package com.dota2.builds;
 
 import com.dota2.builds.utils.Utils;
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
+import android.widget.RelativeLayout;
 import android.widget.TabHost;
 
 public class Dota2buildsActivity extends TabActivity {
+	AdView adView;
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,6 +51,24 @@ public class Dota2buildsActivity extends TabActivity {
         spec = mTabHost.newTabSpec("Items").setIndicator(Utils.createTabView(mTabHost.getContext(), "Items"))
                 .setContent(intent);
         mTabHost.addTab(spec);
+        
+        if (Utils.ads){
+	        adView = new AdView(this, AdSize.BANNER, Utils.pubId);
+	        RelativeLayout layout = (RelativeLayout)findViewById(R.id.adLayout);
+	        layout.addView(adView);
+	        AdRequest adRequest = new AdRequest();
+	        if (Utils.testAds){
+	        	adRequest.addTestDevice("1357AC02D9337E1D4A8C52376C1E769A");   
+	        }
+	        adView.loadAd(adRequest);
+        }
     }
     
+    @Override
+    public void onDestroy() {
+      if (adView != null) {
+        adView.destroy();
+      }
+      super.onDestroy();
+    }
 }

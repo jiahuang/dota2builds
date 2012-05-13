@@ -6,13 +6,18 @@ import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.Window;
+import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
 import com.dota2.builds.utils.Utils;
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 
 //in depth view of skill build, item build, and description
 public class BuildsActivity extends TabActivity {
 	TabHost mTabHost;
+	AdView adView;
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -64,8 +69,23 @@ public class BuildsActivity extends TabActivity {
         mTabHost.addTab(spec);
         
         
-
-        
-        
+        if (Utils.ads){
+	        adView = new AdView(this, AdSize.BANNER, Utils.pubId);
+	        RelativeLayout layout = (RelativeLayout)findViewById(R.id.adLayout);
+	        layout.addView(adView);
+	        AdRequest adRequest = new AdRequest();
+	        if (Utils.testAds){
+	        	adRequest.addTestDevice("1357AC02D9337E1D4A8C52376C1E769A");   
+	        }
+	        adView.loadAd(adRequest);
+        }
+    }
+    
+    @Override
+    public void onDestroy() {
+      if (adView != null) {
+        adView.destroy();
+      }
+      super.onDestroy();
     }
 }

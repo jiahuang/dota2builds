@@ -67,6 +67,7 @@ public class HeroGridActivity extends Activity{
        myDbHelper.close();
        gridView.setAdapter(new GridAdapter(this, heroes));
        setHeroClickListener(gridView, heroes);
+       
     }
 	
     public void setHeroClickListener(GridView gridView, final ArrayList<Hero> fHeroes){
