@@ -7,7 +7,7 @@
         android:id="@+id/name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text=" Dota2Builds"
+        android:text=" Dota2 Guide"
         android:textSize="22sp"
         android:textStyle="bold" >
 	</TextView>
