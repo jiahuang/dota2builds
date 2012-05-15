@@ -1,201 +1,4 @@
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Alchemist. Just by looking closely at his hero model, you can see that it's 2 goblins, and with that you can assume what all goblins love. GOLD :) This guide is directed towards a farming, hard-carry alchemist, forget the support/trilane alchemist because his potential is best used with expensive items. Although his ultimate gives him an edge in Attack speed, movement speed, HP and regeneration, his stats are fairly low per level. You want to get a side lane, possibly solo with a chen or enchantress in the jungle just in case you need help, or mid if the hero is not a hard physical hitter (nevermore, viper, sniper, drow, etc) These heroes might not do as well against you in the first few levels, but with their agility gain they will surpass your acid spray because it is considered as physical damage, therefore armor contributes towards damage reductions.", "Given the skill build, you can see that you will be using acid spray level 2 whenever possible, whislt making sure you stack up your passive to get more consecutive gold advantages. Seeing how your passive works, this only counts towards creeps that will give you gold, meaning denying is not ur utmost priority here. If you can deny a creep, go ahead. But, if there is a choice between a deny and a kill, go for the enemy creep. Acid spray level 3 and 4 will do the job of hurting ur enemy quite a bit, while making sure you can kill them for sure given the Quell blade as well as the armor reduction from acid spray. You ONLY want to last hit creeps, this should be a given for any hero who will CS, but there are exceptions (lane equilibrium). Your first item of choice should be a RoH, the HP regen will help out a LOT with your ultimate. Once you've acquired this item, get your support/lane partner to stack the creeps for you. Once he triple stacks the creep camp, he can pull it to deny a full wave of exp from the enemy. While the creeps are fighting each other, you can use an acid spray  right by your tower and just take every last hit from the creeps. After that you can use acid spray on the neutral jungle creeps and that will give you at least 5-8 times your passive stack for gold. You really don't need to worry about finishing vanguard first, having phase boots will be better given your ultimate will take care of the HP part. You WANT to stay in lane sitting and farming/ricing for the majority part of the game, up until you get all of your core items.", "So, had enough Csing? Not until you've gotten radiance you haven't! I like to stick to lane until you finish this item, double, triple, etc stack all the creep camps and you've got yourself a situational/luxury item as well. The reason why you want to do this is simply because radiance will bring at least 3 creep camps to you, and you can lay down acid spray to deal with them very fast while not wasting time going to each individual camp. After doing this, ancient stacking is what your looking for. During this point in the game, always carry a town portal. You still want to farm whenever possible without stopping, having a hefty amount of gold for buybacks and help out you team when possible. Roshan is always very good because Alchemist is hard enough to kill already, and having buyback gold means they have to kill you 3X to stop you from pushing. A lot of older alchemist builds have boots of travel and phase boots for mobility, but the current meta-game isn't about turtling anymore hence 2700 gold is a waste of money. Vanguard will start losing it's effectiveness after 120 damage per instance so getting assault cuirass is usually the best choice for a luxury item.", "By now, you should have realized how hard it is to kill alchemist, given you did your role correctly. Farm for buyback, kill roshan, push and refresh. Getting a BoT here is okay if you want to do split pushes, but not needed. you will want to ignore carries because alchemist just needs to cause chaos and take a lot of damage. There isn't much to be said here other than that every time you die there should be a reason for it. There is a limit to how much you can buy back and also the timer gets very long at the end of the game, waiting on 60-80 seconds can turn the game around easily and will often result in a loss or win. Main thing to think about when playing alchemist is csing and map awareness. You want to TP in for a kill or two when possible, or TP out if you smell a gank. He's a relatively easy hero to use in the right hands, but can be a huge letdown if you don't farm many items.", "Carry", "doat2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=301", "Alchemist", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","3","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","1","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","1","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","1","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","2","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","2","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Carry");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry","Radiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry","Skull Basher");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry","Hood of Defiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry","Blade Mail");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Goblins win the game", "As a support you want to enable your carry to get as many creep kills as possible while harassing the opponent.  Use acid to chase the opponents from the creeps since it really hurts starting from level 3.  If you spot a good gank opportunity across the map, tp to that lane and help out.  That is your role as a support.  ", "When using unstable, try to start it in the trees or someplace where the opponent can't see you and then pop out at the last second so the target has less time to react to your appearance.  Grab either a mekanasm or a pipe based on your team needs.  This is a core.  Vanguard is also needed because Alch's armor sucks so the damage mitigation is crucial. In team battles you should acid, ult, and wreck havoc in the middle of the battle, using your items as appropriate.  You are supposed to be a tank soaking up all the damage so your carry doesn’t have to.  Remember that every hit you take is one less hit your carry doesn't take so try to attract attention.", "Late game, vanguard's effectiveness starts to fall off so you should think about replacing it with an assault cuirass for the nice team aura.  However, if for some reason you find yourself with a lot of gold, you can always consider radiance to morph into an aoe dps machine.", "Support", "", "", "Alchemist", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Support");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Ring of Basillius");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Mekansm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Assualt Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Radiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Blade Mail");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Scythe of Vyse");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("First, English is not my native language, so feel free to tell me if there is any errors. If you think that something in my guide is not right, leave a comment and I will see. Also, this guide isn’t made for someone that can’t support more than 4 active spells, duh.", "You should not go to the middle lane unless no one is a good pick to solo in your team. The thing is that it could be very difficult for you to stay in lane if you face a nuker like Lina or a spell spammer like Zeus. A good lane partner would be a disabler or a stunner to provide you an easy first blood. However, a good nuker can do the job.<br/>Kaldr have a good attack animation, so it will be easy for you to last hit and deny creeps. For the enemy heroes, harass them as much as possible, it is your role at this state of the game. You have to prevent them to do anything.<br/>Nevertheless, don’t spam your Cold Feet. Use it when they come to last hit a creep so they will have to get away, or they will take damage and be disabled. Don’t use any other spell unless you think you can have the kill. The key is communication. Have your partner know what you are intending to do.", "Alright, if you are in a 2v1 situation (you and your partner vs enemy), just kill him. In a 2v2, Ice Blast them both if you can and if you have enough mana to support it, do a Ice Vortex / Cold Feet combo on the hero that have the less HP. If your lane partner is good, you should do a double kill with the shatter. In a 1v2, do the same thing, but only if you think that you can kill one hero without tanking too much damage, or be dead. If you ever are in a 1v0 lane, you can use Ice Vortex to scout, but I recommend you to go kill some heroes when you reach level 6.<br/>Next, as Kaldr and having an ultimate with global range, like Silencer and Lord of Olympia, you must check the map as much as you can and kill those fleeing heroes. Oh, yeah, and as a teammate of the Ancient Apparition, you must say it when you see someone fleeing, even if you think it is maybe too late. A fountain kill is always fun (or very raging, depending on which side you are). <br/>When you are in a big battle (let’s say 5v5), Chilling Touch before the battle and cast Ice Blast. It is better to initiate than to kill with this spell, because of the HP freeze. They are now more vulnerable to your attacks. Spam Ice Vortex and Cold Feet on the glass cannon (or disabler) whenever you can.", "I will assume that you have your core now and you should have it mid game if you had a good early game. This means Eul's. Now have fun with your Ice Vortex / Eul's / Cold Feet combo. Stay with your team and support it as much as you can. Initiate all fights with Ice Blast. Always target the disablers and glass cannons first, and buff your team.", "Stone Cold", "playdota", "http://www.playdota.com/guides/stone-cold", "Ancient Apparation", "60");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Stone Cold");
@@ -294,442 +97,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Stone Cold","Mjollnir");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("I'm old and cold", "Take with you 2 Mantles of Intelligence (2 Gauntlets or 1 Gauntlet and 1 Mantle can do the job if you need more HP), 1 Circlet of Nobility, 1 Tango and 2 Clarities. You should not go to the middle lane unless no one is a good pick to solo in your team. The thing is that it could be very difficult for you to stay in lane if you face a nuker like Lina or a spell spammer like Zeus. A good lane partner would be a disabler or a stunner to provide you an easy first blood. However, a good nuker can do the job. Kaldr have a good attack animation, so it will be easy for you to last hit and deny creeps. For the enemy heroes, harass them as much as possible, it is your role at this state of the game. You have to prevent them to do anything. Nevertheless, don’t spam your Cold Feet. Use it when they come to last hit a creep so they will have to get away, or they will take damage and be disabled. Don’t use any other spell unless you think you can have the kill. The key is communication. Have your partner know what you are intending to do. Buy boots when you have 500 gold and try to not miss too much exp.", "Alright, if you are in a 2v1 situation (you and your partner vs enemy), just kill him. In a 2v2, Ice Blast them both if you can and if you have enough mana to support it, do a Ice Vortex / Cold Feet combo on the hero that have the less HP. If your lane partner is good, you should do a double kill with the shatter. In a 1v2, do the same thing, but only if you think that you can kill one hero without tanking too much damage, or be dead. If you ever are in a 1v0 lane, you can use Ice Vortex to scout, but I recommend you to go kill some heroes when you reach level 6. Next, as Kaldr and having an ultimate with global range, like Silencer and Lord of Olympia, you must check the map as much as you can and kill those fleeing heroes. Oh, yeah, and as a teammate of the Ancient Apparition, you must say it when you see someone fleeing, even if you think it is maybe too late. A fountain kill is always fun (or very raging, depending on which side you are). When you are in a big battle (let’s say 5v5), Chilling Touch before the battle and cast Ice Blast. It is better to initiate than to kill with this spell, because of the HP freeze. They are now more vulnerable to your attacks. Spam Ice Vortex and Cold Feet on the glass cannon (or disabler) whenever you can.For items, buy your Null Talismans / Bracers, then a Void Stone. Always have a TP for emergencies or to return to your base faster. Buy a Mystic Staff and an Ultimate Orb after that.", "I will assume that you have your core now and you should have it mid game if you had a good early game. This means Eul's. Now have fun with your Ice Vortex / Eul's / Cold Feet combo. Stay with your team and support it as much as you can. Initiate all fights with Ice Blast. Always target the disablers and glass cannons first, and buff your team.", "Stone Cold", "playdota", "http://www.playdota.com/guides/stone-cold", "Ancient Apparition", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","3","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Stone Cold");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Stone Cold");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Stone Cold","Mantle of Intelligence");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Stone Cold","Mantle of Intelligence");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Stone Cold","Circlet");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Stone Cold","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Stone Cold","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Stone Cold","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Stone Cold","Null Talisman");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Stone Cold","Null Talisman");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Stone Cold","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Stone Cold","Eul's Scepter of Divinity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Stone Cold","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Ghost Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Blade Mail");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Mjollnir");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Energy Booster");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Orchid Malevolence");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Stone Cold","Meknasm");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("There are two 'best' laning options for you here. Solo mid, or trilane. Since I play pubs, I choose solo mid, but I can explain the basics of trilaning.", " Only dual lane with someone who can activate cold feet with some magical damage. This should be done only if your allies are...less than adequate, because getting to level 6 is as important for AA as it is for say, Storm or Meepo.", "Once you reach level 6, you should be ganking non-stop. Use the runes if no one else needs them, and use your ultimate as well. The unique thing about AA is that he can literally be ganking two different lanes at once. Because Ice Blast's AoE gets so large if you shoot it off far, it can be timed right to hit distant enemies with ease, which usually allows those allies in that lane to kill that hero. While Ice Vortex and Cold Feet are such a good combo together you rarely even need Ice Blast to kill a hero if you have an ally to help you. Of course, if you don't trust to/know your allies aren't capable of killing the enemies this way, than you can always do it the old fashioned way, and use the three skills in conjunction for an almost sure kill. ", "Your focus in team fights comes down to using your skills and items effectively. Chilling Touch is a pre-fight cast, to increase your team's total damage by 1750 magic damage, which is simply amazing against agility carries who have a very high armor late game.Cold Feet should be casted on a key hero, usually in conjuction with Guinsoo, but sometimes they can be more effect if used separately, particularly if a hero is already disabled. Ice Vortex should be spammed all over the enemy team, to increase your teams magic damage and slow the enemy team down. The effectiveness of doing just this can win fights. And afterwards it can chase down heroes easily. Ice Blast should be used to hit as many heroes as possible and comboed with Ice Vortex.(which is easy to do with Vortex's 1500 cast range) As long as the carry is hit with the DoT, that is usually enough, because now they can't life steal, or be healed by the supports. Hitting low hp heroes with a Vortexed Ice Blast will usually devastate their hp pool by 50% or more when all is said and done, which means almost certain death with another AoE damage, or just a few attacks from a farmed carry. Book: Use this item before the fight to scout out any enemies/mines. Set them to attack and burn the mana of the most crucial hero after the battle starts. While this item gets a bad rap for hard microing, it's really very simple, just a one button manaburn and a right click. Manta: This item is special. It might seem like a lolwtf item, but it's really just fantastic. If the enemy team has silence, use this item to dispel it and increase your dps to respectable levels. The enemy won't know what hit them.", "The Coolest Hero in Dota (Dual Lane)", "playdota", "http://www.playdota.com/guides/the-coolest-hero-in-dota", "Ancient Apparition", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","The Coolest Hero in Dota (Dual Lane)");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Dual Lane)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Dual Lane)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Dual Lane)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Dual Lane)","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Dual Lane)","Sage's Mask");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Dual Lane)","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Dual Lane)","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Dual Lane)","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Dual Lane)","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Dual Lane)","Meknasm");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("There are two 'best' laning options for you here. Solo mid, or trilane. Since I play pubs, I choose solo mid, but I can explain the basics of trilaning.", "Basically, you will out creep your opponent, and harass him every chance you get. Due to your amazing attack animation, this is very easy to do, even for a bad last hitter such as myself. But really, the harassing is where AA shines, because the enemy can't fight back without risking a Cold Feet/Ice Vortex combo. The thing about this combo is that if the enemy hesitates to run for even a second, it will activate(unless they have a very fast hero.) This means that you can be super aggressive in the lane with very little worries. If the enemy fights back, you have a very high chance of getting a kill. If the enemy runs, you still did a lot of damage with Cold Feet and your attacks and you can then go scout runes, which you absolutely don't want your enemy to get.(if you get a nice one, you can go gank with it)The main goal of this phase however, is to get to level 6. ", "Once you reach level 6, you should be ganking non-stop. Use the runes if no one else needs them, and use your ultimate as well. The unique thing about AA is that he can literally be ganking two different lanes at once. Because Ice Blast's AoE gets so large if you shoot it off far, it can be timed right to hit distant enemies with ease, which usually allows those allies in that lane to kill that hero. While Ice Vortex and Cold Feet are such a good combo together you rarely even need Ice Blast to kill a hero if you have an ally to help you. Of course, if you don't trust to/know your allies aren't capable of killing the enemies this way, than you can always do it the old fashioned way, and use the three skills in conjunction for an almost sure kill. ", "Your focus in team fights comes down to using your skills and items effectively. Chilling Touch is a pre-fight cast, to increase your team's total damage by 1750 magic damage, which is simply amazing against agility carries who have a very high armor late game.Cold Feet should be casted on a key hero, usually in conjuction with Guinsoo, but sometimes they can be more effect if used separately, particularly if a hero is already disabled. Ice Vortex should be spammed all over the enemy team, to increase your teams magic damage and slow the enemy team down. The effectiveness of doing just this can win fights. And afterwards it can chase down heroes easily. Ice Blast should be used to hit as many heroes as possible and comboed with Ice Vortex.(which is easy to do with Vortex's 1500 cast range) As long as the carry is hit with the DoT, that is usually enough, because now they can't life steal, or be healed by the supports. Hitting low hp heroes with a Vortexed Ice Blast will usually devastate their hp pool by 50% or more when all is said and done, which means almost certain death with another AoE damage, or just a few attacks from a farmed carry. Book: Use this item before the fight to scout out any enemies/mines. Set them to attack and burn the mana of the most crucial hero after the battle starts. While this item gets a bad rap for hard microing, it's really very simple, just a one button manaburn and a right click. Manta: This item is special. It might seem like a lolwtf item, but it's really just fantastic. If the enemy team has silence, use this item to dispel it and increase your dps to respectable levels. The enemy won't know what hit them.", "The Coolest Hero in Dota (Solo Mid)", "playdota", "http://www.playdota.com/guides/the-coolest-hero-in-dota", "Ancient Apparition", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","The Coolest Hero in Dota (Solo Mid)");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Solo Mid)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Solo Mid)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Solo Mid)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Solo Mid)","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Solo Mid)","Sage's Mask");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Solo Mid)","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Solo Mid)","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Solo Mid)","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Solo Mid)","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Solo Mid)","Meknasm");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("There are two 'best' laning options for you here. Solo mid, or trilane. Since I play pubs, I choose solo mid, but I can explain the basics of trilaning.", "Cold Feet and Ice Vortex are both amazingly strong on low levels, and work amazingly well in a trilane. Lane with some stunners, and kills are all but guaranteed. Even long range anti-trilane heroes will have a hard time against Ice Vortex. It's so good, many people would call it imbalanced.", "Once you reach level 6, you should be ganking non-stop. Use the runes if no one else needs them, and use your ultimate as well. The unique thing about AA is that he can literally be ganking two different lanes at once. Because Ice Blast's AoE gets so large if you shoot it off far, it can be timed right to hit distant enemies with ease, which usually allows those allies in that lane to kill that hero. While Ice Vortex and Cold Feet are such a good combo together you rarely even need Ice Blast to kill a hero if you have an ally to help you. Of course, if you don't trust to/know your allies aren't capable of killing the enemies this way, than you can always do it the old fashioned way, and use the three skills in conjunction for an almost sure kill. ", "Your focus in team fights comes down to using your skills and items effectively. Chilling Touch is a pre-fight cast, to increase your team's total damage by 1750 magic damage, which is simply amazing against agility carries who have a very high armor late game.Cold Feet should be casted on a key hero, usually in conjuction with Guinsoo, but sometimes they can be more effect if used separately, particularly if a hero is already disabled. Ice Vortex should be spammed all over the enemy team, to increase your teams magic damage and slow the enemy team down. The effectiveness of doing just this can win fights. And afterwards it can chase down heroes easily. Ice Blast should be used to hit as many heroes as possible and comboed with Ice Vortex.(which is easy to do with Vortex's 1500 cast range) As long as the carry is hit with the DoT, that is usually enough, because now they can't life steal, or be healed by the supports. Hitting low hp heroes with a Vortexed Ice Blast will usually devastate their hp pool by 50% or more when all is said and done, which means almost certain death with another AoE damage, or just a few attacks from a farmed carry. Book: Use this item before the fight to scout out any enemies/mines. Set them to attack and burn the mana of the most crucial hero after the battle starts. While this item gets a bad rap for hard microing, it's really very simple, just a one button manaburn and a right click. Manta: This item is special. It might seem like a lolwtf item, but it's really just fantastic. If the enemy team has silence, use this item to dispel it and increase your dps to respectable levels. The enemy won't know what hit them.", "The Coolest Hero in Dota (Trilane)", "playdota", "http://www.playdota.com/guides/the-coolest-hero-in-dota", "Ancient Apparition", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","The Coolest Hero in Dota (Trilane)");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Trilane)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Trilane)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Trilane)","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Trilane)","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Coolest Hero in Dota (Trilane)","Sage's Mask");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Trilane)","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Trilane)","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Trilane)","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Coolest Hero in Dota (Trilane)","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Coolest Hero in Dota (Trilane)","Meknasm");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Anti-mage is probably one of the best carries in the game if farmed right. HE is highly item dependent and doesn’t have any team synergy and this is why you won’t see him in professional games. The low STR gain is also a minus, but his excellent Blink skill can get him out, or in, from sticky situations. If farmed correctly, anti-mage can become the bane of all INT heroes.", "Because of its early squishiness, it’s recommended to play defensively, last hitting and denying the creeps, at least until you get yourself the Vanguard. Getting an item like Vanguard isn’t cheap, so try to get some of the gold back after getting it hitting the woods a little. You can also farm in the enemy woods since your blink will make for a quick escape if you are revealed, especially if you are smart and blink from the edge of the forest into the water, leaving the enemy in no position to chase you. The main key in early-game is farming. You are a very item dependent hero and you need that gold.", "After getting your early items, it’s not time to start working for the most important item in your build: Manta Style. This item is great on Anti-mage because the 2 images created also burn mana, rendering an enemy hero useless in an instant and offering you the opportunity to nuke him with your ultimate for full damage. The main question when building Manta is what item should I get first? Yasha or Ultimate Orb? This choice is very situational and you should judge from the standpoint of your game so far. For a more defensive approach, go with Ultimate Orb. If you farmed well and your team pretty much controls the game so far, go for a DPS item like Yasha.<br/>Besides farming, going into team battles is very important. Try to focus the mana dependent heroes because those will go down very easily when you use your mana on them since they have a lot of mana pool, thus giving you great damage. If they have junglers, scout them out, harass them and don’t let them build their setup. Your Blink is your friend, but don’t forget to manage your mana. Realizing that you don’t have enough mana for a Blink might bring your death.", "Late game is usually when Anti-mage shines, if you farmed all your necessary items. The Skull Basher and the Butterfly grant you extreme DPS, chasing the fleeing heroes with your Blink. You will absolutely terrorize the INT heroes. Monkey King Bar is a great addition if your opponents have some sort of evasion. Also, if you want to make the chases a little easier, replace MKB with Radiance. Some might argue that this is not a very good Anti-mage item. It isn’t. But when your build is complete and you have decent survivability, this item might help in lots of situations.", "Anti-mage guide", "dota2-guide", "http://dota2-guide.org/dota-2-anti-mage-guide/", "Anti-Mage", "40");
@@ -1566,106 +933,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","The orange miniguide","Scythe of Vyse");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Oil, fire, and you can fly!", "As said in the 'Runes' chapter I prefer my Batrider solo mid. If the enemy mid laner is melee then you really shouldn't have any problems keeping him down, spam your Sticky Napalm on him, if he stands in it for 5 stacks and refuses to go back, go for the kill, if he does go back, use that time to get some lasthits. If the enemy mid laner is ranged, you might have some issues, try to keep your distance (most heroes will have bigger range than you) and spam your  Sticky Napalm on them, it has a very big casting range. Same rules apply as if he was a melee hero from there on. You can start your spamming even from level 1 preparing them for your Firefly once you reach level 2. Some of them might get a  Magic Stick to 'counter' you a bit, this might work if the lane is pushed towards their tower, however if they manage to push the creeps to your tower and they got a bunch of stacks on them, a Magic Stick just won't save them, the slow from  Sticky Napalm will be unbearable and you will have plenty of damage. If you manage to push the creeps a bit closer to his tower, don't hesitate to scout for runes and maybe get that early first blood with a haste rune. Focus lasthitting rather than denying,  Batrider needs at least a Boots of Speed to be effective in his ganks. At level 6 your laning phase officially ends and you are now a constant roamer, you should have a Boots of Speed and a Town Portal Scroll at least, waiting for you home. Focus on finishing your Power Treads first instead of getting early Bracers, speed is more important for a ganker.", "Once you got home, get whatever items you could afford + that Town Portal Scroll, tp on one of your allied lanes (use second tower if the lane is too pushed, so the enemy won't see you coming) that is a bit pushed and proceed to get your first kill (if you didn't get a first blood already). Start your Firefly and get in a good position (since you can fly over anything), then just simply cast Sticky Napalm on your targets until you reach your main target, cast flamming lasso on it a drag it back towards your teammates so you can finish the job faster. It's kind of impossible to avoid Batrider's ganks unless they towerhug, and even then, Batrider is a good tower diver. If your allies happen to have stuns and are capable of taking 1 enemy laner alone, maybe you can focus on the one they can't take out instead. Once that is done, you should be able to get your Belt of Strength and have another Town Portal Scroll waiting for you home. You could farm a bit while your ultimate is in cooldown, but once it's up or nearly up it's time to get moving. Focus item-dependant heroes in your ganks, especially carries. Try to help with the pushing after a gank if your lanemates are capable. Keep ganking until the laning phase is officially done for everyone. Don't ignore runes!! By the end of midgame you should have your Power Treads,2-3 Bracers, Magic Wand and a part of your next big item, or a bunch of gold.", "If your team is average and you did a good job in the early stages, there really shouldn't be any late-game to speak about. If things drag this long it's either because you have some kinda of hard carry in your team that just can't do much early-mid game or you are kinda on the loosing side. If you are however, doing fine and everything is under control, focus on finishing your first big item and working towards your second. If you opt for mobility with Blink Dagger and Force Staff you will end up as your team's initiator, pick your targets carefully. If you opt for tankage, then either wait for their initiator to initiate or yours, then just spam your Sticky Napalm and spread Firefly across the the battlefield, disable the enemy carry with Flaming Lasso and drop a Flamebreak from time to time. Don't forget to autoattack as well since your attacks also get amplified by Sticky Napalm If you win the teambattle then push if you are able to, otherwise look for a rune (maybe you get a lucky regeneration) or go heal. You should be a annoying hero to kill even for enemy carries due to your extreme tankiness and Firefly.", "The Bat Tank", "dotafire", "http://www.dotafire.com/dota-2/guide/jinzakk-death-from-above-222", "Batrider", "80");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","3","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","2","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","2","The Bat Tank");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","2","The Bat Tank");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Bat Tank","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Bat Tank","Tangoes");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Bat Tank","Tangoes");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Bat Tank","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Bat Tank","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Bat Tank","Circlet");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Bat Tank","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Bat Tank","Bracers");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Bat Tank","Bracers");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Bat Tank","Bracers");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Bat Tank","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Bat Tank","Blink Dagger");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Bat Tank","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Bat Tank","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Bat Tank","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Bat Tank","Hood of Defiance");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Pros:<br/> One of, if not THE best ganker at level 6. Has a team IAS aura. Has an ultimate that has 3 seconds of stun on a primary target AND 2 seconds of slow on anything between him and the target at LEVEL 1! Great ganker even with minimal items.<br/>Cons:<br/> Melee, therefore hard to farm. Being strength, mana pool and growth not the best. Not much use later in the game apart from providing IAS aura and 4 second stun.", "Get the Circlets, Tangoes and Ring of protection and head off to a lane. If possible, get a bot or top with an allied stunner/slower.<br/>Farm as usual and complete Ring of Basilius in lane. If you have a team courier, have it ferry over a Bottle ASAP. If not go back and get it once you are level 6. If your opponents are orbwalkers like Viper or Clinkz, don’t hesitate to use one or two Wild Axes on them. They will lose HP quickly, especially Clinkz.", "Start ganking the moment you reach level 6 and your Primal Roar has finished cooling down. Generally, gank the solo lanes first as they are probably the ones who need to farm a lot. However, if you have an ally with you, don’t hesitate to kill your lane opponents. Get Boots and Necronomicon at this stage for increased movespeed. Whenever Primal Roar is on cooldown, farm the lanes or jungle.<br/>Gank their carry most of the time, but don’t forget to gank the others as some supporters prove deadly when farmed. An example of this would be Earthshaker. Let him farm the classic Refresher and you’re a goner.<br/>Always try to push the creeps right up to an enemy tower before ganking. That way, when enemies see you’ve disappeared off the map, they may think you’re just waiting for the creeps to be pushed back. Make them pay for ignorance =D", "Team fights will begin at this stage of the game. Hopefully you have gotten all core items and ready for a huge battle. Try to stay in the middle of your team to provide your IAS aura to the whole team.<br/>The moment a teamfight starts, Primal Roar the enemy carry, spawn the Necronomicon summons and your pig and proceed the beat the living hell out of the carry, then pick off the other heroes. You are most likely to be to most effective chaser with you pig and Necrosummons. When the teamfight ends, TP to other lanes and push. Rinse and repeat til victory.", "Unleash the ganker within", "playdota", "http://www.playdota.com/guides/unleash-the-ganker-within", "Beastmaster", "60");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","Unleash the ganker within");
@@ -1851,206 +1118,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","The Beasts Obey Me","Heart of Tarrasque");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Mid please", "CS, CS, CS that is all you should be doing early game.  If the other hero is melee, harass him a bit with your autoattack since you know you can heal easily with CS.  Getting the importance of CS here?  BS's greatest ability is the fact that it is almost impossible to get him out of a lane so use it and abuse it.", "You can start ganking starting from level 6 so just go around and pick on low health heroes.  In team fights, BS is useful to clean up shop so just let the battle commence for a little, tp in during the middle of it, ult someone, and go to work.  You should definitely get either force staff or dagon or even both.  Force staff is good since it procs your ult when they stop moving and negates your greatest weakness, TP scrolls, since it ministuns.  It's also good for escaping.  Dagon is useful since well it's a high damage nuke and in conjunction with your ult, you can kill most people while roaming around.  However, if you have extremely good farm or are just pummeling the other team, rush radiance and sparkly your way to victory.", "BS starts to fade late game so if it gets to that point, just get some typical carry items and hope it works out.", "That's BS", "", "", "Bloodseeker", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","That's BS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","That's BS");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","That's BS","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","That's BS","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","That's BS","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","That's BS","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","That's BS","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","That's BS","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","That's BS","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","That's BS","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","That's BS","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Radiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","That's BS","Power Treads");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Any lane is fine", "CS, CS, CS that is all you should be doing early game.  If the other hero is melee, harass him a bit with your autoattack since you know you can heal easily with CS.  Getting the importance of CS here?  BS's greatest ability is the fact that it is almost impossible to get him out of a lane so use it and abuse it.  You level stats after taking one of each skill to increase your survivability and auto attack damage and frankly one level of each skill is all you need early game.", "You can start ganking starting from level 6 so just go around and pick on low health heroes.  In team fights, BS is useful to clean up shop so just let the battle commence for a little, tp in during the middle of it, ult someone, and go to work.  You should definitely get either force staff or dagon or even both.  Force staff is good since it procs your ult when they stop moving and negates your greatest weakness, TP scrolls, since it ministuns.  It's also good for escaping.  Dagon is useful since well it's a high damage nuke and in conjunction with your ult, you can kill most people while roaming around.  However, if you have extremely good farm or are just pummeling the other team, rush radiance and sparkly your way to victory.", "BS starts to fade late game so if it gets to that point, just get some typical carry items and hope it works out.", "The Power of Stats", "", "", "Bloodseeker", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","2","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","2","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","2","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","1","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","1","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","1","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","The Power of Stats");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","The Power of Stats");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Power of Stats","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Power of Stats","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Power of Stats","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Power of Stats","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Power of Stats","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Power of Stats","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Power of Stats","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Power of Stats","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Power of Stats","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Radiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Power of Stats","Power Treads");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Bloodrage: In early- and midgame this skill should always be casted on enemy heroes, because the silence will prevent you from strong nukes that will kill you easily and you can kill guys that would usually flee with some kind of blink or windwalk. The damage you give them isn’t that high. Also it's a fairly ok harass skill against low hp heroes.<br/>Bloodbath: This skill will let you farm properly against extreme harassment or it will keep you alive after you hunt an enemy hero though lots of tower till you kill him.<br/>Strygwyr’s Thirst: Very obviously. Hunting . Notice that you can still attack invisible heroes with low hp, even when you just can see them on the minimap.<br/>Rupture: A good finishing / gank-initiating skill and one of the most hated skills in the game, I think. Run and die or stay and die. (Or use a town portal or simply kill Strygwyr. Yes, you can counter it pretty easy but some people don't understand that). Use Bloodrage first if you don't want your target to flee.", "You can chose any lane but follow this rules: Never go with another carry or someone who needs farm, Try not to play against a lane with high burst damage (Lina+Sven e.g.), If you don’t want to go alone, go with some aggressive support like Vengeful Spirit or Demon Witch. They will grant you some early game kills and don’t need any lasthits, Don’t go to the middle lane when no one shared a courier with you. You need the Goblin Shops.<br/>Lasthit as many creeps as you can. Sometimes it’s even possible to ignore you lane opponent by this. But don’t be ignorant some heroes like Tinker are always dangerous. Also look out for missing heroes. You have no skill to flee so you usually don't survive a gank. Against low hp heroes like Windrunner it's useful to use Bloodrage to harass them. But keep your mana for at least 1 Bloodrage for incoming ganking allies.", "How to gank:<br/>1 Cast Bloodrage on the target. You don’t want him to flee.<br/>2  Cast Rupture. Now your enemy will run away or stay.<br/>3 He stays? Attack him. He runs? Chase him.<br/>4 Drink his blood<br/>5 After that you should go back to your lane and lasthit some creeps to restore your life.<br/>But when you want to kill someone that has a town portal without mates, don't cast Rupture straight after Bloodrage. Instead you should start autoattacking him and finish him with Rupture. That will give you a higher chance for a kill because he will use the portal when you cast Rupture on him. When you attack him first he hopefully won't use tp. But that is just theory, when he uses town portal you can't stop it.<br/>This is the theory against one hero. But think logical: If there is some stunning ally and you would get one hero anyway you should use Rupture on another fleeing hero or simply don't waste it.", "Do what you did before. Gank whenever Rupture is ready and farm. But focus on getting the Black King Bar or Linkens. Without them you are useless in lategame.", "Step by Step Guide", "playdota", "http://www.playdota.com/guides/a-step-by-step-guide-to-bloodseeker", "Bloodseeker", "30");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Step by Step Guide");
@@ -2221,7 +1288,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Core","Triple Threat","Vladmir's Offering");
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Triple Threat","Agahnim's Scepter");
+          ("Core","Triple Threat","Aghanim's Scepter");
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Triple Threat","Assault Cuirass");
@@ -3031,7 +2098,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Bony Thug","Linken's Sphere");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Be careful if you pick him against: Bounty Hunter, Night Stalker, Doom Bringer, Slardar, Riki (you have Force Staff for a reason) or any hero that can disable/silence/reveal you for a long time. Bounty Hunter crits can destroy Clinkz, but don't be afraid to carry dust and break him if you're up against him. <br/>Just as it is your job to land major DPS- it is also your job to watch your own ass. LOOK OUT FOR DUST. If you see an enemy hero on the mini-map, don't be lazy. Click on them, check their items, if they have dust- give yourself a big pat on the back. Now pop some illusions and make them waste it.<br/>USE YOUR ULT! I've seen it so many times where a Clinkz refuses to use Death Pact for whatever dumb reason. Eating heavy neutral creeps can enhance your damage output by a significant amount. More importantly, it gives you HP!!! And trust me, you need that. Drink Calcium!", "Early game you are mid. That's that. Clinkz in lane is bloody useless as he needs to farm as much as possible early game, in a safe spot, full of farm. Don't even bother playing him in lane, and if someone on your team rush-picks Invoker and calls mid- tough luck, don't even risk going into lane with Clinkz. <br/>You better get comfy because you're going to be farming the hell out of creeps for about 15 minutes.<br/>Do not plan on going back to fountain, so stock up on all of the tangos and potions you need at the begining of the game. Use them wisely- and play safe. You're at mid, and your complete and undivided focus is going to be directed towards last-hitting creeps. If needed, harrass your enemy with Searing Arrows (and they hurt) to keep him off of your back. Get your boots and a Oblivion Staff by at least level 6. Go to the jungle, death pact a creep, and return to mid. Keep farming. ", "Now it's minuite 15 (at the most) and you have your Orchid. What's great is that the enemy Weaver at bot doesn't even know you're in the game. Go invis, Orchid him, quickly activate Strafe, and drill him with all of the Searing Arrows you can pump out. He's dead!<br/>Now you're back to farming, ulting creeps for that extra cash. You've got Treads on, your Orchid ready, and plenty of mana. What's next? A Force Staff.<br/>I have seen so many dissapointed Clinkz' who miss a kill by one Searing Arrow because they simply could not keep up with the enemy. Using a Force Staff will guarantee you AT LEAST three more hits. Not only that, it's an excellent escape mechanism for the brittle bones.", "During late-game, you will need to decide what your Situational item(s) will be. You and some buddies have killed Roshan, you're feeling proud, and you have plenty of dough in your bank account. Let's look at some nice options:  Monkey King Bar: Hmm.. no missing attacks, crazy damage, attack speed- hmm... YES! MKB is a great item for you. Imagine this, your enemy is running back into base cos they're so scared of you- and they know if you attack uphill there's a good chance you will miss. SORRY! NO MISSING WITH MKB!! U FEED!!! There will be no escaping you. MKB is a great item and I highly reccomend it for Clinkz. Manta: Ehh... situational indeed. What I like about Manta is that splitting into illusions (with good timing) negates a stun projectile (pro). Not only that, it's nice to watch the enemy team blow all of their spells in rage on your illusion. Then you can sit back in the shadows and \'LOLOLOL FEEDERS!!!!\' to yourself while they rage and blame their team. It's a nice item, but your Strafe will give you away when next to your two illusions. Strafe after you activate your Manta. The perks with the item are great too (movement and attack speed bounus + stats).", "Solo mid or I feed", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?hero=Clinkz&id=352", "Clinkz", "30");
+      VALUES ("Be careful if you pick him against: Bounty Hunter, Night Stalker, Doom Bringer, Slardar, Riki (you have Force Staff for a reason) or any hero that can disable/silence/reveal you for a long time. Bounty Hunter crits can destroy Clinkz, but don't be afraid to carry dust and break him if you're up against him. <br/>Just as it is your job to land major DPS- it is also your job to watch your own ass. LOOK OUT FOR DUST. If you see an enemy hero on the mini-map, don't be lazy. Click on them, check their items, if they have dust- give yourself a big pat on the back. Now pop some illusions and make them waste it.<br/>USE YOUR ULT! I've seen it so many times where a Clinkz refuses to use Death Pact for whatever dumb reason. Eating heavy neutral creeps can enhance your damage output by a significant amount. More importantly, it gives you HP!!! And trust me, you need that. Drink Calcium!", "Early game you are mid. That's that. Clinkz in lane is bloody useless as he needs to farm as much as possible early game, in a safe spot, full of farm. Don't even bother playing him in lane, and if someone on your team rush-picks Invoker and calls mid- tough luck, don't even risk going into lane with Clinkz. <br/>You better get comfy because you're going to be farming the hell out of creeps for about 15 minutes.<br/>Do not plan on going back to fountain, so stock up on all of the tangos and potions you need at the begining of the game. Use them wisely- and play safe. You're at mid, and your complete and undivided focus is going to be directed towards last-hitting creeps. If needed, harrass your enemy with Searing Arrows (and they hurt) to keep him off of your back. Get your boots and a Oblivion Staff by at least level 6. Go to the jungle, death pact a creep, and return to mid. Keep farming. ", "Now it's minuite 15 (at the most) and you have your Orchid. What's great is that the enemy Weaver at bot doesn't even know you're in the game. Go invis, Orchid him, quickly activate Strafe, and drill him with all of the Searing Arrows you can pump out. He's dead!<br/>Now you're back to farming, ulting creeps for that extra cash. You've got Treads on, your Orchid ready, and plenty of mana. What's next? A Force Staff.<br/>I have seen so many dissapointed Clinkz who miss a kill by one Searing Arrow because they simply could not keep up with the enemy. Using a Force Staff will guarantee you AT LEAST three more hits. Not only that, it's an excellent escape mechanism for the brittle bones. ", "During late-game, you will need to decide what your Situational item(s) will be. You and some buddies have killed Roshan, you're feeling proud, and you have plenty of dough in your bank account. Let's look at some nice options:  Monkey King Bar: Hmm.. no missing attacks, crazy damage, attack speed- hmm... YES! MKB is a great item for you. Imagine this, your enemy is running back into base cos they're so scared of you- and they know if you attack uphill there's a good chance you will miss. SORRY! NO MISSING WITH MKB!! U FEED!!! There will be no escaping you. MKB is a great item and I highly reccomend it for Clinkz. Manta: Ehh... situational indeed. What I like about Manta is that splitting into illusions (with good timing) negates a stun projectile (pro). Not only that, it's nice to watch the enemy team blow all of their spells in rage on your illusion. Then you can sit back in the shadows and 'LOLOLOL FEEDERS!!!!' to yourself while they rage and blame their team. It's a nice item, but your Strafe will give you away when next to your two illusions. Strafe after you activate your Manta. The perks with the item are great too (movement and attack speed bounus + stats).", "Solo mid or I feed", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?hero=Clinkz&id=352", "Clinkz", "30");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","3","Solo mid or I feed");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -3495,230 +2562,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Laugh in the face of danger (mid)","Null Talisman");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Hello, Crystal Maiden.  CM is a decent hero to play in a support role.", "Start with Crystal Nova, as it is an AoE spell, but do not level it up for a while because the slow (30% MS) does not grow with level.  Try to prioritize leveling Brilliance Aura so that your teammates can play more aggressively during early game.  However, this also means that you should not play as aggressively yourself.  Use your spells when allies come to gank, to save your lane partner, or to save yourself.  Take advantage of situations where the enemy is out of place, as you will have the mana to spend but not the health. <br/> CM makes for a good babysitter for a carry that needs farm early game.  Use healing consumables on your carry when needed and harass when opportune enough not to take too much damage yourself.  Keep ward vision up and avoid being ganked while your carry farms.", "Play CM as a support hero during mid game, keeping ward vision up and providing mana or health (through consumables) to your allies if you are expecting a team fight.  Use Crystal Nova and Freezing Field early in fights to prevent enemies from getting into favorable positioning.  Save Frostbite for enemy carries so that you can prioritize killing them while preventing retaliation by attack.  However, be sure not to stack your disables with that of allies' stuns.", "Always support your carry in getting kills and sacrifice yourself to save allies if necessary.  You will get gold and XP from successful team battles and often this is enough for a CM.  Remember that both Crystal Nova and Freezing Field slow attack speed (AS) and can be very useful in team fights to give your carry an advantage over the enemy.", "A Crystal Maiden Build Order", "", "", "Crystal Maiden", "10");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","2","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","A Crystal Maiden Build Order");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","A Crystal Maiden Build Order","Animal Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","A Crystal Maiden Build Order","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","A Crystal Maiden Build Order","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","A Crystal Maiden Build Order","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Flying Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Sentry Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Smoke of Deceit");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","A Crystal Maiden Build Order","Mekansm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","A Crystal Maiden Build Order","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","A Crystal Maiden Build Order","Blink Dagger");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","A Crystal Maiden Build Order","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","A Crystal Maiden Build Order","Drum of Endurance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","A Crystal Maiden Build Order","Aghanim's Scepter");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Crystal Maiden is a good hero to play as a roaming hero (continuous ganking as opposed to laning) during the early stages of the game.  She has two strong ganking spells and her aura remains helpful to all teammates while she is wandering the map. <br/> Note that this should only be played if you can coordinate well with your team and your lineup can afford at least two solo lanes without completely shutting down the hero in the 2v1 lane.", "Start with Crystal Nova, as it is an AoE spell, but do not level it up for a while because the slow (30% MS) does not grow with level.  Try to arrange for a three hero gank on a lane; if you can net one or two early kills for your team then starting off roaming will be easier. <br/> Try to keep an eye on all lanes and do not hesitate to TP into a lane where a fight is happening to lend a hand.  When entering a lane, start off with a Crystal Nova so that your allies can close in and try not to stack Frostbite's ensnare with the slow or with allies' stuns.  If the fight happens far enough from the tower, you can usually afford a second Crystal Nova in the same fight. <br/> If ganks are not going well, then feel free to continue with a laning build.  However, generally if you can force enemies to be more cautious, farm less, and occasionally go home then it is worth your lost XP and Gold for the benefit of the team.", "Unless your team is way ahead in kills by mid-game, you will likely be under-leveled compared to both your team and the enemy team.  Play cautiously so not to feed, but also use the low level to your advantage.  If a team fight occurs, be aggressive in protecting your allies.  Your death will be less of a loss than an allies death and being at a low level means that you can often respawn in time to rejoin a team fight if it persists for long enough. <br/> If you are confident with your ability to survive, try to stay out of lane so that allies may gather XP and gold.  This will also allow you to surprise enemies during team fights.  You will get XP and gold as needed during successful team fights. <br/> Continue with general supporting roles.  If you can afford a Force Staff, then it greatly helps your survivability and also allows you to assist your teammates.  However, do not prioritize this over making sure that the map is warded.  If you play efficiently, you may be poor but should be able to use consumables to stay healthy enough for team fights until late game.", "In late game, play as a support hero would.  Assist your carry in getting kills and sacrifice yourself to save allies if necessary.  Remember that both Crystal Nova and Freezing Field slow attack speed (AS) and can be very useful in team fights to give your carry an advantage over the enemy.", "Roaming and Support with Crystal Maiden", "", "", "Crystal Maiden", "20");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Roaming and Support with Crystal Maiden");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Roaming and Support with Crystal Maiden","Animal Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Roaming and Support with Crystal Maiden","Smoke of Deceit");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Roaming and Support with Crystal Maiden","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Roaming and Support with Crystal Maiden","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Roaming and Support with Crystal Maiden","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Flying Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Sentry Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Smoke of Deceit");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Tranquil Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Roaming and Support with Crystal Maiden","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Roaming and Support with Crystal Maiden","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Roaming and Support with Crystal Maiden","Drum of Endurance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Roaming and Support with Crystal Maiden","Medallion of Courage");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Roaming and Support with Crystal Maiden","Mekansm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Roaming and Support with Crystal Maiden","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Roaming and Support with Crystal Maiden","Blink Dagger");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("The Dark Seer is a master of manipulating the positioning of allies and enemies and causing confusion in battle. His Vacuum ability drags all enemy units a wide area to a central location. This spell is very deadly when combined with allies who have strong area of effect spells. The Dark Seer's primary damage source is Ion Shell. When cast on an allied unit or the Dark Seer himself, Ion Shell continuously damages all adjacent enemies, making it the natural complement to Vacuum. Ion Shell is powerful when cast on allied melee heroes who like to be in the thick of the fight. To aid his allies and to make sure Ion Shell is in range, the Dark Seer uses Surge, a powerful spell that makes a target ally move at maximum speed for a short period of time. This ability is useful in any situation, and due to its low cooldown period and mana cost it can be cast quite frequently. The Dark Seer's final spell, Wall of Replica, summons a shimmering barrier which duplicates any enemy hero that passes through it, creating an illusion of him. Wall of Replica is great at causing a lot of confusion during large battles, especially combined with Vacuum. For players who like a more strategic playstyle and can quickly determine the flow of battle, the Dark Seer is a good choice.", "Laning: Place wards if you have any. Help your lane partner as much as possible. Gank if you can. Harass with Ion Shell -> cast it on creeps. Use Vacuum carefully, waste it and that first blood attempt may just slip away.<br/>Jungling: Check if the creep camps are warded (no neutrals in there after 30 seconds, etc), otherwise you might want to go laning. Use Ion Shell on yourself while killing neutrals. Scout for runes. Help your allies when possible, eg: ganks", "Stick with your team whenever ganking, you're valuable to them! Help out allies anywhere, especially your carries. Cast Surge on allies if they need to chase or to escape, and even Vacuum, with correct positioning. If your teammate is fighting enemy hero(es) in close range, remember to cast Ion Shell on him. Abuse Vacuum, use it when escaping, chasing, juking, ganking, etc.", "Push along with your teammates. Participate in teamfights if possible, you will help a lot. In teamfights, Vacuum is extremely important. Aid that Nevermore casting Requiem, Magnus casting his ultimate, etc. Also, cast Wall of Replica quickly after Vacuum, where the horde of illusions can be really dangerous. Again, avoid stealing your carries' kills, intended or not, they need the gold more than you do", "Basic Guide to Dark Seer", "playdota", "http://www.playdota.com/guides/basic-guide-to-dark-seer", "Dark Seer", "1");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","3","Basic Guide to Dark Seer");
@@ -3811,100 +2654,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Basic Guide to Dark Seer","Boots of Travel");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("So Dark Seer is my favourite hero. He is an all-rounder hero, you can  initiate, jungle, support, gank, carry, chase with him.", "I always start with Tango, Salve, Clarity and Stout shield. But when I go jungle I buy 2xTango. When you jungle always try to stack as many hard level camps as you can till lelvel 7 when you will have lvl4 Ion Shell and you can easily take down these camps in a few secs. First cast Ion Shell on yourself and after the 10 sec cooldown go in the camp and cast another Ion Shell on one of the stronger creeps. When you're laning you can use Ion Shell as a harassment tool, but it mostly works only against melee heroes. Just cast it on the enemy ranged creep.", "So the first item you should buy is Vanguard. It helps you in jungling and staying in the teamfights longer, etc. Then comes the Boots of Speed and a Void Stone.  You can upgrade your boots to anything you want.  Because I love to play agressive and initiate fights I always buy Phase Boots. But if you're playing as support you can buy Arcane Boots. But you can choose from the other boots too, it doesn't really matter. You can buy Magic Wand and Bottle as core items if you want.", "I think there are a lot of good items fo Dark Seer. I love the Aghanim's upgrade of his ulti, you can make a whole army. So Aghanim's Scepter is a really good item on DS. Scythe of Vyse is also a good choice, boots your stats and the hex is always a good thing in fights. If you're facing autoattackers a Blade Mail or Shiva's Guard. If you get a lot of magic damage then Hood of Defiance>Pipe. And you can buy Mekans if you support.", "Jungle Fun", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=313", "Dark Seer", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","2","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","2","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","1","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","1","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","1","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Jungle Fun");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Jungle Fun");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Fun","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Fun","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Fun","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Fun","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Fun","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Fun","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Fun","Void Stone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Blade Mail");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Hood of Defiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Fun","Meknasm");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Since his skill rebuild in 6.54, Dazzle has become one of my favorite heroes in DotA. Before 6.54, he was simply a babysitter/warder with a carry loving ultimate. With his skill change, he has become a powerful member of team fights, able to keep his team alive against the most viciously farmed carries while simultaneously crippling enemies. While Dazzle is still a warder and babysitter in the early game, his role in team battles, i.e. the mid to late game, has completely changed. As I have seen only a few guides outlining the new Dazzle, I decided I wanted to write one and share my experience with him.", "Starting the game, you want to pick up bottom lane in Sentinel side or top lane in Scourge side along with a carry or a strong lane controller so you can pull the Neutral Camp. You want the long lanes because it will allow your carry to get more experience and prevent you from pushing too far into the lane. The best carries to lane with are those who normally have a poor early game or can't farm well (Riki, Mortred, Spectre are pretty good examples). If you are with a strong lane controller (PotM, NA, Rhasta), you can probably take first blood very quickly. Another good option is to take a dual mid lane so you can control the river better. Dazzle and a teammate can steal runes from a Tinker/Zeus/Nevermore to prevent roaming easily.<br/>While Dazzle can solo, he is much more suited to a dual lane. If you are forced to solo or wish to for some reason, you do not have to make any changes to your item or skill build. Make sure to apply the same tactics as the dual lane but try to pick up as many last hits and denies as you can and do not auto-attack creeps as you have no carry to pick up last hits. Dazzle has a very nice attack animation and good damage so you should be able to pick up a decent amount of cash.", " Poison Touch gives you the ability to both save allies and stop enemies. However, it is very strenuous on your mana to spam it endlessly, so don't use it to harass. On a Weaved hero, it becomes a very dangerous nuke, generally dealing 200-300 damage, which can pick up kills on heroes with escape mechanisms.<br/>Shallow Grave is a difficult spell to place right. You do not want to waste any of its time to maximize its use, but it has a .5 second cast animation so you do not want to wait till the last second. In addition, don't be afraid to use it on yourself; it can allow you to get away from some very dangerous enemies that would normally be inescapable with only Poison Touch (Broodmother and Krobie come to mind pretty quickly). This will also prevent sudden death from a Necrolyte.<br/>Shadow Wave is Dazzle's bread and butter so it should be used whenever an ally gets into orange or below health. Try to use it on stunned heroes that are surrounded or on creep waves to pick up last hits. Make sure to spam Wave during Weave if people are tightly engaged in melee to deal ~200 per bounce. Also remember that Wave will target units even if they have lost sliver of health, so don't feel bad throwing a wave into the fray to put on some easy damage. It Dazzle's main damaging spell, so don't be afraid to spam it on nearly full health allies once you have some decent regen (Voidstone) or a slightly larger pool (1000+). You can easily nuke for 700 (5*140) damage before reduction, which is quite scary.<br/> Weave costs 100 mana, making it Dazzle's least expensive spell. Therefore, I encourage that people use it regularly on allies and enemies. If your team has a lot of physical DPS (Rexxar, Juggernaut), try to hit large groups of enemies boost DPS. If you are facing a large number of farmed carries who have mostly physical DPS, try to hit your entire team so you can shake off the damage while you Wave and Mek your allies back to full. It is always a good idea to open with Weave when you see a group of heroes before your initiator goes into the fray.", "You should be pretty mobile if you have Bottle or Mek and helping your team get kills and pushing out lanes. Make sure you get Wards and Salves to gain more control. If you find that your enemies have a very large amount of nukes and you are getting ganked and dying, get some Bracers or Magic Wand. By the time you hit 11, you really will need to pick up a Voidstone if you don't have an Orchid so you do not have to go back to base at all.<br/>If you are really making large amount of cash in the later part of the game (15+), Guinsoo's is your highest priority item because it will give you a disable. You should have gotten the Voidstone already if you aren't building Orchid, so slowly buy the other components while picking up wards/dust, consumables and scrolls. If you built Orchid by now, start on that Guinsoo's or Eul's if you can't make money.", "Brigning Physical DPS Back", "playdota", "http://www.playdota.com/guides/bringing-physical-dps-back", "Dazzle", "70");
@@ -4301,7 +3050,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Staple's Guide to Krobelus","Assault Cuirass");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("For a long time Krobelus has been considered a very good hero capable of carrying, pushing, nuking. She is an excellent AOE and team battle hero. She is easy to use and will appeal to the new players. Krobelus is a very fun hero to play and I'm sure you will come to like her too.", "Laning: Krobelus is a viable hero for mid, however most of the time there will be someone else that will benefit more from soloing mid. If not then take it. Otherwise head bottom lane Sentinel or top lane Scourge. Last hit to the best of your ability and occasionaly harass with Carrion Swarm. Make sure that you don't have to go back to the fountain as this wastes crucial time and we need every second of last hitting and XP to be more effective mid game. By the end of the laning phase when people start to gank and push seriously, you should have finished your basic laning core items. <br/>Farming: Since Carrion Swarm is your only real nuke, this is the skill that we will be using to farm. 2 swarms will destroy a creep wave, but usually one together with your normal attack is enough. Remember we need to conserve as much mana as we can early game, and once we get enough mana and regen, then we can start spamming this skill to farm. So before you have the mana only use one swarm per creep wave, and last hit to farm.", "Team Battles: Our role in team battles comes after the initiators. Once they go in and disable the enemy team, it is our turn to go in. First of all turn on your ultimate immediately. Then use your silence on the most heroes possible. After that you are free to spam swarm. Use one more silence if needed, but that really won't be necessary as the enemy team should be dead by then. So to sum it up, here is what we do in massive team battles:<br/>1) When the initiators on your team have disabled the opposing team, go in.<br/>2) Turn on your ultimate.<br/>3) Silence the other team. Always try to silence their most dangerous spell caster/disabler.<br/>4) Spam Carrion Swarm/use Shivas if you have it.<br/>5) Use Silence again if necessary/chase fleeing heroes down with ultimate turned on.", "Late game our job is to go around the map pushing, stopping pushes, and fighting in team battles. Since we should have BoT at this point of the game, those things are pretty easy for us to do. Go to one lane push one tower quickly, then switch over to another lane and push there. Since teams stick together at this point, it is also a good idea to stick with your team. Counter pushing is easy for us, 2 swarms take care of creep waves easily. So during this part of the game, you want to push with your team, push by yourself when not pushing with your team, and counter pushing the enemy team's pushes.", "Let my cries chill the living", "playdota", "http://www.playdota.com/guides/let-my-cries-chill-the-living", "Death Prophet", "40");
+      VALUES ("For a long time Krobelus has been considered a very good hero capable of carrying, pushing, nuking. She is an excellent AOE and team battle hero. She is easy to use and will appeal to the new players. Krobelus is a very fun hero to play and I'm sure you will come to like her too.", "Laning: Krobelus is a viable hero for mid, however most of the time there will be someone else that will benefit more from soloing mid. If not then take it. Otherwise head bottom lane Sentinel or top lane Scourge. Last hit to the best of your ability and occasionaly harass with Carrion Swarm. Make sure that you don't have to go back to the fountain as this wastes crucial time and we need every second of last hitting and XP to be more effective mid game. By the end of the laning phase when people start to gank and push seriously, you should have finished your basic laning core items. <br/>Farming: Since Carrion Swarm is your only real nuke, this is the skill that we will be using to farm. 2 swarms will destroy a creep wave, but usually one together with your normal attack is enough. Remember we need to conserve as much mana as we can early game, and once we get enough mana and regen, then we can start spamming this skill to farm. So before you have the mana only use one swarm per creep wave, and last hit to farm. ", "Team Battles: Our role in team battles comes after the initiators. Once they go in and disable the enemy team, it is our turn to go in. First of all turn on your ultimate immediately. Then use your silence on the most heroes possible. After that you are free to spam swarm. Use one more silence if needed, but that really won't be necessary as the enemy team should be dead by then. So to sum it up, here is what we do in massive team battles:<br/>1) When the initiators on your team have disabled the opposing team, go in.<br/>2) Turn on your ultimate.<br/>3) Silence the other team. Always try to silence their most dangerous spell caster/disabler.<br/>4) Spam Carrion Swarm/use Shivas if you have it.<br/>5) Use Silence again if necessary/chase fleeing heroes down with ultimate turned on.", "Late game our job is to go around the map pushing, stopping pushes, and fighting in team battles. Since we should have BoT at this point of the game, those things are pretty easy for us to do. Go to one lane push one tower quickly, then switch over to another lane and push there. Since teams stick together at this point, it is also a good idea to stick with your team. Counter pushing is easy for us, 2 swarms take care of creep waves easily. So during this part of the game, you want to push with your team, push by yourself when not pushing with your team, and counter pushing the enemy team's pushes.", "Let my cries chill the living", "playdota", "http://www.playdota.com/guides/let-my-cries-chill-the-living", "Death Prophet", "40");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Let my cries chill the living");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -4945,82 +3694,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","To Protect and Server","Heart of Tarrasque");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Dragon Knight. Dragon knight is a man! I mean, a dragon man! Or mabe he was just a dragon. But he's still Dragon Knight! Anyway, DK is a great tank, but he's also not the most powerful hero ever. Ideally, you want to build towards being able to push a lane by yourself, with dragon form's major AoE, while also being able to soak up lots of damage during a team fight. Your early game is defined by your stun: it's insane at any level, but early on it's devestating. By mid and late, you can be pushing hard by yourself, and using the stun to get out if you encounter trouble.", "This build doesn't do much early game. Just build up your Dragon Tail and Dragon Blood, and punish anyone that comes forward with the stun for an early gank. Definitely take bot/top, because the extra support will help you actually kill with the stun. After you get your first level of Dragon Blood, ignore enemy harrass and really try and get in the last hits/denies; your armor + regen means that a few harrass hits will quickly be irrelevant. Once you get your dragon form, you can really hit hard with the stun, since it becomes ranged. Coordinate with your lane partner, and you'll punish the enemy heroes hard. ", "Once you have second level dragon form, you can choose between taking down towers and engaging in team fights. If you're the only strength hero on the team, you should probably prioritize team fights, but there's some flexibility. If you don't have a major gold/level advantage, try not to take down tier two towers without support. Rather, just go back and forth between lanes, pushing hard. During team fights, you want to be towards the front, and you want to Dragon Tail the most dangerous enemy hero. Coordinate with your team, and it should be realtively easy to take out just about anyone. Between your boosted armor from Dragon Blood and the extra damage from Dragon Form, you should survive pretty easily. If needed, back out for a few seconds and use the Urn of Shadows, you should be able to survive pretty easily. ", "Once you get Assault Cuirass / third Dragon Form, you can really just push solo and win. But the armor auro is good for team fights, so show up if you can.", "Dragon Knight Push/Carry", "", "", "Dragon Knight", "7");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","2","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","2","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","1","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Dragon Knight Push/Carry");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Dragon Knight Push/Carry","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Dragon Knight Push/Carry","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Dragon Knight Push/Carry","Gauntlets of Strength");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Dragon Knight Push/Carry","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Dragon Knight Push/Carry","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Dragon Knight Push/Carry","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Dragon Knight Push/Carry","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Dragon Knight Push/Carry","Eye of Skadi");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Traxex is a aquishy archer with high damage, don't stay close team fight, keep shooting  Frost Arrows out of team fight, if enemy focus you this won't be good xD. Don't use frost arrows on creeps, this won't help you, keep using normal attack so you can stay on lane/jungle using the lifesteal that Mask of Madness give to you. Yes lifesteal is an orb effect and don't stack with your slow, but on team fight this won't help, if the enemy focus you, lifesteal will be needless. Your  Silence spent a lot of your mana pool, don't spam it or you won't have mana to spam  Frost Arrows.", "Get Wraith Bands and Tangos.This 2 items give to you damage and survability to early game, until lvl 6 are hard to last hit creeps because traxex don't have any considerable damage to do it well, don't worry if the enemy deny your farm until lvl 6, just focus on stay on lane and get exp. On lvl 6, get your ultimate skill, and start to harass your enemy, if you get a kill good, if not, don't worry now will be more easy to start your build. Get Mask of Madness asap, when you own it you'll start to kill like Freddy, Chucky, Jason and Chuck Norris.", "Now you have the allmighty Mask of Madness, Phase Boots added with your passive Ultimate  Marksmanship and you are a killing machine AWWW YEAAAAHHH!!!, now i'll explain better how to do it. First choose your target, on early game better choose alone heroes or squishies, don't worry with CC abilities, your silence will solve it. After prey choosen, go trough the jungle and activate Mask of Madness >  Silence >  Frost Arrows + Shoot >   Frost Arrows + Shoot >  Frost Arrows + Shoot >, until prey dies. If your victim start to walk until you start to kite, walk a bit far away and hit again, do it until you get a kill. If your victim have a hard CC like Skeleton King or Lina take care, silence and hit just when they stay on silence. When silence over, RUN TO THE HILLS, activate phase boots and run, if shadow is on cooldown this are your only alternative, if note, just activate shadow and run. Phase boots + Mask of Madness will turn you impossible to catch.", "Today your teamm all sux and you are the only one with good score on your team, if you won't surrender and stay on base xD. Weel if you follow this guide you have a good score and now own unless these items: Mask of Madness, Phase Boots, Crystalys, and Shadow Blade. With these items you can easy defend your towers, keep doing it until you get full build, when you get it start to destroy enemy towers. With full build u can literally destroy any tower in 5 seconds without creeps to protect you :), yes madness does miracles. Keep doing it until you win", "U Mad?", "dotafire", "http://www.dotafire.com/dota-2/guide/traxex-u-mad-yes-im-795", "Drow Ranger", "20");
@@ -5821,7 +4494,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Guide to Enigma","Scythe of Vyse");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Enigma is concidered a top-tier hero, but I don't see him getting picked very often. Because he's being constantly banned, players often think that he isn't worth mastering, since it's a rare sight to not see him in the ban list. Some even concider playing enigma as booring, since his skills are rather dull, dark, look really slow, not colorful. Enigma is really good at jungling, which gives the opportunity for all 3 lanes to go solo. He's also famous for his fast-farming capabilities, which give opponents a hard time keeping up. Enigma has a lot of mana issues, even with his high int growth, and is very fragile. Here I shall show you the true power of jungling and positioning for enigma.", "Jungle or solo lane. Jungle: hit the jungle. It'll be boring. Going solo is another good option for Enigma. When soloing, you can out-farm any other solo laner with your free deny spell, dominate the whole lane and push at the same time. First thing is to pick a lane. If you're Sentinel, go top, if you're Scourge, go bot. These lanes tend to be safe spots for enemy carries to farm, but as your allied creeps will be close to the enemy tower most of the time, pushing will be very easy. To completely dominate the lane, use demonic conversion on creeps outside of enemy's exp-gain range (1000)", "You should have your blink dagger by now, and lets assume that you're level 9-10. If your team is turtling, then you shouldn't go for a push, instead, help your teammates in ganking. All you have to do is Blink => Convert ANYTHING => Malefice target => Select eldolons and right click on target => Black Hole. Remember to use Black Hole whenever you can, even if it's meant to be used to kill a single target or save an ally (not on creeps, no). If you only have semi-carries, take down a tower a two for some gold. Remember that Eldolons can be used on Meaet Wagons or Glaive Throwers too, so whenever you see one, cast one it (the enemy one), for easy gold and a fast push. If you see an ally in need, spawn Eldolons and order them attack the chaing target. In a lot of cases they would just be too busy chaisng your ally, not caring about 43-51 damage Eldolons shooting them, until it's too late.", "The true moment for Enigma to shine. This is the time where a single Black Hole can decide the outcome of the battle. In this phase, Eldolons lose their usefulness against heroes, but are still powerful for pushes and defending. Malefice's stun is more important now than never, and a single midnight pulse can scare away the whole enemy team. Even without your ultimate, you can still prove your usefulness to your team, by quietly Eldolon + Malefice combo-ing the supporter that stands behind the enemy lines. Midnight Pulse in the middle of the battle and your enemies will have 2 choices:<br/>a) Disperse and get hit while running<br/>b) Continue casting spells/attacking while losing health<br/>Be careful though, timing your blackhole is absolutely crucial. If noone follows up to your Black Hole, you're as good as a sitting duck.", "The Art of Sucking", "playdota", "http://www.playdota.com/guides/the-art-of-sucking", "Enigma", "40");
+      VALUES ("Enigma is concidered a top-tier hero, but I don't see him getting picked very often. Because he's being constantly banned, players often think that he isn't worth mastering, since it's a rare sight to not see him in the ban list. Some even concider playing enigma as booring, since his skills are rather dull, dark, look really slow, not colorful. Enigma is really good at jungling, which gives the opportunity for all 3 lanes to go solo. He's also famous for his fast-farming capabilities, which give opponents a hard time keeping up. Enigma has a lot of mana issues, even with his high int growth, and is very fragile. Here I shall show you the true power of jungling and positioning for enigma.", "Jungle or solo lane. Jungle: hit the jungle. It'll be boring. Going solo is another good option for Enigma. When soloing, you can out-farm any other solo laner with your free deny spell, dominate the whole lane and push at the same time. First thing is to pick a lane. If you're Sentinel, go top, if you're Scourge, go bot. These lanes tend to be safe spots for enemy carries to farm, but as your allied creeps will be close to the enemy tower most of the time, pushing will be very easy. To completely dominate the lane, use demonic conversion on creeps outside of enemy's exp-gain range (1000)", "You should have your blink dagger by now, and lets assume that you're level 9-10. If your team is turtling, then you shouldn't go for a push, instead, help your teammates in ganking. All you have to do is Blink => Convert ANYTHING => Malefice target => Select eldolons and right click on target => Black Hole.Remember to use Black Hole whenever you can, even if it's meant to be used to kill a single target or save an ally (not on creeps, no). If you only have semi-carries, take down a tower a two for some gold. Remember that Eldolons can be used on Meaet Wagons or Glaive Throwers too, so whenever you see one, cast one it (the enemy one), for easy gold and a fast push. If you see an ally in need, spawn Eldolons and order them attack the chaing target. In a lot of cases they would just be too busy chaisng your ally, not caring about 43-51 damage Eldolons shooting them, until it's too late.", "The true moment for Enigma to shine. This is the time where a single Black Hole can decide the outcome of the battle. In this phase, Eldolons lose their usefulness against heroes, but are still powerful for pushes and defending. Malefice's stun is more important now than never, and a single midnight pulse can scare away the whole enemy team. Even without your ultimate, you can still prove your usefulness to your team, by quietly Eldolon + Malefice combo-ing the supporter that stands behind the enemy lines. Midnight Pulse in the middle of the battle and your enemies will have 2 choices:<br/>a) Disperse and get hit while running<br/>b) Continue casting spells/attacking while losing health<br/>Be careful though, timing your blackhole is absolutely crucial. If noone follows up to your Black Hole, you're as good as a sitting duck.", "The Art of Sucking", "playdota", "http://www.playdota.com/guides/the-art-of-sucking", "Enigma", "40");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","The Art of Sucking");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -6946,197 +5619,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Freeze and Burn","Eul's Scepter of Divinity");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Spin and Win", "Get a good lane partner with a nice slow or stun and try get a level 1 kill if you can.  Remember to never right click the enemy when you are trying to kill someone with the spin since you will try attack the hero when you get close and then the enemy can run away.  Always press m and then left click the hero so you always follow him and never attack.  Also, if you can, try approach the enemy from the back so you can block his path while fleeing. Early game focus on creep kills, but be sure to look out for kill opportunities if the opponent gets a little too close.", "After you get your phase, remember that you can phase while spinning.  This is also useful when under pressure from a gank since you can spin then tp and they can't stun you unless it's physical.  Once you get your phase and bottle, you should go around ganking heroes that are overextended.  With a haste or invis rune, you can kill most heroes.", "You can still carry late game, but are most effective mid game.  Spinning is good for taking out creep waves and stacked jungle camps.", "It's Ganking Time", "", "", "Juggernaut", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","3","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","2","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","2","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","2","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","2","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","It's Ganking Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","It's Ganking Time");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","It's Ganking Time","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","It's Ganking Time","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","It's Ganking Time","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","It's Ganking Time","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","It's Ganking Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","It's Ganking Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","It's Ganking Time","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","It's Ganking Time","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","It's Ganking Time","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","It's Ganking Time","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","It's Ganking Time","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","It's Ganking Time","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","It's Ganking Time","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","It's Ganking Time","Sange and Yasha");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","It's Ganking Time","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","It's Ganking Time","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","It's Ganking Time","Butterfly");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Spinning Time", "Get a good lane partner with a nice slow or stun and try get a level 1 kill if you can.  Remember to never right click the enemy when you are trying to kill someone with the spin since you will try attack the hero when you get close and then the enemy can run away.  Always press m and then left click the hero so you always follow him and never attack.  Also, if you can, try approach the enemy from the back so you can block his path while fleeing. Early game focus on creep kills, but be sure to look out for kill opportunities if the opponent gets a little too close.  Remember that you can use items while spinning.  This is useful when under pressure from a gank since you can spin then tp and they can't stun you unless it's physical.  ", "Mid game focus on farming as well, but always look out for good gank opportunities.  Spinning is good for taking out creep waves and stacked jungle camps in conjunction with battlefury.", "This is your time to shine.  In team battles, lay down your healing ward for a nice heal and since the ward is something that most people will not notice in a battle, you get the heal for the duration of it which can be the difference.  Don't use your spin unless you are under duress since your autoattacks should deal more damage than it.  Ult when the number of enemies decrease or when there are no creeps nearby.", "Late Game Carry", "", "", "Juggernaut", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","2","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","2","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Late Game Carry");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Late Game Carry");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Late Game Carry","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Late Game Carry","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Late Game Carry","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Late Game Carry","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Late Game Carry","Battle Fury");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Late Game Carry","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Late Game Carry","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Late Game Carry","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Late Game Carry","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Late Game Carry","Satanic");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Late Game Carry","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Late Game Carry","Linken's Sphere");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Admiral Proudmore, originally featured as a villain in the Horde bonus campaign in The Frozen Throne, returns from the beating he received in the hands of Rexxar to get his. Proudmore is a highly ranked competitive tier hero capable of soloing and winning a lane against a solo ranged or weak hero combination. He has a set of useful delay-cast AoE tools which include a great initiation stun/debuff in Ghost Ship, a small-aoe disable and slow in Torrent, and one of the best chasing spells in the game, X marks the spot. He also has one of the best last-hitting and denying abilities in the game in Tidebringer, rivaling Nethertoxin in raw power. Tidebringer is also great for harassment, allowing you to harass well even as melee.", "Levels 1-7 you're going to be laning hard. In competition, Admiral is generally going to be run Solo Mid, but can also do well in the long lane (Top for Sentinel, Bot for scourge), with a targeted stunner (to set up torrents; use the aggressive Torrent build for this lane). Just watch your + damage to que your Tidebringer, and try to land the cleave splash on heroes. If they play back and aren't threatening (melee's and... just melee's lol), play up on the ranged creep to deny them experience and land cleaves, but be wary of ganks, otherwise just chill out. If you're in trouble (dual stunners, strong combinations, etc), CALL FOR GANKS OFTEN. Get those early kills/fountain trips so you can get your farm in. A Kunkka with no items is squishy and not much of a threat, though still a good initiator. A dead Kunkka and farmed opponents is worse.<br/>With a lanemate, every time they can land a stun or slow, try to pop a torrent and a cleave and as many extra hits as you can while you have an advantage, but don't linger if there is no kill waiting for you. 2 hits + no damage > 4 hits and 200-400 damage, and it adds lane pressure. That's how you win a dual lane and you can do it almost every time with Admiral.", "After the laning stage at around level 7-10, or if by some miracle your lane breaks the tower earlier, you want to start ganking things. As a general rule, you want to land one kill per ultimate cooldown, and farm well in between. What you need for good ganks are:<br/>1) Mana; check it.<br/>2) A safe place to initiate from. If no towers are broken you want to help a lane push to give you more space to chase.<br/>3) A few good partners. The more the merrier, but overkill can be wasteful.<br/>Helpful things include Wards, Runes, and landing a good Boat.<br/>During this stage of the game, a good combination of map awareness and control should net you and your homies a few kills, and most importantly, space for your team and carry to farm and get caked up. You should have your phase boots by now and carry two TP scrolls at ALL TIMES. One to get in, one to get out. Again, TP Scrolls are only 135g, that's 3 creeps or a few assists.", "Around level 13 or so, the game changes to the point where 1v1 and laning is fairly worthless; there is only freefarm, gank and push. At this point you want to be positioning yourself to take towers and press advantages, and farm the jungle in the off time. Use map control to force them to stay in their jungle and not farm the lucrative creep waves, and press the creep against their tower. Once you get a +2 hero advantage, push damage towers as much as you can to gain map control and farm space. Your cleave eats creep at this stage, and you get a +60 hit on the tower every 4 seconds <br/>Ideally, your second main item should come before level 16, so as a team, you want to be set up to win around 16-18 with a good Boat/Torrent setup or just pressing on their mid tower with your massive cleave to clear the creep. Admiral can semi-carry, but a hard carry or a combo of good semi-carries like Admiral/PotM is recommended to step up around this level and get the win.", "Feat T-Payne", "playdota", "http://www.playdota.com/guides/feat-t-payne", "Kunkka", "50");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","Feat T-Payne");
@@ -7353,115 +5835,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Lethal Once Mastered","Satanic");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Leshrac is one of the few heroes that can carry with a strong item build AND has the arsenal of spells to help him farm those items.  Pulse Nova deals a large amount of damage in an AoE and is destructive during late game team fights if Leshrac has enough mana to sustain casting AND enough health to survive the duration of the fight (both which require adequate items).  However, at the same time Leshrac is gifted with Lightning storm, which makes for easy last hitting in lane (while harassing), and Diabolic Edict, which makes short work of towers when the enemy is not around. Played carefully enough during early and mid game, Leshrac can amass a large amount of gold from creep kills, tower kills, and hero kills to be a powerful pushing and teamfight force during late game.", "This build preferably takes a mid-lane or a solo long lane (with access to the secret shop).  If you are solo long, then you will need to keep wards up around yourself to prevent ganks as Lightning Storm tends to push the lane.  In a solo long lane, you may also choose to level Diabolic Edict sooner and prioritize movement speed so that if the enemy ever decides to go aggressive on you, they will take a lot of damage chasing you past the creep wave. <br/> With a solo lane, getting a fast Void Stone can make things a lot easier.  With a steady supply of mana, use Lightning Storm to last hit 1-2 creeps per wave while harassing the enemy hero.  Careless players will leave themselves open to kills, but do not be too aggressive and try to prioritize creep kills. <br/> If you are mid, then make sure to get a bottle quickly and pay attention to runes. Ganks work well with Lightning Storm's low cooldown and Diabolic Edict's high damage away from creep waves.  However, this build does not prioritize leveling Split Earth considering that the stun duration is constant across levels.  This limits your ability to stun multiple enemies at once during ganks, so it may be best to stay mid depending on the composition of heroes", "Prioritize taking down towers over engaging in team fights.  This will allow you to quickly build a Bloodstone as well as help your teammates get quick items as well.  (This is why the build suggests learning a second level of Diabolic Edict before Pulse Nova).  If the enemy team starts looking for team fights, you can often sneak into other lanes (while the enemy is away) and take down tier one towers within one or two creep waves.  Do not take down tier two towers without support from allies but do not be afraid to push when given the opportunity.  If you can acquire money quickly, it will make late game a lot easier. <br/> During team fights, try to stay at the back of the battle until people are low health.  This build does not suggest building early health items (beyond Bloodstone components) so you will not last long if you are the center of attention.  Keep a steady supply of lightning storms when off of cool-down but save enough mana for Diabolic Edict and a few Pulse Nova pulses (math is helpful here, so identify how much damage you plan to do and how much mana is required. Unless your team has many AoE disables, do not count on getting more than 3-4 pulses of damage on any given hero).  When enemy health is low or your team sets up a good AoE disable, walk in with Diabolic Edict and Pulse Nova to clean up and acquire a few kills.", "", "Leshrac can Carry and Push", "", "", "Leshrac", "10");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","2","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","4","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Leshrac can Carry and Push");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Leshrac can Carry and Push");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Leshrac can Carry and Push","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Leshrac can Carry and Push","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Leshrac can Carry and Push","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Leshrac can Carry and Push","Magic Stick");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Leshrac can Carry and Push","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Leshrac can Carry and Push","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Leshrac can Carry and Push","Void Stone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Leshrac can Carry and Push","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Leshrac can Carry and Push","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Leshrac can Carry and Push","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Leshrac can Carry and Push","Bloodstone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Leshrac can Carry and Push","Boots of Travel");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Leshrac has been my favorite hero since I first started playing around three years ago. It’s hard not to like the quintessential glass cannon that he represents, and there’s hardly a battle that a well positioned, well equipped Lesh cannot swing to his team’s favor. I want to save you all the trouble I went through in learning Lesh’s greatest strength, which hinges on the enemy’s inevitable attraction to attacking him. You will not find another hero in DoTA that is so frequently the first target in team fights, and few are such a sought after gank target. I call this the Tetraodontidae Technique because Tetraodontidae are a family of fish who at first appear unassuming and weak, but upon being attacked, they puff up in a mass of poisonous spikes, killing their would-be predator. Soon you will discover how to turn Leshrac into a similarly unassuming Tetraodontidae; so please, read on.", " You are not weak during this period, but it is your most vulnerable time. Last hit carefully, harass when able, and land whatever nuke you chose to both harass the enemy and last hit creeps (simultaneously is best). Use those clarities, too. Your enemy is likely to underestimate you, especially if you get Diabolic Edict early. At level 2, Diabolic Edict can pump 800 damage to a lone target, which is nothing to sneeze at in the early game. If a player wants to stand toe to toe with you because every other Leshrac he's ever played got nothing but Split Earth and Lightning Storm, you should kindly oblige him, then light his ass on fire. One thing to remember: when using Diabolic Edict or Pulse Nova, do not dance around like an idiot. Keep attacking, that's what makes the spells so good, they fight with you, not for you.", "Your mid game centers around three items: Bloodstone, Blade Mail, Black King Bar. Generally by the time you finish all three of these, mid game is at least beginning to transition to late game, depending on how well you've done pushing towers and how many heroes you've killed. If you find that by the time you get your early game items and grab your point booster you are extremely underfed and behind, I recommend grabbing Boots of Travel as fast as you can. Travels are good for catching up when you are behind on gold, but I find them to be too expensive to be worth the gold otherwise. If you aren't falling behind and your team is working together and getting proper ganks, pushing towers, etc., town portals should work just fine. If, on the other hand, your team is not working together well and your lanes are not being kept under control, Travels provides a way for you to pick up the slack and grab the gold in those unchecked creeps. I grab travels early maybe 2 out of 15 games.", "Late game your attack strategy changes very little from Mid Game with the exception of Veil of Discord, which allows you to increase your damage output by 25%. You should generally cast Discord before any other spells; the attack sequence otherwise remains the same. Use your travels for lane control, Lesh is one of the best late game lane controllers in DoTA, and try to rax the enemy when they aren't expecting it. Whatever you do, be present in team fights, you are a huge force in throwing the fight to your team's favor.", "Tetraodontidae Technique", "playdota", "http://www.playdota.com/guides/tetraodontidae-technique", "Leshrac", "60");
@@ -8698,7 +7071,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","(Semi Carry) Smexy Little Man","Black King Bar");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("This is the ALL_PURPOSE (CAPS) Lion section<br/>it's perfectly suitable for a plethora of versatility, like WR with more burst but less physical dps", "Since he's an all-purpose now, you can do whatever the hell you want with him. That is getting the solo mid efficiently (or side lane, but middle lane is much more appreciated) Just pointing out though, that it is highly recommended you know what you're doing in a solo lane. Lion's physical DPS is about average as it gets, and there are times when you know you're just fucked (I'm looking at you Invoker) and should start acting passively or call for ganks. If not, try to be aggressive if you can and force the opponent out of your lane", "Now, you are geared towards what arguably Lion does best, and that is ganking the shit out of anything that moves.<br/>So, provided with Ward support, you always carry a TP with you. Go around and try your best to control the rune flow. Always be sure to check the opponent's jungle if your ultimate is up and there is just about 1,2 people missing from the minimap. You excel at ganking lone target, even though allied disable support is much appreciated. You can get the farm with things died down and your carry is in another lane doing his job, just aiming for that Blink Dagger and BKB for protection if the time calls for it.<br/>Yes, generally you should be aggressive but only not at your own expense. Remember you are a valuable asset to the team at this point and dying meaninglessly or doing bad trade-offs are extremely detrimental to your own team's greater outcome.<br/>Now since you are not with physical DPS this time around, you could be initiating the battle. Blink in and try to hit 2 heroes with Impale and of course 1 with Hex. Unleash your Finger of Death if you feel like a hero should and could be bursted down by your teammates, or else saving it to finish a hero (better if it was almost) or before you die if the situation calls for it.<br/>You should try and stay alive so you can come back for the second round of disables. BKB helps with that, but you need to be out of the line of fire first If you somehow finds yourself the lone survivor with 3+ enemy heroes staring at you, and you have Blink not on cd and/or disabled, what do you do?", "So much harder than your average dps Lion I'm afraid. You have to know what you're doing, never go alone since your nuking combo have probably lost a lot of effectiveness. Don't hesitate to use your skills and sometimes being the bait is good, since you are this hero with a big 'kill me' sign, of course you must have had BKB and some survivability items to make this work. Follow through team fights accordingly, initiate first if able and just... hope for the best", "(All Purpose) Utility Carry", "playdota", "http://www.playdota.com/guides/the-ancient-evil-survives", "Lion", "70");
+      VALUES ("This is the ALL_PURPOSE (CAPS) Lion section<br/>it's perfectly suitable for a plethora of versatility, like WR with more burst but less physical dps", "Since he's an all-purpose now, you can do whatever the hell you want with him. That is getting the solo mid efficiently (or side lane, but middle lane is much more appreciated) Just pointing out though, that it is highly recommended you know what you're doing in a solo lane. Lion's physical DPS is about average as it gets, and there are times when you know you're just fucked (I'm looking at you Invoker) and should start acting passively or call for ganks. If not, try to be aggressive if you can and force the opponent out of your lane", "Now, you are geared towards what arguably Lion does best, and that is ganking the shit out of anything that moves.<br/>So, provided with Ward support, you always carry a TP with you. Go around and try your best to control the rune flow. Always be sure to check the opponent's jungle if your ultimate is up and there is just about 1,2 people missing from the minimap. You excel at ganking lone target, even though allied disable support is much appreciated. You can get the farm with things died down and your carry is in another lane doing his job, just aiming for that Blink Dagger and BKB for protection if the time calls for it.<br/>Yes, generally you should be aggressive but only not at your own expense. Remember you are a valuable asset to the team at this point and dying meaninglessly or doing bad trade-offs are extremely detrimental to your own team's greater outcome.<br/>Now since you are not with physical DPS this time around, you could be initiating the battle. Blink in and try to hit 2 heroes with Impale and of course 1 with Hex. Unleash your Finger of Death if you feel like a hero should and could be bursted down by your teammates, or else saving it to finish a hero (better if it was almost) or before you die if the situation calls for it.<br/>You should try and stay alive so you can come back for the second round of disables. BKB helps with that, but you need to be out of the line of fire first. If you somehow finds yourself the lone survivor with 3+ enemy heroes staring at you, and you have Blink not on cd and/or disabled, what do you do?", "So much harder than your average dps Lion I'm afraid. You have to know what you're doing, never go alone since your nuking combo have probably lost a lot of effectiveness. Don't hesitate to use your skills and sometimes being the bait is good, since you are this hero with a big 'kill me' sign, of course you must have had BKB and some survivability items to make this work. Follow through team fights accordingly, initiate first if able and just... hope for the best", "(All Purpose) Utility Carry", "playdota", "http://www.playdota.com/guides/the-ancient-evil-survives", "Lion", "70");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","(All Purpose) Utility Carry");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -9141,7 +7514,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Comprehensive Guide to Lycanthrope","Heart of Tarrasque");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Mirana has a well established presence in the DotA competitive scene, often times a pick. Dominantly used a Ganker/Roamer (which this guide will cover), Mirana is a capable Carry given the right conditions. Just do not expect to go into every game thinking you can Carry a team with a Hero like Mirana. Mirana is one of the few Heroes that have recieved little to no balancing acts by IceFrog. Why? Most likely because she is already balanced. Her unique skillset can be deadly when used properly and they can provide you plenty of gold via Starfall. A complete package is what Mirana is, and I hope you guys enjoy this guide. This guide correlates to the current DotA scene (6.6x). Before you read this guide, I will not hold your hand. You should know certain aspects of DotA already, and I will not tell you things that you can find for yourself. This guide focuses on Mirana, not how to play DotA.", "Survive! Surviving is the most important rule. Losing gold is not an option as it stunts your growth and Ganking potential. Play it safe, do not Leap into a Tower thinking you can tank it because you cannot.<br/> Farm! Farm through last hitting. You need to get that Empty Bottle as quick as possible. Without it, you will not Roaming as much.<br/>Support! If you are laning with a Carry that has more 'Carry' potential than you, then go ahead and let him/her take the kill. You can get that potential gold through effective last hitting, so do not sweat it.<br/>When you play Mirana, there will be plenty of opportunities to kill in the Laning Phase and those opportunities will increase when you have a capable partner with you. Gauge your opponent, predict, shoot off an Elune's Arrow, then just wack them dead. Early Game kills are all about confidence and coordination with your allies. Even though I did not tell my ally Sniper I was going to try to kill Juggernaut, he was smart and reacted when he saw the Elune's Arrow (some people just sit there and attack creeps). So if you ever see the opportunity to get a kill, then go ahead and take it. Just be sure you will either kill the person or get away safely if you do not.", "'Marina MIA' You will make your enemy fear those words. You have to! It is the only way to be effective. You do not have to be the most efficient Mirana player, missing out on kills is a-okay although way more beneficial to you if you do get the kill. The point in this style of play is to strike fear in your opponents, to make them go back to base, and lose out on opportunities for gold and experience. If you are constantly on the move, seizing every possible opportunity, your opponents will be on their toes. They will play more careful, but they will also open wider windows for opportunities to strike. When a door closes, another opens. <br/>Despite all of that motivational talk, you will not be constantly on the move UNLESS you are benefiting from every single kill by garning the experience as well. Essentially, you will just be scaring enemy heroes away from their lane. You will then use that time to farm that lane for a little while, then you will move onto the next victim. 'Why? Did you not just say that Mirana is not Item dependent Early-Middle Game?' Did you forget there is a Late Game too? Late Game requires Mirana to have certain items to be effective; otherwise, she will be fodder for the Carries.<br/>To sum all that up: Ganking and Farming requires a nice balance between the two for Mirana to be effective at all stages of the game, from Early to Late Game. If one or the other dominates (Ganking cannot really dominate Farming because you are still getting gold and what not...so that statement is somewhat redundant, but who cares), then you will basically die all the time and provide no help to your team.", "In Late Game, there is not much need for Ganking any more. Late Game is where Carries are called upon to help aid in ending the game. So what happens to Roaming Mirana? Well, here are her options: Support, Semi-Carry. ", "Priestess of the moon", "dotastrategy", "http://www.dotastrategy.com/strategy-33499-MiranaNightshadePriestessoftheMoon.html#earlygame", "Mirana", "40");
+      VALUES ("Mirana has a well established presence in the DotA competitive scene, often times a pick. Dominantly used a Ganker/Roamer (which this guide will cover), Mirana is a capable Carry given the right conditions. Just do not expect to go into every game thinking you can Carry a team with a Hero like Mirana. Mirana is one of the few Heroes that have recieved little to no balancing acts by IceFrog. Why? Most likely because she is already balanced. Her unique skillset can be deadly when used properly and they can provide you plenty of gold via Starfall. A complete package is what Mirana is, and I hope you guys enjoy this guide. This guide correlates to the current DotA scene (6.6x). Before you read this guide, I will not hold your hand. You should know certain aspects of DotA already, and I will not tell you things that you can find for yourself. This guide focuses on Mirana, not how to play DotA.", "Survive! Surviving is the most important rule. Losing gold is not an option as it stunts your growth and Ganking potential. Play it safe, do not Leap into a Tower thinking you can tank it because you cannot.<br/> Farm! Farm through last hitting. You need to get that Empty Bottle as quick as possible. Without it, you will not Roaming as much.<br/>Support! If you are laning with a Carry that has more 'Carry' potential than you, then go ahead and let him/her take the kill. You can get that potential gold through effective last hitting, so do not sweat it.<br/>When you play Mirana, there will be plenty of opportunities to kill in the Laning Phase and those opportunities will increase when you have a capable partner with you. Gauge your opponent, predict, shoot off an Elune's Arrow, then just wack them dead. Early Game kills are all about confidence and coordination with your allies. Even though I did not tell my ally Sniper I was going to try to kill Juggernaut, he was smart and reacted when he saw the Elune's Arrow (some people just sit there and attack creeps). So if you ever see the opportunity to get a kill, then go ahead and take it. Just be sure you will either kill the person or get away safely if you do not.", "Marina MIA' You will make your enemy fear those words. You have to! It is the only way to be effective. You do not have to be the most efficient Mirana player, missing out on kills is a-okay although way more beneficial to you if you do get the kill. The point in this style of play is to strike fear in your opponents, to make them go back to base, and lose out on opportunities for gold and experience. If you are constantly on the move, seizing every possible opportunity, your opponents will be on their toes. They will play more careful, but they will also open wider windows for opportunities to strike. When a door closes, another opens. <br/>Despite all of that motivational talk, you will not be constantly on the move UNLESS you are benefiting from every single kill by garning the experience as well. Essentially, you will just be scaring enemy heroes away from their lane. You will then use that time to farm that lane for a little while, then you will move onto the next victim. 'Why? Did you not just say that Mirana is not Item dependent Early-Middle Game?' Did you forget there is a Late Game too? Late Game requires Mirana to have certain items to be effective; otherwise, she will be fodder for the Carries.<br/>To sum all that up: Ganking and Farming requires a nice balance between the two for Mirana to be effective at all stages of the game, from Early to Late Game. If one or the other dominates (Ganking cannot really dominate Farming because you are still getting gold and what not...so that statement is somewhat redundant, but who cares), then you will basically die all the time and provide no help to your team.", "In Late Game, there is not much need for Ganking any more. Late Game is where Carries are called upon to help aid in ending the game. So what happens to Roaming Mirana? Well, here are her options: Support, Semi-Carry. ", "Priestess of the moon", "dotastrategy", "http://www.dotastrategy.com/strategy-33499-MiranaNightshadePriestessoftheMoon.html#earlygame", "Mirana", "40");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","Priestess of the moon");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -9426,539 +7799,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Warriors of the night","Heart of Tarrasque");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("We cannot see our reflection in running water. It is only in still water that we can see", "Usually I ask for a solo because getting a 2 level advantage over your opponents is crucial because Waveform hurts a lot early game. You can either choose to solo middle or bottom. What you really want to do is get as many last hits and denies as you can because that way you can get your early game bottle and boots and go ahead and start ganking with your allies. If you do not get a solo lane then you must have to get lots of last hits and denies. Usually if you are forced to be in a dual lane try to lane with someone who does not need the farm. For example Vengeful Spirit has a nice stun that does decent damage, a nuke that reduces armor and an aura that gives you 36% more damage. ", "This is usually the time where everyone is constantly ganking. By this time I assume that you have your Bottle, Boots of Travels, Poor man Shields and Magic Stick so you should be able to kill most Intelligence or Agility heroes. This is where Morphling shouldn’t die because of the fact that he is going to need to carry late game and you need to make sure you get as much gold and lose as least gold as you can. Usually Morphling needs a ally to have a successful gank because as soon as you use your Waveform you need something to keep them in place so that you can constantly hit on them until your Waveform is back and you can take the kill.", "By now you should be pushing like mad. You solo push while your teammates push the other lanes. Whenever the enemy team goes for you just hide in the trees until they defend the other lanes, that’s when you come back out and continue to push. If your team ever needs you just teleport back to where they need you and stop that push. By the time you finish that push your Boots of Travels cooldown is over and you can again continue to solo push. By now you should and be able to spam Waveform. All if you have to do it just Waveform creeps because it takes all the melee creeps to red and the mage creep to red hp, also by now you should be able to take most heroes 1v1 so it's safe to use Waveform on creeps.", "Go With the Flow", "playdota", "http://www.playdota.com/forums/showthread.php?t=316421", "Morphling", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","3","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","3","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","3","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Go With the Flow");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Go With the Flow");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Go With the Flow","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Go With the Flow","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Go With the Flow","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Go With the Flow","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Go With the Flow","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Go With the Flow","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Go With the Flow","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Go With the Flow","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Go With the Flow","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Go With the Flow","Wraith Band");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Go With the Flow","Wraith Band");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Satanic");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Ethereal Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Blade Mail");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Diffusal Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Go With the Flow","Mjollnir");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Nothing in the world is more flexible and yielding than water. Yet when it attacks the firm and the strong, none can withstand it, because they have no way to change it. So the flexible overcome the adamant, the yielding overcome the forceful. Everyone knows this, but no one can do it.", " As a solo mid player, I advise that you request for a solo lane because a 2 level advantage is crucial since Waveform deals a lot of damage early game. Focus on getting in as many kills and denies as possible before leaving your lane to gank. Upon a successful gank, TP back to your lane and resume farming, as Morphling needs enough farm to be useful in his traditional DPS/Tank role in the team. For those players who prefer Morphling in a dual lane, make sure that you have a suitable lane partner, preferably someone like Vengeful Spirit or Crystal Maiden who can babysit you and harass the opposing lane. Their stun will also combo well with  your Waveform for an early kill or 2.", "As mentioned earlier, Morphling is more than capable of pulling his own weight in the early and mid-stages of the game. Initiate the battle with Wave Form  and start picking off weaker Agility heroes but always ensure that you can make it out alive. Like all successful ganks, Morphling will need a decent ally to pull off an attac", "If all goes well, you should have sufficient farm to get items like Manta Style and Linken’s Sphere to contribute to gang fights and carry your team to victory. If you have Boots of Travel, you should focus on pushing separate lanes from your team and only teleport back whenever they require your assistance.By the time you finish that push your Boots of Travels cooldown is over and you can again continue to solo push.", "Morphling Guide", "dota2-guide", "http://dota2-guide.org/theradiant/morphling-guide/", "Morphling", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","2","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","3","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","3","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","3","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Morphling Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Morphling Guide");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Morphling Guide","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Morphling Guide","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Morphling Guide","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Morphling Guide","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Morphling Guide","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Morphling Guide","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Morphling Guide","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Morphling Guide","Wraith Band");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Morphling Guide","Wraith Band");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Morphling Guide","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Morphling Guide","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Morphling Guide","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Morphling Guide","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Morphling Guide","Sange and Yasha");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Morphling Guide","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Morphling Guide","Ethereal Blade");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Morphling is a hard carry and hard carrys should always get supported/babysitted in which lane ever they are. You might consider to solo lane. Morphling which is not really a terrible choice but a risky one. In pubs you should always take the safe lane with atleast one support hero who should totally sacrifice any sort of farm in the lane to you. The support will protect you and should atleast double stack pull if possible all the time to make farming for you really easy and safe because you are near your tower all the time, deny experience to the enemy and make you out leveling the enemy because you are solo and they get exp denied. Which might opens the possibility to kill your enemy in lane.", "Your achievment is to get as much farm and levels as you possibly can and avoid dying at all costs. Get your earlygame items up as soon as possible.", "You are about to reach lvl 6-8, the first ganks might start around this point, try always to be aware of where the enemy team is and have in mind to be really careful if a few are missing. Start to ALWAYS carry 2(!) tp scrolls with you. Your goal is to atleast reach your Linkens at 20 min which means you got quite decent farm. From now on you are able to participate in fights. Your next goal will be to get your Manta asap. You should not participate in ganks because you will miss farm and exp if you do so. Be aware that you could be ganked by the whole enemy team and keep in mind what you have learned regarding the sections before. Anyway if your team needs you to defend a tower you should always tp in there to fight the enemy team if you got atleast linkens. If you dont and you wont skip it than sacrifice this tower to get your farm and possibly dmg an enemy tower as well. Be anyway careful about how much you actually can sacrifice to get your Linkens.", "Morphling starts shining. Keep in mind that you are the carry which basically means that you are the most important hero of your team. A stupid decision will probably cost you the game if you cant afford a buyback. You are not the one who should initiate the fight, you need your Linkens to be ready after the initiation. Try to focus down supports or heavy dps heroes with not ridicoulously high armor or exposed enemies which are out of position. Use your abilities wisely and try to deal as much dmg as you can with your Manta illusions and Adaptive Strike. Save Waveform if you are not sure if you will need it to escape or not. Always save for buyback. You should only spend your whole money if you are confident enough that the bought item will make a huge difference in team fights.", "Surfing Time", "dotafire", "http://www.dotafire.com/dota-2/guide/in7-gankers-guide-to-morphling-735", "Morphling", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","2","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Surfing Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Surfing Time");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Surfing Time","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Surfing Time","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Surfing Time","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Surfing Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Surfing Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Surfing Time","Ring of Protection");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Surfing Time","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Surfing Time","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Surfing Time","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Surfing Time","Ring of Aquila");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Surfing Time","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Blade Mail");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Diffusal Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Hand of Midas");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Mjollnir");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Monkey King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Divine Rapier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Daedalus");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Satanic");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Surfing Time","Ethereal Blade");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("The bear awaits", "Note : Almost all items are for the Spirit Bear, the boots are for both heroes, and the only item you'll get will be the Heart of Tarrasque. I play Syllabear as a jungler, so be sure that your solo lane will be able to handle 2 oppenents. Be sure to check miss because Syllabear is very vulnerable before level 6. Get a Stout Shield and a Quelling Blade for your bear and 2 tangos for you. The bear will be your main source damage during all the game so make sure you always have it or you'll be useless. Let the bear tanks the creeps, and don't let it die. You can make him go back to the fountain to regen and buy items.", "Farm until you get your basher and give it to your bear, then you can start ganking and roaming.", "Follow the item build, I advise you to stay to your ult form during the fights because it provides you huge a good health bonus, you won't have MS problems with phase boots and Rapid skill. Let your bear engages and proc the snare/stun", "Jungle Melee", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=466", "Nature's Prophet", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Jungle Melee");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Jungle Melee");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Melee","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Melee","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Melee","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Melee","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Melee","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Melee","Skull Basher");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Melee","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Melee","Vladmir's Offering");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Melee","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Melee","Radiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Melee","Vanguard");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("I'm awake.  I'm awake", "Bear's items : -Stout shield, hatchet Your items : -Healing salve. Your goal is to farm the phase boots of your bear as fast as you can. As your bear got the phase boots ,you have no problem harassing your enemy to make him stay out of the lane. While your enemy is out of the lane ,farm as many as you can for your boots and the radiance of your bear.", "Bear's items : -Stout shield -Phase Boots -Radiance Your items : -Boots of speed -Wraith band Now you have your radiance and phase boots on your bear , you have no problem any more solo killing or ganking. Your goal now is to farm the vladmir's and BOT for you and vanguard ,assault cuirass or heart for your bear ,if you had this items, your bear now have the over all tankiness. Your job now is to kill enemies, as you see your enemies roaming, Kill Them! you are now a 'Undestructable Killing/Pushing Macine.'", "Bear's items : -Vanguard -Phase Boots -Radiance -Assault Cuirass/Heart-of-Tarrasque Your items : -Boots of Travel -Wraith Band -Vladmir's Offering You now have the over all control in the game. If you want to end this game then its Better ,But you can choose to continue the game and Beat the Shit out of your enemies.", "Jungle Ranged", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=455", "Nature's Prophet", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","3","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","4","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Jungle Ranged");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Jungle Ranged");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Ranged","Stout Shield");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Ranged","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Jungle Ranged","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Radiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Wraith Band");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Jungle Ranged","Vladmir's Offering");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Ranged","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Ranged","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Ranged","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Ranged","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Jungle Ranged","Eye of Skadi");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Remember, you are a support hero, not a carry. Your goal is to help out your team-mates, not rampage and kill all the other heroes. How do I do this? Simple. Spam that Death Pulse when opponents are nearby and when allies are nearby. By doing this, you and your team benefit a lot. You get SOME farm (don't steal from carry), your opponents get damaged, your allies get healed. There you go, 3 things done with 1 pulse.", "Stay in your lane as much as possible. The longer you stay in your lane, the more farm you get. This farm will result in better items and usually more damage will be done to the opponent. The ability to spam Death Pulse is average, not too high and not too low. Use your mana carefully and get those last hits to power up the Death Pulse.", "Here is the stage where you start to peak. At this point, you should be pretty tank-y. If you're lucky you will have a Guinsoo's Scythe of Vyse, which allows you to basically spam Death Pulse without stopping. Use your ultimate on weakened heroes, if possible don't kill them, leave that to the carry. Remember, there's a 1.5 second stun on your ultimate. However, don't try to always let your carry get the kill if you're afraid that the kill might be missed.", "Try to end it around here if possible. Anything too late and you will become weaker, however your ultimate will scale really well. Remember to buy those BoTs if it gets too late. The Death Pulse and Shiva's Blast should be able to clear massive creep waves.", "Spiderman's Guide to Necrolyte", "playdota", "http://www.playdota.com/guides/spidermans-guide-to-necrolyte", "Necrolyte", "65");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Spiderman's Guide to Necrolyte");
@@ -10162,7 +8002,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Death Pulse ftw","Aghanim's Scepter");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Team Role: Late game Carry / Semi-Carry, All game ganker, Hero Killer, that’s right we will be doing a lot of it too, Semi- Disabler, Clutch time performer.", "Lane Choice: Anywhere but mid. Solo if you are confident for you need to out level everyone. <br/>Against Ranged Heroes: We are realistically no match for any ranged hero at this point in time. They will eat us up like fried rice. So just remember to not be the initiator. Hopefully you have a lanemate to help you. <br/>Against Melee Heroes: This isn't as bad, but most melee heroes have some sort of slow or stun. So just watch out for that and farm as you do.  Balanar's early game is extremely boring.All we are doing is basically farming up until the night. So hopefully you faired well and will be successful in the next section which will be the part that makes or break your game.", "Target Tasks: Survive, Killing Solo, Killing with team, Farm- In between ganks. This is the last one on the list because it is our last priority<br/>Steps to a Good Gank 1v1 : Pick out a lonely hero, Go up and wack 1~2 times, Then cast Crippling Fear, Then Void, And then just wack till they die. <br/>Steps to a Good Gank 1v2: Pick out two heroes. Make sure that only one of them has a stun and they are not super nukers. Don’t go jumping in against tinker and Lina or Zeus, Analyze which hero is stronger of the two, Jump in and cast Fear on the one with the disable or stun, Void the weaker one, Finish the weaker one off", "Late game Tasks: Kill. That is what we always do anyways, Push. Remember that we only have 16 minutes or so of night starting from the Second Night. Try to end the game in those 16 minutes. Because after that will be another 6 minute of cruel defending and farming. And as I said, you are a tide turner, if you are out of the picture during those 6 minutes, the other team can very easier make a come back. At this point in time, there should be massive team pushes happening. Where every member of the team is together and trying to end the game. Our role as Balanar is to carry the team to victory and kill everyone else in the process.", "Go Go Michael Jackson", "dotastrategy", "http://www.dotastrategy.com/strategy-23898-GoGoMichaelJacksonByFlodian.html", "Night Stalker", "75");
+      VALUES ("Team Role: Late game Carry / Semi-Carry, All game ganker, Hero Killer, that’s right we will be doing a lot of it too, Semi- Disabler, Clutch time performer.", "Lane Choice: Anywhere but mid. Solo if you are confident for you need to out level everyone. <br/>Against Ranged Heroes: We are realistically no match for any ranged hero at this point in time. They will eat us up like fried rice. So just remember to not be the initiator. Hopefully you have a lanemate to help you. <br/>Against Melee Heroes: This isn't as bad, but most melee heroes have some sort of slow or stun. So just watch out for that and farm as you do.  Balanar's early game is extremely boring.All we are doing is basically farming up until the night. So hopefully you faired well and will be successful in the next section which will be the part that makes or break your game. ", "Target Tasks: Survive, Killing Solo, Killing with team, Farm- In between ganks. This is the last one on the list because it is our last priority<br/>Steps to a Good Gank 1v1 : Pick out a lonely hero, Go up and wack 1~2 times, Then cast Crippling Fear, Then Void, And then just wack till they die. <br/>Steps to a Good Gank 1v2: Pick out two heroes. Make sure that only one of them has a stun and they are not super nukers. Don’t go jumping in against tinker and Lina or Zeus, Analyze which hero is stronger of the two, Jump in and cast Fear on the one with the disable or stun, Void the weaker one, Finish the weaker one off", "Late game Tasks: Kill. That is what we always do anyways, Push. Remember that we only have 16 minutes or so of night starting from the Second Night. Try to end the game in those 16 minutes. Because after that will be another 6 minute of cruel defending and farming. And as I said, you are a tide turner, if you are out of the picture during those 6 minutes, the other team can very easier make a come back. At this point in time, there should be massive team pushes happening. Where every member of the team is together and trying to end the game. Our role as Balanar is to carry the team to victory and kill everyone else in the process. ", "Go Go Michael Jackson", "dotastrategy", "http://www.dotastrategy.com/strategy-23898-GoGoMichaelJacksonByFlodian.html", "Night Stalker", "75");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","Go Go Michael Jackson");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -10265,7 +8105,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Go Go Michael Jackson","Heart of Tarrasque");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Void: Low mana costs, a bit more damage than the most other nukes and as this wouldn’t be enough, a slow. A really amazing skill that you will mainly use for ganking. It includes a mini-stun to interrupt town portals and channelings.<br/>Crippling Fear: This skill isn’t used that often and not as powerful as Void and Hunter in the Night in the first night, that’s true. But it fits into your ganker role when you don’t want heroes with Blink and invisibility to flee.<br/>Hunter in the Night: Your signature skill. This will make you to a superb roaming fury in the night. <br/>Darkness: You will use this skill mainly to make the night longer. Use it from the first second of the night whenever you can. Thanks to this skill you aren’t that unreliable when it’s day. By the way it doesn't need any mana", "The levels 1-8 are the preparation for the first night. You won’t benefit from Hunter in the Night nor you will use Void fairly often. But when it’s night these 2 skills will make you simply unstoppable. One early level of Crippling fear can save you and your mates or help you killing someone. You can chose any lane but follow these rules:<br/>Possibly go solo. When you are level 7 when the first night begins you will own the whole night long.<br/>Possibly go solo bottom (Sentinel) or top (Scourge). You won’t be ganked too much and you can lane against dual lanes. Mid is always possible but maybe hard against some heroes like Viper. Top (Sentinel) and bottom (Scourge) are very risky lanes because it’s easy to gank them.<br/>When you go with a mate, chose someone aggressive support like Vengeful Spirit because he doesn’t steal your lasthits and you can make some kills with him. So you can outweigh the xp you lose because of your mate. But in general you should go solo.", "After celebrating a wild party in the night you are weakened. Roaming is ineffective when it’s day (low movement speed), so let’s go back to farming. You need it to get some items anyway. Here one of the lists I like so much:<br/>Go to a lane where you can get free farm<br/>Swap the lane if someone pushes the lane you farm at<br/> Go into the woods if you pushed too far and/or you think that someone will gank you. Use your Quelling Blade to stack creepspots. That is more effective than normal pulling because you don't get gold by pulling the creeps over a long distance to get them out of their spawn area", "You aren’t that overpowered as in early game anymore because other carries grow stronger than you do. But you can be happy: After level 16 Darkness lasts 80 seconds and has just 120 seconds cooldown. In fact you can activate it every time necessary. In late game your main job is fighting in clashes. Your greatest strength isn’t just your great physical dps, it is also the tactical advantage of Aghanimn’s Scepter. No one can ambush you and sometimes your enemies don’t know that you see them so that you can surprise them.<br/>1. Stay in front of your team when your team pushes. Use Darkness, go near to cliffs and look out for the enemy team.<br/>2. If you meet the enemy team, activate Bkb<br/>3. Use you silence on heroes with dangerous non-channelling skills (e.g. Echo Slam). They could kill you whole team.<br/>4. Wait for a dangerous channelling skill (Epicenter, Black Hole). Interrupt it with Void.<br/>5. Attack and Spam Void, Recast Crippling Fear.", "Step by step guide to Balanar", "playdota", "http://www.playdota.com/guides/a-step-by-step-guide-to-balanar", "Night Stalker", "60");
+      VALUES ("Void: Low mana costs, a bit more damage than the most other nukes and as this wouldn’t be enough, a slow. A really amazing skill that you will mainly use for ganking. It includes a mini-stun to interrupt town portals and channelings.<br/>Crippling Fear: This skill isn’t used that often and not as powerful as Void and Hunter in the Night in the first night, that’s true. But it fits into your ganker role when you don’t want heroes with Blink and invisibility to flee.<br/>Hunter in the Night: Your signature skill. This will make you to a superb roaming fury in the night. <br/>Darkness: You will use this skill mainly to make the night longer. Use it from the first second of the night whenever you can. Thanks to this skill you aren’t that unreliable when it’s day. By the way it doesn't need any mana.", "The levels 1-8 are the preparation for the first night. You won’t benefit from Hunter in the Night nor you will use Void fairly often. But when it’s night these 2 skills will make you simply unstoppable. One early level of Crippling fear can save you and your mates or help you killing someone. You can chose any lane but follow these rules:<br/>Possibly go solo. When you are level 7 when the first night begins you will own the whole night long.<br/>Possibly go solo bottom (Sentinel) or top (Scourge). You won’t be ganked too much and you can lane against dual lanes. Mid is always possible but maybe hard against some heroes like Viper. Top (Sentinel) and bottom (Scourge) are very risky lanes because it’s easy to gank them.<br/>When you go with a mate, chose someone aggressive support like Vengeful Spirit because he doesn’t steal your lasthits and you can make some kills with him. So you can outweigh the xp you lose because of your mate. But in general you should go solo.", "After celebrating a wild party in the night you are weakened. Roaming is ineffective when it’s day (low movement speed), so let’s go back to farming. You need it to get some items anyway. Here one of the lists I like so much:<br/>Go to a lane where you can get free farm<br/>Swap the lane if someone pushes the lane you farm at<br/> Go into the woods if you pushed too far and/or you think that someone will gank you. Use your Quelling Blade to stack creepspots. That is more effective than normal pulling because you don't get gold by pulling the creeps over a long distance to get them out of their spawn area", "You aren’t that overpowered as in early game anymore because other carries grow stronger than you do. But you can be happy: After level 16 Darkness lasts 80 seconds and has just 120 seconds cooldown. In fact you can activate it every time necessary. In late game your main job is fighting in clashes. Your greatest strength isn’t just your great physical dps, it is also the tactical advantage of Aghanimn’s Scepter. No one can ambush you and sometimes your enemies don’t know that you see them so that you can surprise them.<br/>1. Stay in front of your team when your team pushes. Use Darkness, go near to cliffs and look out for the enemy team.<br/>2. If you meet the enemy team, activate Bkb<br/>3. Use you silence on heroes with dangerous non-channelling skills (e.g. Echo Slam). They could kill you whole team.<br/>4. Wait for a dangerous channelling skill (Epicenter, Black Hole). Interrupt it with Void.<br/>5. Attack and Spam Void, Recast Crippling Fear.", "Step by step guide to Balanar", "playdota", "http://www.playdota.com/guides/a-step-by-step-guide-to-balanar", "Night Stalker", "60");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Step by step guide to Balanar");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -10972,106 +8812,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","me me me me too","Manta Style");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("PL is a very versatile hero, with a unique and (the most, IMO) powerful escape mechanism. He is very relevant in all phases of the game, and in all scenarios that occur during a DOTA match: laning, pushing, ganking and teamfights. He is very difficult to counter, and works well with any balanced lineup (1 hard/semi-carry, 1 support, 1 ganker, 1 tank - replace any of these with another support, that works too). His primary role is hard carry, secondarily a pusher, thirdly a tank. The extent to which these roles are developed towards late-game depend on his last 2 item choices.", "Avoid spending any mana unless you're getting ganking help or a well set-up kill attempt with your lane partner. Make sure you always have enough mana for a doppelwalk on you. Take last hits, don't die get kills when a gank is going down. Use spirit lance to land killing shots on extended ganks, but usually it's preferable to use it to slow a hero when no other disable is on them. You should be having a high level of doppelwalk fairly quickly, so start being aggressive with last-hits, and use pre-emptive doppelwalk to avoid getting harassed.", "Teamfights will be happening in various parts of the map. Whenever this is away from a tier 1 enemy tower, go push that tower down. With your escape mechanism and a TP scroll, you will easily be able to take the tower (and get the last hit too!) and then evacuate easily. Keep your eyes on the river and the presence of the enemy heroes. Towards the end of mid-game, start joining in teamfights. Use doppelwalk a lot.", "Join every teamfight once all T1 and T2 enemy towers are down. Open with doppelwalk. Once the enemy has used their most dangerous spells, reveal yourself with a spirit lance. Flip this around once in a while for added confusion. Weave in and out of the battles often, and focus your purge-assassinate on key low hp targets. Enjoy wreaking havoc!", "One man. One goal. 70 MILLION ILLUSIONS", "", "", "Phantom Lancer", "50");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","2","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","One man. One goal. 70 MILLION ILLUSIONS");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Quelling Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Ring of Protection");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Ring of Basilius");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Diffusal Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Daedelus");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Vladmir's Offering");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Azwraith, the Phantom Lancer is a melee agility hero with excellent stat growth. All of his skills revolve around the creation of illusions, weaker images of himself, and with them he puts out a lot of damage.", "Azwraith's earlygame role is to farm. Your team will rely on you later. If you don't farm earlygame, you're screwed. At low level, you can't jungle, you can't gank (unless you get a good lane partner), you can't do much. So obviously the goal is to level up as quickly as possible. Last hitting and denying goes without saying. Keep your head up, stay aware of the map. Don't die. Don't dive past a tower. That’s not your job and it’s not worth the risk. ", "Azwraith's midgame role is to farm some more, and to gank lone heroes once you have a Diffusal. There isn't much to be said here. Use and abuse Doppelwalk in every confrontation, and be sure to keep farming. Don't die.<br/>Jungling : There are many reasons why a player would farm in the forest, and I'm not going to go over them in this guide. However, if you do decide to Jungle, going midgame is best: jungling midgame can help you set up ganks in nearby lanes, and by midgame, you should have your Diffusal. In order to kill a neutral creep camp effectively with Azwraith, you should use your illusions to tank the creeps' damage. To engage the creep camp, either Spirit Lance and dive in after they start hitting your illusion, or engage the creeps head on and once you have a Juxtapose illusion popped up, back off the fight for about a second and the creeps will lay off you and start focusing on the illusions, giving you a chance to take their gold, and exp without taking any damage at all.", "Azwraith's lategame role is to push and to carry. Use your Travels to switch lanes quickly, attack and proc up some illusions, and send them flying down the lane. When the enemy comes to defend, Doppelwalk and switch lanes. In big lategame team clashes, Azwraith has no AoE so your job will be to hit the hero your team is focusing on, thereby amassing a platoon of images. You should be dealing great damage. Your job by your presence alone is to overwhelm the other team with confusing illusions. And finally, your job is to chase down any stragglers from the other team that are getting away. And don't die. Always have enough mana leftover for a Doppelwalk.", "Concise Phantom Lancer", "playdota", "http://www.playdota.com/guides/the-concise-phantom-lancer", "Phantom Lancer", "30");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Concise Phantom Lancer");
@@ -11357,587 +9097,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","You can't kill me","Pipe of Insight");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Where the butcher at?", "Ok, so you picked Pudge. What now ? As Pudge I extremely recommend taking the Solo Lane, mid or the safe lane, bottom for the Radiant or Top for the Dire. Pudge is one of these solo heroes who are very level dependant in order to be effective in the early game. Tangoes, a Salve, 2 Gauntlets and 2 Branches in my opinion are the best items you could go for because it gives you decent stats to lasthit and enough regen for the early game. Also, the Bauntlets can be build in an Urn of Shadows later. If you expect hard harrass coming out from your lane opponent (e.g. Sniper) and the enemy team has 3 or more physical damage dealers, you can also change the 2 Gauntlets for a Stout Shout shield. Another option is the Quelling Blade, which gives you even more lasthitting power (highly recommended against SF) and the possibility to cut trees to Hook you enemies into angles where they can't flee. Rejected item to leave base with: Naked Bottle  ; I say this is the worst possible item you could go for when leaving base: Bottle first. Here are two reasons why:   1. Bottle gives you no stats to increase your lasthitting damage, just 3 charges, which corresponds 405 hp and 210 mana you can get from. Which doesn't  sound bad at all, but it is, because it leads to  2.  If your team didn't buy a courier with that you can refill your Bottle or you are playing against a hero which can out-rune you like QoP you are pretty fucked, because if you have to go back to base due to low hp and mana, you miss exp. and gold.", "When you are lvl. 7 you MUST start ganking, otherwise you would waste your early killer potential. By this point, when the night begins, you should at least have your Boots of Speed and your Bottle. If you've done well with lasthitting in the lane you can get an Urn of Shadows additionally. Get the items in your stash and then - start ganking the SHIT out of your enemies (keep in mind to buy a Smoke of Deceit if you think the enemy supporter has bought Wards to see you coming for a gank) ! You should never stay in your lane lasthitting creeps after you have reached lvl 7. A good start is to trying to kill your lane opponent if he is still in your range of vision. Because the sight range of the most heroes in Dota is decreased by 1000 (!) at night, you can easily hide inside the river where he can't see you and wait for a good Hook. Afterwards you should gank the sidelanes where usually their hardcarry farms. Try to get every rune from minute 6:00 on (6:00--8:00--10:00-...)", "In terms of the gameplay, I don't think I have to say that much for this section of the game. Try to stick with your team and Smoke-gank together. After you have reached the enemy base and stand in front of the highground of the T3-tower and the raxes, you should tell your supporter to place some Wards in the base of your enemies", "You like meat?", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=424", "Pudge", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","You like meat?");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","You like meat?");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","You like meat?","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","You like meat?","Gauntlets of Strength");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","You like meat?","Guantlets of Strength");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","You like meat?","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","You like meat?","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Hood of Defiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","You like meat?","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Blade Mail");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","You like meat?","Linken's Sphere");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Tips and Tricks", "Here a few Tips & Tricks for the Early Game: 1. Let your supporter get the wards and the courier if possible. Pudge needs the gold more. 2. Always go for a solo lane (unless playing with a special lane ally called Techies) preferably mid to reach the side lanes for ganks more easily, take Rot at lvl. 1 because the slow % stays the same and the lvl. 1 Hook range isn't really worth it. 3. Most important thing to keep in mind : You are LEVEL DEPENDANT, not necessarily item dependent ! So play safe and avoid  dying until lvl 6/7 ! 4. Try to have at least your Bottle, Boots and be lvl. 7 when the night begins ! If you have a lane opponent who harasses you very hard you can also hook creeps and go close to them, then try to kill them with Rot and a right-click, then fall back 5. If you're the superior in your lane and you think you can kill him, try to hook your lane opponent when you're on the high ground near your own tower,  then Rot him to death (avoid clicking directly on the enemy hero when you're doing this, otherwise you will draw creep aggro !) 6. Start roaming at the latest from lvl 7 on; always max Hook first and try to kill their hard/semi-carries as often as possible ! 7. I recommend to skip every rune till the min. 6 rune, because if your lane opponent goes for it, you will have free lasthits and exp. Also don't forget to do a good creep-block at the beginning. 8. Always carry a TP with you,either to teleport to a lane to gank quickly or to escape if you think the enemies might gank you! ", "Tips for successful ganking: <br/>1. Hide inside the trees and the Fog of War <br/>2. Study the enemy's movements and predict where they will go next. Then hook them ! One important fact for landing a good hook : You can't move AND attack at the same time ! Use this to your advantage, observe the intervals between their movement and the attack animation, then hook ! <br/>3. Because most of the people tend to 'hug' their lane creeps when playing against Pudge to reduce the risk of being hooked you should hook a bit left or right to the spot where the enemy hero and the creep stand. In most cases, this will grant you a successful Hook, because the hero models are bigger than the creep models. <br/>4. By writing dota_range_display xxx in the console you can create a green circle around your hero. In Pudge's case, you can then see the Hook AoE permenantely; to manage this, write dota_range_display xxx depending on the current level of the Hook in your console (to activate the console go to your Steam games -> Dota 2 -> properties -> set starting options -> type  in -console -> start Dota 2) 'dota_range_display 725' is equal to Hook range lvl. 1, 'dota_range_display 925' to Hook range  lvl. 2, ... 1125 to lvl. 3 and dota_range_display 1325 to lvl. 4. This can really help you landing good Hooks because it shows you the range continuously.  ", "In terms of the gameplay, I don't think I have to say that much for this section of the game. Try to stick with your team and Smoke-gank together. After you have reached the enemy base and stand in front of the highground of the T3-tower and the raxes, you should tell your supporter to place some Wards in the base of your enemies", "Basic Tips", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=424", "Pudge", "3");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Basic Tips");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Basic Tips");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Basic Tips","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Basic Tips","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Basic Tips","Gauntlets of Strength");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Basic Tips","Gauntlets of Strength");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Basic Tips","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Basic Tips","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Basic Tips","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Basic Tips","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Basic Tips","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Basic Tips","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Basic Tips","Hood of Defiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Basic Tips","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Basic Tips","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Basic Tips","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Basic Tips","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Basic Tips","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Basic Tips","Shiva's Guard");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("The carry strategy is quite simple because its very similar to the pushing strategy, except Pugna will be missing essential items that will dominate the early to mid game phases. Instead Pugna will be investing his farm into items that will dominate during the late game phase. For this chapter, I will list core items that will allow Pugna to farm his luxury items.", "Go mid.  During the early portion of the game, Pugna's main goal should be to sweep our all the tier 1 towers as soon as he can. The reason why the tier 1 towers should be taken out quickly is because it is extremely easy to take out towers early on because the enemy team will be more likely to still be stuck in the laning phase and not grouped up as a team, this will allow Pugna to spam nether blast on the towers uncontested because there will not be enough enemy heroes in the lane to try and counter push Pugna and his allies.", "During the middle portion of the game, pushing the tier 2 towers will be a little bit harder because the enemy team should be grouped up as a five man team to defend the pushes. Though, if you have maxed out nether wards you can almost push the lanes uncontested, because almost all engagements from the enemies should require abilities to be casted, or they will just straight out lose the team fight. With a well placed nether ward the enemy team will be punished for even attempting to engage on Pugna and his team while they are pounding away on the tower. When they engage, just spam your nether blast, decrepify, and life drain on them while your nether ward zaps them to bits.", "If you still havent ended the game by now, you better pray you have a carry on your team because all of Pugna's abilities become far less effective during the late game. Though, not all hope is gone if you dont have a carry, just farm for a scythe of vyse so u can disable the enemy carry. Winning from this point on should be a lot harder, so play cautiously.", "Carrying Time", "dotafire", "http://www.dotafire.com/dota-2/guide/pugna-in-depth-strategy-guide-746", "Pugna", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Carrying Time");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Carrying Time");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carrying Time","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carrying Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carrying Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carrying Time","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carrying Time","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carrying Time","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carrying Time","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carrying Time","Void Stone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carrying Time","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carrying Time","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Bloodstone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Orchid Malevolence");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Ethereal Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Heaven's Halberd");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carrying Time","Ghost Scepter");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("#Winning", "If you are dual-laning, you should begin to support your team before the creeps even spawn. Buy a Animal Courier and share it immediately, or use your Observer Ward or Sentry Ward before the first creepspawn. Use them to block the enemy 'pull spot' and/or to protect your solo hero from ganks. Pugna can be a strong solo or a good lane partner. Typically if you choose to dual-lane, pick a melee stunner as your lane partner - this way you can support him with your range and use his stun to hit all your [Nether Blast]].Practice the typical lane control techniques so you gain an advantage over your opponents. Also, make sure you use the 's' hotkey to cancel any [Nether Blast]] that are off-target. Level as fast as you can and pick up your early Boots of Speed and support items. If you have your lane on lockdown, or if you have an extremely aggressive pushing lane like KotL/Pugna, try to take out the enemy's first tower before your opponents can resist you. ", "As soon as you have level 7 and Boots of Speed, you have the potential to take down enemy towers quickly. Look to find weak lanes and coordinate with your teammates to take towers in quick succession. If the other team defends, use your early game advantage to own them in team clashes. Always drop your Nether Ward in a hidden location that is close enough to deal damage. When pushing top or bottom tower, place an Observer Ward behind it here to gain vision of approaching heroes. Last hit the tower with Nether Blast if it's at risk of being denied, but if possible leave the money to your carry hero. Remember, taking towers quickly provides far more money than farming creeps, and can give you the item advantage that allows you to break the enemy base. During battles you should be able to feed on enemy spellcasters by zapping them with Nether Ward. It's a win/win situation - if they use spells to fight, they die to Mana Flare. If they choose to spend time stalling until they find the ward and kill it, your team will run over the top of them with your own offensive skills. Always look to save allied heroes with your Mekansm and/or Decrepify. Never ever Decrepify a hero that your team is killing with physical damage. Think quickly and choose your targets well. Poogles is weak as hell so you'll need your wits about you to survive battles. ", "Sure, you've lost a bit of power but you've still got some tricks up your sleeve. Screw over the enemy damage dealers with Decrepify and continue to take down towers with Nether Blast. Your ward is still a frighteningly strong spell - particularly because enemy ultimates now cost upward of 400 mana. ", "Pugna the Full Oblivion Guide", "dotafire", "http://www.dotafire.com/dota-2/guide/pugna-the-oblivion-full-complete-guide-605", "Pugna", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Pugna the Full Oblivion Guide");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Animal Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Pugna the Full Oblivion Guide","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Sentry Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Boots of Speed");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Meknasm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Pugna the Full Oblivion Guide","Ring of Aquila");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Dust of Appearance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Bloodstone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Ghost Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Orchid Malevolence");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Pugna the Full Oblivion Guide","Eul's Scepter of Divinity");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Pugna is awesome if played in the hands of someone who follows this guide", "During the early portion of the game, Pugna's main goal should be to sweep our all the tier 1 towers as soon as he can. The reason why the tier 1 towers should be taken out quickly is because it is extremely easy to take out towers early on because the enemy team will be more likely to still be stuck in the laning phase and not grouped up as a team, this will allow Pugna to spam nether blast on the towers uncontested because there will not be enough enemy heroes in the lane to try and counter push Pugna and his allies.", "During the middle portion of the game, pushing the tier 2 towers will be a little bit harder because the enemy team should be grouped up as a five man team to defend the pushes. Though, if you have maxed out nether wards you can almost push the lanes uncontested, because almost all engagements from the enemies should require abilities to be casted, or they will just straight out lose the team fight. With a well placed nether ward the enemy team will be punished for even attempting to engage on Pugna and his team while they are pounding away on the tower. When they engage, just spam your nether blast, decrepify, and life drain on them while your nether ward zaps them to bits.", "If you still havent ended the game by now, you better pray you have a carry on your team because all of Pugna's abilities become far less effective during the late game. Though, not all hope is gone if you dont have a carry, just farm for a scythe of vyse so u can disable the enemy carry. Winning from this point on should be a lot harder, so play cautiously.", "Support/Pusher", "dotafire", "http://www.dotafire.com/dota-2/guide/pugna-in-depth-strategy-guide-746", "Pugna", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Support/Pusher");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Support/Pusher");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support/Pusher","Animal Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support/Pusher","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support/Pusher","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support/Pusher","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support/Pusher","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Sentry Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Ring of Basillius");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Meknasm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Bracer");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support/Pusher","Veil of Discord");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support/Pusher","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support/Pusher","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support/Pusher","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support/Pusher","Soul Ring");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support/Pusher","Aghanim's Scepter");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("You should pick this hero when your team need a good pusher, ganker and carry at the same time since she can clear the enemy creeps really fast, has Blink ability to enter or leaving the combat and can farm really quick. Try not to pick her when there are Doombringer, Enigma, Silencer, Traxex and/or Rooftrellen as your enemy.", "In early minutes, harassing your enemy (if melee) using common attack is a good choice. Don't waste your mana, cast Scream of Pain to get lots of creeps kill and hurting your enemies at the same time. When she have reached level 6 or 7 and you're seeing enemy's hp is low enough to be killed, Blink near him, cast Scream of Pain, Shadow Strike and Sonic Wave. One thing that you must keep on your mind is beware of your mana capacity. When you Blinking in and you're miscalculated your mana, you maybe got in trouble.", "In the mid game, you should start helping your team to gank the enemies. Cast Blink to initiate the gank, use Shadow Strike to slow your target and immediately cast Scream of Pain while attacking together with your team. You can use Sonic Wave for either opening or finishing attack. If your enemy try to run away with his low hp, follow him while attacking and waiting for the Scream of Pain & Blink cooldown which is very low. Most of the time you will get him killed for sure.", "In the team clash, you should utilize Blink to make your enemies confused since it has little cooldown to make Akasha can either entering or leaving combat quickly. Depend on your team, you can use Sonic Wave as the opening attack (most of the time) or finishing attack. If there's Raigor on your team, let him open the attack because your Wave can clear the enemy creeps which is necessary for him. If you got Yurnero/Luna, use your wave to clear the creeps to let them deal massive damage to the enemy heroes with Omnislash/Eclipse.<br/>After let your team initiator start the battle and once the enemies thrown all the ultimates, enter the clash and try to target their main carry. Cast Scream of Pain and Shadow Strike, cast Hex to the enemies carry and Arctic Blast if you have them. If they start focusing on you, use Blink to leave the combat while analyze the situation. Always, always, always try to think about your safety still though. Taking risks often results in your own death. You can entering combat again few seconds later, casting Scream of Pain and chase the low hp enemies. If the enemies is running away, you can chaseeasily using the Blink and finish them.", "Akasha Guide & Build", "dota-blog", "http://www.dota-blog.com/2010/04/akasha-guide-build-queen-of-pain.html", "Queen of Pain", "70");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","Akasha Guide & Build");
@@ -12132,218 +9291,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Akasha's not alt tab guide","Shiva's Guard");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Go mid and lightning your team to victory", "I prefer Razor as a solo mid, the fast levels he gets make for strong counterganks and decent ganks. If you have a stronger level dependent ganker in your team and you think your team will actually need the ganks, then I suggest you let him take mid. Watch how the creepwave is positioned and the number of creeps of each side, do not engage when the enemy has more allied creeps with him than you, he's still Static Linkable in those situations but do not attack him or you will attract creep agro on yourself, either wait for your creeps to join in so that they may get some heat off you or, if he runs back, follow him a bit and then once your are out of the range of his creeps agro, hit him a couple of times. Be careful to what type of heroes you do this to, the tide can turn just as easily if he has allies around or skills that work well on isolated targets. Do not take unnecessary risks. If you can be aggressive, be aggressive otherwise stay defensive, focus strictly on last-hitting and wait for the enemy to make mistakes, once he does, make him pay. As soon as you have your Phase Boots you can you can go gank if you are really required on one of the sidelanes and you are sure to net some kills but if the lanes are fine then continue farming, keep a Healing Salve and a Town Portal Scroll in your inventory and focus on counterganks. If you do get some good runes early game, you may attempt some early ganks but make sure the lane you are ganking has enough disables/damage to actually get those kills.", "If you had a bad early game you're probably standing just on a Phase Boots, do not go out ganking like this, you are probably under-leveled and definitely underfarmed. Focus on getting that Vitality Booster as soon as you can and take no risks, countergank only, tp in when you think you can make a difference, otherwise don't waste your time, you are probably already in bad shape anyway. Perhaps you should put more points into that Unstable Current instead of Static Link if you are getting focused down fast, this is for you to decide. Once your get that Vitality Booster you can act a bit more cocky and maybe pull out some ganks, if you are unsuccessful in your ganks then the enemy is probably already in better shape than your team, or you ganked a ungankable lane where you don't have allies that are prepared for your ganks (no stuns, slows or nukes). Direct your attention to farming that Vanguard and keep safe if so. If you had a good early game you probably already have your core items at this stage of the game, this is when Razor turns into a mighty beast. Proceed to gank kill-able lanes. Have your allies start off with a disable while you are nuking the enemy with Plasma Field from the fog of war, tag one of them with Static Link and stay close while getting in some cheap shots, don't forget to have activated your Eye of the Storm beforehand. You should easily dispose of one enemy with your autoatacks, if his ally sticks around, then you can probably focus him down in more or less 5 attacks with the huge damage boost from Static Link and maybe a Plasma Field to finish him off. If the lane is pushed and you have creeps at the enemy tower use this opportunity to inflict some heavy damage on it with your autoattacks, perhaps even get a tower out of this if your allies can help you. Maintain some between farming and ganking while emphasizing on ganking and pushing.", "If for some reason you were unable to finish it in mid-game then there's probably a unforeseen strategy that the enemy has been using to keep you away from their towers. Things get difficult for Razor at this stage of the game if he had a really bad start. Reaching lategame means you are bound to meet the enemy carries face to face. If you had a bad early game, you are probably easy to take out, so remain hidden in the fog of war before teamfights, you are still somewhat effective at this stage though even if underfarmed, getting big on Static Link can still turn the tide of a battle, as long as you remain unnoticed. It's best Static Linking isolated enemies if you want to keep a low profile. You are probably best getting your damage from the enemy supports/tanks rather than the carries if you are in this type of situation, instead of neutralizing the enemy carry will should be mostly focusing on just killing the supports as fast as you can and then start giving the carry some hell with the damage that you got from his supports, all this while striving to remain alive. Spam your Plasma Field as often as possible. If you had a good early-game you are probably very hard to take out for the enemy team and also a main target. You can afford to take the front-lines in these situations if nobody else is capable of handling the damage, and your allies support it (acting as bait for strong allied initiation, lots of supports/stuns). Instead of Static Linking the supports/tanks you should be trying to get to the enemy carry and start sapping away his damage, be careful though, in lategame things are very different from early-mid-game. Damage is high at this stage of the game and you can be focused down, it's a bit tricky but you need to have good timing when you start sapping away damage, if he can nearly kill you if he focuses then maybe you should wait first until the enemy carry commits to a fight with one of your allies, then Static Link him and make him regret his choice. If the enemy carry is kept safe inside his team then you need to fight a way to split them up, this is usually achieved by baiting and getting the team in uncomfortable positions. You can easily bait or send a support to do it and then have your team come from the sides or behind and strike at their weakest links (the squishy guys).", "Carry Mid", "dotafire", "http://www.dotafire.com/dota-2/guide/razor-path-of-least-resistance-632", "Razor", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Carry Mid");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Carry Mid");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Tangoes");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Tangoes");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Carry Mid","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry Mid","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry Mid","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Carry Mid","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Aghanim's Scepter");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Heaven's Halberd");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Hood of Defiance");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Sange and Yasha");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Carry Mid","Assault Cuirass");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Go mid and win", "First of all you have to / random Razor course choose. If you raz r randomed, you may have to get a chicken for the team or even if you get 2 Circlets and engraved a series of tangos selected. Lane choice is explained in the general tips section. As usual, the last hit and deny. You can few techniques:  Offensive plasma field Harassing-you can hit the enemy a few times and when he turned back off, use Plasma  Field, because it has 800 range, also slows down the opponent more than an attack area so that way you can more range to gain advantage.  Defensive plasma field can be controlled by the opponents, so you have to be defensive. While your bundle of creeps are targeting a crawl, hit another one to the other crawling hp less than the plasma-field damage. Observer stations beginning is playing field and plasma bottle, how to win back your dominance in the ground. You can now request your allies observer stations and plant them or you can even plant. Ward to not only protect against ganks they also help you a good view, if the runes respawn and you can get it.  Ganks-but in the case of a game (pub) if your allies refuse to cooperate or can not be simple again to the fountain to buy stations, ganks can happen. If you were to play passive because you have no escape mechanism is a skill to save your ally happened. If you are aiming your ally just a plasma field off and on again. If you strive to try to run, if possible. If not simply a plasma field and wait for your death. To request missing and defense are important early game. ", "At this point you should have 2 ghost boot and ingredients for Maelstorm. You can search for alternative ways to farm aid to allies, if they have difficulty in the track are, after all DotA is a team game! A good balance of neutral creeping and farming and ganking is necessary because the middle game the plasma field is best, while neutral creeping guarantees security and agriculture in the track, of course, move and defend.  Team Battles Although at this point, you can have a higher damage output, you are not yet settled, so you should not be too aggressive in team battles. Stand and use Aoe plasma field and land a few hits is called weak, the Lightning Revenant to a violent storm of crackling energy, the enemy with deadly lightning strikes. The storm is charged with Razor’s malevolent, and seeks only the injured goals for his armor shattering explosions .. This way you will not be too much to be aligned.  Mechanics Maelstorm Maelstorm At this point you should already have. Here are the mechanics, such as the flash fires.  A hero needs an attack command for Maelstrom to proc. This can of 3 things:  1) Press ‘A’, with the left mouse button on a specific enemy unit. 2) Press ‘A’, with the left mouse button on the floor. 3) Right-click on a specific enemy unit.  If your handheld is idle and an enemy is in its coverage and your hero starts to attack, which is an acquired auto-attack, the cause never Maelstrom. Note that for scenatios 1 and 3 when the unit dies, your hero goes into neutral again, so it is best to quickly remake another attack command (or shift-queue it).  Agriculture-Due to recent changes in BoT earlier and earlier, both farm building faster and easier. Just look for great enemy creeps and teleport to a safe allied creep there. It is advisable to have a plasma field to use for the creeps faster agriculture. A little bit of pressure can be good. Do not press too deeply into this point of time. So there you go, simply teleport on the map agriculture.", "Mjollnir is up and this time. This bot is growing for a children’s game because of the constant plasma field, you will not even take days. Start with Mjollnir also to the more aggressive participation in team fights. Check out who the hero of the enemy target, and are charging him while active plasma field, if you can and annoyance with occasional plasma field! You can net some lucky kills. After you have bot teleport to expect to defend and enforce. The real aggression to be when you got your EoS, that they have higher hp, agi and slow. Have fun!  Mjollnir Farming This technique should be used only when there are no enemies nearby and you are heading home after this defense. Use this when it crawls a large number of enemy. Use static charge on the tank itself and goose bumps. Plasma Field and normal beat. With the constant charging and your plasma field, you should take a position in which the wave very quickly.  Pushing Pushing should be very fast at this point. With agriculture + BoT Mjollnir track you to track in a very short time to push. Just be careful because the ganks although you may not be too fragile, still lacks an escape mechanism when you are alone. So it would be better to push with an ally or two.  Team Battles It should be much more active in team battles because of their much higher HP and damage. Space charge on your tank and hit as much as possible. You can even tank a bit on yourself when you have confidence in hitting the opponent. Remember, not at this point long ago. When you fight an opponent 1v1 are at eye level where you fight to the end because you have the plasma-field advantage. However, if you really need to escape …  Bot escape your escape to help at this point. If many enemies you have to charge it, and you’re completely surrounded, you can into the trees and use BoT back to the fountain, in the hope that by the time they find, manage, make sure again. If not, you can BKB for th", "Steal DPS", "dota2pedia", "http://www.dota2pedia.com/dota-razor-%E2%80%93-the-lightning-revenant-item-build-guide-and-strategy/", "Razor", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","2","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","2","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","2","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","2","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","1","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","1","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","1","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Steal DPS");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Steal DPS");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Steal DPS","Circlet");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Steal DPS","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Steal DPS","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Steal DPS","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Steal DPS","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Steal DPS","Ring of Aquila");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Steal DPS","Vanguard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Steal DPS","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Steal DPS","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Steal DPS","Mjollnir");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Daedalus");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Steal DPS","Shadow Blade");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("First thing first, Razor is NOT a traditional agi carry. Forget about the old Razor with his useless, boring skillset. The new Razor is a fairly good laner early, a true powerhouse mid-game, and a fairly strong carry (and anti-carry) late game. Yes, he is strong at all parts of the game, but he is a bit tricky to use and his playing style (or at least the one proposed in this guide) is risky but very rewarding. In this guide we will play Razor very aggressively. We will farm during the laning phase, then in mid-game we will help in ganks, pushes and team fights. We will try to absorb a fair bit of damage as a semi-tank and dish out a lot more in return. We will render the enemy's carry useless and be a force to be reckoned with late game. Razor can nuke, tank, DPS and gank. The only things he can't do are disabling and initiating.", "Razor can work well on all lanes, and is a pretty good soloer with a strong nuke and nice animation. Not recommended to solo the short lane though as Razor can't escape early. <br/>Razor's early game is pretty typical. Last hit, deny and farm well, use your long range to harass enemies, but don't be suicidal as Razor needs his items and levels to work well. Use your nuke to harass and farm. Don't be afraid to chase for the kill if the chance arises as your nuke is very damaging and good at chasing. With a stunner there is a decent chance of this happening.<br/>Get a Ring of Health when you can from the shops so that you can use your long range to harass your enemies (and regen back the damage you might receive). Remember at this point Razor is still very soft, so be wary of the opponents movement at all times to prevent yourself from being killed.<br/>Note that Level 1 Static Link at this point of the game is enough to make your outgunned virtually anyone after a few ticks, so don't be afraid to trade hits if the enemy is silly enough to try to out-physical-damage you.", "Razor's mid-game really begins when you have at least a Level of Eye of the Storm, and a Vanguard to tank. This part of the game is when Razor really starts to shine. Do NOT waste time farming like a hard carry at this point, participate in pushes and ganks. With Vanguard and Link you can even take on some heroes after you dive into their tower. Pushes and kills give you money anyway, and Razor is really good at getting kills, since Eye of the Storm automatically targets the lowest hp target, and because of your chasing ability, x-ray vision and constant source of damage. <br/>If you are doing well, the opponents will surely be wary of you at this point, and will try to take you down as fast as possible. Ideally you should have your Blademail at this point to counter their focus fire. In team fights be aggressive, on your ulti and try to absorb as much damage as possible while remaining alive, spamming your nuke whenever it cools and phasing away as soon as you're in danger of dying. A nicely activated Blademail can change the game at this point, so learn to use Blademail really well. <br/>As a hero with carrying abilities, you don't need to seek out enemies and destroy them and get yourself killed. If there really isn't a chance for engaging (if your allies are idiot pubbers for example), just farm.", "Razor still shines late game, although in an unorthodox manner. You will need more then you core if you want to be effective late, however. This time you must pick your items wisely and in accordance to the enemy. If you have another carry on your team, then you can focus more of distracting and tanking, if not you should focus on your fighting and DPS abilities. Team fight strategy remains pretty much the same, except with more focus on countering the enemy's carry by Static Linking him and Blademail.", "Not Everybody Truely Dies", "playdota", "http://www.playdota.com/guides/not-everybody-truly-dies.", "Razor", "50");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","1","Not Everybody Truely Dies");
@@ -12529,91 +9476,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Most Agile Ninja","Eaglesong");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Riki is invisible a lot of the time... That's pretty cool.", "Don't die, get to lvl 6 and then farm and harass.", "Get kills by sneaking up on people.  Not a lot of health, so don't be silly and engage people by yourself unless you know you can kill them fast enough.  Consider the size of smokescreen and the direction that heroes will try to run in.", "Lots of damage late game.", "Riki Guide", "", "", "Riki", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","2","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","2","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","2","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","1","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","1","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Riki Guide");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Riki Guide");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Riki Guide","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Riki Guide","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Riki Guide","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Riki Guide","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Riki Guide","Wraith Band");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Riki Guide","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Riki Guide","Diffusal Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Riki Guide","Mask of Madness");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Riki Guide","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Riki Guide","Sange and Yasha");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Riki Guide","Gem of True Sight");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Rikimaru is your ganker, initiator and killer man. He ruins pretty much all of the team plays and the gank styles your enemy has. In fact, there is no best bubble buster than rikimaru, unlike earthshaker, rikimaru does not in fact just rely on his skills but rely on his attacks which is good depending on what point of view you look at it. If you are the man whom wants to carry all those pain in the back and you think you are the one who will rise your teammates from hell, then take Rikimaru with you. With his skills he is one of the most unfortunate enemy you will ever encounter on.", "Yes you're the bomb! Rikimaru might be pulling your enemies ass out as I've mentioned earlier before; Rikimaru can pretty much ruin the game style of your opponent between level 2-5 and spam your ss on their way back to their tower.<br/>At this rate you should have the starting items I've mentioned at the item builds. Then let me instruct you on what you should buy the second time. At levels 4-5; you must now have boots of speed, if you still don't have this item, means your in a lot of trouble! Rikimaru needs movement first so make your way on more tangos and clarities for you to survive until you get boots and before you reach level 6, you might want to buy Boots of Elvenskin before Gloves of Haste. WHY? simple, you need more damage better than attackspeed. Gives you bonus on backstab damage and extra toughness. Don't panic if you had a hard time buying the two boots, just think of it as your luxury item because trust me after buying this you immediately will make a kill...", "When you enter level 6, the mid game comes at your hands. By level 7 you should have treads set on your agility if none; then make your ass through by tango and clarity pots for survival until your get treads so. Perma invi should be nice and clean. When you got this skill you should make your way through the jungle and to mid or any-lane you might get a kill on. But before that, there is always a plan.<br/>On early levels from 6-10, Riki cannot pretty much handle a single opponent by himself(with the exceptions of rhasta, never or kardel which smells food for riki) Then consider your allies nearby. One good way on ganking is knowing who or where is your allies. Make sure your nearby allies has a slow or stun which may help you chase and initiate your ss at the same time.<br/>At level 9 you should have completed two wraith bands or a wraith band and a poor man's shield. At this time Rikimaru can kill anyone who gets on his way, of course with a little help of your allies. Level 10: Alactricity, yes.. buy it the soonest and trust me you won't regret buying it. If you don't have enough gold, then conserve it and dont buy any other items. Be patient IMO.", "Level 16 you must have a level 2 diffu and a 1000 gold or not any less for your butterfly. At this rate you might have +79 damage on your counter and pretty much pawn anybody's heads off.<br/>By the time late game comes you should prepare yourself for more hunting and consider on buying luxury items or any situational items(if an enemy buys an item that you do not like) and this makes you own.<br/>First buy butterfly then second is Manta. Very useful, the fact that having butterfly is solid! and having Manta means its your time to shine! This practically means goodbye to enemies", "I'm watching your back", "playdota", "http://www.playdota.com/guides/im-watching-ur-back", "Riki", "30");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","2","I'm watching your back");
@@ -12703,593 +9565,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","I'm watching your back","Black King Bar");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Eredar is a special hero (yeah you knew that) meaning he can play many roles. The most common for him is support or ganker.", " You are most likely going to be in a tri-lane if not a dual lane. Your job is to harass and let your carry farm. When attempting for kills when you are lvl 6. Use disruption either on your targeted enemy if hes out of range, or his partner in lane that could cause the most damage or disable any of your team mates. Crystal maiden and lion are valid examples of who to disrupt if attempting a kill because they can completely stop the gank with their stuns/disables. At lvl 6 you can target your enemy with purge and disrupt the laning buddy to achieve an easy kill. Always remember to use your shadow poison", "When you finally hit lvl 6, you can start to roam around the map using your ulti to start a kill attempt. You should let the carry get the kill if possible, if not just take it. While the enemy is under the effects of purge, it is your job to spam you shadow poison and amp up the damage with soul catcher if you can land it. Releasing poison is very important because you want the hero to die while you or allies are in range of the enemy cause them to get xp. Remember that getting over 4 stacks is useless so release after 4 stacks to get maximum damage.", "Note: playing both roles requires you to understand that you are just a dog (yes you are), you must be willing to die for your carries and protect your allies as much as possible, your life isn't worth as much as your carries.", "Ganker", "dotafire", "http://www.dotafire.com/dota-2/guide/eredar-the-shadow-demon-new-complete-guide-vote-plx-413", "Shadow Demon", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Ganker");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Sentry Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Animal Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Ganker","Ring of Protection");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Phase Bots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Ring of Aquila");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Ganker","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Meknasm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Eul's Scepter of Divinity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Bloodstone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Ganker","Drum of Endurance");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Go mid, gank, win", "Shadow Demon is good at solo in mid-lane. Taking sufficient healing items to get bottle as soon as possible. Ring of Protection is for Ring of Basilius.", "Its imba skills guarantee it as a dominant ganker in lane even Windrunner can be killed if careless. Cooperated with the Shadow Poison, Dagon would be lethal during mid-game.", "Shadow Demon is an Intelligent hero, so its priority is to survive rather than to DPS during late game. Scythe of Vyse, Shiva's Guard and Linken's Sphere will help it to be an unbearable enemy for opponents.", "Mid Ganker", "mmosite", "http://dota2.mmosite.com/hero/shadow_demon", "Shadow Demon", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Mid Ganker");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Mid Ganker");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Mid Ganker","Ring of Protection");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Mid Ganker","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Mid Ganker","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Mid Ganker","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Mid Ganker","Ring of Basillius");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Mid Ganker","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Mid Ganker","Boots of Travel");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Mid Ganker","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Mid Ganker","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Mid Ganker","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Mid Ganker","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Mid Ganker","Orchid Malevolence");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Eredar is a special hero (yeah you knew that) meaning he can play many roles. The most common for him is support or ganker.", " You are most likely going to be in a tri-lane if not a dual lane. Your job is to harass and let your carry farm. When attempting for kills when you are lvl 6. Use disruption either on your targeted enemy if hes out of range, or his partner in lane that could cause the most damage or disable any of your team mates. Crystal maiden and lion are valid examples of who to disrupt if attempting a kill because they can completely stop the gank with their stuns/disables. At lvl 6 you can target your enemy with purge and disrupt the laning buddy to achieve an easy kill. Always remember to use your shadow poison", "Come mid-late game you should be opting for purely support items such as hex, urn, meka and mor", "Note: playing both roles requires you to understand that you are just a dog (yes you are), you must be willing to die for your carries and protect your allies as much as possible, your life isn't worth as much as your carries.", "Support", "dotafire", "http://www.dotafire.com/dota-2/guide/eredar-the-shadow-demon-new-complete-guide-vote-plx-413", "Shadow Demon", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","2","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Support");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Support");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Sentry Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Animal Courier");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Support","Ring of Protection");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Arcane Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Phase Bots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Urn of Shadows");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Ring of Aquila");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Observer Ward");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Support","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Meknasm");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Eul's Scepter of Divinity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Necromonicon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Bloodstone");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Shiva's Guard");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Pipe of Insight");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Force Staff");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Dagon");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Support","Drum of Endurance");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Be one with the shadows", "Nevermore is an excellent farmer and grab for Mid Lane, try to secure middle if possible. At level 6 you WILL be the best ganker in the game, this is why Mid is so vital. Never rely on your basic attacks, they do very low damage and Nevermore is also quite squishy, so be careful out there.", "Never rely on your basic attacks, they do very low damage and Nevermore is also quite squishy, so be careful out there. Many choose to avoid the Blink Dagger due to it's lack of stats, however this item is excellent for Nevermore, it'll grant you the ability to position yourself like a Boss. Since Nevermore is also quite squishy, it'll save your life enough to make the dagger basically free. Stay on top of runes (every 2 minutes), follow the item build, and be aware of your positioning. Without your Black King Bar, your dead in the water if caught off guard. Your Blink Dagger may save you here, if you bought it", "Be careful, do not waste time with Nevermore. If you find yourself standing somewhere twiddling your thumbs, my guess is they're tower hugging and you need to move on. Finding a good balance between Farming and Ganking is key for Nevermore, like most heroes. Practice and Master this principal and you'll see yourself doing better as Nevermore and many other heroes.", "Fear the Shadows", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=172", "Shadow Fiend", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","2","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Fear the Shadows");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Fear the Shadows");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Fear the Shadows","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Fear the Shadows","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Fear the Shadows","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Fear the Shadows","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Fear the Shadows","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Blink Dagger");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Fear the Shadows","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Fear the Shadows","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Fear the Shadows","Monkey King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Fear the Shadows","Desolator");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Hello and welcome to Nubtrain's guide to Shadow Fiend, my favorite hero of all time. A hero that requires a high skill cap to play well. Shadow Fiend is an amazing powerhouse, possessing early - mid game dominance with a strong presence late game. With three powerful Shadowraze that deal 300 magical damage each and a game changing ultimate Requiem of Souls, Shadow Fiend is a force to reckon with. Shadow Fiend is also an amazing farmer and ganker, that is if you can land Shadowraze...", "Your support should have bought a courier and with that your very first purchase should be a Bottle. There are some players who like to buy Bottle as a start off item and that's a terrible choice. If you chose to take Bottle first instead, you will lose the sustainability and damage needed. You will also make it much tougher for yourself to last hit minions unless you plan to waste mana blasting minions when you can instead burn the enemy hero. With any hero, you must learn to conserve mana...", "(Finish BoT after Blink Dagger] UNLESS you can get it before 12-13 minutes], you'll open more opportunities to push/gank around the map. Most of the time you're going to be casting [[Shadowrazes before lategame so with the high movement speed, you'll be able position yourself faster to land Shadowraze. From mid-late, your job should be causing a ton of disturbance until your hard carry can... carry.) or Power Treads (1450g) (Finish before getting Black King Bar, I'd get this depending on enemy team and the flow of the game. If you feel you need more health and more farm get this due to you not doing so well then this is a good alternative)", "Manta Style (4900g) Provides a decent stat boost but mainly the survivability from the 2 clones. The 2 clones also does more damage to enemies because of your aura and provides confusion for enemies after you have blinked in and ulti'd. If you can time it correctly, Manta Style has a .1 second time of invulnerability when you split two clones. If the game still continues, the rest of the build depends on your game", "The Soultrain Stealer", "dotafire", "http://www.dotafire.com/dota-2/guide/nevermore-the-soultrain-stealer-221", "Shadow Fiend", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","2","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","4","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","3","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","3","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","3","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","The Soultrain Stealer");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","The Soultrain Stealer");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Soultrain Stealer","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Soultrain Stealer","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Soultrain Stealer","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Soultrain Stealer","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Soultrain Stealer","Clarity");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","The Soultrain Stealer","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Soultrain Stealer","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Soultrain Stealer","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Soultrain Stealer","Blink Dagger");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Soultrain Stealer","Black King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","The Soultrain Stealer","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Assault Cuirass");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Daedalus");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Heart of Tarrasque");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Sange and Yasha");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Monkey King Bar");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","The Soultrain Stealer","Ethereal Blade");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("this guide is not suited for competitive play. So, if you're searching for competitive play for Rhasta, then you might need to search the web for it.", "Early game, soloing mid lane is Rhasta's purpose. Or bot for Radiant, top for Dire. I can see why if you're in need of money or extra exp. Also, never skill any of Rhasta's skills first, because you won't know what you're facing. If you're facing no enemy, I suggest picking Ether Shock instead. Since you're going for last hits/denies with no one to disrupt you, I don't see why not.<br/>If you get Ironwood Branches first, I suggest getting Healing Slaves over Tangoes. Why? Rhasta's low health early game will be a disruptance. Or, if you need another, I suggest buying extra Tangoes. ", "Mid game for Rhasta mostly is to join in between and fro of team battles. With disables going around, the enemy will hardly touch you, but you'll evenly touch your enemy. Also, maybe during this time, your enemy will try to do means to take you down. You're probably the #1 target in team battles. It may be an honour to be the prority target, but nevertheless, you must becareful even if you're ganking quite well.<br/>They say, if you want to kill an enemy around mid game, hide in the trees, surprise your enemy. Start by the same combo, then once your Warding cooldowns, rinse and repeat.", "More or less, your item build should be ready by now. You don't have to really matter much if you're going up against another hero. I know the nerf about the Mass Serpent Wards, to a higher cooldown. If you're just finished with Mass Serpent Wards, keep farming. You just need to waste time before you can reuse Mass Serpent Wards again. Or, you can use Refresher Orb. <br/>Late game here, you must be precise with Rhasta. Alot of advantage will be taken, so I suggest trying to stay with teammates at all times. If enemy is on your lane, never alert them. Instead, call for allies and deal with them together.", "wardsup", "playdota", "http://www.playdota.com/guides/wardsup", "Shadow Shaman", "60");
@@ -14255,224 +10530,6 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","It's a Crushmas Miracle","Blink Dagger");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Sniping Time", "Early game - phase or treads, tp, bottle (if mid), ring of basillius, gg branches, magic stick. Focus solely on last hits, denying, and harassing in that order.  Sniper has the best attack animation in the game so abuse that.  Last hitting should be pretty simple.  With this build you are solely focused on carrying the team during late game so get those last hits.  Push the lane when you can to try get the tower.  Remember you outrange the tower when your range skill is level 3.  Get phase or treads based on your personal preference (I always get phase, but that's because I like the mobility).  After you get your bottle, if you get a good rune (haste or invis), go set up a gank with your side lane.  You should be able to kill people with your teammates' help from level 3.  At level 6, you can almost certainly kill most heroes with ally help.  You get ring of basillius for more mana to spam your shrapnel and the plus attack damage, but be sure to turn it to heroes only if you don't want to push the lane.  Your first big item should be manta so you want either the yasha or ult orb for that.  I personally try to get the ult orb first since sniper needs stats badly.", "Remember that positioning is the single most important thing for sniper.  Abuse sniper's long range and position yourself away from the meat of the battle and right click to victory.  Try to position yourself up cliffs or in trees to make it harder for the enemy to get to you.  When deciding sniper works with pretty much every orb, but be sure to analyze your opposing team and your team before you make your choice.  If you feel like being an uber glass cannon, go for deso and hope that your team can protect you.  Go for lifesteal, if there is an opposing carry that you think you'll need to go head to head with (also provides you with str which is good for sniper's meager hp).  Usually, I go for skadi since it provides sniper with good stats and also a great slow for more auto attacks.  ", "Get linken's if the opponent has good singe target skills.  Shadow blade if you feel like you need more mobility/protection (I almost never get this).  I'm more likely to fill my last slot with a sheep stick or orchid's depending on what my team needs.  These items are also good since they provide sniper with enough mana regen to spam his skills.", "Sniper Active", "", "", "Sniper", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","1","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","1","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","3","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","1","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","1","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","3","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","3","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","3","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","2","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","2","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","2","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Sniper Active");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Sniper Active");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Active","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Active","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Active","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Active","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Active","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Active","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Active","Bottle");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Active","Ring of Aquila");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Active","Magic Wand");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Active","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Active","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Satanic");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Daedalus");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Active","Orchid Malevolence");
-
-INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Who needs actives?", "Preferably go mid.  Focus solely on last hits, denying, and harassing in that order.  Sniper has the best attack animation in the game so abuse that.  Last hitting should be pretty simple.  If mid lane, don’t go to gank or get runes.  With this build you are solely focused on carrying the team during late game so get those last hits.  Push the lane when you can to try get the tower.  Remember you outrange the tower when your range skill is level 3.  Get phase or treads based on your personal preference (I always get phase, but that's because I like the mobility).  Your first big item should be manta so you want either the yasha or ult orb for that.  I personally try to get the ult orb first since sniper needs stats badly.", "Remember that positioning is the single most important thing for sniper.  Abuse sniper's long range and position yourself away from the meat of the battle and right click to victory.  Try to position yourself up cliffs or in trees to make it harder for the enemy to get to you.  When deciding sniper works with pretty much every orb, but be sure to analyze your opposing team and your team before you make your choice.  If you feel like being an uber glass cannon, go for deso and hope that your team can protect you.  Go for lifesteal, if there is an opposing carry that you think you'll need to go head to head with (also provides you with str which is good for sniper's meager hp).  Usually, I go for skadi since it provides sniper with good stats and also a great slow for more auto attacks.  ", "Get linken's if the opponent has good singe target skills.  Shadow blade if you feel like you need more mobility/protection (I almost never get this).  I'm more likely to fill my last slot with a sheep stick or orchid's depending on what my team needs.  These items are also good since they provide sniper with enough mana regen to spam his skills.", "Sniper Passive", "", "", "Sniper", "1");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("1","2","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("2","3","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("3","3","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("4","2","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("5","3","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("6","4","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("7","3","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("8","2","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("9","2","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("10","1","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("11","4","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("12","1","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("13","1","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("14","1","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("15","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("16","4","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("17","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("18","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("19","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("20","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("21","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("22","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("23","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("24","5","Sniper Passive");
-INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
-        VALUES ("25","5","Sniper Passive");
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Passive","Tango");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Passive","Healing Salve");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Passive","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Passive","Slippers of Agility");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Passive","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Starting","Sniper Passive","Iron Branch");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Passive","Phase Boots");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Passive","Manta Style");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Passive","Town Portal Scroll");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Core","Sniper Passive","Eye of Skadi");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Power Treads");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Linken's Sphere");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Shadow Blade");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Satanic");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Desolator");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Butterfly");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Daedalus");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Scythe of Vyse");
-
-INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
-          ("Situational","Sniper Passive","Orchid Malevolence");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
       VALUES ("Spectre is a powerful carry but is weak early and highly farm dependent. If you're going to pick him, make sure someone can babysit you early on and your team ganks or pushes down other towers when your lane is pressured. Mid game, you excel at finishing off escaping heroes anywhere on the map, and late game you are a tough to kill DPS hero. Unlike a lot of other carries, you create a unique AoE presence in team fights that shines with the right team composition. You're also slightly more versatile than other agility carries because  Dispersion allows you to be effective with HP items in situations where your team already has enough physical DPS.", "In the laning phase, focus on last hits until you can get Ring of Health and are level 6 or 7. At this point, you need some map awareness so you can  Haunt and finish someone off if your team needs your help. You can ask your team to ping when they may need your ult as well, but you should still make the decision on whether or not it's worth it since you won't be farming when you're ganking. If you can get at least 1 kill that your team wouldn't have otherwise, then it's a good idea. Also, the vision and minor damage from Haunt is sometimes enough and you don't need to use Reality + Dagger, allowing you to continue farming instead of jumping somewhere else. Avoid dying.", "Mid-game is basically an extension of the laning phase, where you should seek out farm and gank when it's worth it. By now you want to have  Radiance because bigger team fights will be happening and the burning aura will turn fights in your favor. Once you have  Diffusal Blade as well you should be getting at least 1 kill each time  Haunt is available, so let your team know if they are sitting around being boring when you're ready to go. Avoid dying.", "Hopefully by late game you have an advantage in terms of farm so you can start wiping out the other team and pushing down towers. Avoid dying while you can finish your items and keep up the map presence to scare your opponents into sitting around in base while you continue to farm. Ideally, you have a good initiator so you don't have to do it, but if you need to, you can. In the worst case scenario, try to have money for buyback and try to save  Haunt so you can instantly return to the fight if you die while initiating.", "Spectre, a Definitive Guide", "dotafire", "http://www.dotafire.com/dota-2/guide/spectre-a-definitive-guide-580#chapter5", "Spectre", "60");
@@ -17122,7 +13179,7 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Viper Guide","Heart of Tarrasque");
 
 INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
-      VALUES ("Before we begin, I should point out what this guide aims to do and what it doesn't aim to do: This guide is aimed at either new DotA players who haven't played Warlock OR relatively experienced players who have never played Warlock. It is not an advanced guide showing lots of tricky tips and special moves  It designed to get you to understand the basics of how to play Warlock in more of a traditional way", "Because in the early levels Warlock is almost exclusively a baby-sitter (unless you try your hand at soloing), it's best if you share a lane with either your team's carry or tank, which ever one isn't soloing (most good 5-player teams should only have 1 solo lane). Because of the nature of the roles that are played by the tank and carry, they should be given almost exclusive rights to last hitting, while you focus on denying. That said, if there is a last hit you know your lane partner cannot get, then take it by all means. Continue like this until about level 6-7, when the ganking phase of the game normally begins. Depending on your chosen skill-build, you will either be able to dramatically magnify damage from your allies or dramatically reduce enemy movement speed during ganks. Try to make the components for your Mekansm or a Hood en-route to a Pipe. At the same time build either a Wand and Basilius or Urn and Basilius to support your team in fights.", "During the mid game (levels 7-16) you should try to be a part of every team fight you can. Try to organise ganks around the cooldown of your ultimate, because you are so much more effective if you can use your ultimate. If a team fight breaks out and you don't have your ultimate, Upheaval is an adequate substitute, provided you can stay away from the focus firing. Shadow Word any fleeing enemy heroes. By the time the mid game is in full swing, you should be close to finishing your Pipe or Mekansm if you haven't already. When ganking, it is preferable for you to initiate, so that if your team has a dedicated initiator, they can save their initiation skill for later in the team fight. Try to use Fatal Bonds on the enemy heroes before you use your ultimate and Upheaval, so as to give your team the best chance of coming out on top.", "During the late game, the effectiveness of the damage from your Infernals is somewhat diminished, because their damage stats are not %-based. However that is not to say launching an Infernal into a team fight and channeling Upheaval isn't effective. Using Fatal Bonds on the enemy heroes helps to negate the reduced effectiveness of your Infernals. On the offensive, use Rain of Chaos as often as you can to try and help your team win, preferably in combination with Upheaval if the situation permits. On the defensive, use your ultimate more conservatively. Try to get as many creeps killed with Fatal Bond's shared damage as you can because that can save you mana and time because you can save your ultimate for more dire situations. When counter-pushing, don't hesitate to use your infernal to push the lane as fast as you can. With Flaming Fists and Permanent Immolation, you can clear creeps waves quite rapidly.", "Beginner's Guide to Warlock", "playdota", "http://www.playdota.com/guides/a-beginners-guide-to-warlock", "Warlock", "70");
+      VALUES ("Before we begin, I should point out what this guide aims to do and what it doesn't aim to do:<br/>This guide is aimed at either new DotA players who haven't played Warlock OR relatively experienced players who have never played Warlock. It is not an advanced guide showing lots of tricky tips and special moves  It designed to get you to understand the basics of how to play Warlock in more of a traditional way", "Because in the early levels Warlock is almost exclusively a baby-sitter (unless you try your hand at soloing), it's best if you share a lane with either your team's carry or tank, which ever one isn't soloing (most good 5-player teams should only have 1 solo lane). Because of the nature of the roles that are played by the tank and carry, they should be given almost exclusive rights to last hitting, while you focus on denying. That said, if there is a last hit you know your lane partner cannot get, then take it by all means. Continue like this until about level 6-7, when the ganking phase of the game normally begins. Depending on your chosen skill-build, you will either be able to dramatically magnify damage from your allies or dramatically reduce enemy movement speed during ganks. Try to make the components for your Mekansm or a Hood en-route to a Pipe. At the same time build either a Wand and Basilius or Urn and Basilius to support your team in fights.", "During the mid game (levels 7-16) you should try to be a part of every team fight you can. Try to organise ganks around the cooldown of your ultimate, because you are so much more effective if you can use your ultimate. If a team fight breaks out and you don't have your ultimate, Upheaval is an adequate substitute, provided you can stay away from the focus firing. Shadow Word any fleeing enemy heroes. By the time the mid game is in full swing, you should be close to finishing your Pipe or Mekansm if you haven't already. When ganking, it is preferable for you to initiate, so that if your team has a dedicated initiator, they can save their initiation skill for later in the team fight. Try to use Fatal Bonds on the enemy heroes before you use your ultimate and Upheaval, so as to give your team the best chance of coming out on top.", "During the late game, the effectiveness of the damage from your Infernals is somewhat diminished, because their damage stats are not %-based. However that is not to say launching an Infernal into a team fight and channeling Upheaval isn't effective. Using Fatal Bonds on the enemy heroes helps to negate the reduced effectiveness of your Infernals. On the offensive, use Rain of Chaos as often as you can to try and help your team win, preferably in combination with Upheaval if the situation permits. On the defensive, use your ultimate more conservatively. Try to get as many creeps killed with Fatal Bond's shared damage as you can because that can save you mana and time because you can save your ultimate for more dire situations. When counter-pushing, don't hesitate to use your infernal to push the lane as fast as you can. With Flaming Fists and Permanent Immolation, you can clear creeps waves quite rapidly.", "Beginner's Guide to Warlock", "playdota", "http://www.playdota.com/guides/a-beginners-guide-to-warlock", "Warlock", "70");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
         VALUES ("1","5","Beginner's Guide to Warlock");
 INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
@@ -18599,4 +14656,4450 @@ INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
 
 INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
           ("Situational","Shocking!","Boots of Travel");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("PL is a very versatile hero, with a unique and (the most, IMO) powerful escape mechanism. He is very relevant in all phases of the game, and in all scenarios that occur during a DOTA match: laning, pushing, ganking and teamfights. He is very difficult to counter, and works well with any balanced lineup (1 hard/semi-carry, 1 support, 1 ganker, 1 tank - replace any of these with another support, that works too). His primary role is hard carry, secondarily a pusher, thirdly a tank. The extent to which these roles are developed towards late-game depend on his last 2 item choices.", "Avoid spending any mana unless you're getting ganking help or a well set-up kill attempt with your lane partner. Make sure you always have enough mana for a doppelwalk on you. Take last hits, don't die get kills when a gank is going down. Use spirit lance to land killing shots on extended ganks, but usually it's preferable to use it to slow a hero when no other disable is on them. You should be having a high level of doppelwalk fairly quickly, so start being aggressive with last-hits, and use pre-emptive doppelwalk to avoid getting harassed.", "Teamfights will be happening in various parts of the map. Whenever this is away from a tier 1 enemy tower, go push that tower down. With your escape mechanism and a TP scroll, you will easily be able to take the tower (and get the last hit too!) and then evacuate easily. Keep your eyes on the river and the presence of the enemy heroes. Towards the end of mid-game, start joining in teamfights. Use doppelwalk a lot.", "Join every teamfight once all T1 and T2 enemy towers are down. Open with doppelwalk. Once the enemy has used their most dangerous spells, reveal yourself with a spirit lance. Flip this around once in a while for added confusion. Weave in and out of the battles often, and focus your purge-assassinate on key low hp targets. Enjoy wreaking havoc!", "One man. One goal. 70 MILLION ILLUSIONS", "", "", "Phantom Lancer", "50");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","2","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","One man. One goal. 70 MILLION ILLUSIONS");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","One man. One goal. 70 MILLION ILLUSIONS","Ring of Protection");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Ring of Basilius");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Diffusal Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","One man. One goal. 70 MILLION ILLUSIONS","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Daedelus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","One man. One goal. 70 MILLION ILLUSIONS","Vladmir's Offering");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Hello, Crystal Maiden.  CM is a decent hero to play in a support role.", "Start with Crystal Nova, as it is an AoE spell, but do not level it up for a while because the slow (30% MS) does not grow with level.  Try to prioritize leveling Brilliance Aura so that your teammates can play more aggressively during early game.  However, this also means that you should not play as aggressively yourself.  Use your spells when allies come to gank, to save your lane partner, or to save yourself.  Take advantage of situations where the enemy is out of place, as you will have the mana to spend but not the health. <br/> CM makes for a good babysitter for a carry that needs farm early game.  Use healing consumables on your carry when needed and harass when opportune enough not to take too much damage yourself.  Keep ward vision up and avoid being ganked while your carry farms.", "Play CM as a support hero during mid game, keeping ward vision up and providing mana or health (through consumables) to your allies if you are expecting a team fight.  Use Crystal Nova and Freezing Field early in fights to prevent enemies from getting into favorable positioning.  Save Frostbite for enemy carries so that you can prioritize killing them while preventing retaliation by attack.  However, be sure not to stack your disables with that of allies' stuns.", "Always support your carry in getting kills and sacrifice yourself to save allies if necessary.  You will get gold and XP from successful team battles and often this is enough for a CM.  Remember that both Crystal Nova and Freezing Field slow attack speed (AS) and can be very useful in team fights to give your carry an advantage over the enemy.", "A Crystal Maiden Build Order", "", "", "Crystal Maiden", "10");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","2","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","A Crystal Maiden Build Order");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","A Crystal Maiden Build Order","Animal Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","A Crystal Maiden Build Order","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","A Crystal Maiden Build Order","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","A Crystal Maiden Build Order","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Flying Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Smoke of Deceit");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","A Crystal Maiden Build Order","Mekansm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","A Crystal Maiden Build Order","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","A Crystal Maiden Build Order","Blink Dagger");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","A Crystal Maiden Build Order","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","A Crystal Maiden Build Order","Drum of Endurance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","A Crystal Maiden Build Order","Aghanim's Scepter");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Crystal Maiden is a good hero to play as a roaming hero (continuous ganking as opposed to laning) during the early stages of the game.  She has two strong ganking spells and her aura remains helpful to all teammates while she is wandering the map. <br/> Note that this should only be played if you can coordinate well with your team and your lineup can afford at least two solo lanes without completely shutting down the hero in the 2v1 lane.", "Start with Crystal Nova, as it is an AoE spell, but do not level it up for a while because the slow (30% MS) does not grow with level.  Try to arrange for a three hero gank on a lane; if you can net one or two early kills for your team then starting off roaming will be easier. <br/> Try to keep an eye on all lanes and do not hesitate to TP into a lane where a fight is happening to lend a hand.  When entering a lane, start off with a Crystal Nova so that your allies can close in and try not to stack Frostbite's ensnare with the slow or with allies' stuns.  If the fight happens far enough from the tower, you can usually afford a second Crystal Nova in the same fight. <br/> If ganks are not going well, then feel free to continue with a laning build.  However, generally if you can force enemies to be more cautious, farm less, and occasionally go home then it is worth your lost XP and Gold for the benefit of the team.", "Unless your team is way ahead in kills by mid-game, you will likely be under-leveled compared to both your team and the enemy team.  Play cautiously so not to feed, but also use the low level to your advantage.  If a team fight occurs, be aggressive in protecting your allies.  Your death will be less of a loss than an allies death and being at a low level means that you can often respawn in time to rejoin a team fight if it persists for long enough. <br/> If you are confident with your ability to survive, try to stay out of lane so that allies may gather XP and gold.  This will also allow you to surprise enemies during team fights.  You will get XP and gold as needed during successful team fights. <br/> Continue with general supporting roles.  If you can afford a Force Staff, then it greatly helps your survivability and also allows you to assist your teammates.  However, do not prioritize this over making sure that the map is warded.  If you play efficiently, you may be poor but should be able to use consumables to stay healthy enough for team fights until late game.", "In late game, play as a support hero would.  Assist your carry in getting kills and sacrifice yourself to save allies if necessary.  Remember that both Crystal Nova and Freezing Field slow attack speed (AS) and can be very useful in team fights to give your carry an advantage over the enemy.", "Roaming and Support with Crystal Maiden", "", "", "Crystal Maiden", "20");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Roaming and Support with Crystal Maiden");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Roaming and Support with Crystal Maiden","Animal Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Roaming and Support with Crystal Maiden","Smoke of Deceit");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Roaming and Support with Crystal Maiden","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Roaming and Support with Crystal Maiden","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Roaming and Support with Crystal Maiden","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Flying Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Smoke of Deceit");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Tranquil Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Roaming and Support with Crystal Maiden","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Roaming and Support with Crystal Maiden","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Roaming and Support with Crystal Maiden","Drum of Endurance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Roaming and Support with Crystal Maiden","Medallion of Courage");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Roaming and Support with Crystal Maiden","Mekansm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Roaming and Support with Crystal Maiden","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Roaming and Support with Crystal Maiden","Blink Dagger");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Leshrac is one of the few heroes that can carry with a strong item build AND has the arsenal of spells to help him farm those items.  Pulse Nova deals a large amount of damage in an AoE and is destructive during late game team fights if Leshrac has enough mana to sustain casting AND enough health to survive the duration of the fight (both which require adequate items).  However, at the same time Leshrac is gifted with Lightning storm, which makes for easy last hitting in lane (while harassing), and Diabolic Edict, which makes short work of towers when the enemy is not around. Played carefully enough during early and mid game, Leshrac can amass a large amount of gold from creep kills, tower kills, and hero kills to be a powerful pushing and teamfight force during late game.", "This build preferably takes a mid-lane or a solo long lane (with access to the secret shop).  If you are solo long, then you will need to keep wards up around yourself to prevent ganks as Lightning Storm tends to push the lane.  In a solo long lane, you may also choose to level Diabolic Edict sooner and prioritize movement speed so that if the enemy ever decides to go aggressive on you, they will take a lot of damage chasing you past the creep wave. <br/> With a solo lane, getting a fast Void Stone can make things a lot easier.  With a steady supply of mana, use Lightning Storm to last hit 1-2 creeps per wave while harassing the enemy hero.  Careless players will leave themselves open to kills, but do not be too aggressive and try to prioritize creep kills. <br/> If you are mid, then make sure to get a bottle quickly and pay attention to runes. Ganks work well with Lightning Storm's low cooldown and Diabolic Edict's high damage away from creep waves.  However, this build does not prioritize leveling Split Earth considering that the stun duration is constant across levels.  This limits your ability to stun multiple enemies at once during ganks, so it may be best to stay mid depending on the composition of heroes", "Prioritize taking down towers over engaging in team fights.  This will allow you to quickly build a Bloodstone as well as help your teammates get quick items as well.  (This is why the build suggests learning a second level of Diabolic Edict before Pulse Nova).  If the enemy team starts looking for team fights, you can often sneak into other lanes (while the enemy is away) and take down tier one towers within one or two creep waves.  Do not take down tier two towers without support from allies but do not be afraid to push when given the opportunity.  If you can acquire money quickly, it will make late game a lot easier.", "During team fights, try to stay at the back of the battle until people are low health.  This build does not suggest building early health items (beyond Bloodstone components) so you will not last long if you are the center of attention.  Keep a steady supply of lightning storms when off of cool-down but save enough mana for Diabolic Edict and a few Pulse Nova pulses (math is helpful here, so identify how much damage you plan to do and how much mana is required. Unless your team has many AoE disables, do not count on getting more than 3-4 pulses of damage on any given hero).  When enemy health is low or your team sets up a good AoE disable, walk in with Diabolic Edict and Pulse Nova to clean up and acquire a few kills.", "Leshrac can Carry and Push", "", "", "Leshrac", "10");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","2","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","4","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Leshrac can Carry and Push");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Leshrac can Carry and Push");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Leshrac can Carry and Push","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Leshrac can Carry and Push","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Leshrac can Carry and Push","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Leshrac can Carry and Push","Magic Stick");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Leshrac can Carry and Push","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Leshrac can Carry and Push","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Leshrac can Carry and Push","Void Stone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Leshrac can Carry and Push","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Leshrac can Carry and Push","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Leshrac can Carry and Push","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Leshrac can Carry and Push","Bloodstone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Leshrac can Carry and Push","Boots of Travel");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Riki is invisible a lot of the time... That's pretty cool.", "Don't die, get to lvl 6 and then farm and harass.", "Get kills by sneaking up on people.  Not a lot of health, so don't be silly and engage people by yourself unless you know you can kill them fast enough.  Consider the size of smokescreen and the direction that heroes will try to run in.", "Lots of damage late game.", "Riki Guide", "", "", "Riki", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","2","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","2","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","2","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","1","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","1","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Riki Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Riki Guide");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Riki Guide","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Riki Guide","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Riki Guide","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Riki Guide","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Riki Guide","Wraith Band");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Riki Guide","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Riki Guide","Diffusal Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Riki Guide","Mask of Madness");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Riki Guide","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Riki Guide","Sange and Yasha");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Riki Guide","Gem of True Sight");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Dragon Knight. Dragon knight is a man! I mean, a dragon man! Or mabe he was just a dragon. But he's still Dragon Knight! Anyway, DK is a great tank, but he's also not the most powerful hero ever. Ideally, you want to build towards being able to push a lane by yourself, with dragon form's major AoE, while also being able to soak up lots of damage during a team fight. Your early game is defined by your stun: it's insane at any level, but early on it's devestating. By mid and late, you can be pushing hard by yourself, and using the stun to get out if you encounter trouble.", "This build doesn't do much early game. Just build up your Dragon Tail and Dragon Blood, and punish anyone that comes forward with the stun for an early gank. Definitely take bot/top, because the extra support will help you actually kill with the stun. After you get your first level of Dragon Blood, ignore enemy harrass and really try and get in the last hits/denies; your armor + regen means that a few harrass hits will quickly be irrelevant. Once you get your dragon form, you can really hit hard with the stun, since it becomes ranged. Coordinate with your lane partner, and you'll punish the enemy heroes hard. ", "Once you have second level dragon form, you can choose between taking down towers and engaging in team fights. If you're the only strength hero on the team, you should probably prioritize team fights, but there's some flexibility. If you don't have a major gold/level advantage, try not to take down tier two towers without support. Rather, just go back and forth between lanes, pushing hard. During team fights, you want to be towards the front, and you want to Dragon Tail the most dangerous enemy hero. Coordinate with your team, and it should be realtively easy to take out just about anyone. Between your boosted armor from Dragon Blood and the extra damage from Dragon Form, you should survive pretty easily. If needed, back out for a few seconds and use the Urn of Shadows, you should be able to survive pretty easily. ", "Once you get Assault Cuirass / third Dragon Form, you can really just push solo and win. But the armor auro is good for team fights, so show up if you can.", "Dragon Knight Push/Carry", "", "", "Dragon Knight", "7");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","2","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","2","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","1","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Dragon Knight Push/Carry");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dragon Knight Push/Carry","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dragon Knight Push/Carry","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dragon Knight Push/Carry","Gauntlets of Strength");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Dragon Knight Push/Carry","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Dragon Knight Push/Carry","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Dragon Knight Push/Carry","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dragon Knight Push/Carry","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dragon Knight Push/Carry","Eye of Skadi");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Alchemist. Just by looking closely at his hero model, you can see that it's 2 goblins, and with that you can assume what all goblins love. GOLD :) This guide is directed towards a farming, hard-carry alchemist, forget the support/trilane alchemist because his potential is best used with expensive items. Although his ultimate gives him an edge in Attack speed, movement speed, HP and regeneration, his stats are fairly low per level. You want to get a side lane, possibly solo with a chen or enchantress in the jungle just in case you need help, or mid if the hero is not a hard physical hitter (nevermore, viper, sniper, drow, etc) These heroes might not do as well against you in the first few levels, but with their agility gain they will surpass your acid spray because it is considered as physical damage, therefore armor contributes towards damage reductions.", "Given the skill build, you can see that you will be using acid spray level 2 whenever possible, whislt making sure you stack up your passive to get more consecutive gold advantages. Seeing how your passive works, this only counts towards creeps that will give you gold, meaning denying is not ur utmost priority here. If you can deny a creep, go ahead. But, if there is a choice between a deny and a kill, go for the enemy creep. Acid spray level 3 and 4 will do the job of hurting ur enemy quite a bit, while making sure you can kill them for sure given the Quell blade as well as the armor reduction from acid spray. You ONLY want to last hit creeps, this should be a given for any hero who will CS, but there are exceptions (lane equilibrium). Your first item of choice should be a RoH, the HP regen will help out a LOT with your ultimate. Once you've acquired this item, get your support/lane partner to stack the creeps for you. Once he triple stacks the creep camp, he can pull it to deny a full wave of exp from the enemy. While the creeps are fighting each other, you can use an acid spray  right by your tower and just take every last hit from the creeps. After that you can use acid spray on the neutral jungle creeps and that will give you at least 5-8 times your passive stack for gold. You really don't need to worry about finishing vanguard first, having phase boots will be better given your ultimate will take care of the HP part. You WANT to stay in lane sitting and farming/ricing for the majority part of the game, up until you get all of your core items.", "So, had enough Csing? Not until you've gotten radiance you haven't! I like to stick to lane until you finish this item, double, triple, etc stack all the creep camps and you've got yourself a situational/luxury item as well. The reason why you want to do this is simply because radiance will bring at least 3 creep camps to you, and you can lay down acid spray to deal with them very fast while not wasting time going to each individual camp. After doing this, ancient stacking is what your looking for. During this point in the game, always carry a town portal. You still want to farm whenever possible without stopping, having a hefty amount of gold for buybacks and help out you team when possible. Roshan is always very good because Alchemist is hard enough to kill already, and having buyback gold means they have to kill you 3X to stop you from pushing. A lot of older alchemist builds have boots of travel and phase boots for mobility, but the current meta-game isn't about turtling anymore hence 2700 gold is a waste of money. Vanguard will start losing it's effectiveness after 120 damage per instance so getting assault cuirass is usually the best choice for a luxury item.", "By now, you should have realized how hard it is to kill alchemist, given you did your role correctly. Farm for buyback, kill roshan, push and refresh. Getting a BoT here is okay if you want to do split pushes, but not needed. you will want to ignore carries because alchemist just needs to cause chaos and take a lot of damage. There isn't much to be said here other than that every time you die there should be a reason for it. There is a limit to how much you can buy back and also the timer gets very long at the end of the game, waiting on 60-80 seconds can turn the game around easily and will often result in a loss or win. Main thing to think about when playing alchemist is csing and map awareness. You want to TP in for a kill or two when possible, or TP out if you smell a gank. He's a relatively easy hero to use in the right hands, but can be a huge letdown if you don't farm many items.", "Greedy Alchemist", "doat2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=301", "Alchemist", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","3","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","1","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","1","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","1","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","2","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","2","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Greedy Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Greedy Alchemist");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Greedy Alchemist","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Greedy Alchemist","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Greedy Alchemist","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Greedy Alchemist","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Greedy Alchemist","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Greedy Alchemist","Radiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Greedy Alchemist","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Greedy Alchemist","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Greedy Alchemist","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Greedy Alchemist","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Greedy Alchemist","Skull Basher");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Greedy Alchemist","Hood of Defiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Greedy Alchemist","Blade Mail");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Goblins win the game", "As a support you want to enable your carry to get as many creep kills as possible while harassing the opponent.  Use acid to chase the opponents from the creeps since it really hurts starting from level 3.  If you spot a good gank opportunity across the map, tp to that lane and help out.  That is your role as a support.  ", "When using unstable, try to start it in the trees or someplace where the opponent can't see you and then pop out at the last second so the target has less time to react to your appearance.  Grab either a mekanasm or a pipe based on your team needs.  This is a core.  Vanguard is also needed because Alch's armor sucks so the damage mitigation is crucial. In team battles you should acid, ult, and wreck havoc in the middle of the battle, using your items as appropriate.  You are supposed to be a tank soaking up all the damage so your carry doesn’t have to.  Remember that every hit you take is one less hit your carry doesn't take so try to attract attention.", "Late game, vanguard's effectiveness starts to fall off so you should think about replacing it with an assault cuirass for the nice team aura.  However, if for some reason you find yourself with a lot of gold, you can always consider radiance to morph into an aoe dps machine.", "Support Alchemist", "", "", "Alchemist", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Support Alchemist");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Support Alchemist");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Support Alchemist","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Support Alchemist","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Support Alchemist","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Support Alchemist","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Support Alchemist","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Support Alchemist","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Support Alchemist","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Support Alchemist","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Support Alchemist","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Support Alchemist","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Support Alchemist","Ring of Basillius");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Mekansm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Assualt Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Radiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Support Alchemist","Scythe of Vyse");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("I'm old and cold", "Take with you 2 Mantles of Intelligence (2 Gauntlets or 1 Gauntlet and 1 Mantle can do the job if you need more HP), 1 Circlet of Nobility, 1 Tango and 2 Clarities. You should not go to the middle lane unless no one is a good pick to solo in your team. The thing is that it could be very difficult for you to stay in lane if you face a nuker like Lina or a spell spammer like Zeus. A good lane partner would be a disabler or a stunner to provide you an easy first blood. However, a good nuker can do the job. Kaldr have a good attack animation, so it will be easy for you to last hit and deny creeps. For the enemy heroes, harass them as much as possible, it is your role at this state of the game. You have to prevent them to do anything. Nevertheless, don’t spam your Cold Feet. Use it when they come to last hit a creep so they will have to get away, or they will take damage and be disabled. Don’t use any other spell unless you think you can have the kill. The key is communication. Have your partner know what you are intending to do. Buy boots when you have 500 gold and try to not miss too much exp.", "Alright, if you are in a 2v1 situation (you and your partner vs enemy), just kill him. In a 2v2, Ice Blast them both if you can and if you have enough mana to support it, do a Ice Vortex / Cold Feet combo on the hero that have the less HP. If your lane partner is good, you should do a double kill with the shatter. In a 1v2, do the same thing, but only if you think that you can kill one hero without tanking too much damage, or be dead. If you ever are in a 1v0 lane, you can use Ice Vortex to scout, but I recommend you to go kill some heroes when you reach level 6. Next, as Kaldr and having an ultimate with global range, like Silencer and Lord of Olympia, you must check the map as much as you can and kill those fleeing heroes. Oh, yeah, and as a teammate of the Ancient Apparition, you must say it when you see someone fleeing, even if you think it is maybe too late. A fountain kill is always fun (or very raging, depending on which side you are). When you are in a big battle (let’s say 5v5), Chilling Touch before the battle and cast Ice Blast. It is better to initiate than to kill with this spell, because of the HP freeze. They are now more vulnerable to your attacks. Spam Ice Vortex and Cold Feet on the glass cannon (or disabler) whenever you can.For items, buy your Null Talismans / Bracers, then a Void Stone. Always have a TP for emergencies or to return to your base faster. Buy a Mystic Staff and an Ultimate Orb after that.", "I will assume that you have your core now and you should have it mid game if you had a good early game. This means Eul's. Now have fun with your Ice Vortex / Eul's / Cold Feet combo. Stay with your team and support it as much as you can. Initiate all fights with Ice Blast. Always target the disablers and glass cannons first, and buff your team.", "Stone Cold", "playdota", "http://www.playdota.com/guides/stone-cold", "Ancient Apparition", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","3","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Stone Cold");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Stone Cold");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Stone Cold","Mantle of Intelligence");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Stone Cold","Mantle of Intelligence");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Stone Cold","Circlet");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Stone Cold","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Stone Cold","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Stone Cold","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Stone Cold","Null Talisman");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Stone Cold","Null Talisman");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Stone Cold","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Stone Cold","Eul's Scepter of Divinity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Stone Cold","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Ghost Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Mjollnir");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Energy Booster");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Orchid Malevolence");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Stone Cold","Meknasm");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("There are two 'best' laning options for you here. Solo mid, or trilane. Since I play pubs, I choose solo mid, but I can explain the basics of trilaning.", " Only dual lane with someone who can activate cold feet with some magical damage. This should be done only if your allies are...less than adequate, because getting to level 6 is as important for AA as it is for say, Storm or Meepo.", "Once you reach level 6, you should be ganking non-stop. Use the runes if no one else needs them, and use your ultimate as well. The unique thing about AA is that he can literally be ganking two different lanes at once. Because Ice Blast's AoE gets so large if you shoot it off far, it can be timed right to hit distant enemies with ease, which usually allows those allies in that lane to kill that hero. While Ice Vortex and Cold Feet are such a good combo together you rarely even need Ice Blast to kill a hero if you have an ally to help you. Of course, if you don't trust to/know your allies aren't capable of killing the enemies this way, than you can always do it the old fashioned way, and use the three skills in conjunction for an almost sure kill. ", "Your focus in team fights comes down to using your skills and items effectively. Chilling Touch is a pre-fight cast, to increase your team's total damage by 1750 magic damage, which is simply amazing against agility carries who have a very high armor late game.Cold Feet should be casted on a key hero, usually in conjuction with Guinsoo, but sometimes they can be more effect if used separately, particularly if a hero is already disabled. Ice Vortex should be spammed all over the enemy team, to increase your teams magic damage and slow the enemy team down. The effectiveness of doing just this can win fights. And afterwards it can chase down heroes easily. Ice Blast should be used to hit as many heroes as possible and comboed with Ice Vortex.(which is easy to do with Vortex's 1500 cast range) As long as the carry is hit with the DoT, that is usually enough, because now they can't life steal, or be healed by the supports. Hitting low hp heroes with a Vortexed Ice Blast will usually devastate their hp pool by 50% or more when all is said and done, which means almost certain death with another AoE damage, or just a few attacks from a farmed carry. Book: Use this item before the fight to scout out any enemies/mines. Set them to attack and burn the mana of the most crucial hero after the battle starts. While this item gets a bad rap for hard microing, it's really very simple, just a one button manaburn and a right click. Manta: This item is special. It might seem like a lolwtf item, but it's really just fantastic. If the enemy team has silence, use this item to dispel it and increase your dps to respectable levels. The enemy won't know what hit them.", "The Coolest Hero in Dota (Dual Lane)", "playdota", "http://www.playdota.com/guides/the-coolest-hero-in-dota", "Ancient Apparition", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Coolest Hero in Dota (Dual Lane)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Dual Lane)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Dual Lane)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Dual Lane)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Dual Lane)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Dual Lane)","Sage's Mask");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Dual Lane)","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Dual Lane)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Dual Lane)","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Dual Lane)","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Dual Lane)","Meknasm");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("There are two 'best' laning options for you here. Solo mid, or trilane. Since I play pubs, I choose solo mid, but I can explain the basics of trilaning.", "Basically, you will out creep your opponent, and harass him every chance you get. Due to your amazing attack animation, this is very easy to do, even for a bad last hitter such as myself. But really, the harassing is where AA shines, because the enemy can't fight back without risking a Cold Feet/Ice Vortex combo. The thing about this combo is that if the enemy hesitates to run for even a second, it will activate(unless they have a very fast hero.) This means that you can be super aggressive in the lane with very little worries. If the enemy fights back, you have a very high chance of getting a kill. If the enemy runs, you still did a lot of damage with Cold Feet and your attacks and you can then go scout runes, which you absolutely don't want your enemy to get.(if you get a nice one, you can go gank with it)The main goal of this phase however, is to get to level 6. ", "Once you reach level 6, you should be ganking non-stop. Use the runes if no one else needs them, and use your ultimate as well. The unique thing about AA is that he can literally be ganking two different lanes at once. Because Ice Blast's AoE gets so large if you shoot it off far, it can be timed right to hit distant enemies with ease, which usually allows those allies in that lane to kill that hero. While Ice Vortex and Cold Feet are such a good combo together you rarely even need Ice Blast to kill a hero if you have an ally to help you. Of course, if you don't trust to/know your allies aren't capable of killing the enemies this way, than you can always do it the old fashioned way, and use the three skills in conjunction for an almost sure kill. ", "Your focus in team fights comes down to using your skills and items effectively. Chilling Touch is a pre-fight cast, to increase your team's total damage by 1750 magic damage, which is simply amazing against agility carries who have a very high armor late game.Cold Feet should be casted on a key hero, usually in conjuction with Guinsoo, but sometimes they can be more effect if used separately, particularly if a hero is already disabled. Ice Vortex should be spammed all over the enemy team, to increase your teams magic damage and slow the enemy team down. The effectiveness of doing just this can win fights. And afterwards it can chase down heroes easily. Ice Blast should be used to hit as many heroes as possible and comboed with Ice Vortex.(which is easy to do with Vortex's 1500 cast range) As long as the carry is hit with the DoT, that is usually enough, because now they can't life steal, or be healed by the supports. Hitting low hp heroes with a Vortexed Ice Blast will usually devastate their hp pool by 50% or more when all is said and done, which means almost certain death with another AoE damage, or just a few attacks from a farmed carry. Book: Use this item before the fight to scout out any enemies/mines. Set them to attack and burn the mana of the most crucial hero after the battle starts. While this item gets a bad rap for hard microing, it's really very simple, just a one button manaburn and a right click. Manta: This item is special. It might seem like a lolwtf item, but it's really just fantastic. If the enemy team has silence, use this item to dispel it and increase your dps to respectable levels. The enemy won't know what hit them.", "The Coolest Hero in Dota (Solo Mid)", "playdota", "http://www.playdota.com/guides/the-coolest-hero-in-dota", "Ancient Apparition", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Coolest Hero in Dota (Solo Mid)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Solo Mid)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Solo Mid)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Solo Mid)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Solo Mid)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Solo Mid)","Sage's Mask");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Solo Mid)","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Solo Mid)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Solo Mid)","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Solo Mid)","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Solo Mid)","Meknasm");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("There are two 'best' laning options for you here. Solo mid, or trilane. Since I play pubs, I choose solo mid, but I can explain the basics of trilaning.", "Cold Feet and Ice Vortex are both amazingly strong on low levels, and work amazingly well in a trilane. Lane with some stunners, and kills are all but guaranteed. Even long range anti-trilane heroes will have a hard time against Ice Vortex. It's so good, many people would call it imbalanced.", "Once you reach level 6, you should be ganking non-stop. Use the runes if no one else needs them, and use your ultimate as well. The unique thing about AA is that he can literally be ganking two different lanes at once. Because Ice Blast's AoE gets so large if you shoot it off far, it can be timed right to hit distant enemies with ease, which usually allows those allies in that lane to kill that hero. While Ice Vortex and Cold Feet are such a good combo together you rarely even need Ice Blast to kill a hero if you have an ally to help you. Of course, if you don't trust to/know your allies aren't capable of killing the enemies this way, than you can always do it the old fashioned way, and use the three skills in conjunction for an almost sure kill. ", "Your focus in team fights comes down to using your skills and items effectively. Chilling Touch is a pre-fight cast, to increase your team's total damage by 1750 magic damage, which is simply amazing against agility carries who have a very high armor late game.Cold Feet should be casted on a key hero, usually in conjuction with Guinsoo, but sometimes they can be more effect if used separately, particularly if a hero is already disabled. Ice Vortex should be spammed all over the enemy team, to increase your teams magic damage and slow the enemy team down. The effectiveness of doing just this can win fights. And afterwards it can chase down heroes easily. Ice Blast should be used to hit as many heroes as possible and comboed with Ice Vortex.(which is easy to do with Vortex's 1500 cast range) As long as the carry is hit with the DoT, that is usually enough, because now they can't life steal, or be healed by the supports. Hitting low hp heroes with a Vortexed Ice Blast will usually devastate their hp pool by 50% or more when all is said and done, which means almost certain death with another AoE damage, or just a few attacks from a farmed carry. Book: Use this item before the fight to scout out any enemies/mines. Set them to attack and burn the mana of the most crucial hero after the battle starts. While this item gets a bad rap for hard microing, it's really very simple, just a one button manaburn and a right click. Manta: This item is special. It might seem like a lolwtf item, but it's really just fantastic. If the enemy team has silence, use this item to dispel it and increase your dps to respectable levels. The enemy won't know what hit them.", "The Coolest Hero in Dota (Trilane)", "playdota", "http://www.playdota.com/guides/the-coolest-hero-in-dota", "Ancient Apparition", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Coolest Hero in Dota (Trilane)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Trilane)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Trilane)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Trilane)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Trilane)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Coolest Hero in Dota (Trilane)","Sage's Mask");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Trilane)","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Trilane)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Trilane)","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Coolest Hero in Dota (Trilane)","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Coolest Hero in Dota (Trilane)","Meknasm");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Oil, fire, and you can fly!", "As said in the 'Runes' chapter I prefer my Batrider solo mid. If the enemy mid laner is melee then you really shouldn't have any problems keeping him down, spam your Sticky Napalm on him, if he stands in it for 5 stacks and refuses to go back, go for the kill, if he does go back, use that time to get some lasthits. If the enemy mid laner is ranged, you might have some issues, try to keep your distance (most heroes will have bigger range than you) and spam your  Sticky Napalm on them, it has a very big casting range. Same rules apply as if he was a melee hero from there on. You can start your spamming even from level 1 preparing them for your Firefly once you reach level 2. Some of them might get a  Magic Stick to 'counter' you a bit, this might work if the lane is pushed towards their tower, however if they manage to push the creeps to your tower and they got a bunch of stacks on them, a Magic Stick just won't save them, the slow from  Sticky Napalm will be unbearable and you will have plenty of damage. If you manage to push the creeps a bit closer to his tower, don't hesitate to scout for runes and maybe get that early first blood with a haste rune. Focus lasthitting rather than denying,  Batrider needs at least a Boots of Speed to be effective in his ganks. At level 6 your laning phase officially ends and you are now a constant roamer, you should have a Boots of Speed and a Town Portal Scroll at least, waiting for you home. Focus on finishing your Power Treads first instead of getting early Bracers, speed is more important for a ganker.", "Once you got home, get whatever items you could afford + that Town Portal Scroll, tp on one of your allied lanes (use second tower if the lane is too pushed, so the enemy won't see you coming) that is a bit pushed and proceed to get your first kill (if you didn't get a first blood already). Start your Firefly and get in a good position (since you can fly over anything), then just simply cast Sticky Napalm on your targets until you reach your main target, cast flamming lasso on it a drag it back towards your teammates so you can finish the job faster. It's kind of impossible to avoid Batrider's ganks unless they towerhug, and even then, Batrider is a good tower diver. If your allies happen to have stuns and are capable of taking 1 enemy laner alone, maybe you can focus on the one they can't take out instead. Once that is done, you should be able to get your Belt of Strength and have another Town Portal Scroll waiting for you home. You could farm a bit while your ultimate is in cooldown, but once it's up or nearly up it's time to get moving. Focus item-dependant heroes in your ganks, especially carries. Try to help with the pushing after a gank if your lanemates are capable. Keep ganking until the laning phase is officially done for everyone. Don't ignore runes!! By the end of midgame you should have your Power Treads,2-3 Bracers, Magic Wand and a part of your next big item, or a bunch of gold.", "If your team is average and you did a good job in the early stages, there really shouldn't be any late-game to speak about. If things drag this long it's either because you have some kinda of hard carry in your team that just can't do much early-mid game or you are kinda on the loosing side. If you are however, doing fine and everything is under control, focus on finishing your first big item and working towards your second. If you opt for mobility with Blink Dagger and Force Staff you will end up as your team's initiator, pick your targets carefully. If you opt for tankage, then either wait for their initiator to initiate or yours, then just spam your Sticky Napalm and spread Firefly across the the battlefield, disable the enemy carry with Flaming Lasso and drop a Flamebreak from time to time. Don't forget to autoattack as well since your attacks also get amplified by Sticky Napalm If you win the teambattle then push if you are able to, otherwise look for a rune (maybe you get a lucky regeneration) or go heal. You should be a annoying hero to kill even for enemy carries due to your extreme tankiness and Firefly.", "The Bat Tank", "dotafire", "http://www.dotafire.com/dota-2/guide/jinzakk-death-from-above-222", "Batrider", "80");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","3","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","2","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","2","The Bat Tank");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","2","The Bat Tank");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Bat Tank","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Bat Tank","Tangoes");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Bat Tank","Tangoes");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Bat Tank","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Bat Tank","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Bat Tank","Circlet");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Bat Tank","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Bat Tank","Bracers");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Bat Tank","Bracers");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Bat Tank","Bracers");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Bat Tank","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Bat Tank","Blink Dagger");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Bat Tank","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Bat Tank","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Bat Tank","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Bat Tank","Hood of Defiance");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Mid please", "CS, CS, CS that is all you should be doing early game.  If the other hero is melee, harass him a bit with your autoattack since you know you can heal easily with CS.  Getting the importance of CS here?  BS's greatest ability is the fact that it is almost impossible to get him out of a lane so use it and abuse it.", "You can start ganking starting from level 6 so just go around and pick on low health heroes.  In team fights, BS is useful to clean up shop so just let the battle commence for a little, tp in during the middle of it, ult someone, and go to work.  You should definitely get either force staff or dagon or even both.  Force staff is good since it procs your ult when they stop moving and negates your greatest weakness, TP scrolls, since it ministuns.  It's also good for escaping.  Dagon is useful since well it's a high damage nuke and in conjunction with your ult, you can kill most people while roaming around.  However, if you have extremely good farm or are just pummeling the other team, rush radiance and sparkly your way to victory.", "BS starts to fade late game so if it gets to that point, just get some typical carry items and hope it works out.", "That's BS", "", "", "Bloodseeker", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","That's BS");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","That's BS");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","That's BS","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","That's BS","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","That's BS","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","That's BS","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","That's BS","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","That's BS","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","That's BS","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","That's BS","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","That's BS","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Radiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","That's BS","Power Treads");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Any lane is fine", "CS, CS, CS that is all you should be doing early game.  If the other hero is melee, harass him a bit with your autoattack since you know you can heal easily with CS.  Getting the importance of CS here?  BS's greatest ability is the fact that it is almost impossible to get him out of a lane so use it and abuse it.  You level stats after taking one of each skill to increase your survivability and auto attack damage and frankly one level of each skill is all you need early game.", "You can start ganking starting from level 6 so just go around and pick on low health heroes.  In team fights, BS is useful to clean up shop so just let the battle commence for a little, tp in during the middle of it, ult someone, and go to work.  You should definitely get either force staff or dagon or even both.  Force staff is good since it procs your ult when they stop moving and negates your greatest weakness, TP scrolls, since it ministuns.  It's also good for escaping.  Dagon is useful since well it's a high damage nuke and in conjunction with your ult, you can kill most people while roaming around.  However, if you have extremely good farm or are just pummeling the other team, rush radiance and sparkly your way to victory.", "BS starts to fade late game so if it gets to that point, just get some typical carry items and hope it works out.", "The Power of Stats", "", "", "Bloodseeker", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","2","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","2","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","2","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","1","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","1","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","1","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Power of Stats");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Power of Stats");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Power of Stats","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Power of Stats","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Power of Stats","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Power of Stats","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Power of Stats","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Power of Stats","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Power of Stats","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Power of Stats","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Power of Stats","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Radiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Power of Stats","Power Treads");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("So Dark Seer is my favourite hero. He is an all-rounder hero, you can  initiate, jungle, support, gank, carry, chase with him.", "I always start with Tango, Salve, Clarity and Stout shield. But when I go jungle I buy 2xTango. When you jungle always try to stack as many hard level camps as you can till lelvel 7 when you will have lvl4 Ion Shell and you can easily take down these camps in a few secs. First cast Ion Shell on yourself and after the 10 sec cooldown go in the camp and cast another Ion Shell on one of the stronger creeps. When you're laning you can use Ion Shell as a harassment tool, but it mostly works only against melee heroes. Just cast it on the enemy ranged creep.", "So the first item you should buy is Vanguard. It helps you in jungling and staying in the teamfights longer, etc. Then comes the Boots of Speed and a Void Stone.  You can upgrade your boots to anything you want.  Because I love to play agressive and initiate fights I always buy Phase Boots. But if you're playing as support you can buy Arcane Boots. But you can choose from the other boots too, it doesn't really matter. You can buy Magic Wand and Bottle as core items if you want.", "I think there are a lot of good items fo Dark Seer. I love the Aghanim's upgrade of his ulti, you can make a whole army. So Aghanim's Scepter is a really good item on DS. Scythe of Vyse is also a good choice, boots your stats and the hex is always a good thing in fights. If you're facing autoattackers a Blade Mail or Shiva's Guard. If you get a lot of magic damage then Hood of Defiance>Pipe. And you can buy Mekans if you support.", "Dark Seer Basic Guide", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=313", "Dark Seer", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","2","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","2","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","1","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","1","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","1","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Dark Seer Basic Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Dark Seer Basic Guide");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dark Seer Basic Guide","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dark Seer Basic Guide","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dark Seer Basic Guide","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Dark Seer Basic Guide","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Dark Seer Basic Guide","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Dark Seer Basic Guide","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Dark Seer Basic Guide","Void Stone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Hood of Defiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Dark Seer Basic Guide","Meknasm");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Spin and Win", "Get a good lane partner with a nice slow or stun and try get a level 1 kill if you can.  Remember to never right click the enemy when you are trying to kill someone with the spin since you will try attack the hero when you get close and then the enemy can run away.  Always press m and then left click the hero so you always follow him and never attack.  Also, if you can, try approach the enemy from the back so you can block his path while fleeing. Early game focus on creep kills, but be sure to look out for kill opportunities if the opponent gets a little too close.", "After you get your phase, remember that you can phase while spinning.  This is also useful when under pressure from a gank since you can spin then tp and they can't stun you unless it's physical.  Once you get your phase and bottle, you should go around ganking heroes that are overextended.  With a haste or invis rune, you can kill most heroes.", "You can still carry late game, but are most effective mid game.  Spinning is good for taking out creep waves and stacked jungle camps.", "It's Ganking Time", "", "", "Juggernaut", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","3","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","2","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","2","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","2","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","2","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","It's Ganking Time");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","It's Ganking Time");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","It's Ganking Time","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","It's Ganking Time","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","It's Ganking Time","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","It's Ganking Time","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","It's Ganking Time","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","It's Ganking Time","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","It's Ganking Time","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","It's Ganking Time","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","It's Ganking Time","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","It's Ganking Time","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","It's Ganking Time","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","It's Ganking Time","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","It's Ganking Time","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","It's Ganking Time","Sange and Yasha");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","It's Ganking Time","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","It's Ganking Time","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","It's Ganking Time","Butterfly");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Spinning Time", "Get a good lane partner with a nice slow or stun and try get a level 1 kill if you can.  Remember to never right click the enemy when you are trying to kill someone with the spin since you will try attack the hero when you get close and then the enemy can run away.  Always press m and then left click the hero so you always follow him and never attack.  Also, if you can, try approach the enemy from the back so you can block his path while fleeing. Early game focus on creep kills, but be sure to look out for kill opportunities if the opponent gets a little too close.  Remember that you can use items while spinning.  This is useful when under pressure from a gank since you can spin then tp and they can't stun you unless it's physical.  ", "Mid game focus on farming as well, but always look out for good gank opportunities.  Spinning is good for taking out creep waves and stacked jungle camps in conjunction with battlefury.", "This is your time to shine.  In team battles, lay down your healing ward for a nice heal and since the ward is something that most people will not notice in a battle, you get the heal for the duration of it which can be the difference.  Don't use your spin unless you are under duress since your autoattacks should deal more damage than it.  Ult when the number of enemies decrease or when there are no creeps nearby.", "Late Game Carry", "", "", "Juggernaut", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","2","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","2","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Late Game Carry");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Late Game Carry");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Late Game Carry","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Late Game Carry","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Late Game Carry","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Late Game Carry","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Late Game Carry","Battle Fury");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Late Game Carry","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Late Game Carry","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Late Game Carry","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Late Game Carry","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Late Game Carry","Satanic");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Late Game Carry","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Late Game Carry","Linken's Sphere");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("The Morphling is a dynamic hero, capable of giving or taking massive amounts of damage, at the will of the player. His Waveform allows him to escape or initiate fights with ease, while his Adaptive Strike gives him a versatile, powerful nuke or stun. His Replicate allows him to make a copy of a hero, and to take the place of the copy in an instant. Morphling's greatest strength, however, is his ability to transfer his agility points to strength, and vice-versa, allowing him to take on the role of tank or damagedealer at a moment's notice. The Morphling is a dangerously mobile enemy, who must be treated with caution before he takes you by surprise!", "Usually I ask for a solo because getting a 2 level advantage over your opponents is crucial because Waveform hurts a lot early game. You can either choose to solo middle or bottom. What you really want to do is get as many last hits and denies as you can because that way you can get your early game bottle and boots and go ahead and start ganking with your allies. If you do not get a solo lane then you must have to get lots of last hits and denies. Usually if you are forced to be in a dual lane try to lane with someone who does not need the farm. For example Vengeful Spirit has a nice stun that does decent damage, a nuke that reduces armor and an aura that gives you 36% more damage. ", "This is usually the time where everyone is constantly ganking. By this time I assume that you have your Bottle, Boots of Travels, Poor man Shields and Magic Stick so you should be able to kill most Intelligence or Agility heroes. This is where Morphling shouldn’t die because of the fact that he is going to need to carry late game and you need to make sure you get as much gold and lose as least gold as you can. Usually Morphling needs a ally to have a successful gank because as soon as you use your Waveform you need something to keep them in place so that you can constantly hit on them until your Waveform is back and you can take the kill.", "By now you should be pushing like mad. You solo push while your teammates push the other lanes. Whenever the enemy team goes for you just hide in the trees until they defend the other lanes, that’s when you come back out and continue to push. If your team ever needs you just teleport back to where they need you and stop that push. By the time you finish that push your Boots of Travels cooldown is over and you can again continue to solo push. By now you should and be able to spam Waveform. All if you have to do it just Waveform creeps because it takes all the melee creeps to red and the mage creep to red hp, also by now you should be able to take most heroes 1v1 so it's safe to use Waveform on creeps.", "BTInTiMiDaTe Guide to Morphling", "playdota", "http://www.playdota.com/forums/showthread.php?t=316421", "Morphling", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","3","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","3","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","3","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","BTInTiMiDaTe Guide to Morphling");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","BTInTiMiDaTe Guide to Morphling","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","BTInTiMiDaTe Guide to Morphling","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","BTInTiMiDaTe Guide to Morphling","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","BTInTiMiDaTe Guide to Morphling","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","BTInTiMiDaTe Guide to Morphling","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","BTInTiMiDaTe Guide to Morphling","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","BTInTiMiDaTe Guide to Morphling","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","BTInTiMiDaTe Guide to Morphling","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","BTInTiMiDaTe Guide to Morphling","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","BTInTiMiDaTe Guide to Morphling","Wraith Band");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","BTInTiMiDaTe Guide to Morphling","Wraith Band");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Satanic");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Ethereal Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Diffusal Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","BTInTiMiDaTe Guide to Morphling","Mjollnir");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Nothing in the world is more flexible and yielding than water. Yet when it attacks the firm and the strong, none can withstand it, because they have no way to change it. So the flexible overcome the adamant, the yielding overcome the forceful. Everyone knows this, but no one can do it.", " As a solo mid player, I advise that you request for a solo lane because a 2 level advantage is crucial since Waveform deals a lot of damage early game. Focus on getting in as many kills and denies as possible before leaving your lane to gank. Upon a successful gank, TP back to your lane and resume farming, as Morphling needs enough farm to be useful in his traditional DPS/Tank role in the team. For those players who prefer Morphling in a dual lane, make sure that you have a suitable lane partner, preferably someone like Vengeful Spirit or Crystal Maiden who can babysit you and harass the opposing lane. Their stun will also combo well with  your Waveform for an early kill or 2.", "As mentioned earlier, Morphling is more than capable of pulling his own weight in the early and mid-stages of the game. Initiate the battle with Wave Form  and start picking off weaker Agility heroes but always ensure that you can make it out alive. Like all successful ganks, Morphling will need a decent ally to pull off an attac", "If all goes well, you should have sufficient farm to get items like Manta Style and Linken’s Sphere to contribute to gang fights and carry your team to victory. If you have Boots of Travel, you should focus on pushing separate lanes from your team and only teleport back whenever they require your assistance.By the time you finish that push your Boots of Travels cooldown is over and you can again continue to solo push.", "Morphling Guide", "dota2-guide", "http://dota2-guide.org/theradiant/morphling-guide/", "Morphling", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","2","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","3","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","3","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","3","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Morphling Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Morphling Guide");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Morphling Guide","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Morphling Guide","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Morphling Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Morphling Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Morphling Guide","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Morphling Guide","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Morphling Guide","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Morphling Guide","Wraith Band");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Morphling Guide","Wraith Band");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Morphling Guide","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Morphling Guide","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Morphling Guide","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Morphling Guide","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Morphling Guide","Sange and Yasha");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Morphling Guide","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Morphling Guide","Ethereal Blade");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Morphling is a hard carry and hard carrys should always get supported/babysitted in which lane ever they are. You might consider to solo lane. Morphling which is not really a terrible choice but a risky one. In pubs you should always take the safe lane with atleast one support hero who should totally sacrifice any sort of farm in the lane to you. The support will protect you and should atleast double stack pull if possible all the time to make farming for you really easy and safe because you are near your tower all the time, deny experience to the enemy and make you out leveling the enemy because you are solo and they get exp denied. Which might opens the possibility to kill your enemy in lane.", "Your achievment is to get as much farm and levels as you possibly can and avoid dying at all costs. Get your earlygame items up as soon as possible.", "You are about to reach lvl 6-8, the first ganks might start around this point, try always to be aware of where the enemy team is and have in mind to be really careful if a few are missing. Start to ALWAYS carry 2(!) tp scrolls with you. Your goal is to atleast reach your Linkens at 20 min which means you got quite decent farm. From now on you are able to participate in fights. Your next goal will be to get your Manta asap. You should not participate in ganks because you will miss farm and exp if you do so. Be aware that you could be ganked by the whole enemy team and keep in mind what you have learned regarding the sections before. Anyway if your team needs you to defend a tower you should always tp in there to fight the enemy team if you got atleast linkens. If you dont and you wont skip it than sacrifice this tower to get your farm and possibly dmg an enemy tower as well. Be anyway careful about how much you actually can sacrifice to get your Linkens.", "Morphling starts shining. Keep in mind that you are the carry which basically means that you are the most important hero of your team. A stupid decision will probably cost you the game if you cant afford a buyback. You are not the one who should initiate the fight, you need your Linkens to be ready after the initiation. Try to focus down supports or heavy dps heroes with not ridicoulously high armor or exposed enemies which are out of position. Use your abilities wisely and try to deal as much dmg as you can with your Manta illusions and Adaptive Strike. Save Waveform if you are not sure if you will need it to escape or not. Always save for buyback. You should only spend your whole money if you are confident enough that the bought item will make a huge difference in team fights.", "iN7.Ganker's Guide to Morphling", "dotafire", "http://www.dotafire.com/dota-2/guide/in7-gankers-guide-to-morphling-735", "Morphling", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","2","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","iN7.Ganker's Guide to Morphling");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","iN7.Ganker's Guide to Morphling","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","iN7.Ganker's Guide to Morphling","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","iN7.Ganker's Guide to Morphling","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","iN7.Ganker's Guide to Morphling","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","iN7.Ganker's Guide to Morphling","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","iN7.Ganker's Guide to Morphling","Ring of Protection");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","iN7.Ganker's Guide to Morphling","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","iN7.Ganker's Guide to Morphling","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","iN7.Ganker's Guide to Morphling","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","iN7.Ganker's Guide to Morphling","Ring of Aquila");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","iN7.Ganker's Guide to Morphling","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Diffusal Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Hand of Midas");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Mjollnir");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Monkey King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Divine Rapier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Daedalus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Satanic");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","iN7.Ganker's Guide to Morphling","Ethereal Blade");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("", "Note : Almost all items are for the Spirit Bear, the boots are for both heroes, and the only item you'll get will be the Heart of Tarrasque. I play Syllabear as a jungler, so be sure that your solo lane will be able to handle 2 oppenents. Be sure to check miss because Syllabear is very vulnerable before level 6. Get a Stout Shield and a Quelling Blade for your bear and 2 tangos for you. The bear will be your main source damage during all the game so make sure you always have it or you'll be useless. Let the bear tanks the creeps, and don't let it die. You can make him go back to the fountain to regen and buy items.", "Farm until you get your basher and give it to your bear, then you can start ganking and roaming.", "Follow the item build, I advise you to stay to your ult form during the fights because it provides you huge a good health bonus, you won't have MS problems with phase boots and Rapid skill. Let your bear engages and proc the snare/stun", "Syllabear jungler", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=466", "Lone Druid", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Syllabear jungler");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Syllabear jungler");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Syllabear jungler","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Syllabear jungler","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Syllabear jungler","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Syllabear jungler","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Syllabear jungler","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Syllabear jungler","Skull Basher");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Syllabear jungler","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Syllabear jungler","Vladmir's Offering");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Syllabear jungler","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Syllabear jungler","Radiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Syllabear jungler","Vanguard");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("", "Bear's items : -Stout shield, hatchet Your items : -Healing salve. Your goal is to farm the phase boots of your bear as fast as you can. As your bear got the phase boots ,you have no problem harassing your enemy to make him stay out of the lane. While your enemy is out of the lane ,farm as many as you can for your boots and the radiance of your bear.", "Bear's items : -Stout shield -Phase Boots -Radiance Your items : -Boots of speed -Wraith band Now you have your radiance and phase boots on your bear , you have no problem any more solo killing or ganking. Your goal now is to farm the vladmir's and BOT for you and vanguard ,assault cuirass or heart for your bear ,if you had this items, your bear now have the over all tankiness. Your job now is to kill enemies, as you see your enemies roaming, Kill Them! you are now a 'Undestructable Killing/Pushing Macine.'", "Bear's items : -Vanguard -Phase Boots -Radiance -Assault Cuirass/Heart-of-Tarrasque Your items : -Boots of Travel -Wraith Band -Vladmir's Offering You now have the over all control in the game. If you want to end this game then its Better ,But you can choose to continue the game and Beat the Shit out of your enemies.", "Victory is at hand", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=455", "Lone Druid", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","3","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","4","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Victory is at hand");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Victory is at hand");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Victory is at hand","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Victory is at hand","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Victory is at hand","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Radiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Wraith Band");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Victory is at hand","Vladmir's Offering");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Victory is at hand","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Victory is at hand","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Victory is at hand","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Victory is at hand","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Victory is at hand","Eye of Skadi");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("In my opinion he is one of the most funniest heroes to play, if not the funniest - but also one of the most difficult heroes - he needs a lot of practice. Thats why my guide is very detailed but pretty long, though. He is a dangerous killer, especially in the early stages of the game, and can kill almost everbody in the early game by his own with his sick combo Hook+Rot (Dismember). ", "Ok, so you picked Pudge. What now ? As Pudge I extremely recommend taking the Solo Lane, mid or the safe lane, bottom for the Radiant or Top for the Dire. Pudge is one of these solo heroes who are very level dependant in order to be effective in the early game. Tangoes, a Salve, 2 Gauntlets and 2 Branches in my opinion are the best items you could go for because it gives you decent stats to lasthit and enough regen for the early game. Also, the Bauntlets can be build in an Urn of Shadows later. If you expect hard harrass coming out from your lane opponent (e.g. Sniper) and the enemy team has 3 or more physical damage dealers, you can also change the 2 Gauntlets for a Stout Shout shield. Another option is the Quelling Blade, which gives you even more lasthitting power (highly recommended against SF) and the possibility to cut trees to Hook you enemies into angles where they can't flee. Rejected item to leave base with: Naked Bottle  ; I say this is the worst possible item you could go for when leaving base: Bottle first. Here are two reasons why:   1. Bottle gives you no stats to increase your lasthitting damage, just 3 charges, which corresponds 405 hp and 210 mana you can get from. Which doesn't  sound bad at all, but it is, because it leads to  2.  If your team didn't buy a courier with that you can refill your Bottle or you are playing against a hero which can out-rune you like QoP you are pretty fucked, because if you have to go back to base due to low hp and mana, you miss exp. and gold.", "When you are lvl. 7 you MUST start ganking, otherwise you would waste your early killer potential. By this point, when the night begins, you should at least have your Boots of Speed and your Bottle. If you've done well with lasthitting in the lane you can get an Urn of Shadows additionally. Get the items in your stash and then - start ganking the SHIT out of your enemies (keep in mind to buy a Smoke of Deceit if you think the enemy supporter has bought Wards to see you coming for a gank) ! You should never stay in your lane lasthitting creeps after you have reached lvl 7. A good start is to trying to kill your lane opponent if he is still in your range of vision. Because the sight range of the most heroes in Dota is decreased by 1000 (!) at night, you can easily hide inside the river where he can't see you and wait for a good Hook. Afterwards you should gank the sidelanes where usually their hardcarry farms. Try to get every rune from minute 6:00 on (6:00--8:00--10:00-...)", "In terms of the gameplay, I don't think I have to say that much for this section of the game. Try to stick with your team and Smoke-gank together. After you have reached the enemy base and stand in front of the highground of the T3-tower and the raxes, you should tell your supporter to place some Wards in the base of your enemies", "You like meat?", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=424", "Pudge", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","You like meat?");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","You like meat?");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","You like meat?","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","You like meat?","Gauntlets of Strength");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","You like meat?","Guantlets of Strength");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","You like meat?","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","You like meat?","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Hood of Defiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","You like meat?","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","You like meat?","Linken's Sphere");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("This guide wants to show the basic aspects of playing Pudge. It is not tailored for competitive use but it can be used by advanced players in some aspects. Here you will find a simple build that can maximize your ganking potential, corroborated with a simple-to-aquire item build.", "Being a successful Pudge means that you can handle the middle lane with no problems, the best lane for this hero due to fast leveling up, allowing you to make earlier ganks. The main idea behind a successful Pudge is being faithful in your hooks. Don’t wait for the BEST position. Anticipate your enemy’s moves and throw that hook. Mastering the hook throw is one of the greatest feats of the game and it takes lots of practice for that. But don’t be afraid that you will miss the hook and waste mana. You’ll miss lots of them. Don’t forget to farm and get that last hits on the creeps. You need that gold.", "After finishing the main part of your farming (getting the desired Boots, Bottle or Wand) you should start ganking all over the map. Pudge is the ultimate ganker and this is where he gets most of his gold and experience: killing enemy heroes. There are various positions and locations from where you can hook you enemies. Always make sure you will take them by surprise. Before his team mates realized you hooked someone that enemy is already dead and you can run away or fight another one. A great way to make sure you separate someone from their team is hooking them through impassable terrain. This way, you will get more time to kill him before the enemy team reaches you. Also, a great mechanic about Pudge is the ability to deny himself. When with low HP and in a certain position of death, activating Rot will deny you and give no gold to the opposing team. But this takes a lot of practice and synchronizing.", "It is no different from Mid and late early game: gank, gank, gank. Get that situational items that will help you counter your enemies, get that Heart of Tarrasque of you need to tank and gank them like crazy. If you have enough gold, you can trade your boots for Boots of Travel, which are the best and will allow you to effectively attack and defend.", "The Dire Pudge Guide", "dota2-guide", "http://dota2-guide.org/the-dire/pudge-guide/", "Pudge", "3");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Dire Pudge Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Dire Pudge Guide");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Dire Pudge Guide","Magic Stick");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Dire Pudge Guide","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Dire Pudge Guide","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Dire Pudge Guide","Hood of Defiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Dire Pudge Guide","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Dire Pudge Guide","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Dire Pudge Guide","Assault Cuirass");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("The carry strategy is quite simple because its very similar to the pushing strategy, except Pugna will be missing essential items that will dominate the early to mid game phases. Instead Pugna will be investing his farm into items that will dominate during the late game phase. For this chapter, I will list core items that will allow Pugna to farm his luxury items.", "Go mid.  During the early portion of the game, Pugna's main goal should be to sweep our all the tier 1 towers as soon as he can. The reason why the tier 1 towers should be taken out quickly is because it is extremely easy to take out towers early on because the enemy team will be more likely to still be stuck in the laning phase and not grouped up as a team, this will allow Pugna to spam nether blast on the towers uncontested because there will not be enough enemy heroes in the lane to try and counter push Pugna and his allies.", "During the middle portion of the game, pushing the tier 2 towers will be a little bit harder because the enemy team should be grouped up as a five man team to defend the pushes. Though, if you have maxed out nether wards you can almost push the lanes uncontested, because almost all engagements from the enemies should require abilities to be casted, or they will just straight out lose the team fight. With a well placed nether ward the enemy team will be punished for even attempting to engage on Pugna and his team while they are pounding away on the tower. When they engage, just spam your nether blast, decrepify, and life drain on them while your nether ward zaps them to bits.", "If you still havent ended the game by now, you better pray you have a carry on your team because all of Pugna's abilities become far less effective during the late game. Though, not all hope is gone if you dont have a carry, just farm for a scythe of vyse so u can disable the enemy carry. Winning from this point on should be a lot harder, so play cautiously.", "Pugna In Depth Guide (Carry)", "dotafire", "http://www.dotafire.com/dota-2/guide/pugna-in-depth-strategy-guide-746", "Pugna", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Pugna In Depth Guide (Carry)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Carry)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Carry)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Carry)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Carry)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Carry)","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Carry)","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Carry)","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Carry)","Void Stone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Carry)","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Carry)","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Bloodstone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Orchid Malevolence");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Ethereal Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Heaven's Halberd");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Carry)","Ghost Scepter");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Nether Ward remains one of the most underrated spells in DotA - did you know if a Decrepified level 11  Shadow Shaman casts all his skills, he will be instantly killed by  Nether Ward? I love watching an enemy  Lina die before Laguna Blade even occurs, or watching a  Zeus get slamboozled as he casts his 450 manacost ultimate!<br/>Pugna has a versatile and unique skill set. He can be an amazing counter-pick when the enemy chooses spellcasters, or he can be they key hero in a push strategy.", "If you are dual-laning, you should begin to support your team before the creeps even spawn. Buy a Animal Courier and share it immediately, or use your Observer Ward or Sentry Ward before the first creepspawn. Use them to block the enemy 'pull spot' and/or to protect your solo hero from ganks. Pugna can be a strong solo or a good lane partner. Typically if you choose to dual-lane, pick a melee stunner as your lane partner - this way you can support him with your range and use his stun to hit all your [Nether Blast]].Practice the typical lane control techniques so you gain an advantage over your opponents. Also, make sure you use the 's' hotkey to cancel any [Nether Blast]] that are off-target. Level as fast as you can and pick up your early Boots of Speed and support items. If you have your lane on lockdown, or if you have an extremely aggressive pushing lane like KotL/Pugna, try to take out the enemy's first tower before your opponents can resist you. ", "As soon as you have level 7 and Boots of Speed, you have the potential to take down enemy towers quickly. Look to find weak lanes and coordinate with your teammates to take towers in quick succession. If the other team defends, use your early game advantage to own them in team clashes. Always drop your Nether Ward in a hidden location that is close enough to deal damage. When pushing top or bottom tower, place an Observer Ward behind it here to gain vision of approaching heroes. Last hit the tower with Nether Blast if it's at risk of being denied, but if possible leave the money to your carry hero. Remember, taking towers quickly provides far more money than farming creeps, and can give you the item advantage that allows you to break the enemy base. During battles you should be able to feed on enemy spellcasters by zapping them with Nether Ward. It's a win/win situation - if they use spells to fight, they die to Mana Flare. If they choose to spend time stalling until they find the ward and kill it, your team will run over the top of them with your own offensive skills. Always look to save allied heroes with your Mekansm and/or Decrepify. Never ever Decrepify a hero that your team is killing with physical damage. Think quickly and choose your targets well. Poogles is weak as hell so you'll need your wits about you to survive battles. ", "Sure, you've lost a bit of power but you've still got some tricks up your sleeve. Screw over the enemy damage dealers with Decrepify and continue to take down towers with Nether Blast. Your ward is still a frighteningly strong spell - particularly because enemy ultimates now cost upward of 400 mana. ", "Pugna the Full Oblivion Guide", "dotafire", "http://www.dotafire.com/dota-2/guide/pugna-the-oblivion-full-complete-guide-605", "Pugna", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Pugna the Full Oblivion Guide");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Animal Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna the Full Oblivion Guide","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Meknasm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna the Full Oblivion Guide","Ring of Aquila");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Dust of Appearance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Bloodstone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Ghost Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Orchid Malevolence");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna the Full Oblivion Guide","Eul's Scepter of Divinity");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("I decided to make this guide because Ive noticed that a large quantity of dota players cant seem to play him correctly, they usually feed continuously and barely provide any team fight synergy for the team. Pugna is an extremely easy hero to play if you learn his required playstyle as well as a more in depth understanding of his abilities. Most Pugna players think pugna is a nuker like Lion/Lina, so they often play in a similar cannon nuking fashion. Sure, this style of play can work but there have been other strategies that prove to be more successful.", "During the early portion of the game, Pugna's main goal should be to sweep our all the tier 1 towers as soon as he can. The reason why the tier 1 towers should be taken out quickly is because it is extremely easy to take out towers early on because the enemy team will be more likely to still be stuck in the laning phase and not grouped up as a team, this will allow Pugna to spam nether blast on the towers uncontested because there will not be enough enemy heroes in the lane to try and counter push Pugna and his allies.", "During the middle portion of the game, pushing the tier 2 towers will be a little bit harder because the enemy team should be grouped up as a five man team to defend the pushes. Though, if you have maxed out nether wards you can almost push the lanes uncontested, because almost all engagements from the enemies should require abilities to be casted, or they will just straight out lose the team fight. With a well placed nether ward the enemy team will be punished for even attempting to engage on Pugna and his team while they are pounding away on the tower. When they engage, just spam your nether blast, decrepify, and life drain on them while your nether ward zaps them to bits.", "If you still havent ended the game by now, you better pray you have a carry on your team because all of Pugna's abilities become far less effective during the late game. Though, not all hope is gone if you dont have a carry, just farm for a scythe of vyse so u can disable the enemy carry. Winning from this point on should be a lot harder, so play cautiously.", "Pugna In Depth Guide (Support/Push)", "dotafire", "http://www.dotafire.com/dota-2/guide/pugna-in-depth-strategy-guide-746", "Pugna", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Pugna In Depth Guide (Support/Push)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Support/Push)","Animal Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Support/Push)","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Support/Push)","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Support/Push)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Pugna In Depth Guide (Support/Push)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Ring of Basillius");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Meknasm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Pugna In Depth Guide (Support/Push)","Veil of Discord");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Support/Push)","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Support/Push)","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Support/Push)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Support/Push)","Soul Ring");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Pugna In Depth Guide (Support/Push)","Aghanim's Scepter");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Razor is a very interesting semi-carry, he excels against heroes with low mobility and prefers a more tanky approach rather than the classic dps build that most semi-carries go with, instead getting his damage from Static Link. His Eye of the Storm and Plasma Field coupled with Unstable Current give him a decent presence in his ganks allowing him to net some early kills.<br/> Razor's strength comes from being hard to kill and fast as lightning, he's generally built around those two concepts.", "I prefer Razor as a solo mid, the fast levels he gets make for strong counterganks and decent ganks. If you have a stronger level dependent ganker in your team and you think your team will actually need the ganks, then I suggest you let him take mid. Watch how the creepwave is positioned and the number of creeps of each side, do not engage when the enemy has more allied creeps with him than you, he's still Static Linkable in those situations but do not attack him or you will attract creep agro on yourself, either wait for your creeps to join in so that they may get some heat off you or, if he runs back, follow him a bit and then once your are out of the range of his creeps agro, hit him a couple of times. Be careful to what type of heroes you do this to, the tide can turn just as easily if he has allies around or skills that work well on isolated targets. Do not take unnecessary risks. If you can be aggressive, be aggressive otherwise stay defensive, focus strictly on last-hitting and wait for the enemy to make mistakes, once he does, make him pay. As soon as you have your Phase Boots you can you can go gank if you are really required on one of the sidelanes and you are sure to net some kills but if the lanes are fine then continue farming, keep a Healing Salve and a Town Portal Scroll in your inventory and focus on counterganks. If you do get some good runes early game, you may attempt some early ganks but make sure the lane you are ganking has enough disables/damage to actually get those kills.", "If you had a bad early game you're probably standing just on a Phase Boots, do not go out ganking like this, you are probably under-leveled and definitely underfarmed. Focus on getting that Vitality Booster as soon as you can and take no risks, countergank only, tp in when you think you can make a difference, otherwise don't waste your time, you are probably already in bad shape anyway. Perhaps you should put more points into that Unstable Current instead of Static Link if you are getting focused down fast, this is for you to decide. Once your get that Vitality Booster you can act a bit more cocky and maybe pull out some ganks, if you are unsuccessful in your ganks then the enemy is probably already in better shape than your team, or you ganked a ungankable lane where you don't have allies that are prepared for your ganks (no stuns, slows or nukes). Direct your attention to farming that Vanguard and keep safe if so. If you had a good early game you probably already have your core items at this stage of the game, this is when Razor turns into a mighty beast. Proceed to gank kill-able lanes. Have your allies start off with a disable while you are nuking the enemy with Plasma Field from the fog of war, tag one of them with Static Link and stay close while getting in some cheap shots, don't forget to have activated your Eye of the Storm beforehand. You should easily dispose of one enemy with your autoatacks, if his ally sticks around, then you can probably focus him down in more or less 5 attacks with the huge damage boost from Static Link and maybe a Plasma Field to finish him off. If the lane is pushed and you have creeps at the enemy tower use this opportunity to inflict some heavy damage on it with your autoattacks, perhaps even get a tower out of this if your allies can help you. Maintain some between farming and ganking while emphasizing on ganking and pushing.", "If for some reason you were unable to finish it in mid-game then there's probably a unforeseen strategy that the enemy has been using to keep you away from their towers. Things get difficult for Razor at this stage of the game if he had a really bad start. Reaching lategame means you are bound to meet the enemy carries face to face. If you had a bad early game, you are probably easy to take out, so remain hidden in the fog of war before teamfights, you are still somewhat effective at this stage though even if underfarmed, getting big on Static Link can still turn the tide of a battle, as long as you remain unnoticed. It's best Static Linking isolated enemies if you want to keep a low profile. You are probably best getting your damage from the enemy supports/tanks rather than the carries if you are in this type of situation, instead of neutralizing the enemy carry will should be mostly focusing on just killing the supports as fast as you can and then start giving the carry some hell with the damage that you got from his supports, all this while striving to remain alive. Spam your Plasma Field as often as possible. If you had a good early-game you are probably very hard to take out for the enemy team and also a main target. You can afford to take the front-lines in these situations if nobody else is capable of handling the damage, and your allies support it (acting as bait for strong allied initiation, lots of supports/stuns). Instead of Static Linking the supports/tanks you should be trying to get to the enemy carry and start sapping away his damage, be careful though, in lategame things are very different from early-mid-game. Damage is high at this stage of the game and you can be focused down, it's a bit tricky but you need to have good timing when you start sapping away damage, if he can nearly kill you if he focuses then maybe you should wait first until the enemy carry commits to a fight with one of your allies, then Static Link him and make him regret his choice. If the enemy carry is kept safe inside his team then you need to fight a way to split them up, this is usually achieved by baiting and getting the team in uncomfortable positions. You can easily bait or send a support to do it and then have your team come from the sides or behind and strike at their weakest links (the squishy guys).", "Path of least Resistance", "dotafire", "http://www.dotafire.com/dota-2/guide/razor-path-of-least-resistance-632", "Razor", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Path of least Resistance");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Path of least Resistance");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Tangoes");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Tangoes");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Path of least Resistance","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Path of least Resistance","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Path of least Resistance","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Path of least Resistance","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Heaven's Halberd");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Hood of Defiance");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Sange and Yasha");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Path of least Resistance","Assault Cuirass");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Go mid and win", "First of all you have to / random Razor course choose. If you raz r randomed, you may have to get a chicken for the team or even if you get 2 Circlets and engraved a series of tangos selected. Lane choice is explained in the general tips section. As usual, the last hit and deny. You can few techniques:  Offensive plasma field Harassing-you can hit the enemy a few times and when he turned back off, use Plasma  Field, because it has 800 range, also slows down the opponent more than an attack area so that way you can more range to gain advantage.  Defensive plasma field can be controlled by the opponents, so you have to be defensive. While your bundle of creeps are targeting a crawl, hit another one to the other crawling hp less than the plasma-field damage. Observer stations beginning is playing field and plasma bottle, how to win back your dominance in the ground. You can now request your allies observer stations and plant them or you can even plant. Ward to not only protect against ganks they also help you a good view, if the runes respawn and you can get it.  Ganks-but in the case of a game (pub) if your allies refuse to cooperate or can not be simple again to the fountain to buy stations, ganks can happen. If you were to play passive because you have no escape mechanism is a skill to save your ally happened. If you are aiming your ally just a plasma field off and on again. If you strive to try to run, if possible. If not simply a plasma field and wait for your death. To request missing and defense are important early game. ", "At this point you should have 2 ghost boot and ingredients for Maelstorm. You can search for alternative ways to farm aid to allies, if they have difficulty in the track are, after all DotA is a team game! A good balance of neutral creeping and farming and ganking is necessary because the middle game the plasma field is best, while neutral creeping guarantees security and agriculture in the track, of course, move and defend.  Team Battles Although at this point, you can have a higher damage output, you are not yet settled, so you should not be too aggressive in team battles. Stand and use Aoe plasma field and land a few hits is called weak, the Lightning Revenant to a violent storm of crackling energy, the enemy with deadly lightning strikes. The storm is charged with Razor’s malevolent, and seeks only the injured goals for his armor shattering explosions .. This way you will not be too much to be aligned.  Mechanics Maelstorm Maelstorm At this point you should already have. Here are the mechanics, such as the flash fires.  A hero needs an attack command for Maelstrom to proc. This can of 3 things:  1) Press ‘A’, with the left mouse button on a specific enemy unit. 2) Press ‘A’, with the left mouse button on the floor. 3) Right-click on a specific enemy unit.  If your handheld is idle and an enemy is in its coverage and your hero starts to attack, which is an acquired auto-attack, the cause never Maelstrom. Note that for scenatios 1 and 3 when the unit dies, your hero goes into neutral again, so it is best to quickly remake another attack command (or shift-queue it).  Agriculture-Due to recent changes in BoT earlier and earlier, both farm building faster and easier. Just look for great enemy creeps and teleport to a safe allied creep there. It is advisable to have a plasma field to use for the creeps faster agriculture. A little bit of pressure can be good. Do not press too deeply into this point of time. So there you go, simply teleport on the map agriculture.", "Mjollnir is up and this time. This bot is growing for a children’s game because of the constant plasma field, you will not even take days. Start with Mjollnir also to the more aggressive participation in team fights. Check out who the hero of the enemy target, and are charging him while active plasma field, if you can and annoyance with occasional plasma field! You can net some lucky kills. After you have bot teleport to expect to defend and enforce. The real aggression to be when you got your EoS, that they have higher hp, agi and slow. Have fun!  Mjollnir Farming This technique should be used only when there are no enemies nearby and you are heading home after this defense. Use this when it crawls a large number of enemy. Use static charge on the tank itself and goose bumps. Plasma Field and normal beat. With the constant charging and your plasma field, you should take a position in which the wave very quickly.  Pushing Pushing should be very fast at this point. With agriculture + BoT Mjollnir track you to track in a very short time to push. Just be careful because the ganks although you may not be too fragile, still lacks an escape mechanism when you are alone. So it would be better to push with an ally or two.  Team Battles It should be much more active in team battles because of their much higher HP and damage. Space charge on your tank and hit as much as possible. You can even tank a bit on yourself when you have confidence in hitting the opponent. Remember, not at this point long ago. When you fight an opponent 1v1 are at eye level where you fight to the end because you have the plasma-field advantage. However, if you really need to escape …  Bot escape your escape to help at this point. If many enemies you have to charge it, and you’re completely surrounded, you can into the trees and use BoT back to the fountain, in the hope that by the time they find, manage, make sure again. If not, you can BKB for th", "The Lightning Revenant Item Build Guide and Strategy", "dota2pedia", "http://www.dota2pedia.com/dota-razor-%E2%80%93-the-lightning-revenant-item-build-guide-and-strategy/", "Razor", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","2","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","2","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","2","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","1","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","1","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","1","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Lightning Revenant Item Build Guide and Strategy");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Lightning Revenant Item Build Guide and Strategy","Circlet");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Lightning Revenant Item Build Guide and Strategy","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Lightning Revenant Item Build Guide and Strategy","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Lightning Revenant Item Build Guide and Strategy","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Lightning Revenant Item Build Guide and Strategy","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Lightning Revenant Item Build Guide and Strategy","Ring of Aquila");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Lightning Revenant Item Build Guide and Strategy","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Lightning Revenant Item Build Guide and Strategy","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Lightning Revenant Item Build Guide and Strategy","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Lightning Revenant Item Build Guide and Strategy","Mjollnir");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Daedalus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Lightning Revenant Item Build Guide and Strategy","Shadow Blade");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("As a Ganker: You must play as support until lvl 6. When you finally hit lvl 6, you can start to roam around the map using your ulti to start a kill attempt. You should let the carry get the kill if possible, if not just take it. While the enemy is under the effects of purge, it is your job to spam you shadow poison and amp up the damage with soul catcher if you can land it. Releasing poison is very important because you want the hero to die while you or allies are in range of the enemy cause them to get xp. Remember that getting over 4 stacks is useless so release after 4 stacks to get maximum damage.", " You are most likely going to be in a tri-lane if not a dual lane. Your job is to harass and let your carry farm. When attempting for kills when you are lvl 6. Use disruption either on your targeted enemy if hes out of range, or his partner in lane that could cause the most damage or disable any of your team mates. Crystal maiden and lion are valid examples of who to disrupt if attempting a kill because they can completely stop the gank with their stuns/disables. At lvl 6 you can target your enemy with purge and disrupt the laning buddy to achieve an easy kill. Always remember to use your shadow poison", "When you finally hit lvl 6, you can start to roam around the map using your ulti to start a kill attempt. You should let the carry get the kill if possible, if not just take it. While the enemy is under the effects of purge, it is your job to spam you shadow poison and amp up the damage with soul catcher if you can land it. Releasing poison is very important because you want the hero to die while you or allies are in range of the enemy cause them to get xp. Remember that getting over 4 stacks is useless so release after 4 stacks to get maximum damage.", "Note: playing both roles requires you to understand that you are just a dog (yes you are), you must be willing to die for your carries and protect your allies as much as possible, your life isn't worth as much as your carries.", "Shadow Demon NEW COMPLETE GUIDE (Ganker)", "dotafire", "http://www.dotafire.com/dota-2/guide/eredar-the-shadow-demon-new-complete-guide-vote-plx-413", "Shadow Demon", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Shadow Demon NEW COMPLETE GUIDE (Ganker)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Animal Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Ring of Protection");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Phase Bots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Ring of Aquila");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Meknasm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Eul's Scepter of Divinity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Bloodstone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Ganker)","Drum of Endurance");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Go mid, gank, win", "Shadow Demon is good at solo in mid-lane. Taking sufficient healing items to get bottle as soon as possible. Ring of Protection is for Ring of Basilius.", "Its imba skills guarantee it as a dominant ganker in lane even Windrunner can be killed if careless. Cooperated with the Shadow Poison, Dagon would be lethal during mid-game.", "Shadow Demon is an Intelligent hero, so its priority is to survive rather than to DPS during late game. Scythe of Vyse, Shiva's Guard and Linken's Sphere will help it to be an unbearable enemy for opponents.", "Shadow Demon (Mid Ganker)", "mmosite", "http://dota2.mmosite.com/hero/shadow_demon", "Shadow Demon", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Shadow Demon (Mid Ganker)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon (Mid Ganker)","Ring of Protection");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon (Mid Ganker)","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon (Mid Ganker)","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon (Mid Ganker)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon (Mid Ganker)","Ring of Basillius");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon (Mid Ganker)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon (Mid Ganker)","Boots of Travel");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon (Mid Ganker)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon (Mid Ganker)","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon (Mid Ganker)","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon (Mid Ganker)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon (Mid Ganker)","Orchid Malevolence");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Eredar is a special hero (yeah you knew that) meaning he can play many roles. The most common for him is support or ganker.", " You are most likely going to be in a tri-lane if not a dual lane. Your job is to harass and let your carry farm. When attempting for kills when you are lvl 6. Use disruption either on your targeted enemy if hes out of range, or his partner in lane that could cause the most damage or disable any of your team mates. Crystal maiden and lion are valid examples of who to disrupt if attempting a kill because they can completely stop the gank with their stuns/disables. At lvl 6 you can target your enemy with purge and disrupt the laning buddy to achieve an easy kill. Always remember to use your shadow poison", "Come mid-late game you should be opting for purely support items such as hex, urn, meka", "Note: playing both roles requires you to understand that you are just a dog (yes you are), you must be willing to die for your carries and protect your allies as much as possible, your life isn't worth as much as your carries.", "Shadow Demon NEW COMPLETE GUIDE (Support)", "dotafire", "http://www.dotafire.com/dota-2/guide/eredar-the-shadow-demon-new-complete-guide-vote-plx-413", "Shadow Demon", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Shadow Demon NEW COMPLETE GUIDE (Support)");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Animal Courier");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Shadow Demon NEW COMPLETE GUIDE (Support)","Ring of Protection");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Phase Bots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Ring of Aquila");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Shadow Demon NEW COMPLETE GUIDE (Support)","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Meknasm");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Eul's Scepter of Divinity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Necromonicon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Bloodstone");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Force Staff");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Dagon");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Shadow Demon NEW COMPLETE GUIDE (Support)","Drum of Endurance");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Be one with the shadows", "Nevermore is an excellent farmer and grab for Mid Lane, try to secure middle if possible. At level 6 you WILL be the best ganker in the game, this is why Mid is so vital. Never rely on your basic attacks, they do very low damage and Nevermore is also quite squishy, so be careful out there.", "Never rely on your basic attacks, they do very low damage and Nevermore is also quite squishy, so be careful out there. Many choose to avoid the Blink Dagger due to it's lack of stats, however this item is excellent for Nevermore, it'll grant you the ability to position yourself like a Boss. Since Nevermore is also quite squishy, it'll save your life enough to make the dagger basically free. Stay on top of runes (every 2 minutes), follow the item build, and be aware of your positioning. Without your Black King Bar, your dead in the water if caught off guard. Your Blink Dagger may save you here, if you bought it", "Be careful, do not waste time with Nevermore. If you find yourself standing somewhere twiddling your thumbs, my guess is they're tower hugging and you need to move on. Finding a good balance between Farming and Ganking is key for Nevermore, like most heroes. Practice and Master this principal and you'll see yourself doing better as Nevermore and many other heroes.", "Fear the Shadows", "dota2-builds", "http://www.dota2-builds.com/view-dota2-build.php?id=172", "Shadow Fiend", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","2","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Fear the Shadows");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Fear the Shadows");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Shadows","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Shadows","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Shadows","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Shadows","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Shadows","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Blink Dagger");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Shadows","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Shadows","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Shadows","Monkey King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Shadows","Desolator");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Hello and welcome to Nubtrain's guide to Shadow Fiend, my favorite hero of all time. A hero that requires a high skill cap to play well. Shadow Fiend is an amazing powerhouse, possessing early - mid game dominance with a strong presence late game. With three powerful Shadowraze that deal 300 magical damage each and a game changing ultimate Requiem of Souls, Shadow Fiend is a force to reckon with. Shadow Fiend is also an amazing farmer and ganker, that is if you can land Shadowraze...", "Your support should have bought a courier and with that your very first purchase should be a Bottle. There are some players who like to buy Bottle as a start off item and that's a terrible choice. If you chose to take Bottle first instead, you will lose the sustainability and damage needed. You will also make it much tougher for yourself to last hit minions unless you plan to waste mana blasting minions when you can instead burn the enemy hero. With any hero, you must learn to conserve mana...", "(Finish BoT after Blink Dagger] UNLESS you can get it before 12-13 minutes], you'll open more opportunities to push/gank around the map. Most of the time you're going to be casting [[Shadowrazes before lategame so with the high movement speed, you'll be able position yourself faster to land Shadowraze. From mid-late, your job should be causing a ton of disturbance until your hard carry can... carry.) or Power Treads (1450g) (Finish before getting Black King Bar, I'd get this depending on enemy team and the flow of the game. If you feel you need more health and more farm get this due to you not doing so well then this is a good alternative)", "Manta Style (4900g) Provides a decent stat boost but mainly the survivability from the 2 clones. The 2 clones also does more damage to enemies because of your aura and provides confusion for enemies after you have blinked in and ulti'd. If you can time it correctly, Manta Style has a .1 second time of invulnerability when you split two clones. If the game still continues, the rest of the build depends on your game", "The Soultrain Stealer", "dotafire", "http://www.dotafire.com/dota-2/guide/nevermore-the-soultrain-stealer-221", "Shadow Fiend", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","2","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","4","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","The Soultrain Stealer");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","The Soultrain Stealer");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Soultrain Stealer","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Soultrain Stealer","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Soultrain Stealer","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Soultrain Stealer","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Soultrain Stealer","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","The Soultrain Stealer","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Soultrain Stealer","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Soultrain Stealer","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Soultrain Stealer","Blink Dagger");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Soultrain Stealer","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","The Soultrain Stealer","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Daedalus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Heart of Tarrasque");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Sange and Yasha");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Monkey King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","The Soultrain Stealer","Ethereal Blade");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Sniping Time", "Early game - phase or treads, tp, bottle (if mid), ring of basillius, gg branches, magic stick. Focus solely on last hits, denying, and harassing in that order.  Sniper has the best attack animation in the game so abuse that.  Last hitting should be pretty simple.  With this build you are solely focused on carrying the team during late game so get those last hits.  Push the lane when you can to try get the tower.  Remember you outrange the tower when your range skill is level 3.  Get phase or treads based on your personal preference (I always get phase, but that's because I like the mobility).  After you get your bottle, if you get a good rune (haste or invis), go set up a gank with your side lane.  You should be able to kill people with your teammates' help from level 3.  At level 6, you can almost certainly kill most heroes with ally help.  You get ring of basillius for more mana to spam your shrapnel and the plus attack damage, but be sure to turn it to heroes only if you don't want to push the lane.  Your first big item should be manta so you want either the yasha or ult orb for that.  I personally try to get the ult orb first since sniper needs stats badly.", "Remember that positioning is the single most important thing for sniper.  Abuse sniper's long range and position yourself away from the meat of the battle and right click to victory.  Try to position yourself up cliffs or in trees to make it harder for the enemy to get to you.  When deciding sniper works with pretty much every orb, but be sure to analyze your opposing team and your team before you make your choice.  If you feel like being an uber glass cannon, go for deso and hope that your team can protect you.  Go for lifesteal, if there is an opposing carry that you think you'll need to go head to head with (also provides you with str which is good for sniper's meager hp).  Usually, I go for skadi since it provides sniper with good stats and also a great slow for more auto attacks.  ", "Get linken's if the opponent has good singe target skills.  Shadow blade if you feel like you need more mobility/protection (I almost never get this).  I'm more likely to fill my last slot with a sheep stick or orchid's depending on what my team needs.  These items are also good since they provide sniper with enough mana regen to spam his skills.", "Sniper Active", "", "", "Sniper", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Sniper Active");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Sniper Active");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Active","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Active","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Active","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Active","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Active","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Active","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Active","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Active","Ring of Aquila");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Active","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Active","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Active","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Satanic");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Daedalus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Active","Orchid Malevolence");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Who needs actives?", "Preferably go mid.  Focus solely on last hits, denying, and harassing in that order.  Sniper has the best attack animation in the game so abuse that.  Last hitting should be pretty simple.  If mid lane, don’t go to gank or get runes.  With this build you are solely focused on carrying the team during late game so get those last hits.  Push the lane when you can to try get the tower.  Remember you outrange the tower when your range skill is level 3.  Get phase or treads based on your personal preference (I always get phase, but that's because I like the mobility).  Your first big item should be manta so you want either the yasha or ult orb for that.  I personally try to get the ult orb first since sniper needs stats badly.", "Remember that positioning is the single most important thing for sniper.  Abuse sniper's long range and position yourself away from the meat of the battle and right click to victory.  Try to position yourself up cliffs or in trees to make it harder for the enemy to get to you.  When deciding sniper works with pretty much every orb, but be sure to analyze your opposing team and your team before you make your choice.  If you feel like being an uber glass cannon, go for deso and hope that your team can protect you.  Go for lifesteal, if there is an opposing carry that you think you'll need to go head to head with (also provides you with str which is good for sniper's meager hp).  Usually, I go for skadi since it provides sniper with good stats and also a great slow for more auto attacks.  ", "Get linken's if the opponent has good singe target skills.  Shadow blade if you feel like you need more mobility/protection (I almost never get this).  I'm more likely to fill my last slot with a sheep stick or orchid's depending on what my team needs.  These items are also good since they provide sniper with enough mana regen to spam his skills.", "Sniper Passive", "", "", "Sniper", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","2","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","3","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","3","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","1","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","1","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Sniper Passive");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Sniper Passive");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Passive","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Passive","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Passive","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Passive","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Passive","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sniper Passive","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Passive","Phase Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Passive","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Passive","Town Portal Scroll");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sniper Passive","Eye of Skadi");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Shadow Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Satanic");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Daedalus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Scythe of Vyse");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sniper Passive","Orchid Malevolence");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Like sand?  Then you'll love Sand King", "Early game, you should focus on getting some creep kills and not dying.  However, if you can spot an good kill chance, then coordinate with your lanemate and pursue it.  Also, if there's a chance for a gank in some other lane, get a TP scroll and go go go.  If your lane has melee heroes, feel free to get one level of his passive to harrass them while getting ck.", "This is where SK shines.  Once you have boots, you can start roaming and set up easy kills for your teammates.  As soon as you get a blink dagger, your team should consider pushing since your ult blink combo is fantastic initiation.  Remember to shift queue your dagger after starting to channel your ult or else you'll be useless (I've been victim to this numerous times like a true noob).  The combo should be ult channel, shift queue blink, burrow, sandstorm.", "Your effectiveness starts to taper off here, but you still have good aoe initiation so try to force the issue and get the opponents to waste skills and time trying to kill you while your carry hopefully is pummeling them.", "Fear the Scorpion", "", "", "Sand King", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Fear the Scorpion");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Fear the Scorpion");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Scorpion","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Scorpion","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Scorpion","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Scorpion","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Scorpion","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Fear the Scorpion","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Scorpion","Arcane Boots");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Scorpion","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Scorpion","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Scorpion","Blink Dagger");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Fear the Scorpion","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Scorpion","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Scorpion","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Scorpion","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Scorpion","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Scorpion","Linken's Sphere");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Fear the Scorpion","Pipe of Insight");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Greetings! This is my guide to Crixie, the Sand King. Crixie is a cute little lobster thing with a powerful initiation and ganking potential. He isn't particularly item dependent aside from a Blink Dagger. His damage doesn't scale into late-game very well, but he becomes a very powerful pusher if left unchecked. ", "Early game, you should mainly focus on being safe in your lane and picking up some creep kills when you can. You aren't the beefiest hero early game, and have no ranged defense. If you aren't against someone with some AoE like Lina, Windrunner etc, you can go up to the creeps and use Sandstorm to maybe get a couple creeps and push them away from the wave. This will also push the lane a little, however, so don't do this all the time. Be sure to establish lane presence somehow, though.", "As soon as you get your ult, shoes, and either Urn or Bottle, start roaming around, looking for fights or ganks. You can also try to group the team up for a push, instigating a teamfight. This is what you want with Crixie, to stir up fights early and often. When your ult is on CD, carry a TP and farm/push a lane(s) for your Blink and Agha's. When your ult is almost up, tell your team, and group up somewhere. Be sure to stay back, out of sight, like Pudge, while your team tries to aggravate the enemies. This way, they aren't sure if your team is just dumb, or you are channeling your ult right now, ready to blink on top of them... When the enemies are committed to defending the tower (or whatever objective you're pressuring), tell your team and start up the ult. 1, 2, blink...... boom.", "You start to fall off here, as enemies get magic armor and more hp. Your ult does less damage, and enemies aren't as afraid as they were. However, this is where the rest of your team comes in. By now, your carry should be farmed enough, and your other teammates have their damage/CC ready, your role becomes that of a damage-sponge. You still initiate, you're still the spearhead, but now you rely more on your team to follow up. Your ult just softens em up for your carry to do his job. ", "Sand King cometh...", "dirrwen", "http://www.dotafire.com/dota-2/guide/sand-king-cometh-33", "Sand King", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","1","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","3","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","3","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","3","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","2","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","2","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Sand King cometh...");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Sand King cometh...");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Clarity");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Sand King cometh...","Observer Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Boots of Speed");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Bracer");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Urn of Shadows");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Blink Dagger");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Sand King cometh...","Aghanim's Scepter");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sand King cometh...","Shiva's Guard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sand King cometh...","Boots of Teleportation");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sand King cometh...","Blade Mail");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sand King cometh...","Pipe of Insight");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Sand King cometh...","Black King Bar");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Howdy! I'm Manatikik and this is my Bounty Hunter. This is my first guide on the Dotafire website, I have, however, written many guides for the original DotA, HoN, and LoL. This guide will go in depth on the playstyle I feel Bounty Hunter excels at. Some people feel Bounty Hunter cannot carry a game, while i feel he cannot 'hard carry' he can semi-carry and if played correctly shutdown the enemies carry. He takes some getting used to, and when you get his playstyle down you can become the most efficient assassin and win games with ease. I hope you enjoy my guide!", "Lane him like a typical carry until level 3; your lane mate as a carry should always be a babysitter, but with Bounty Hunter they should also have some decent early game damage or nukes. Once you hit Level 3 your Shuriken Toss coupled with your lanemate should be able to nab you First Blood. Simply Shadow Walk behind your enemy, wait for you lanemate to pop em with their nuke it em, auto attack them, and finish em off with a good ol' Shuriken Toss. From here on out just farm until about Level 7, grabbing any lane kills that you can.", "By Level 7 you should have both your Power Treads and Ring of Basilius, you may have more build of your Vladmir's offering and that's great. Start roaming and grabbing any kills you can get, hitting up their jungle for any easy kills. While in their jungle hit up their jungle creeps for your main farm. Remember to use Track on every hero you go for so you and your allies can grab the extra gold. As a great fish once said: 'Just keep swimming, swimming, swimming.' ~ Doiri . But in this instance swimming means ganking. Just keep on shutting them down and building you up.", "By now you should be rolling with your Monkey King Bar and your Desolator and just be wrecking fools. The majority of their team should be shut down by now and you should be a fear that stays with them every time the see a Bounty Hunter for a month. At this point you should be farming or ganking their carry/his farm 24/7. Just grab your items roll them and kill their ancient.", "Collecting a Bounty", "Manatikik", "http://www.dotafire.com/dota-2/guide/collecting-a-bounty-225", "Bounty Hunter", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","3","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","1","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","2","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","3","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Collecting a Bounty");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Collecting a Bounty");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Collecting a Bounty","Quelling Blade");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Collecting a Bounty","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Collecting a Bounty","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Collecting a Bounty","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Collecting a Bounty","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Collecting a Bounty","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Collecting a Bounty","Vladmir's Offering");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Collecting a Bounty","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Collecting a Bounty","Monkey King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Collecting a Bounty","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Collecting a Bounty","Poor Man's Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Collecting a Bounty","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Collecting a Bounty","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Collecting a Bounty","Manta Style");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Collecting a Bounty","Sange and Yasha");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Collecting a Bounty","Daedalus");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Collecting a Bounty","Butterfly");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("YA HE'S PRETTY MUCH A BOSS. A CAT BOSS. AWW YEEEEAAAA", "Levels 1-5: Lane and farm up cautiously, assuring your safety over all else. Dying early will greatly stunt your level growth and put you at a huge disadvantage in your lane. Harassing is encouraged, and by level 3 you can attempt to get kills, but always try to have your invisibility off cooldown when initiating.", "Levels 6-10: Level up Track and roam. If opportunities don't present themselves, get back to a lane and farm. Keep a teleport scroll on you at all times, and try to keep at least 200 mana, so that you can gank or counter-gank without being visible the whole time. Leave the main carries to farm up, and pull one or two heros with you to gank. Be especially aggressive here, as this is when farming items (i.e. Hand of Midas/Battle Fury)will be bought, and the goal is to keep enemy levels and farm down at all costs. Levels 11-15: Start building up luxury items, and use Shadow Walk to facilitate teamfights that you will win, or escape from fights you will not win. Keep a steady eye on Roshan at all times.", "Levels 16+: Depends on the relative position of your team compared to theirs. If winning, push with the team, and try to get into the enemy base. If losing, make sure the map is well warded and see if you can get some kills solo on enemy carries/supports. Otherwise, stick with the team.", "MadMoose Presents: The Big, Bad, Bounty Hunter", "MadMoose52", "http://www.dotafire.com/dota-2/guide/madmoose-presents-the-big-bad-bounty-hunter-460", "Bounty Hunter", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","3","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","1","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","2","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","1","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","1","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","2","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","3","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","3","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","MadMoose Presents: The Big, Bad, Bounty Hunter");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","MadMoose Presents: The Big, Bad, Bounty Hunter","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","MadMoose Presents: The Big, Bad, Bounty Hunter","Slippers of Agility");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","MadMoose Presents: The Big, Bad, Bounty Hunter","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","MadMoose Presents: The Big, Bad, Bounty Hunter","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","MadMoose Presents: The Big, Bad, Bounty Hunter","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","MadMoose Presents: The Big, Bad, Bounty Hunter","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","MadMoose Presents: The Big, Bad, Bounty Hunter","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","MadMoose Presents: The Big, Bad, Bounty Hunter","Bottle");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","MadMoose Presents: The Big, Bad, Bounty Hunter","Vladmir's Offering");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","MadMoose Presents: The Big, Bad, Bounty Hunter","Poor Man's Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","MadMoose Presents: The Big, Bad, Bounty Hunter","Sentry Ward");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","MadMoose Presents: The Big, Bad, Bounty Hunter","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","MadMoose Presents: The Big, Bad, Bounty Hunter","Monkey King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","MadMoose Presents: The Big, Bad, Bounty Hunter","Vanguard");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","MadMoose Presents: The Big, Bad, Bounty Hunter","Assault Cuirass");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","MadMoose Presents: The Big, Bad, Bounty Hunter","Butterfly");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","MadMoose Presents: The Big, Bad, Bounty Hunter","Divine Rapier");
+
+INSERT INTO tbl_builds (descriptionOverall, descriptionEarly, descriptionMid, descriptionLate, name, whereFrom, whereUrl, hero, rating)
+      VALUES ("Aw yeah, you’re looking good in that mirror. Just check out that body. You probably think you’re hot shit. Huh, was that a noise behind you? It’s probably nothing. Oh hey what’s that oh no it’s Gondar the Goddamn Bounty Hunter and he’s sliding his blade up your colon.", "PLAY IT HARD AND PLAY IT FAST. Gondar can be rolling in bling in the early game thanks to his Jinada criticals and his Shadow Walk. It keeps the harassment off you and also lets you get the last hit before they can get the deny. Just keep cool and don’t get in over your head. Always be conscious of the fact that the PEOPLE YOU ARE PLAYING ARE PROBABLY NOT TOTAL SHIT AND HAVE YOU WARDED. This is where some real great Gondar head games can come in. Bait them a little bit, see if creeps attack you while you’re invisible, and watch if people go to your location. All of this means THEY CAN SEE YOU SO BAIL. IT’S NOT RETREATING; IT’S STAYING ALIVE TO MURDER THEM LATER. So what to do if they got you warded? Just switch lanes you dummy! If you’re the only invisible hero on your team, they just wasted their cash warding a lane you aren’t in anymore. Hell, if you can, go get a gank along the way because you are just that ballin. Always remember how amazing you are. You’re Gondar, the Goddamn Bounty Hunter. Assuming you’re doing all that stuff I’ve been telling you so far (did I mention you are Gondar, the Goddamn Bounty Hunter?) you should be doing alright with last hits and have a bunch of cash, but WHAT TO BUY? ALL THIS GOLD AND I DON’T KNOW WHAT I’M DO- *SLAP* CALM DOWN I SAID. Grab a wand. This will make room in your inventory for all the ballin items you’re gonna have later. Also get boots, and turn your stout shield into a poor man’s shield. Then sit there and laugh at the irony of such a name. Ha. The poor man’s shield. On Gondar. ", "At about mid-game you should be working towards your last core item. But Danger, there are no more core items! Remember how I said Gondar is a precision instrument and must be used with precise and deadly accuracy? Yeah, ignore that and get a Battle Fury. Here’s why: At about mid-game, you should have had plenty of solid ganks. By now, if the enemy isn’t made up of a bunch of fools whom you should pity, you won’t be able to rely on your invisibility to get great ganks due to gems, wards, and dust, effectively cutting off one of your main sources of gold. In addition, that precision killer stuff isn’t going to do fuck all in a team fight. A Battle Fury solves both of these problems. First, the Battle Fury increases your farming ability by letting you cleave. The cleave also procs on a critical, allowing you to do a fairly large amount of AoE damage depending on how you strike, so positioning is really important. In addition, you gain 65 damage, which helps your burst critical, and you can chew off health of clustered enemies in a team fight. As a bonus, you gain health and mana regen which increases survivability. Now I know what you’re thinking, “IT SEEMS TO ME LIKE BATTLE FURY IS THE GREATEST ITEM OF ALL TIME!” Even though that is so true, you should greatly resist the urge to get nothing but Battle Furies.", "When you’re playing as Gondar, there is no such thing as “Late Game,” only “END GAME,” BECAUSE HE WILL END YOU. HE’S GONDAR THE GODDAMN BOUNTY HUNTER. YOU THINK BOBA FETT WOULD PUT UP WITH THIS LATE GAME BULLSHIT? NO. SO HERE’S WHAT YOU SHOULD BE THINKING ABOUT END GAME. Desolator. Get it. Use it. It’s great. You get a bonus 60 damage and it shreds armor by 6. If you still have your medallion, that’s 12 armor you can destroy (17 with track!). Monkey King Bar. BECOME THE KING OF MONKEYS. Smack people upside the head and watch them derp for 0.1 seconds. Black King Bar. BECOME THE KING OF… err… Sometimes you’re gonna run into some nerd magician who likes to blast you with spells or stun you or some other nerd shit. This is a nerd shit protector. Flip it on and watch those wizards cry. Abyssal Blade. Basically the only reason for getting this is for some bonus damage that is not a Divine Rapier and to use its stun to give your skills more time to cool down.", "Gondar, The Goddamn Bounty Hunter", "DangerMcD ", "http://www.dota2-builds.com/view-dota2-build.php?id=387", "Bounty Hunter", "1");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("1","3","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("2","2","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("3","1","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("4","1","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("5","3","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("6","4","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("7","2","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("8","3","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("9","2","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("10","3","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("11","4","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("12","2","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("13","1","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("14","1","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("15","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("16","4","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("17","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("18","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("19","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("20","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("21","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("22","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("23","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("24","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_skillBuilds (heroLevel, levelUp,  build)
+        VALUES ("25","5","Gondar, The Goddamn Bounty Hunter");
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Gondar, The Goddamn Bounty Hunter","Stout Shield");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Gondar, The Goddamn Bounty Hunter","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Gondar, The Goddamn Bounty Hunter","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Gondar, The Goddamn Bounty Hunter","Iron Branch");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Gondar, The Goddamn Bounty Hunter","Tango");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Starting","Gondar, The Goddamn Bounty Hunter","Healing Salve");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Gondar, The Goddamn Bounty Hunter","Magic Wand");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Gondar, The Goddamn Bounty Hunter","Battlefury");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Gondar, The Goddamn Bounty Hunter","Power Treads");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Core","Gondar, The Goddamn Bounty Hunter","Medallion of Courage");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Gondar, The Goddamn Bounty Hunter","Desolator");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Gondar, The Goddamn Bounty Hunter","Black King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Gondar, The Goddamn Bounty Hunter","Monkey King Bar");
+
+INSERT INTO tbl_itemBuilds (gameType, build, item) VALUES
+          ("Situational","Gondar, The Goddamn Bounty Hunter","Abyssal Blade");
 
