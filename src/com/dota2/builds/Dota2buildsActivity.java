@@ -1,5 +1,8 @@
 package com.dota2.builds;
 
+import java.io.IOException;
+
+import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.utils.Utils;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
@@ -7,6 +10,11 @@ import com.google.ads.AdView;
 
 import android.app.TabActivity;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.RelativeLayout;
@@ -24,6 +32,31 @@ public class Dota2buildsActivity extends TabActivity {
 
         TabHost mTabHost = (TabHost) findViewById(android.R.id.tabhost);
         mTabHost.setup();
+        
+        PackageInfo pInfo;
+        SharedPreferences prefs = this.getSharedPreferences("dota2Prefs", 0);;
+
+        // figure out which version we're on
+        try {
+            pInfo = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_META_DATA);
+            if ( prefs.getLong( "lastRunVersionCode", 0) < pInfo.versionCode ) {
+                // if version has changed, drop and rebuild db
+            	BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);
+                try {
+                	myDbHelper.createDataBase();
+        	 	} catch (IOException ioe) {
+        	 		throw new Error("Unable to create database");
+        	 	}
+                
+            	// commit the new version edit 
+            	Editor editor = prefs.edit();
+                editor.putLong("lastRunVersionCode", pInfo.versionCode);
+                editor.commit();
+            }
+        } catch (NameNotFoundException e) {
+            // TODO Something pretty serious went wrong if you got here...
+            e.printStackTrace();
+        }
         
         TabHost.TabSpec spec;  // Resusable TabSpec for each tab
         Intent intent;  // Reusable Intent for each tab

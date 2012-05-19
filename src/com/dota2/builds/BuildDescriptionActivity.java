@@ -25,13 +25,14 @@ public class BuildDescriptionActivity extends Activity{
         Bundle extras = getIntent().getExtras();
         String buildName = (String) extras.get("buildName");
         String whereFrom = (String) extras.get("whereFrom");
+        String author = (String) extras.get("author");
         whereUrl = (String) extras.get("whereUrl");
         
         ((TextView)findViewById(R.id.buildName)).setText(buildName);
         if (whereUrl != null && whereUrl.length()>0
         		&& whereFrom != null && whereFrom.length() > 0){
         	((TextView)findViewById(R.id.summary)).setText("Summarized from ");
-        	((TextView)findViewById(R.id.by)).setText(Html.fromHtml("<u>"+whereFrom+"</u>"));
+        	((TextView)findViewById(R.id.by)).setText(Html.fromHtml("<u>"+author+"'s guide</u>"));
         }
         
         BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);

@@ -39,31 +39,26 @@ public class HeroGridActivity extends Activity{
         
         BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);
         try {
-        	myDbHelper.createDataBase();
-	 	 	} catch (IOException ioe) {
-	 	 		throw new Error("Unable to create database");
-	 	 	}
-	 	 	try {
-	 	 		myDbHelper.openDataBase();
-	 	 		// get all the heroes
-	 	 		Cursor cursor = myDbHelper.findHeroes(heroType);
-	 	 		
-	 	 		if (cursor.moveToFirst()){
-	 	 		   do{
-	 	 			  Hero obtained = new Hero(cursor.getString(cursor.getColumnIndex("img")), 
-	 	 					  		 cursor.getString(cursor.getColumnIndex("name")), 
-	 	 					  		 cursor.getString(cursor.getColumnIndex("team")),
-	 	 							 cursor.getString(cursor.getColumnIndex("type")), 
-	 	 							 cursor.getString(cursor.getColumnIndex("role")),
-	 	 							 cursor.getString(cursor.getColumnIndex("range")));
-	 	 		      heroes.add(obtained);
-	 	 		   }while(cursor.moveToNext());
-	 	 		}
-	 	 		cursor.close();
-	 	 		
-	 	 	}catch(SQLException sqle){
-	 	 		throw sqle;
-	 	 }
+        	myDbHelper.openDataBase();
+	 	 	// get all the heroes
+ 	 		Cursor cursor = myDbHelper.findHeroes(heroType);
+ 	 		
+ 	 		if (cursor.moveToFirst()){
+ 	 		   do{
+ 	 			  Hero obtained = new Hero(cursor.getString(cursor.getColumnIndex("img")), 
+ 	 					  		 cursor.getString(cursor.getColumnIndex("name")), 
+ 	 					  		 cursor.getString(cursor.getColumnIndex("team")),
+ 	 							 cursor.getString(cursor.getColumnIndex("type")), 
+ 	 							 cursor.getString(cursor.getColumnIndex("role")),
+ 	 							 cursor.getString(cursor.getColumnIndex("range")));
+ 	 		      heroes.add(obtained);
+ 	 		   }while(cursor.moveToNext());
+ 	 		}
+ 	 		cursor.close();
+ 	 		
+ 	 	}catch(SQLException sqle){
+ 	 		throw sqle;
+ 	   }
        myDbHelper.close();
        gridView.setAdapter(new GridAdapter(this, heroes));
        setHeroClickListener(gridView, heroes);

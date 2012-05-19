@@ -118,10 +118,18 @@ public class BuildsListActivity extends Activity {
 	        tv = (TextView)rowLayout.findViewById(R.id.name);
            tv.setText(build.name);
            
-           TextView tv_by = (TextView)rowLayout.findViewById(R.id.by);
+           TextView tv_from = (TextView)rowLayout.findViewById(R.id.from);
            if (build.whereUrl!= null && build.whereUrl.length()>0 
         		   && build.whereFrom != null && build.whereFrom.length() > 0){
-           	tv_by.setText(Html.fromHtml("(<a href='"+build.whereUrl+"'>"+build.whereFrom+"</a>)"));
+           	tv_from.setText(Html.fromHtml("(<a href='"+build.whereUrl+"'>"+build.whereFrom+"</a>)"));
+           }
+           else{
+        	   tv_from.setText("");
+           }
+           
+           TextView tv_by = (TextView)rowLayout.findViewById(R.id.by);
+           if (build.author!= null && build.author.length() != 0){
+        	   tv_by.setText("by "+build.author);
            }
            else{
         	   tv_by.setText("");

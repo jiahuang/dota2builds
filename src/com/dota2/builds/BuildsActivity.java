@@ -45,6 +45,7 @@ public class BuildsActivity extends TabActivity {
         intent.putExtra("buildName", buildName);
         intent.putExtra("whereFrom", whereFrom);
         intent.putExtra("whereUrl", whereUrl);
+        intent.putExtra("author", author);
         // Initialize a TabSpec for each tab and add it to the TabHost
         spec = mTabHost.newTabSpec("Overview").setIndicator(Utils.createTabView(mTabHost.getContext(), "Overview"))
                       .setContent(intent);

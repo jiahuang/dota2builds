@@ -46,24 +46,18 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
     	boolean dbExist = checkDataBase();
  
     	if(dbExist){
-    		//do nothing - database already exist
-    	}else{
- 
-    		//By calling this method and empty database will be created into the default system path
-               //of your application so we are gonna be able to overwrite that database with our database.
-        	this.getReadableDatabase();
- 
-        	try {
- 
-    			copyDataBase();
- 
-    		} catch (IOException e) {
- 
-        		throw new Error("Error copying database");
- 
-        	}
+    		// delete the database and continue
+    		myContext.deleteDatabase(DB_NAME);
     	}
- 
+		//By calling this method and empty database will be created into the default system path
+        //of your application so we are gonna be able to overwrite that database with our database.
+        this.getReadableDatabase();
+        try {
+        	copyDataBase();
+    	} catch (IOException e) {
+    		e.printStackTrace();
+        	throw new Error("Error copying database");
+        }
     }
  
     /**
@@ -101,7 +95,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
     private void copyDataBase() throws IOException{
  
     	//Open your local db as the input stream
-    	InputStream myInput = myContext.getAssets().open("db/"+DB_NAME);
+    	InputStream myInput = myContext.getAssets().open("db/"+DB_NAME+".jpg");
  
     	// Path to the just created empty db
     	String outFileName = DB_PATH + DB_NAME;
@@ -148,7 +142,7 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
  
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
- 
+		
 	}
  
     // Add your public helper methods to access and get content from the database.
