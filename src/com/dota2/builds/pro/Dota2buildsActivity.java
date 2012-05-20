@@ -1,9 +1,9 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
 import java.io.IOException;
 
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.utils.Utils;
+import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.utils.Utils;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
 import com.google.ads.AdView;

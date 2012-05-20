@@ -1,7 +1,8 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
-import com.dota2.builds.custom.TextViewHighlight;
-import com.dota2.builds.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.custom.TextViewHighlight;
+import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

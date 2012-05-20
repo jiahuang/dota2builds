@@ -1,6 +1,6 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
-import com.dota2.builds.utils.Utils;
+import com.dota2.builds.pro.utils.Utils;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
 import com.google.ads.AdView;

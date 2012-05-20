@@ -1,4 +1,4 @@
-package com.dota2.builds.custom;
+package com.dota2.builds.pro.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;

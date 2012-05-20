@@ -1,15 +1,15 @@
-package com.dota2.builds.utils;
+package com.dota2.builds.pro.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.dota2.builds.R;
+import com.dota2.builds.pro.R;
 
 public class Utils {
-	public static boolean ads = true;
-	public static boolean testAds = true;
+	public static boolean ads = false;
+	public static boolean testAds = false;
 	public static String pubId = "a14fafdc50420ff";
 	public static String[] itemPhases = {"Starting", "Core", "Situational"};
 	

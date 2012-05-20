@@ -63,7 +63,7 @@
 		        android:layout_below="@+id/itemLayout"
 		        >
 	</RelativeLayout>
-	<com.dota2.builds.custom.TextViewHighlight
+	<com.dota2.builds.pro.custom.TextViewHighlight
 	    android:layout_below="@+id/adLayout"
 		android:id="@+id/description"
 		android:layout_width="fill_parent"
@@ -84,7 +84,7 @@
         android:paddingTop="15dp"
  	 >
 	</TextView>
-	<com.dota2.builds.custom.ScrollableGridView 
+	<com.dota2.builds.pro.custom.ScrollableGridView 
 		    android:id="@+id/buildsFrom"
 			android:layout_below="@+id/fromText"
 		    android:layout_width="fill_parent" 
@@ -109,7 +109,7 @@
         android:paddingTop="15dp"
  	 >
 	</TextView>
-	<com.dota2.builds.custom.ScrollableGridView 
+	<com.dota2.builds.pro.custom.ScrollableGridView 
 		    android:id="@+id/buildsInto"
 			android:layout_below="@+id/intoText"
 		    android:layout_width="fill_parent" 

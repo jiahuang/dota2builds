@@ -1,4 +1,4 @@
-package com.dota2.builds.lists;
+package com.dota2.builds.pro.lists;
 
 public class Item{
 	public String img;

@@ -1,4 +1,4 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
-import com.dota2.builds.utils.Utils;
+
+import com.dota2.builds.pro.utils.Utils;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
 import com.google.ads.AdView;

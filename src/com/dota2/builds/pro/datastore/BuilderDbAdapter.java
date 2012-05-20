@@ -1,4 +1,4 @@
-package com.dota2.builds.datastore;
+package com.dota2.builds.pro.datastore;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -17,7 +17,7 @@ import java.io.OutputStream;
 public class BuilderDbAdapter extends SQLiteOpenHelper{
 	 
     //The Android\"s default system path of your application database.
-    private static String DB_PATH = "/data/data/com.dota2.builds/databases/";
+    private static String DB_PATH = "/data/data/com.dota2.builds.pro/databases/";
  
     private static String DB_NAME = "dota2builds";
  

@@ -35,7 +35,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:orientation="horizontal"
 	    android:layout_weight="1"
 	    >
-		<com.dota2.builds.custom.TextViewOutline
+		<com.dota2.builds.pro.custom.TextViewOutline
 		android:id="@+id/skill1"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
@@ -49,7 +49,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:orientation="horizontal"
 	    android:layout_weight="1"
 	    >
-	<com.dota2.builds.custom.TextViewOutline
+	<com.dota2.builds.pro.custom.TextViewOutline
 	android:id="@+id/skill2"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -63,7 +63,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:orientation="horizontal"
 	    android:layout_weight="1"
 	    >
-	<com.dota2.builds.custom.TextViewOutline
+	<com.dota2.builds.pro.custom.TextViewOutline
 	android:id="@+id/skill3"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -78,7 +78,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:orientation="horizontal"
 	    android:layout_weight="1"
 	    >
-	<com.dota2.builds.custom.TextViewOutline
+	<com.dota2.builds.pro.custom.TextViewOutline
 	android:id="@+id/skill4"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -93,7 +93,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:orientation="horizontal"
 	    android:layout_weight="1"
 	    >
-	<com.dota2.builds.custom.TextViewOutline
+	<com.dota2.builds.pro.custom.TextViewOutline
 	android:id="@+id/stats"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"

@@ -59,7 +59,7 @@
 	  android:padding="5dp"
 	  android:layout_marginTop="5dp"
 	  />
-	<com.dota2.builds.custom.TextViewHighlight
+	<com.dota2.builds.pro.custom.TextViewHighlight
 	  android:id="@+id/overview"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
@@ -78,7 +78,7 @@
 	  android:textStyle="bold"
 	  android:layout_marginTop="10dp"
 	  />
-	<com.dota2.builds.custom.TextViewHighlight
+	<com.dota2.builds.pro.custom.TextViewHighlight
 	  android:id="@+id/early"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
@@ -98,7 +98,7 @@
 	  android:layout_marginTop="10dp"
 	  
 	  />
-	<com.dota2.builds.custom.TextViewHighlight
+	<com.dota2.builds.pro.custom.TextViewHighlight
 	  android:id="@+id/mid"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"
@@ -117,7 +117,7 @@
 	  android:textStyle="bold"
 	  android:layout_marginTop="10dp"
 	  />
-	<com.dota2.builds.custom.TextViewHighlight
+	<com.dota2.builds.pro.custom.TextViewHighlight
 	  android:id="@+id/late"
 	  android:gravity="left"
 	  android:layout_width="fill_parent"

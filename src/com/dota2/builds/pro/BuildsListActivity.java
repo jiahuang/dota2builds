@@ -1,10 +1,10 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
 import java.util.ArrayList;
 
-import com.dota2.builds.R;
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Build;
+import com.dota2.builds.pro.R;
+import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.lists.Build;
 
 import android.app.Activity;
 import android.content.Context;

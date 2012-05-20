@@ -1,13 +1,18 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import com.dota2.builds.custom.ScrollableGridView;
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Item;
-import com.dota2.builds.utils.Utils;
+import com.dota2.builds.pro.custom.ScrollableGridView;
+import com.dota2.builds.pro.custom.TextViewHighlight;
+import com.dota2.builds.pro.custom.TextViewOutline;
+import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.lists.Item;
+import com.dota2.builds.pro.utils.Utils;
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,36 +26,62 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class ItemBuildActivity extends Activity{
-	ScrollableGridView grid_starting;
-	ScrollableGridView grid_core;
-	ScrollableGridView grid_situational;
+public class ItemActivity  extends Activity{
+	ScrollableGridView grid_buildsInto;
+	ScrollableGridView grid_buildsFrom;
+	AdView adView;
+	
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.item_build);
-        Bundle extras = getIntent().getExtras();
-        final String buildName = (String) extras.get("buildName");
-        ArrayList<Item> startingItems = new ArrayList<Item>();
-        ArrayList<Item> coreItems = new ArrayList<Item>();
-        ArrayList<Item> situationalItems = new ArrayList<Item>();
-        grid_starting = (ScrollableGridView) findViewById(R.id.starting);
-        grid_core = (ScrollableGridView) findViewById(R.id.core);
-        grid_situational = (ScrollableGridView) findViewById(R.id.situational);
+        setContentView(R.layout.item);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
+        ScrollView sv = (ScrollView) findViewById(R.id.scrollView);
         
+        
+        Bundle extras = getIntent().getExtras();
+        String item = (String) extras.get("name");
+        ((TextView)findViewById(R.id.itemName)).setText(item);
+        ((TextView)findViewById(R.id.shop)).setText((String) extras.get("shop"));
+        String description = (String) extras.get("description");
+        TextViewHighlight tvo_descrip = (TextViewHighlight)findViewById(R.id.description);
+        tvo_descrip.setTextHighlight(description);
+        ((TextView)findViewById(R.id.price)).setText((String) extras.get("price"));
+        TextView tv_buildsInto = (TextView) findViewById(R.id.intoText);
+        TextView tv_buildsFrom = (TextView) findViewById(R.id.fromText);
+        grid_buildsInto = (ScrollableGridView) findViewById(R.id.buildsInto);
+        grid_buildsFrom = (ScrollableGridView) findViewById(R.id.buildsFrom);
+        
+        final String img = (String) extras.get("img");
+        ImageView iv_itemImg = (ImageView) findViewById(R.id.image);
+        try {
+			iv_itemImg.setImageBitmap(getBitmapFromAsset(img));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+        ArrayList<Item> components = new ArrayList<Item>();
+        ArrayList<Item> buildsInto = new ArrayList<Item>();
+        Boolean[] boolComponents = {true, false};// find components first, then items that it builds into
+        
+        // find stuff it builds into and stuff that builds from it
         BuilderDbAdapter myDbHelper = new BuilderDbAdapter(this);
         try {
 	 		myDbHelper.openDataBase();
-	 		// get all the items
-	 		for(String phase: Utils.itemPhases){
-	 			Cursor cursor = myDbHelper.findItemBuild(buildName, phase);
+	 		for (Boolean comp: boolComponents){
+	 			Cursor cursor = myDbHelper.findRecipe(item, comp);
 	 			if (cursor.moveToFirst()){
 		 			do{
 		 				Item i = new Item(cursor.getString(cursor.getColumnIndex("img")), 
@@ -58,28 +89,50 @@ public class ItemBuildActivity extends Activity{
 				 				cursor.getString(cursor.getColumnIndex("description")),
 				 				cursor.getString(cursor.getColumnIndex("shop")),
 				 				new Integer(cursor.getString(cursor.getColumnIndex("price"))));
-			 			if (phase == "Starting")
-			 				startingItems.add(i);
-			 			else if (phase == "Core")
-			 				coreItems.add(i);
+			 			if (comp)
+			 				components.add(i);
 			 			else
-			 				situationalItems.add(i);
+			 				buildsInto.add(i);
 		 	 		}while(cursor.moveToNext());
 		 		}
 		 		 
 		 		cursor.close();
-	 		}
-	 		
+ 			}
 	 	}catch(SQLException sqle){
 	 		throw sqle;
 	 	}
         myDbHelper.close();
-        grid_starting.setAdapter(new ItemGridAdapter(this, startingItems));
-        grid_core.setAdapter(new ItemGridAdapter(this, coreItems));
-        grid_situational.setAdapter(new ItemGridAdapter(this, situationalItems));
-        setItemClickListener(grid_starting, startingItems);
-        setItemClickListener(grid_core, coreItems);
-        setItemClickListener(grid_situational, situationalItems);
+        
+        if (components.size() > 0){
+        	grid_buildsFrom.setAdapter(new ItemGridAdapter(this, components));
+        	setItemClickListener(grid_buildsFrom, components);
+        	tv_buildsFrom.setText("Requires these items");
+        }
+        if (buildsInto.size() > 0){
+        	grid_buildsInto.setAdapter(new ItemGridAdapter(this, buildsInto));
+        	setItemClickListener(grid_buildsInto, buildsInto);
+        	tv_buildsInto.setText("Can be built into");
+        }
+        //sv.fullScroll(ScrollView.FOCUS_UP);
+        
+        if (Utils.ads){
+	        adView = new AdView(this, AdSize.BANNER, Utils.pubId);
+	        RelativeLayout layout = (RelativeLayout)findViewById(R.id.adLayout);
+	        layout.addView(adView);
+	        AdRequest adRequest = new AdRequest();
+	        if (Utils.testAds){
+	        	adRequest.addTestDevice("1357AC02D9337E1D4A8C52376C1E769A");   
+	        }
+	        adView.loadAd(adRequest);
+        }
+    }
+    
+    @Override
+    public void onDestroy() {
+      if (adView != null) {
+        adView.destroy();
+      }
+      super.onDestroy();
     }
     
     public void setItemClickListener(GridView gridView, final ArrayList<Item> fItems){
@@ -102,13 +155,11 @@ public class ItemBuildActivity extends Activity{
         private Context mContext;
         private LayoutInflater layoutInflater;
         private ArrayList<Item> mItems; 
-        //private int mHalfScreenWidth;
 
-        public ItemGridAdapter(Context c, ArrayList<Item> heroes) {
+        public ItemGridAdapter(Context c, ArrayList<Item> items) {
             mContext = c;
             layoutInflater = LayoutInflater.from(c);
-            mItems = heroes;
-            //mHalfScreenWidth= halfScreenWidth;
+            mItems = items;
         }
 
         public int getCount() {
@@ -146,8 +197,6 @@ public class ItemBuildActivity extends Activity{
         	return grid;
         }
         
-        
-
     }
     
     private Bitmap getBitmapFromAsset(String strName) throws IOException

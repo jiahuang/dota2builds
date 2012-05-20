@@ -1,13 +1,13 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import com.dota2.builds.custom.TextViewOutline;
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.SkillBuild;
-import com.dota2.builds.utils.Utils;
+import com.dota2.builds.pro.custom.TextViewOutline;
+import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.lists.SkillBuild;
+import com.dota2.builds.pro.utils.Utils;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.dota2.builds;
+package com.dota2.builds.pro;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -22,8 +22,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.dota2.builds.datastore.BuilderDbAdapter;
-import com.dota2.builds.lists.Item;
+import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.lists.Item;
 
 public class AllItemsActivity extends Activity{
 	/** Called when the activity is first created. */

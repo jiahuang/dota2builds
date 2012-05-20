@@ -1,8 +1,8 @@
-package com.dota2.builds.custom;
+package com.dota2.builds.pro.custom;
 
 
-import com.dota2.builds.R;
-import com.dota2.builds.utils.Utils;
+import com.dota2.builds.pro.R;
+import com.dota2.builds.pro.utils.Utils;
 
 import android.content.Context;
 import android.graphics.Canvas;
