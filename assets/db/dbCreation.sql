@@ -12,7 +12,7 @@ descriptionMid TEXT, descriptionLate TEXT, name TEXT, whereFrom TEXT, whereUrl T
 CREATE TABLE tbl_skillBuilds (_id INTEGER PRIMARY KEY AUTOINCREMENT, heroLevel INT, levelUp INT, build TEXT);
 
 CREATE TABLE tbl_items (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, img TEXT, 
-description TEXT, shop TEXT, price INT);
+description TEXT, shop TEXT, price INT, shopType INT default 0); /* 0 = main shop, 1 = secret, 2 = side*/
 
 CREATE TABLE tbl_recipes(_id INTEGER PRIMARY KEY AUTOINCREMENT, item TEXT, componentItem TEXT);
 

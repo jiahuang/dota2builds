@@ -3,6 +3,32 @@ from BeautifulSoup import BeautifulSoup
 import urllib2
 from heroGrabber import textToDicts
 
+secretItems = "Orb of Venom, Ring of Health, Void Stone, Energy Booster, Vitality Booster, Point Booster, Hyperstone, Demon Edge, Mystic Staff, Reaver, Eaglesong, Sacred Relic, Perseverance, Soul Booster, Bloodstone, Divine Rapier"
+sideItems = "Town Portal Scroll, Magic Stick, Stout Shield, Sage's Mask, Ring of Regen, Orb of Venom, Boots of Speed, Cloak, Ring of Health, Morbid Mask, Helm of Iron Will, Energy Booster, Slippers of Agility, Quelling Blade, Boots of Elvenskin, Belt of Strength, Robe of the Magi, Blades of Attack, Gloves of Haste, Chainmail, Quarterstaff, Talisman of Evasion, Ultimate Orb, Blink Dagger, Poor Man's Shield, Arcane Boots, Phase Boots, Power Treads, Helm of the Dominator, Hood of Defiance, Oblivion Staff"
+
+def descriptionHelper(findText, nameAppend, text):
+  res = ""
+  pos = text.find(findText)
+  if  pos >= 0:
+    pos = pos + len(findText)
+    tempText = text[pos+3:]
+    
+    # find all active abilities until end
+    while tempText.find("===") >=0 and tempText.find("[[Category") > 3 and tempText.find("===") < tempText.find("==\n"):         
+      # look for next ===
+      nameStart = tempText.find("\n===")
+      nameEnd = tempText.find("===\n")
+      name = tempText[nameStart+4:nameEnd]
+      tempText = tempText[nameEnd+4:]
+      nextPos = tempText.find("===") if tempText.find("===") < tempText.find("\n==") else tempText.find("\n==") 
+      if  nextPos == -1:
+        nextPos = tempText.find("[[Category")# if tempText.find("[[Category") > tempText.find("==\n")else tempText.find("==\n")
+      description = tempText[:nextPos]
+      tempText = tempText[nextPos:]
+      res = res + "<br/><br/>"+name+nameAppend+"<br/>"+description.strip()
+      #print tempText
+  return res
+
 def grabItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
   print "Grabbing items"
   items = []
@@ -36,9 +62,16 @@ def grabItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
       itemDict = itemDict['Item infobox']
     else:
       continue
+
+    description = itemDict['bonus'] if 'bonus' in itemDict else ""
+    # put in active and passive abilities
+    activePos = text.find("== Active Ability ==")
+    passivePos = text.find("== Passive Ability ==")
+    description = description + descriptionHelper("Active Ability", " (Active)", text)
+    description = description + descriptionHelper("Passive Ability", " (Passive)", text)
     
-    print pageUrl, itemDict
-    finalItem = {'name':item['name'], 'price':item['price'], 'description':itemDict['bonus'] if 'bonus' in itemDict else "", 'shop':itemDict['shop']}
+    #print pageUrl, itemDict
+    finalItem = {'name':item['name'], 'price':item['price'], 'description': description, 'shop':itemDict['shop']}
 
     # its made up of multiple components, generate the list
     recipeList = []
@@ -63,9 +96,14 @@ def itemToSql(item):
   def fn(name):
     return filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ' and a !="{" and a != "}", name)
 
+  shopType = 0
+  if secretItems.find(item['name']) >=0:
+    shopType = 1
+  elif sideItems.find(item['name'])>=0:
+    shopType = 2
   # generate items db
-  sql = """INSERT INTO tbl_items (name, img, description, shop, price) 
-  VALUES("""+quoteWrapper(item['name'])+","+ quoteWrapper(fn("items/"+item['name']+'.jpg'))+","+quoteWrapper(item['description'])+"," +quoteWrapper(item['shop'])+","+ quoteWrapper(item['price'])+");\n\n"
+  sql = """INSERT INTO tbl_items (name, img, description, shop, price, shopType) 
+  VALUES("""+quoteWrapper(item['name'])+","+ quoteWrapper(fn("items/"+item['name']+'.jpg'))+","+quoteWrapper(item['description'])+"," +quoteWrapper(item['shop'])+","+ quoteWrapper(item['price'])+","+str(shopType)+");\n\n"
   itemsSql.write(sql)
   # generate recipe list
   if 'recipes' in item:
@@ -78,4 +116,3 @@ def itemToSql(item):
   recipesSql.close()
 
 grabItems()
-
