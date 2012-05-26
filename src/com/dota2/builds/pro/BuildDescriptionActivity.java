@@ -2,6 +2,7 @@ package com.dota2.builds.pro;
 
 import com.dota2.builds.pro.custom.TextViewHighlight;
 import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.R;
 
 import android.app.Activity;
 import android.content.Context;

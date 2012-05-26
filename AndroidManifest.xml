@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:installLocation="auto"
     package="com.dota2.builds.pro"
-    android:versionCode="3"
-    android:versionName="1.10" >
+    android:installLocation="auto"
+    android:versionCode="4"
+    android:versionName="1.20" >
 
     <uses-sdk android:minSdkVersion="7" />
     <uses-permission android:name="android.permission.INTERNET"/>

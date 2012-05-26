@@ -5,6 +5,7 @@ import java.io.InputStream;
 
 import com.dota2.builds.pro.custom.TextViewHighlight;
 import com.dota2.builds.pro.datastore.BuilderDbAdapter;
+import com.dota2.builds.pro.R;
 import com.dota2.builds.pro.utils.Utils;
 
 import android.app.Activity;

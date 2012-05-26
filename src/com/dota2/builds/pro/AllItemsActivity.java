@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import com.dota2.builds.pro.datastore.BuilderDbAdapter;
 import com.dota2.builds.pro.lists.Item;
+import com.dota2.builds.pro.R;
 
 public class AllItemsActivity extends Activity{
 	/** Called when the activity is first created. */

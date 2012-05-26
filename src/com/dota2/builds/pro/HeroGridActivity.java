@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import com.dota2.builds.pro.datastore.BuilderDbAdapter;
 import com.dota2.builds.pro.lists.Hero;
+import com.dota2.builds.pro.R;
 
 public class HeroGridActivity extends Activity{
 	/** Called when the activity is first created. */

@@ -14,6 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
 
+import com.dota2.builds.pro.R;
 import com.dota2.builds.pro.utils.Utils;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
