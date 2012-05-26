@@ -16,18 +16,21 @@ def getHeroes(heroesPage = "http://www.dota2wiki.com/wiki/Heroes"):
   for hero in heroes:
     hero = hero.replace(" ", "_")
     url = "http://www.dota2wiki.com/index.php?title="+hero+"&action=edit"
-    print "Generating "+ url
-    request = urllib2.Request(url)
-    raw = urllib2.urlopen(request)
-    soup = BeautifulSoup(raw)
-    text = soup.find("textarea", {'id':'wpTextbox1'}).find(text=True).encode('utf-8', 'ignore')
-    # pass intput through
-    try: # can't write Axe. fuck you axe
-      dicts = textToDicts(text)
-      dictToSQL(dicts, hero.replace("_", " "))
-    except Exception, e:
-      print "couldn't generate " + url
-      print e
+    getHero(url, hero)
+
+def getHero(url, hero):
+  print "Generating "+ url
+  request = urllib2.Request(url)
+  raw = urllib2.urlopen(request)
+  soup = BeautifulSoup(raw)
+  text = soup.find("textarea", {'id':'wpTextbox1'}).find(text=True)
+  # pass intput through
+  #try: # can't write Axe. fuck you axe
+  dicts = textToDicts(text)
+  dictToSQL(dicts, hero.replace("_", " "))
+  #except Exception, e:
+  #  print "couldn't generate " + url
+  #  print e
     
 
 def textToDicts(input):
@@ -96,10 +99,10 @@ def dictToSQL(heroDict, heroName):
   writeDict = {}
   # transform dict into the stuff we need
   # will not work for morphling, kunkka
-  writeDict['type'] = "\""+heroDict['Hero infobox']['main'].capitalize()+"\""
-  writeDict['range'] = "\"Melee\"" if int(heroDict['Hero infobox']['attack range']) < 130 else "\"Ranged\""
+  writeDict['type'] = "\""+heroDict['Hero infobox']['primaryattribute'].capitalize()+"\""
+  writeDict['range'] = "\"Melee\"" if int(heroDict['Hero infobox']['attackrange']) < 130 else "\"Ranged\""
   writeDict['name'] = "\""+heroName+"\""
-  writeDict['team'] = "\""+heroDict['Hero infobox']['team'].capitalize()+"\""
+  writeDict['team'] = "\""+heroDict['Hero infobox']['faction'].capitalize()+"\""
   writeDict['role'] = "\"\""
   def filterText(name, space = True):
     if space:
@@ -140,3 +143,4 @@ def dictToSQL(heroDict, heroName):
   
         
 #getHeroes()
+getHero("http://www.dota2wiki.com/index.php?title=Ogre_Magi&action=edit", "Ogre_Magi")

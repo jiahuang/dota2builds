@@ -23,6 +23,7 @@ import android.database.SQLException;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,8 +53,19 @@ public class ItemActivity  extends Activity{
         
         Bundle extras = getIntent().getExtras();
         String item = (String) extras.get("name");
-        ((TextView)findViewById(R.id.itemName)).setText(item);
-        ((TextView)findViewById(R.id.shop)).setText((String) extras.get("shop"));
+        String itemName = item;
+        String shop = (String) extras.get("shop");
+        if (extras.get("shopType").equals("1")){
+        	shop = "<font color='#0A74FF'>"+shop+"</font>";
+        	itemName = "<font color='#0A74FF'>"+item+"</font>";
+        }
+        else if (extras.get("shopType").equals("2")){
+        	shop = shop + "/<font color='#00C700'>Side Shop</font>";
+        	itemName = "<font color='#00C700'>"+item+"</font>";
+        }
+        
+        ((TextView)findViewById(R.id.itemName)).setText(Html.fromHtml(itemName));
+        ((TextView)findViewById(R.id.shop)).setText(Html.fromHtml(shop));
         String description = (String) extras.get("description");
         TextViewHighlight tvo_descrip = (TextViewHighlight)findViewById(R.id.description);
         tvo_descrip.setTextHighlight(description);
@@ -88,7 +100,9 @@ public class ItemActivity  extends Activity{
 				 				cursor.getString(cursor.getColumnIndex("name")),
 				 				cursor.getString(cursor.getColumnIndex("description")),
 				 				cursor.getString(cursor.getColumnIndex("shop")),
-				 				new Integer(cursor.getString(cursor.getColumnIndex("price"))));
+				 				cursor.getInt(cursor.getColumnIndex("price")),
+				 				cursor.getInt((cursor.getColumnIndex("shopType"))));
+		 				
 			 			if (comp)
 			 				components.add(i);
 			 			else
@@ -146,6 +160,7 @@ public class ItemActivity  extends Activity{
 	            myIntent.putExtra("shop", fItems.get(position).shop);
 	            myIntent.putExtra("description", fItems.get(position).description);
 	            myIntent.putExtra("price", (new Integer(fItems.get(position).price)).toString());
+	            myIntent.putExtra("shopType", (new Integer(fItems.get(position).shopType)).toString());
 	            startActivityForResult(myIntent, 0);
 	    	}
 	    });
@@ -193,7 +208,15 @@ public class ItemActivity  extends Activity{
 				e.printStackTrace();
 			}
         	TextView textView = (TextView)grid.findViewById(R.id.text);
-        	textView.setText(mItems.get(position).name);
+        	Item item = mItems.get(position);
+        	String itemName = item.name;
+        	if (item.shopType == 1){
+        		itemName = "<font color='#0A74FF'>"+itemName+"</font>";
+            }
+            else if (item.shopType == 2){
+            	itemName = "<font color='#00C700'>"+itemName+"</font>";
+            }
+        	textView.setText(Html.fromHtml(itemName));
         	return grid;
         }
         

@@ -189,13 +189,13 @@ public class BuilderDbAdapter extends SQLiteOpenHelper{
 		if (findComponents) // find the recipes that this item needs
 			sql = "SELECT * FROM tbl_items, tbl_recipes WHERE tbl_recipes.item = \""+item+"\" AND tbl_recipes.componentItem = tbl_items.name;";
 		else // find the things that this item builds into
-			sql = "SELECT DISTINCT name, img, description, shop, price FROM tbl_items, tbl_recipes WHERE tbl_recipes.componentItem = \""+item+"\" AND tbl_recipes.item = tbl_items.name;";
+			sql = "SELECT DISTINCT name, img, description, shop, price, shopType FROM tbl_items, tbl_recipes WHERE tbl_recipes.componentItem = \""+item+"\" AND tbl_recipes.item = tbl_items.name;";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 	
 	public Cursor findItemBuild(String buildName, String itemPhase){
-		String sql = "SELECT gameType, name, img, description, shop, price from tbl_itemBuilds, tbl_items WHERE tbl_itemBuilds.item = tbl_items.name AND tbl_itemBuilds.build = \""+buildName+"\" AND tbl_itemBuilds.gameType = \""+itemPhase+"\";";
+		String sql = "SELECT gameType, name, img, description, shop, price, shopType from tbl_itemBuilds, tbl_items WHERE tbl_itemBuilds.item = tbl_items.name AND tbl_itemBuilds.build = \""+buildName+"\" AND tbl_itemBuilds.gameType = \""+itemPhase+"\";";
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}

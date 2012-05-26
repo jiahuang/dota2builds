@@ -6,12 +6,14 @@ public class Item{
 	public String description;
 	public String shop;
 	public int price;
+	public int shopType;
 	
-	public Item(String img, String name,String description,String shop,int price){
+	public Item(String img, String name,String description,String shop,int price, int shopType){
 		this.img = img;
 		this.name = name;
 		this.description = description;
 		this.shop = shop;
 		this.price = price;
+		this.shopType = shopType;
 	}
 }

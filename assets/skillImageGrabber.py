@@ -70,38 +70,45 @@ def getSkills(heroesPage = "http://www.dota2wiki.com/wiki/Heroes"):
   
   # get links of skill pages
   for hero in heroes:
-    request = urllib2.Request('http://dota2wiki.com'+hero)
     print "Scraping "+hero
-    raw = urllib2.urlopen(request)
-    soup = BeautifulSoup(raw)
-    # gets active and passive skills
-    skills = soup.findAll('div', {'class':re.compile('ico_passive|ico_active|ico_autocast')})
-    # get links of skill images and save
-    for skill in skills:
-      url = 'http://www.dota2wiki.com' + skill.find('a').find('img')['src']
-      skillName = skill.find('a').find('img')['alt']
-      skillName = skillName.rstrip(" icon.png");
-      skillName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', skillName)
-      imageStealer(url, skillName)
+    getSkill('http://dota2wiki.com'+hero)
 
-
+def getSkill(url):
+  request = urllib2.Request(url)
+  raw = urllib2.urlopen(request)
+  soup = BeautifulSoup(raw)
+  # gets active and passive skills
+  skills = soup.findAll('div', {'class':re.compile('ico_passive|ico_active|ico_autocast')})
+  # get links of skill images and save
+  for skill in skills:
+    url = 'http://www.dota2wiki.com' + skill.find('a').find('img')['src']
+    skillName = skill.find('a').find('img')['alt']
+    skillName = skillName.rstrip(" icon.png");
+    skillName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', skillName)
+    imageStealer(url, skillName)
+      
 def getHeroes(heroesPage = "http://www.dota2wiki.com/wiki/Heroes"):
   heroes = allHeroes(heroesPage)
       
   # get links of skill pages
   for hero in heroes:
-    request = urllib2.Request('http://dota2wiki.com'+hero)
     print "Scraping "+hero
-    raw = urllib2.urlopen(request)
-    soup = BeautifulSoup(raw)
+    getHero('http://dota2wiki.com'+hero, hero)
 
-    img = soup.find('table', {'class':'infobox'}).findAll('tr')[2].find('a').find('img')
-    heroName = img['alt']
-    heroName = heroName.rstrip(".png");
-    heroName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', heroName)
-    url = 'http://www.dota2wiki.com' +img['src']
-    imageStealer(url, skillName)
-        
+def getHero(url, heroName):
+  request = urllib2.Request(url)
+  raw = urllib2.urlopen(request)
+  soup = BeautifulSoup(raw)
+
+  img = soup.find('table', {'class':'infobox'}).findAll('tr')[2].find('a').find('img')
+  heroName = img['alt']
+  heroName = heroName.rstrip(".png");
+  heroName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', heroName)
+  url = 'http://www.dota2wiki.com' +img['src']
+  imageStealer(url, heroName)
+
 #getSkills()
 #getHeroes()
-getItems()
+#getItems()
+getHero("http://www.dota2wiki.com/index.php?title=Ogre_Magi", "Ogre_Magi")
+getSkill("http://www.dota2wiki.com/index.php?title=Ogre_Magi")
