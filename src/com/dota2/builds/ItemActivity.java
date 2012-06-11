@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 import com.dota2.builds.custom.ScrollableGridView;
 import com.dota2.builds.custom.TextViewHighlight;
-import com.dota2.builds.custom.TextViewOutline;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import com.dota2.builds.lists.Item;
 import com.dota2.builds.utils.Utils;
@@ -33,7 +32,6 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class ItemActivity  extends Activity{
@@ -48,8 +46,6 @@ public class ItemActivity  extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item);
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
-        ScrollView sv = (ScrollView) findViewById(R.id.scrollView);
-        
         
         Bundle extras = getIntent().getExtras();
         String item = (String) extras.get("name");

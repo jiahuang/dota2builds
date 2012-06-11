@@ -3,16 +3,12 @@ package com.dota2.builds;
 import com.dota2.builds.custom.TextViewHighlight;
 import com.dota2.builds.datastore.BuilderDbAdapter;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.os.Bundle;
 import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.View;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.TextView;
 
 public class BuildDescriptionActivity extends Activity{
