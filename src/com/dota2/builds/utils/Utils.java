@@ -9,7 +9,7 @@ import com.dota2.builds.R;
 
 public class Utils {
 	public static boolean ads = true;
-	public static boolean testAds = true;
+	public static boolean testAds = false;
 	public static String pubId = "a14fafdc50420ff";
 	public static String[] itemPhases = {"Starting", "Core", "Situational"};
 	
