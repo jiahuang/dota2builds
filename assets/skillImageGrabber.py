@@ -110,5 +110,5 @@ def getHero(url, heroName):
 #getSkills()
 #getHeroes()
 #getItems()
-getHero("http://www.dota2wiki.com/index.php?title=Wisp", "Wisp")
-getSkill("http://www.dota2wiki.com/index.php?title=Wisp")
+getHero("http://www.dota2wiki.com/index.php?title=Naga_Siren", "Naga_Siren")
+getSkill("http://www.dota2wiki.com/index.php?title=Naga_Siren")
