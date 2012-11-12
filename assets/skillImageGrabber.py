@@ -18,6 +18,8 @@ def getItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
 
   itemLinks = []
   for item in items:
+    if len(item) == 0:
+      continue
     url = 'http://www.dota2wiki.com' + item[0]['href']
     itemName = item[1]['title'];
     itemName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', itemName)
@@ -109,6 +111,6 @@ def getHero(url, heroName):
 
 #getSkills()
 #getHeroes()
-#getItems()
-getHero("http://www.dota2wiki.com/index.php?title=Nyx_Assassin", "Nyx_Assassin")
-getSkill("http://www.dota2wiki.com/index.php?title=Nyx_Assassin")
+getItems()
+#getHero("http://www.dota2wiki.com/index.php?title=Nyx_Assassin", "Nyx_Assassin")
+#getSkill("http://www.dota2wiki.com/index.php?title=Nyx_Assassin")

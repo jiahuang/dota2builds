@@ -140,7 +140,7 @@ def dictToSQL(heroDict, heroName):
           VALUES ("""+writeDict['type']+","+writeDict['range']+","+writeDict['name']+","+writeDict['team']+","+writeDict['role']+","+writeDict['img']+",\n"+writeDict['skillOneName']+","+writeDict['skillOneDescrip']+","+writeDict['skillOneImage']+",\n"+writeDict['skillTwoName']+","+writeDict['skillTwoDescrip']+","+writeDict['skillTwoImage']+",\n"+writeDict['skillThreeName']+","+writeDict['skillThreeDescrip']+","+writeDict['skillThreeImage']+",\n"+writeDict['skillFourName']+","+writeDict['skillFourDescrip']+","+writeDict['skillFourImage']+");\n"
   f.write(sql.encode('UTF-8', errors='replace'))
   f.close()
-  
-        
-#getHeroes()
-getHero("http://www.dota2wiki.com/index.php?title=Nyx_Assassin&action=edit", "Nyx_Assassin")
+
+
+getHeroes()
+# getHero("http://www.dota2wiki.com/index.php?title=Nyx_Assassin&action=edit", "Nyx_Assassin")
