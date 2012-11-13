@@ -2,3 +2,4 @@ bin/
 gen/
 *.txt
 *.pyc
+.DS_Store
