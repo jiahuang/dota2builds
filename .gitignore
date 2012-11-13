@@ -3,3 +3,5 @@ gen/
 *.txt
 *.pyc
 .DS_Store
+_env/*
+assets/build/*
