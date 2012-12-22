@@ -1,4 +1,5 @@
 import csv
+import sys 
 
 def quoteWrapper(wrap):
   wrap = wrap.replace("\"", "'")
@@ -44,4 +45,7 @@ def csvToSql(buildName):
           ('''+cat+','+row[2]+','+item+');\n\n'
         buildsSql.write(itemSql)
         #print itemSql
-#csvToSql()
+
+if __name__ == "__main__":
+  hero = sys.argv[1]
+  csvToSql(hero)
