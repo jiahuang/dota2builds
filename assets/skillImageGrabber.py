@@ -111,6 +111,6 @@ def getHero(url, heroName):
 
 #getSkills()
 #getHeroes()
-getItems()
-#getHero("http://www.dota2wiki.com/index.php?title=Nyx_Assassin", "Nyx_Assassin")
-#getSkill("http://www.dota2wiki.com/index.php?title=Nyx_Assassin")
+#getItems()
+#getHero("http://www.dota2wiki.com/index.php?title=Timbersaw", "Timbersaw")
+#getSkill("http://www.dota2wiki.com/index.php?title=Timbersaw")
