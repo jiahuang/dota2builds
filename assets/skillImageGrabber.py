@@ -3,6 +3,7 @@ from BeautifulSoup import BeautifulSoup
 import urllib2
 import Image
 import re
+import sys
 
 def getItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
   print "Grabbing item images"
@@ -108,6 +109,10 @@ def getHero(url, heroName):
   heroName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', heroName)
   url = 'http://www.dota2wiki.com' +img['src']
   imageStealer(url, heroName)
+
+if __name__ == "__main__":
+  hero = sys.argv[1]
+  getSkill("http://www.dota2wiki.com/index.php?title="+hero)
 
 #getSkills()
 #getHeroes()
