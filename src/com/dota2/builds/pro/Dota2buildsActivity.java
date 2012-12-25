@@ -3,7 +3,6 @@ package com.dota2.builds.pro;
 import java.io.IOException;
 
 import com.dota2.builds.pro.datastore.BuilderDbAdapter;
-import com.dota2.builds.pro.R;
 import com.dota2.builds.pro.utils.Utils;
 import com.google.ads.AdRequest;
 import com.google.ads.AdSize;
@@ -17,12 +16,19 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 public class Dota2buildsActivity extends TabActivity {
 	AdView adView;
+	boolean screenLockPref = false;
+	SharedPreferences prefs;
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -35,8 +41,10 @@ public class Dota2buildsActivity extends TabActivity {
         mTabHost.setup();
         
         PackageInfo pInfo;
-        SharedPreferences prefs = this.getSharedPreferences("dota2Prefs", 0);;
+        checkSleepSettings();
 
+        prefs = this.getSharedPreferences("dota2Prefs", 0);
+        
         // figure out which version we're on
         try {
             pInfo = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_META_DATA);
@@ -96,6 +104,49 @@ public class Dota2buildsActivity extends TabActivity {
 	        }
 	        adView.loadAd(adRequest);
         }
+    }
+    
+    public void checkSleepSettings(){
+    	prefs = this.getSharedPreferences("dota2Prefs", 0);
+
+        // check to see if we want to enable screen lock
+        screenLockPref = prefs.getBoolean("screenLock", false);
+    	ImageButton lock = (ImageButton) findViewById(R.id.wakeLock);
+
+        if (screenLockPref){
+        	// prevent screen from sleeping
+        	this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        	// switch image to green
+        	lock.setImageResource(R.drawable.screen_lock_active);
+        } else {
+        	// remove sleep flag
+        	this.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);  
+        	lock.setImageResource(R.drawable.screen_lock);
+        }
+    }
+    
+    @Override
+    public void onResume()
+    {  // After a pause OR at startup
+    	super.onResume();
+    	checkSleepSettings();
+    }
+    
+    public void wakeLock(View view){
+		Editor editor = prefs.edit();
+		ImageButton lock = (ImageButton) findViewById(R.id.wakeLock);
+    	// toggle preference
+    	if (screenLockPref) {
+            editor.putBoolean("screenLock", false);
+        	lock.setImageResource(R.drawable.screen_lock);
+        	Toast.makeText(getApplicationContext(), "Phone can now go into sleep mode", Toast.LENGTH_SHORT).show();
+    	} else {
+    		editor.putBoolean("screenLock", true);
+        	lock.setImageResource(R.drawable.screen_lock_active);
+        	Toast.makeText(getApplicationContext(), "Phone no longer goes to sleep", Toast.LENGTH_SHORT).show();
+    	}
+    	editor.commit();
+    	screenLockPref = !screenLockPref;
     }
     
     @Override

@@ -6,30 +6,30 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 public class TextViewHighlight extends TextView {
-		
+
 	public TextViewHighlight(Context context) {
 		super(context);
 	}
-	
+
 	 public TextViewHighlight(Context context, AttributeSet attrs) {
          super(context, attrs);
      }
-	
+
 	 public TextViewHighlight(Context context, AttributeSet attrs, int defStyle) {
 	     super(context, attrs, defStyle);
 	 }
-	 
+
 	 private boolean highlight(char c){
 		 if (Character.isDigit(c) || c == '+' || c == '-'){
 			 return true;
 		 }
 		 return false;
 	 }
-	
+
 	 public void setTextHighlight(String text) {
 		 if (text == null || text.length() < 1)
 			 return;
-		 
+
 		 // highlight color
 		 String highlight = "#00C936"; //light green
 		 String startTag = "<font color='"+highlight+"'><b>";
@@ -61,10 +61,10 @@ public class TextViewHighlight extends TextView {
 				 wasHighlighted = false;
 				 resText = resText + endTag + c;
 			 }
-				 
+
 		 }
          
          super.setText(Html.fromHtml(resText));
 	 }
-	 
+
 }
