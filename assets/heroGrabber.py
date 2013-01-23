@@ -143,4 +143,4 @@ def dictToSQL(heroDict, heroName):
 
 
 #getHeroes()
-#getHero("http://www.dota2wiki.com/index.php?title=Timbersaw&action=edit", "Timbersaw")
+getHero("http://www.dota2wiki.com/index.php?title=Medusa&action=edit", "Medusa")
