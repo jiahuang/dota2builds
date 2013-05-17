@@ -112,10 +112,11 @@ def getHero(url, heroName):
 
 if __name__ == "__main__":
   hero = sys.argv[1]
+  getHero("http://www.dota2wiki.com/index.php?title="+hero, hero)
   getSkill("http://www.dota2wiki.com/index.php?title="+hero)
 
 #getSkills()
 #getHeroes()
 #getItems()
-#getHero("http://www.dota2wiki.com/index.php?title=Timbersaw", "Timbersaw")
-#getSkill("http://www.dota2wiki.com/index.php?title=Timbersaw")
+# getHero("http://www.dota2wiki.com/index.php?title=Medusa", "Medusa")
+# getSkill("http://www.dota2wiki.com/index.php?title=Medusa")

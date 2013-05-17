@@ -6,7 +6,7 @@ def quoteWrapper(wrap):
   return "\""+wrap+"\""
 
 def csvToSql(buildName):
-  data = csv.reader(open('dota2buildsspreadsheet.csv'))
+  data = csv.reader(open(buildName+'.csv'))
   # Read the column names from the first line of the file
   fields = data.next()
   buildsSql = open(buildName+".sql", "a")
