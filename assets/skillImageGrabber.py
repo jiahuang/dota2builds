@@ -5,7 +5,7 @@ import Image
 import re
 import sys
 
-def getItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
+def getItems(itemsPage = "http://dota2.gamepedia.com/wiki/Items"):
   print "Grabbing item images"
   items = []
   request = urllib2.Request(itemsPage)
@@ -21,7 +21,7 @@ def getItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
   for item in items:
     if len(item) == 0:
       continue
-    url = 'http://www.dota2wiki.com' + item[0]['href']
+    url = 'http://dota2.gamepedia.com' + item[0]['href']
     itemName = item[1]['title'];
     itemName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', itemName)
     itemLinks.append({'url':url, 'name':itemName})
@@ -33,7 +33,7 @@ def getItems(itemsPage = "http://www.dota2wiki.com/wiki/Items"):
     soup = BeautifulSoup(raw);
     url = soup.find('td', {'id':'itemmainimage'}).find('a').find('img')['src']
     itemName = item['name']
-    imageStealer('http://www.dota2wiki.com' +url, itemName)
+    imageStealer('http://dota2.gamepedia.com' +url, itemName)
 
 def allHeroes(heroesPage):
   heroes = []
@@ -49,6 +49,7 @@ def allHeroes(heroesPage):
   return heroes
 
 def imageStealer(url, name):
+  print url
   try:
     f = urllib2.urlopen(url)
     print "downloading " + url
@@ -68,13 +69,13 @@ def imageStealer(url, name):
   except urllib2.URLError, e:
     print "URL Error:",e.reason , url
         
-def getSkills(heroesPage = "http://www.dota2wiki.com/wiki/Heroes"):
+def getSkills(heroesPage = "http://dota2.gamepedia.com/wiki/Heroes"):
   heroes = allHeroes(heroesPage)
   
   # get links of skill pages
   for hero in heroes:
     print "Scraping "+hero
-    getSkill('http://dota2wiki.com'+hero)
+    getSkill('http://dota2.gamepedia.com'+hero)
 
 def getSkill(url):
   request = urllib2.Request(url)
@@ -84,19 +85,19 @@ def getSkill(url):
   skills = soup.findAll('div', {'class':re.compile('ico_passive|ico_active|ico_autocast')})
   # get links of skill images and save
   for skill in skills:
-    url = 'http://www.dota2wiki.com' + skill.find('a').find('img')['src']
+    url = skill.find('a').find('img')['src']
     skillName = skill.find('a').find('img')['alt']
     skillName = skillName.rstrip(" icon.png");
     skillName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', skillName)
     imageStealer(url, skillName)
       
-def getHeroes(heroesPage = "http://www.dota2wiki.com/wiki/Heroes"):
+def getHeroes(heroesPage = "http://dota2.gamepedia.com/wiki/Heroes"):
   heroes = allHeroes(heroesPage)
       
   # get links of skill pages
   for hero in heroes:
     print "Scraping "+hero
-    getHero('http://dota2wiki.com'+hero, hero)
+    getHero('http://dota2.gamepedia.com'+hero, hero)
 
 def getHero(url, heroName):
   request = urllib2.Request(url)
@@ -107,13 +108,13 @@ def getHero(url, heroName):
   heroName = img['alt']
   heroName = heroName.rstrip(".png");
   heroName = filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ', heroName)
-  url = 'http://www.dota2wiki.com' +img['src']
+  url = img['src']
   imageStealer(url, heroName)
 
 if __name__ == "__main__":
   hero = sys.argv[1]
-  getHero("http://www.dota2wiki.com/index.php?title="+hero, hero)
-  getSkill("http://www.dota2wiki.com/index.php?title="+hero)
+  getHero("http://dota2.gamepedia.com/"+hero, hero)
+  getSkill("http://dota2.gamepedia.com/"+hero)
 
 #getSkills()
 #getHeroes()

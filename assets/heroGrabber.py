@@ -56,7 +56,7 @@ def textToDicts(input):
       else:
         arrayItem = arrayItem + input[i]
     i = i + 1
-
+  print arrays
   def filterText(name):
     return filter (lambda a: a != '_' and a != "'" and a != '-' and a != ' ' and a !="{" and a != "}", name)
       
@@ -99,6 +99,7 @@ def dictToSQL(heroDict, heroName):
   writeDict = {}
   # transform dict into the stuff we need
   # will not work for morphling, kunkka
+  print heroDict
   writeDict['type'] = "\""+heroDict['Hero infobox']['primaryattribute'].capitalize()+"\""
   writeDict['range'] = "\"Melee\"" if int(heroDict['Hero infobox']['attackrange']) < 130 else "\"Ranged\""
   writeDict['name'] = "\""+heroName+"\""
@@ -126,9 +127,9 @@ def dictToSQL(heroDict, heroName):
   writeDict['skillThreeImage'] = "\""+"skills/"+filterText(heroDict[skill+'3']['name'])+".jpg"+"\"" 
   writeDict['skillThreeDescrip'] = "\""+filterText(skillDescription(heroDict[skill+'3']), False)+"\""
 
-  writeDict['skillFourName'] = "\""+heroDict[skill+'4']['name']+"\""
-  writeDict['skillFourImage'] = "\""+"skills/"+filterText(heroDict[skill+'4']['name'])+".jpg"+"\"" 
-  writeDict['skillFourDescrip'] = "\""+filterText(skillDescription(heroDict[skill+'4']), False) +"\""
+  writeDict['skillFourName'] = "\"\""#"\""+heroDict[skill+'4']['name']+"\""
+  writeDict['skillFourImage'] = "\"\""#"\""+"skills/"+filterText(heroDict[skill+'4']['name'])+".jpg"+"\"" 
+  writeDict['skillFourDescrip'] = "\"\""#"\""+filterText(skillDescription(heroDict[skill+'4']), False) +"\""
 
   # writes to a file
   f = open("dbPopulateHeroes.sql", 'a')
@@ -143,4 +144,4 @@ def dictToSQL(heroDict, heroName):
 
 
 #getHeroes()
-getHero("http://www.dota2wiki.com/index.php?title=Medusa&action=edit", "Medusa")
+getHero("http://www.dota2wiki.com/index.php?title=Abaddon&action=edit", "Abaddon")
